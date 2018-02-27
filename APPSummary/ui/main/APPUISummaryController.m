@@ -122,16 +122,12 @@
 {
     UITableViewCell *cell = [UITableViewCell new];
     if (indexPath.section == 0) {
-        NSString *str = self.dataUIArray[indexPath.row];
         cell.textLabel.text = self.dataUIArray[indexPath.row];
-        cell.textLabel.font = [UIFont fontWithName:str size:16];
+        cell.textLabel.font = [UIFont systemFontOfSize:14];
     }else{
-        NSString *str = self.dataArray[indexPath.row];
         cell.textLabel.text = self.dataArray[indexPath.row];
-        cell.textLabel.font = [UIFont fontWithName:str size:16];
+        cell.textLabel.font = [UIFont systemFontOfSize:14];
     }
-    
-    
     return cell;
 }
 

@@ -63,9 +63,8 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [UITableViewCell new];
-    NSString *str = self.dataArray[indexPath.row];
     cell.textLabel.text = self.dataArray[indexPath.row];
-    cell.textLabel.font = [UIFont fontWithName:str size:14];
+    cell.textLabel.font = [UIFont systemFontOfSize:font_14_size];
     return cell;
 }
 
@@ -75,7 +74,7 @@
 {
     return 44;
 }
-//http://xubojoy.cn/2018/02/26/%E5%A6%82%E4%BD%95%E8%AE%BE%E5%AE%9A%E7%BA%BF%E7%A8%8B%E6%B1%A0%E4%B8%AD%E7%BA%BF%E7%A8%8B%E7%9A%84%E6%95%B0%E7%9B%AE/#more
+
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     NSString *urlStr;
