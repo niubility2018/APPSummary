@@ -13,6 +13,7 @@
 @interface MusicListController ()<UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView *tableView;
+@property (nonatomic, strong) NSMutableArray *musicModelArray;
 
 @end
 static NSString *musicListCellIndetifier = @"MusicListCell";
@@ -22,8 +23,17 @@ static NSString *musicListCellIndetifier = @"MusicListCell";
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
+    [self loadData];
     NSLog(@"------信息-------------%@",QQMusicOperationTool.shareInstance.musicMList);
     [self initTableView];
+}
+
+- (void)loadData{
+    self.musicModelArray = [NSMutableArray new];
+    if (QQMusicOperationTool.shareInstance.musicMList.count > 0) {
+        [self.musicModelArray addObjectsFromArray:QQMusicOperationTool.shareInstance.musicMList];
+    }
+    [self.tableView reloadData];
 }
 
 //初始化tableview
@@ -39,14 +49,14 @@ static NSString *musicListCellIndetifier = @"MusicListCell";
 #pragma mark UITableViewDataSource-----------
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return QQMusicOperationTool.shareInstance.musicMList.count;
+    return self.musicModelArray.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     MusicListCell *cell = [tableView dequeueReusableCellWithIdentifier:musicListCellIndetifier forIndexPath:indexPath];
-    if (QQMusicOperationTool.shareInstance.musicMList.count > 0) {
-        QQMusicModel *model = QQMusicOperationTool.shareInstance.musicMList[indexPath.row];
+    if (self.musicModelArray.count > 0) {
+        QQMusicModel *model = self.musicModelArray[indexPath.row];
         NSLog(@"------model-------------%@",model);
         [cell renderMusicListCell:model];
     }

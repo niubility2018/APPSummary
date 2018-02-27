@@ -40,7 +40,7 @@
 {
     UITableViewCell *cell = [UITableViewCell new];
     cell.textLabel.text = self.dataArray[indexPath.row];
-    cell.textLabel.font = [UIFont systemFontOfSize:font_14_size];
+    cell.textLabel.font = [UIFont systemFontOfSize:font_15_size];
     return cell;
 }
 

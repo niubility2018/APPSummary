@@ -123,10 +123,10 @@
     UITableViewCell *cell = [UITableViewCell new];
     if (indexPath.section == 0) {
         cell.textLabel.text = self.dataUIArray[indexPath.row];
-        cell.textLabel.font = [UIFont systemFontOfSize:14];
+        cell.textLabel.font = [UIFont systemFontOfSize:font_15_size];
     }else{
         cell.textLabel.text = self.dataArray[indexPath.row];
-        cell.textLabel.font = [UIFont systemFontOfSize:14];
+        cell.textLabel.font = [UIFont systemFontOfSize:font_15_size];
     }
     return cell;
 }
