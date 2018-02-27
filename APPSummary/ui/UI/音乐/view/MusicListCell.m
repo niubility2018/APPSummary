@@ -10,11 +10,30 @@
 #import "UIView+ZJExtension.h"
 @implementation MusicListCell
 
-- (void)awakeFromNib {
-    [super awakeFromNib];
-    // Initialization code
-    
-    [self setUp];
+//- (void)awakeFromNib {
+//    [super awakeFromNib];
+//    // Initialization code
+//
+//    [self setUp];
+//}
+
+static NSString *musicListCellIndetifier = @"MusicListCell";
++ (instancetype)cellWithTableView:(UITableView *)tableView andCellStyle:(UITableViewCellStyle)style
+{
+    MusicListCell *cell = [tableView dequeueReusableCellWithIdentifier:musicListCellIndetifier];
+    if(cell == nil)
+    {
+        cell = [[self alloc] initWithStyle:style reuseIdentifier:musicListCellIndetifier];
+    }
+    return cell;
+}
+
+- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
+{
+    if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
+        [self setUp];
+    }
+    return self;
 }
 
 - (void)setUp{

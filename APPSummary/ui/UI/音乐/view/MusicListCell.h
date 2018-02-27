@@ -13,6 +13,6 @@
 @property (nonatomic, strong) UIImageView *logoImgView;
 @property (nonatomic, strong) UILabel *songNameLabel;
 @property (nonatomic, strong) UILabel *singerLabel;
-
++ (instancetype)cellWithTableView:(UITableView *)tableView andCellStyle:(UITableViewCellStyle)style;
 - (void)renderMusicListCell:(QQMusicModel *)qqMusicModel;
 @end

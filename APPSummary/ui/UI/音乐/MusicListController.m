@@ -16,8 +16,6 @@
 @property (nonatomic, strong) NSMutableArray *musicModelArray;
 
 @end
-static NSString *musicListCellIndetifier = @"MusicListCell";
-
 @implementation MusicListController
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -43,7 +41,6 @@ static NSString *musicListCellIndetifier = @"MusicListCell";
     self.tableView.delegate = self;
     self.tableView.showsVerticalScrollIndicator = NO;
     [self.view addSubview:self.tableView];
-    [self.tableView registerClass:[MusicListCell class] forCellReuseIdentifier:musicListCellIndetifier];
 }
 
 #pragma mark UITableViewDataSource-----------
@@ -54,7 +51,7 @@ static NSString *musicListCellIndetifier = @"MusicListCell";
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    MusicListCell *cell = [tableView dequeueReusableCellWithIdentifier:musicListCellIndetifier forIndexPath:indexPath];
+    MusicListCell *cell = [MusicListCell cellWithTableView:tableView andCellStyle:UITableViewCellStyleDefault];
     if (self.musicModelArray.count > 0) {
         QQMusicModel *model = self.musicModelArray[indexPath.row];
         NSLog(@"------model-------------%@",model);
