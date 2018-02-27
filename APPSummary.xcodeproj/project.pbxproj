@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C4930672044F15500F674F2 /* MusicListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4930662044F15500F674F2 /* MusicListCell.m */; };
 		1C51D3732040FA1400539BD3 /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D3542040FA1300539BD3 /* MusicViewController.m */; };
 		1C51D3742040FA1400539BD3 /* DateCalendarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D3572040FA1300539BD3 /* DateCalendarController.m */; };
 		1C51D3752040FA1400539BD3 /* QQTmpChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D3582040FA1300539BD3 /* QQTmpChatViewController.m */; };
@@ -143,6 +144,8 @@
 
 /* Begin PBXFileReference section */
 		0B49D360D2CF98E3FFFAE9E2 /* libPods-APPSummary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-APPSummary.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C4930652044F15500F674F2 /* MusicListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicListCell.h; sourceTree = "<group>"; };
+		1C4930662044F15500F674F2 /* MusicListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicListCell.m; sourceTree = "<group>"; };
 		1C51D3542040FA1300539BD3 /* MusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicViewController.m; sourceTree = "<group>"; };
 		1C51D3552040FA1300539BD3 /* LaunchImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchImageController.h; sourceTree = "<group>"; };
 		1C51D3562040FA1300539BD3 /* CountDownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDownViewController.h; sourceTree = "<group>"; };
@@ -343,6 +346,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C4930642044F13600F674F2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				1C4930652044F15500F674F2 /* MusicListCell.h */,
+				1C4930662044F15500F674F2 /* MusicListCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		1C51D3532040FA1300539BD3 /* UI */ = {
 			isa = PBXGroup;
 			children = (
@@ -498,6 +510,7 @@
 		1C8F357E2043FF4F004DDC06 /* 音乐 */ = {
 			isa = PBXGroup;
 			children = (
+				1C4930642044F13600F674F2 /* view */,
 				1C8F35D5204400EB004DDC06 /* MusicListController.h */,
 				1C8F35D6204400EB004DDC06 /* MusicListController.m */,
 				1C8F35DC204402FA004DDC06 /* Service */,
@@ -1095,6 +1108,7 @@
 				1C51D37D2040FA1400539BD3 /* ILGLKImageView.m in Sources */,
 				1C8F35EF204402FB004DDC06 /* QQMusicTool.m in Sources */,
 				1C8F35F820440503004DDC06 /* QQMusicMessageModel.m in Sources */,
+				1C4930672044F15500F674F2 /* MusicListCell.m in Sources */,
 				1CA19FF7203FE78E005068A7 /* GPUImageSoulFilter.m in Sources */,
 				1C8F35652043E031004DDC06 /* GBPopMenuButtonItem.m in Sources */,
 				1C51D3792040FA1400539BD3 /* DrawViewController.m in Sources */,

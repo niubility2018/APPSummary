@@ -21,7 +21,7 @@
     self.dataArray = @[@"iOS开发中的八种锁(Lock)",@"如何设定线程池中线程的数目",@"如何用HTTP实现长连接"];
     [self initTableView];
 }
-
+//初始化tableview
 - (void)initTableView{
     self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(0,0, self.view.bounds.size.width, self.view.bounds.size.height) style:UITableViewStylePlain];
     self.tableView.dataSource = self;
@@ -30,11 +30,21 @@
     [self.view addSubview:self.tableView];
 }
 
+#pragma mark UITableViewDataSource-----------
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return self.dataArray.count;
 }
 
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell *cell = [UITableViewCell new];
+    cell.textLabel.text = self.dataArray[indexPath.row];
+    cell.textLabel.font = [UIFont systemFontOfSize:font_14_size];
+    return cell;
+}
+
+#pragma mark - UITableViewDelegate------------
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
     return 20;
 }
@@ -49,26 +59,8 @@
 
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
     UIView *header = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, 20)];
-//    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(20, 0, screen_width, 20)];
-//    label.font = [UIFont systemFontOfSize:14];
-//    [header addSubview:label];
-//    if (section == 0) {
-//        label.text = @"UI";
-//    }else{
-//        label.text = @"DATA";
-//    }
     return header;
 }
-
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    UITableViewCell *cell = [UITableViewCell new];
-    cell.textLabel.text = self.dataArray[indexPath.row];
-    cell.textLabel.font = [UIFont systemFontOfSize:font_14_size];
-    return cell;
-}
-
-#pragma mark - UITableViewDelegate
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {

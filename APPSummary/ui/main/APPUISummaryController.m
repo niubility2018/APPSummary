@@ -18,7 +18,7 @@
 #import "QQTmpChatViewController.h"
 #import "DateCalendarController.h"
 #import "PopViewController.h"
-
+#import "MusicListController.h"
 
 @interface APPUISummaryController ()
 @property (nonatomic, strong) NSArray *dataUIArray;
@@ -205,6 +205,12 @@
             {
                 PopViewController *popvc = [[PopViewController alloc] init];
                 [self.navigationController pushViewController:popvc animated:YES];
+            }
+                break;
+            case 10:
+            {
+                MusicListController *musicvc = [[MusicListController alloc] init];
+                [self.navigationController pushViewController:musicvc animated:YES];
             }
                 break;
             default:
