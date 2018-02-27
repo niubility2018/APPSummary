@@ -1,0 +1,3 @@
+# FJAlertView
+
+`pod 'FJAlertView'`
