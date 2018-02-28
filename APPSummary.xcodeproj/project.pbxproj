@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C8355A02046C61800A9373C /* PDFBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C83559F2046C61800A9373C /* PDFBrowserController.m */; };
+		0C8355A62046C68100A9373C /* DrawPDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8355A42046C68100A9373C /* DrawPDFView.m */; };
+		0C8355A72046C68100A9373C /* DrawPDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8355A52046C68100A9373C /* DrawPDFViewController.m */; };
+		0C8355AA2046C6CF00A9373C /* PDF2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0C8355A82046C6CF00A9373C /* PDF2.pdf */; };
+		0C8355AB2046C6CF00A9373C /* PDF1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0C8355A92046C6CF00A9373C /* PDF1.pdf */; };
 		1C4930672044F15500F674F2 /* MusicListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4930662044F15500F674F2 /* MusicListCell.m */; };
 		1C51D3732040FA1400539BD3 /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D3542040FA1300539BD3 /* MusicViewController.m */; };
 		1C51D3742040FA1400539BD3 /* DateCalendarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D3572040FA1300539BD3 /* DateCalendarController.m */; };
@@ -148,6 +153,14 @@
 
 /* Begin PBXFileReference section */
 		0B49D360D2CF98E3FFFAE9E2 /* libPods-APPSummary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-APPSummary.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C83559E2046C61800A9373C /* PDFBrowserController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDFBrowserController.h; sourceTree = "<group>"; };
+		0C83559F2046C61800A9373C /* PDFBrowserController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFBrowserController.m; sourceTree = "<group>"; };
+		0C8355A22046C68100A9373C /* DrawPDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawPDFView.h; sourceTree = "<group>"; };
+		0C8355A32046C68100A9373C /* DrawPDFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawPDFViewController.h; sourceTree = "<group>"; };
+		0C8355A42046C68100A9373C /* DrawPDFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawPDFView.m; sourceTree = "<group>"; };
+		0C8355A52046C68100A9373C /* DrawPDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawPDFViewController.m; sourceTree = "<group>"; };
+		0C8355A82046C6CF00A9373C /* PDF2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = PDF2.pdf; sourceTree = "<group>"; };
+		0C8355A92046C6CF00A9373C /* PDF1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = PDF1.pdf; sourceTree = "<group>"; };
 		1C4930652044F15500F674F2 /* MusicListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicListCell.h; sourceTree = "<group>"; };
 		1C4930662044F15500F674F2 /* MusicListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicListCell.m; sourceTree = "<group>"; };
 		1C51D3542040FA1300539BD3 /* MusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicViewController.m; sourceTree = "<group>"; };
@@ -355,6 +368,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C8355A12046C66A00A9373C /* PDFTool */ = {
+			isa = PBXGroup;
+			children = (
+				0C8355A22046C68100A9373C /* DrawPDFView.h */,
+				0C8355A42046C68100A9373C /* DrawPDFView.m */,
+				0C8355A32046C68100A9373C /* DrawPDFViewController.h */,
+				0C8355A52046C68100A9373C /* DrawPDFViewController.m */,
+			);
+			path = PDFTool;
+			sourceTree = "<group>";
+		};
 		1C4930642044F13600F674F2 /* view */ = {
 			isa = PBXGroup;
 			children = (
@@ -394,6 +418,9 @@
 				1C8F35682043E0CE004DDC06 /* PopViewController.m */,
 				1C8A7080204698C9003443F0 /* CommonWebController.h */,
 				1C8A7081204698C9003443F0 /* CommonWebController.m */,
+				0C83559E2046C61800A9373C /* PDFBrowserController.h */,
+				0C83559F2046C61800A9373C /* PDFBrowserController.m */,
+				0C8355A12046C66A00A9373C /* PDFTool */,
 				1C51D3602040FA1300539BD3 /* view */,
 			);
 			path = UI;
@@ -840,6 +867,8 @@
 				1CA19FE8203FE2D6005068A7 /* noise.png */,
 				1CA19FE9203FE2D6005068A7 /* lookup_glitch.png */,
 				1CA19FEA203FE2D6005068A7 /* lookup_vertigo.png */,
+				0C8355A92046C6CF00A9373C /* PDF1.pdf */,
+				0C8355A82046C6CF00A9373C /* PDF2.pdf */,
 			);
 			path = resources;
 			sourceTree = "<group>";
@@ -992,9 +1021,11 @@
 				1C8F35B32043FF79004DDC06 /* 339744.lrc in Resources */,
 				1CA19FC0203FE0E2005068A7 /* .gitkeep in Resources */,
 				1C8F355E2043E031004DDC06 /* Contents.json in Resources */,
+				0C8355AB2046C6CF00A9373C /* PDF1.pdf in Resources */,
 				1C8F35AD2043FF79004DDC06 /* 255319.lrc in Resources */,
 				1CA19FD2203FE0E2005068A7 /* launchingImg_3.png in Resources */,
 				1CA19FED203FE2D6005068A7 /* lookup_glitch.png in Resources */,
+				0C8355AA2046C6CF00A9373C /* PDF2.pdf in Resources */,
 				1C8F35C32043FF79004DDC06 /* bb@2x.jpg in Resources */,
 				1C8F35C42043FF79004DDC06 /* eason@2x.jpg in Resources */,
 				1CA19FC2203FE0E2005068A7 /* loading.json in Resources */,
@@ -1112,8 +1143,11 @@
 				1CA19FDF203FE29E005068A7 /* NSObject+ZJUIExtension.m in Sources */,
 				1CA19F88203FDBFA005068A7 /* main.m in Sources */,
 				1C51D3942041012B00539BD3 /* UIColor+Random.m in Sources */,
+				0C8355A02046C61800A9373C /* PDFBrowserController.m in Sources */,
 				1C51D3752040FA1400539BD3 /* QQTmpChatViewController.m in Sources */,
 				1C8F35EA204402FB004DDC06 /* NeteaseMusicAPI.m in Sources */,
+				0C8355A72046C68100A9373C /* DrawPDFViewController.m in Sources */,
+				0C8355A62046C68100A9373C /* DrawPDFView.m in Sources */,
 				1C51D3782040FA1400539BD3 /* WIFICheckViewController.m in Sources */,
 				1C51D3742040FA1400539BD3 /* DateCalendarController.m in Sources */,
 				1C8F357A2043F5D4004DDC06 /* ColorUtil.m in Sources */,

@@ -9,6 +9,7 @@
 #import "APPQuestionSummaryController.h"
 #import "APPQuestionDetailController.h"
 #import "CommonWebController.h"
+#import "PDFBrowserController.h"
 @interface APPQuestionSummaryController ()
 @property (nonatomic, strong) NSArray *dataArray;
 @end
@@ -118,7 +119,7 @@
         [self.navigationController pushViewController:appquestionvc animated:YES];
     }else{
        
-        CommonWebController *appquestionvc = [[CommonWebController alloc] init];
+        PDFBrowserController *appquestionvc = [[PDFBrowserController alloc] init];
         [self.navigationController pushViewController:appquestionvc animated:YES];
     }
    
