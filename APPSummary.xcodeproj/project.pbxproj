@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C4930672044F15500F674F2 /* MusicListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4930662044F15500F674F2 /* MusicListCell.m */; };
 		1C51D3732040FA1400539BD3 /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D3542040FA1300539BD3 /* MusicViewController.m */; };
 		1C51D3742040FA1400539BD3 /* DateCalendarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D3572040FA1300539BD3 /* DateCalendarController.m */; };
 		1C51D3752040FA1400539BD3 /* QQTmpChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D3582040FA1300539BD3 /* QQTmpChatViewController.m */; };
@@ -29,6 +30,10 @@
 		1C51D3942041012B00539BD3 /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D3922041012B00539BD3 /* UIColor+Random.m */; };
 		1C51D398204102EF00539BD3 /* APPSummaryNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D397204102EF00539BD3 /* APPSummaryNavigationController.m */; };
 		1C51D3A02041430700539BD3 /* APPQuestionDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D39F2041430700539BD3 /* APPQuestionDetailController.m */; };
+		1C8A707F2046980D003443F0 /* design-model.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1C8A707E2046980C003443F0 /* design-model.pdf */; };
+		1C8A7082204698C9003443F0 /* CommonWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8A7081204698C9003443F0 /* CommonWebController.m */; };
+		1C8A70842046AAA9003443F0 /* consumer_finance_introduce.html in Resources */ = {isa = PBXBuildFile; fileRef = 1C8A70832046AAA9003443F0 /* consumer_finance_introduce.html */; };
+		1C8A70862046BAB8003443F0 /* consumer_finance_introduce.docx in Resources */ = {isa = PBXBuildFile; fileRef = 1C8A70852046BAB7003443F0 /* consumer_finance_introduce.docx */; };
 		1C8F355C2043E031004DDC06 /* GBAnimationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8F35492043E031004DDC06 /* GBAnimationTool.m */; };
 		1C8F355D2043E031004DDC06 /* draw@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C8F354C2043E031004DDC06 /* draw@2x.png */; };
 		1C8F355E2043E031004DDC06 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C8F354D2043E031004DDC06 /* Contents.json */; };
@@ -143,6 +148,8 @@
 
 /* Begin PBXFileReference section */
 		0B49D360D2CF98E3FFFAE9E2 /* libPods-APPSummary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-APPSummary.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C4930652044F15500F674F2 /* MusicListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicListCell.h; sourceTree = "<group>"; };
+		1C4930662044F15500F674F2 /* MusicListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicListCell.m; sourceTree = "<group>"; };
 		1C51D3542040FA1300539BD3 /* MusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicViewController.m; sourceTree = "<group>"; };
 		1C51D3552040FA1300539BD3 /* LaunchImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchImageController.h; sourceTree = "<group>"; };
 		1C51D3562040FA1300539BD3 /* CountDownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDownViewController.h; sourceTree = "<group>"; };
@@ -186,6 +193,11 @@
 		1C51D397204102EF00539BD3 /* APPSummaryNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APPSummaryNavigationController.m; sourceTree = "<group>"; };
 		1C51D39E2041430700539BD3 /* APPQuestionDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APPQuestionDetailController.h; sourceTree = "<group>"; };
 		1C51D39F2041430700539BD3 /* APPQuestionDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APPQuestionDetailController.m; sourceTree = "<group>"; };
+		1C8A707E2046980C003443F0 /* design-model.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "design-model.pdf"; sourceTree = "<group>"; };
+		1C8A7080204698C9003443F0 /* CommonWebController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonWebController.h; sourceTree = "<group>"; };
+		1C8A7081204698C9003443F0 /* CommonWebController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonWebController.m; sourceTree = "<group>"; };
+		1C8A70832046AAA9003443F0 /* consumer_finance_introduce.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = consumer_finance_introduce.html; sourceTree = "<group>"; };
+		1C8A70852046BAB7003443F0 /* consumer_finance_introduce.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = consumer_finance_introduce.docx; sourceTree = "<group>"; };
 		1C8F35492043E031004DDC06 /* GBAnimationTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBAnimationTool.m; sourceTree = "<group>"; };
 		1C8F354C2043E031004DDC06 /* draw@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "draw@2x.png"; sourceTree = "<group>"; };
 		1C8F354D2043E031004DDC06 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
@@ -343,6 +355,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C4930642044F13600F674F2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				1C4930652044F15500F674F2 /* MusicListCell.h */,
+				1C4930662044F15500F674F2 /* MusicListCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		1C51D3532040FA1300539BD3 /* UI */ = {
 			isa = PBXGroup;
 			children = (
@@ -371,6 +392,8 @@
 				1C51D3582040FA1300539BD3 /* QQTmpChatViewController.m */,
 				1C8F35672043E0CE004DDC06 /* PopViewController.h */,
 				1C8F35682043E0CE004DDC06 /* PopViewController.m */,
+				1C8A7080204698C9003443F0 /* CommonWebController.h */,
+				1C8A7081204698C9003443F0 /* CommonWebController.m */,
 				1C51D3602040FA1300539BD3 /* view */,
 			);
 			path = UI;
@@ -498,6 +521,7 @@
 		1C8F357E2043FF4F004DDC06 /* 音乐 */ = {
 			isa = PBXGroup;
 			children = (
+				1C4930642044F13600F674F2 /* view */,
 				1C8F35D5204400EB004DDC06 /* MusicListController.h */,
 				1C8F35D6204400EB004DDC06 /* MusicListController.m */,
 				1C8F35DC204402FA004DDC06 /* Service */,
@@ -807,6 +831,9 @@
 		1CA19FE6203FE2D6005068A7 /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				1C8A70852046BAB7003443F0 /* consumer_finance_introduce.docx */,
+				1C8A70832046AAA9003443F0 /* consumer_finance_introduce.html */,
+				1C8A707E2046980C003443F0 /* design-model.pdf */,
 				1CA1A002203FEACF005068A7 /* logo.jpeg */,
 				1CA1A000203FEA93005068A7 /* IMG_0019.mp4 */,
 				1CA19FE7203FE2D6005068A7 /* oldmovie.png */,
@@ -930,6 +957,7 @@
 				1C8F35BF2043FF79004DDC06 /* lkq@2x.jpg in Resources */,
 				1CA19FC1203FE0E2005068A7 /* empty_status.json in Resources */,
 				1CA19FD0203FE0E2005068A7 /* launchingImg_6.png in Resources */,
+				1C8A707F2046980D003443F0 /* design-model.pdf in Resources */,
 				1C8F35CC2043FF79004DDC06 /* 235319.mp3 in Resources */,
 				1C8F35CD2043FF79004DDC06 /* 309769.mp3 in Resources */,
 				1CA19FD1203FE0E2005068A7 /* launchingImg_2.png in Resources */,
@@ -947,6 +975,7 @@
 				1CA19FEB203FE2D6005068A7 /* oldmovie.png in Resources */,
 				1CA19FCB203FE0E2005068A7 /* servishero_loading.json in Resources */,
 				1CA19FCE203FE0E2005068A7 /* launchingImg_5.png in Resources */,
+				1C8A70862046BAB8003443F0 /* consumer_finance_introduce.docx in Resources */,
 				1C8F35D12043FF79004DDC06 /* 120125029.mp3 in Resources */,
 				1C8F35D02043FF79004DDC06 /* 10405520.mp3 in Resources */,
 				1C8F35C72043FF79004DDC06 /* bb_icon@2x.jpg in Resources */,
@@ -980,6 +1009,7 @@
 				1C8F35B52043FF79004DDC06 /* 120125029.lrc in Resources */,
 				1C8F35AF2043FF79004DDC06 /* 10736444.lrc in Resources */,
 				1C8F35C82043FF79004DDC06 /* zxy_icon@2x.jpg in Resources */,
+				1C8A70842046AAA9003443F0 /* consumer_finance_introduce.html in Resources */,
 				1C8F35D22043FF79004DDC06 /* 12309111.mp3 in Resources */,
 				1C8F35B22043FF79004DDC06 /* 12309111.lrc in Resources */,
 				1C8F35B92043FF79004DDC06 /* jay_icon@2x.png in Resources */,
@@ -1071,6 +1101,7 @@
 				1C51D3802040FA1400539BD3 /* AIViewController.m in Sources */,
 				1CA19F95203FE01E005068A7 /* UIView+ZJExtension.m in Sources */,
 				1C8F356F2043E1E5004DDC06 /* WRNavigationBar.m in Sources */,
+				1C8A7082204698C9003443F0 /* CommonWebController.m in Sources */,
 				1C51D3A02041430700539BD3 /* APPQuestionDetailController.m in Sources */,
 				1C51D3762040FA1400539BD3 /* GPUImageViewController.m in Sources */,
 				1CA19FBD203FE0E2005068A7 /* CaptivePortalCheck.m in Sources */,
@@ -1095,6 +1126,7 @@
 				1C51D37D2040FA1400539BD3 /* ILGLKImageView.m in Sources */,
 				1C8F35EF204402FB004DDC06 /* QQMusicTool.m in Sources */,
 				1C8F35F820440503004DDC06 /* QQMusicMessageModel.m in Sources */,
+				1C4930672044F15500F674F2 /* MusicListCell.m in Sources */,
 				1CA19FF7203FE78E005068A7 /* GPUImageSoulFilter.m in Sources */,
 				1C8F35652043E031004DDC06 /* GBPopMenuButtonItem.m in Sources */,
 				1C51D3792040FA1400539BD3 /* DrawViewController.m in Sources */,

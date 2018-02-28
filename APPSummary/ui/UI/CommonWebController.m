@@ -1,26 +1,53 @@
 //
-//  APPQuestionDetailController.m
+//  CommonWebController.m
 //  APPSummary
 //
-//  Created by xubojoy on 2018/2/24.
+//  Created by xubojoy on 2018/2/28.
 //  Copyright © 2018年 xubojoy. All rights reserved.
 //
 
-#import "APPQuestionDetailController.h"
+#import "CommonWebController.h"
 #import <WebKit/WebKit.h>
-@interface APPQuestionDetailController ()<WKNavigationDelegate,WKUIDelegate>
+#import <QuickLook/QuickLook.h>
+@interface CommonWebController ()<WKNavigationDelegate,WKUIDelegate, QLPreviewControllerDelegate, QLPreviewControllerDataSource>
 @property (nonatomic, strong) WKWebView *webView;
+@property (nonatomic, strong) NSString *dataPath;
+
 @end
 
-@implementation APPQuestionDetailController
+@implementation CommonWebController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self.view addSubview:self.webView];
+//    [self.view addSubview:self.webView];
+    self.dataPath = [NSString stringWithFormat:@"file://%@",[[NSBundle mainBundle] pathForResource:@"design-model" ofType:@"pdf"]];
+    [self qlPreviewControllerView];
 }
 
+- (void)qlPreviewControllerView{
+    QLPreviewController *qlPreview = [[QLPreviewController alloc]init];
+    qlPreview.dataSource = self; //需要打开的文件的信息要实现dataSource中的方法
+    qlPreview.delegate = self;  //视图显示的控制
+    qlPreview.view.frame = self.view.bounds;
+    [self.navigationController pushViewController:qlPreview animated:YES];
+}
+
+#pragma mark - QLPreviewControllerDataSource
+- (NSInteger)numberOfPreviewItemsInPreviewController:(QLPreviewController *)controller {
+    return 1;
+}
+
+- (id<QLPreviewItem>)previewController:(QLPreviewController *)controller previewItemAtIndex:(NSInteger)index {
+    
+    
+    
+    return [NSURL URLWithString:self.dataPath];
+}
+
+
 - (WKWebView *)webView {
+    NSString *dataPath = [[NSBundle mainBundle] pathForResource:@"design-model" ofType:@"pdf"];
     if (_webView) return _webView;
     _webView = [[WKWebView alloc] initWithFrame:self.view.bounds];
     _webView.allowsBackForwardNavigationGestures = YES;
@@ -28,10 +55,14 @@
     _webView.translatesAutoresizingMaskIntoConstraints = NO;
     _webView.UIDelegate = self;
     _webView.navigationDelegate = self;
-    NSURLRequest *request = [NSURLRequest requestWithURL:self.urlStr];
-//    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:self.urlStr] cachePolicy: NSURLRequestReloadIgnoringCacheData timeoutInterval:10];
+//    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:urlStr]];
+    if (@available(iOS 9.0, *)) {
+        [_webView loadData:[NSData dataWithContentsOfFile:dataPath] MIMEType:@"application/pdf" characterEncodingName:@"UTF-8" baseURL:[NSURL URLWithString:@""]];
+    } else {
+        // Fallback on earlier versions
+    }
+//    [_webView loadData:[NSData dataWithContentsOfFile:dataPath] MIMEType:@"application/pdf" textEncodingName:@"UTF-8" baseURL:nil];
 
-    [_webView loadRequest:request];
     return _webView;
 }
 
@@ -46,7 +77,7 @@
 }
 // 页面加载完成之后调用
 - (void)webView:(WKWebView *)webView didFinishNavigation:(WKNavigation *)navigation{
-     NSLog(@"页面加载完成之后调用");
+    NSLog(@"页面加载完成之后调用");
 }
 // 页面加载失败时调用
 - (void)webView:(WKWebView *)webView didFailProvisionalNavigation:(WKNavigation *)navigation{

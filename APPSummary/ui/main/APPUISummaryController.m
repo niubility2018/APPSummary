@@ -18,7 +18,7 @@
 #import "QQTmpChatViewController.h"
 #import "DateCalendarController.h"
 #import "PopViewController.h"
-
+#import "MusicListController.h"
 
 @interface APPUISummaryController ()
 @property (nonatomic, strong) NSArray *dataUIArray;
@@ -122,16 +122,12 @@
 {
     UITableViewCell *cell = [UITableViewCell new];
     if (indexPath.section == 0) {
-        NSString *str = self.dataUIArray[indexPath.row];
         cell.textLabel.text = self.dataUIArray[indexPath.row];
-        cell.textLabel.font = [UIFont fontWithName:str size:16];
+        cell.textLabel.font = [UIFont systemFontOfSize:font_15_size];
     }else{
-        NSString *str = self.dataArray[indexPath.row];
         cell.textLabel.text = self.dataArray[indexPath.row];
-        cell.textLabel.font = [UIFont fontWithName:str size:16];
+        cell.textLabel.font = [UIFont systemFontOfSize:font_15_size];
     }
-    
-    
     return cell;
 }
 
@@ -209,6 +205,12 @@
             {
                 PopViewController *popvc = [[PopViewController alloc] init];
                 [self.navigationController pushViewController:popvc animated:YES];
+            }
+                break;
+            case 10:
+            {
+                MusicListController *musicvc = [[MusicListController alloc] init];
+                [self.navigationController pushViewController:musicvc animated:YES];
             }
                 break;
             default:
