@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface APPQuestionDetailController : UIViewController
-@property (nonatomic, strong) NSString *urlStr;
+@property (nonatomic, strong) NSURL *urlStr;
 @end
