@@ -19,7 +19,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
-    self.dataArray = @[@"iOS开发中的八种锁(Lock)",@"如何设定线程池中线程的数目",@"如何用HTTP实现长连接",@"本地HTML",@"本地DOC"];
+    self.dataArray = @[@"iOS开发中的八种锁(Lock)",@"如何设定线程池中线程的数目",@"如何用HTTP实现长连接"];
     [self initTableView];
 }
 //初始化tableview
@@ -98,12 +98,6 @@
                 
             case 2:
                 urlStr = [NSURL URLWithString:@"http://xubojoy.cn/2018/02/26/%E5%A6%82%E4%BD%95%E7%94%A8HTTP%E5%AE%9E%E7%8E%B0%E9%95%BF%E8%BF%9E%E6%8E%A5/#more"];
-                break;
-            case 3:
-                urlStr = [[NSBundle mainBundle] URLForResource:@"consumer_finance_introduce.html" withExtension:nil];
-                break;
-            case 4:
-                urlStr = [[NSBundle mainBundle] URLForResource:@"consumer_finance_introduce.docx" withExtension:nil];
                 break;
             default:
                 break;

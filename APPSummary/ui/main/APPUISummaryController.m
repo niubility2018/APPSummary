@@ -19,7 +19,7 @@
 #import "DateCalendarController.h"
 #import "PopViewController.h"
 #import "MusicListController.h"
-
+#import "APPQuestionDetailController.h"
 @interface APPUISummaryController ()
 @property (nonatomic, strong) NSArray *dataUIArray;
 @property (nonatomic, strong) NSArray *dataArray;
@@ -45,7 +45,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.dataUIArray = @[@"启动引导页动画",@"标签云",@"人脸识别",@"image处理",@"倒计时",@"画板",@"wifi认证",@"指纹识别",@"QQ临时会话",@"弹出视图",@"音乐"
                          ];
-    self.dataArray = @[@"时间计算"
+    self.dataArray = @[@"时间计算",@"本地HTML",@"本地DOC"
                        ];
     [self initTableView];
     [self initSearch];
@@ -222,6 +222,22 @@
             {
                 DateCalendarController *datevc = [[DateCalendarController alloc] init];
                 [self.navigationController pushViewController:datevc animated:YES];
+            }
+                break;
+            case 1:
+            {
+                NSURL *urlStr = [[NSBundle mainBundle] URLForResource:@"consumer_finance_introduce.html" withExtension:nil];
+                APPQuestionDetailController *appquestionvc = [[APPQuestionDetailController alloc] init];
+                appquestionvc.urlStr = urlStr;
+                [self.navigationController pushViewController:appquestionvc animated:YES];
+            }
+                break;
+            case 2:
+            {
+                NSURL *urlStr = [[NSBundle mainBundle] URLForResource:@"consumer_finance_introduce.docx" withExtension:nil];
+                APPQuestionDetailController *appquestionvc = [[APPQuestionDetailController alloc] init];
+                appquestionvc.urlStr = urlStr;
+                [self.navigationController pushViewController:appquestionvc animated:YES];
             }
                 break;
                 
