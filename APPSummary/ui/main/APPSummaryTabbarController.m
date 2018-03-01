@@ -19,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.tabBar.tintColor = [UIColor redColor];
+    self.tabBar.tintColor = [UIColor greenColor];
 //    [self setValue:[NSValue valueWithUIOffset:UIOffsetMake(0, -3)] forKeyPath:LMJKeyPath(self, titlePositionAdjustment)];
     [self addTabarItems];
     [self addChildViewControllers];
