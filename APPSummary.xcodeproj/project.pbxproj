@@ -13,6 +13,7 @@
 		0C8355AA2046C6CF00A9373C /* PDF2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0C8355A82046C6CF00A9373C /* PDF2.pdf */; };
 		0C8355AB2046C6CF00A9373C /* PDF1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0C8355A92046C6CF00A9373C /* PDF1.pdf */; };
 		1C4930672044F15500F674F2 /* MusicListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4930662044F15500F674F2 /* MusicListCell.m */; };
+		1C4B32A020479E1800A964A7 /* FileLoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4B329F20479E1800A964A7 /* FileLoadViewController.m */; };
 		1C51D3732040FA1400539BD3 /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D3542040FA1300539BD3 /* MusicViewController.m */; };
 		1C51D3742040FA1400539BD3 /* DateCalendarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D3572040FA1300539BD3 /* DateCalendarController.m */; };
 		1C51D3752040FA1400539BD3 /* QQTmpChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D3582040FA1300539BD3 /* QQTmpChatViewController.m */; };
@@ -163,6 +164,8 @@
 		0C8355A92046C6CF00A9373C /* PDF1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = PDF1.pdf; sourceTree = "<group>"; };
 		1C4930652044F15500F674F2 /* MusicListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicListCell.h; sourceTree = "<group>"; };
 		1C4930662044F15500F674F2 /* MusicListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicListCell.m; sourceTree = "<group>"; };
+		1C4B329E20479E1800A964A7 /* FileLoadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileLoadViewController.h; sourceTree = "<group>"; };
+		1C4B329F20479E1800A964A7 /* FileLoadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileLoadViewController.m; sourceTree = "<group>"; };
 		1C51D3542040FA1300539BD3 /* MusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicViewController.m; sourceTree = "<group>"; };
 		1C51D3552040FA1300539BD3 /* LaunchImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchImageController.h; sourceTree = "<group>"; };
 		1C51D3562040FA1300539BD3 /* CountDownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDownViewController.h; sourceTree = "<group>"; };
@@ -420,6 +423,8 @@
 				1C8A7081204698C9003443F0 /* CommonWebController.m */,
 				0C83559E2046C61800A9373C /* PDFBrowserController.h */,
 				0C83559F2046C61800A9373C /* PDFBrowserController.m */,
+				1C4B329E20479E1800A964A7 /* FileLoadViewController.h */,
+				1C4B329F20479E1800A964A7 /* FileLoadViewController.m */,
 				0C8355A12046C66A00A9373C /* PDFTool */,
 				1C51D3602040FA1300539BD3 /* view */,
 			);
@@ -1179,6 +1184,7 @@
 				1C8F35EB204402FB004DDC06 /* QQLrcDataTool.m in Sources */,
 				1CA1A01E20400A98005068A7 /* DateUtils.m in Sources */,
 				1C8F35692043E0CE004DDC06 /* PopViewController.m in Sources */,
+				1C4B32A020479E1800A964A7 /* FileLoadViewController.m in Sources */,
 				1CA19FF8203FE78E005068A7 /* GpUImageScaleFilter.m in Sources */,
 				1CA19FBF203FE0E2005068A7 /* AISphereView.m in Sources */,
 				1C51D3812040FA1400539BD3 /* FaceIDViewController.m in Sources */,
