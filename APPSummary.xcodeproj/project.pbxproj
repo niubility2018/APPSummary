@@ -15,6 +15,8 @@
 		1C4930672044F15500F674F2 /* MusicListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4930662044F15500F674F2 /* MusicListCell.m */; };
 		1C4B32A020479E1800A964A7 /* FileLoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4B329F20479E1800A964A7 /* FileLoadViewController.m */; };
 		1C4B32A32047C49800A964A7 /* DouDiZhuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4B32A22047C49800A964A7 /* DouDiZhuViewController.m */; };
+		1C4B32A92047E53400A964A7 /* AdvertiseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4B32A52047E53400A964A7 /* AdvertiseView.m */; };
+		1C4B32AA2047E53400A964A7 /* AdvertiseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4B32A62047E53400A964A7 /* AdvertiseHelper.m */; };
 		1C51D3732040FA1400539BD3 /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D3542040FA1300539BD3 /* MusicViewController.m */; };
 		1C51D3742040FA1400539BD3 /* DateCalendarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D3572040FA1300539BD3 /* DateCalendarController.m */; };
 		1C51D3752040FA1400539BD3 /* QQTmpChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D3582040FA1300539BD3 /* QQTmpChatViewController.m */; };
@@ -169,6 +171,10 @@
 		1C4B329F20479E1800A964A7 /* FileLoadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileLoadViewController.m; sourceTree = "<group>"; };
 		1C4B32A12047C49800A964A7 /* DouDiZhuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DouDiZhuViewController.h; sourceTree = "<group>"; };
 		1C4B32A22047C49800A964A7 /* DouDiZhuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DouDiZhuViewController.m; sourceTree = "<group>"; };
+		1C4B32A52047E53400A964A7 /* AdvertiseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvertiseView.m; sourceTree = "<group>"; };
+		1C4B32A62047E53400A964A7 /* AdvertiseHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvertiseHelper.m; sourceTree = "<group>"; };
+		1C4B32A72047E53400A964A7 /* AdvertiseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvertiseHelper.h; sourceTree = "<group>"; };
+		1C4B32A82047E53400A964A7 /* AdvertiseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvertiseView.h; sourceTree = "<group>"; };
 		1C51D3542040FA1300539BD3 /* MusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicViewController.m; sourceTree = "<group>"; };
 		1C51D3552040FA1300539BD3 /* LaunchImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchImageController.h; sourceTree = "<group>"; };
 		1C51D3562040FA1300539BD3 /* CountDownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDownViewController.h; sourceTree = "<group>"; };
@@ -392,6 +398,17 @@
 				1C4930662044F15500F674F2 /* MusicListCell.m */,
 			);
 			path = view;
+			sourceTree = "<group>";
+		};
+		1C4B32A42047E53400A964A7 /* 广告页 */ = {
+			isa = PBXGroup;
+			children = (
+				1C4B32A82047E53400A964A7 /* AdvertiseView.h */,
+				1C4B32A52047E53400A964A7 /* AdvertiseView.m */,
+				1C4B32A72047E53400A964A7 /* AdvertiseHelper.h */,
+				1C4B32A62047E53400A964A7 /* AdvertiseHelper.m */,
+			);
+			path = "广告页";
 			sourceTree = "<group>";
 		};
 		1C51D3532040FA1300539BD3 /* UI */ = {
@@ -857,6 +874,7 @@
 		1CA19FD6203FE10A005068A7 /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				1C4B32A42047E53400A964A7 /* 广告页 */,
 				1C51D395204102B100539BD3 /* base */,
 				1C51D3882040FEBB00539BD3 /* main */,
 				1C51D3722040FA1400539BD3 /* 知识点 */,
@@ -1145,6 +1163,7 @@
 				1C8A7082204698C9003443F0 /* CommonWebController.m in Sources */,
 				1C51D3A02041430700539BD3 /* APPQuestionDetailController.m in Sources */,
 				1C51D3762040FA1400539BD3 /* GPUImageViewController.m in Sources */,
+				1C4B32A92047E53400A964A7 /* AdvertiseView.m in Sources */,
 				1CA19FBD203FE0E2005068A7 /* CaptivePortalCheck.m in Sources */,
 				1C8F35F720440503004DDC06 /* QQLrcModel.m in Sources */,
 				1C51D3912040FF6900539BD3 /* APPQuestionSummaryController.m in Sources */,
@@ -1176,6 +1195,7 @@
 				1C8F35652043E031004DDC06 /* GBPopMenuButtonItem.m in Sources */,
 				1C51D3792040FA1400539BD3 /* DrawViewController.m in Sources */,
 				1C8F35D7204400EB004DDC06 /* MusicListController.m in Sources */,
+				1C4B32AA2047E53400A964A7 /* AdvertiseHelper.m in Sources */,
 				1C8F35F620440503004DDC06 /* QQMusicModel.m in Sources */,
 				1C51D37A2040FA1400539BD3 /* DrawView.m in Sources */,
 				1C8F35ED204402FB004DDC06 /* QQImageTool.m in Sources */,

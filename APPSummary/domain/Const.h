@@ -18,7 +18,11 @@
 
 OBJC_EXTERN CFStringRef MGCopyAnswer(CFStringRef key) WEAK_IMPORT_ATTRIBUTE;
 
-
+//是否是空对象
+#define LMJIsEmpty(_object) (_object == nil \
+|| [_object isKindOfClass:[NSNull class]] \
+|| ([_object respondsToSelector:@selector(length)] && [(NSData *)_object length] == 0) \
+|| ([_object respondsToSelector:@selector(count)] && [(NSArray *)_object count] == 0))
 //防止循环引用
 #define WeakObj(obj) __weak typeof(obj) obj##Weak = obj
 
