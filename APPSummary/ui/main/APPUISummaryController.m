@@ -226,21 +226,10 @@
                 break;
             case 1:
             {
-//                NSURL *urlStr = [[NSBundle mainBundle] URLForResource:@"consumer_finance_introduce.html" withExtension:nil];
                 FileLoadViewController *filevc = [[FileLoadViewController alloc] init];
-//                appquestionvc.urlStr = urlStr;
                 [self.navigationController pushViewController:filevc animated:YES];
             }
                 break;
-//            case 2:
-//            {
-//                NSURL *urlStr = [[NSBundle mainBundle] URLForResource:@"consumer_finance_introduce.docx" withExtension:nil];
-//                APPQuestionDetailController *appquestionvc = [[APPQuestionDetailController alloc] init];
-//                appquestionvc.urlStr = urlStr;
-//                [self.navigationController pushViewController:appquestionvc animated:YES];
-//            }
-//                break;
-                
             default:
                 break;
         }
