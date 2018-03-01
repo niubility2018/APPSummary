@@ -75,10 +75,11 @@
     }
 }
 
+#pragma mark - UISearchResultsUpdating---
 - (void)updateSearchResultsForSearchController:(UISearchController *)searchController{
     
 }
-
+#pragma mark - UITableViewDataSource
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
     return 2;
 }
@@ -90,9 +91,22 @@
     }else{
         return self.dataArray.count;
     }
-    
 }
 
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell *cell = [UITableViewCell new];
+    if (indexPath.section == 0) {
+        cell.textLabel.text = self.dataUIArray[indexPath.row];
+        cell.textLabel.font = [UIFont systemFontOfSize:font_15_size];
+    }else{
+        cell.textLabel.text = self.dataArray[indexPath.row];
+        cell.textLabel.font = [UIFont systemFontOfSize:font_15_size];
+    }
+    return cell;
+}
+
+#pragma mark - UITableViewDelegate
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
     return 20;
 }
@@ -117,21 +131,6 @@
     }
     return header;
 }
-
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    UITableViewCell *cell = [UITableViewCell new];
-    if (indexPath.section == 0) {
-        cell.textLabel.text = self.dataUIArray[indexPath.row];
-        cell.textLabel.font = [UIFont systemFontOfSize:font_15_size];
-    }else{
-        cell.textLabel.text = self.dataArray[indexPath.row];
-        cell.textLabel.font = [UIFont systemFontOfSize:font_15_size];
-    }
-    return cell;
-}
-
-#pragma mark - UITableViewDelegate
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
@@ -234,9 +233,10 @@
                 break;
             case 2:
             {
-                NSURL *urlStr = [[NSBundle mainBundle] URLForResource:@"consumer_finance_introduce.docx" withExtension:nil];
+//                NSURL *urlStr = [[NSBundle mainBundle] URLForResource:@"consumer_finance_introduce.docx" withExtension:nil];
+                NSString *urlStr = [[NSBundle mainBundle] pathForResource:@"consumer_finance_introduce" ofType:@"docx"];
                 APPQuestionDetailController *appquestionvc = [[APPQuestionDetailController alloc] init];
-                appquestionvc.urlStr = urlStr;
+                appquestionvc.urlStr = [NSURL URLWithString:urlStr];
                 [self.navigationController pushViewController:appquestionvc animated:YES];
             }
                 break;
