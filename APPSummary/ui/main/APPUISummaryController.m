@@ -19,7 +19,8 @@
 #import "DateCalendarController.h"
 #import "PopViewController.h"
 #import "MusicListController.h"
-
+#import "APPQuestionDetailController.h"
+#import "FileLoadViewController.h"
 @interface APPUISummaryController ()
 @property (nonatomic, strong) NSArray *dataUIArray;
 @property (nonatomic, strong) NSArray *dataArray;
@@ -45,7 +46,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.dataUIArray = @[@"启动引导页动画",@"标签云",@"人脸识别",@"image处理",@"倒计时",@"画板",@"wifi认证",@"指纹识别",@"QQ临时会话",@"弹出视图",@"音乐"
                          ];
-    self.dataArray = @[@"时间计算"
+    self.dataArray = @[@"时间计算",@"文件加载"
                        ];
     [self initTableView];
     [self initSearch];
@@ -75,10 +76,11 @@
     }
 }
 
+#pragma mark - UISearchResultsUpdating---
 - (void)updateSearchResultsForSearchController:(UISearchController *)searchController{
     
 }
-
+#pragma mark - UITableViewDataSource
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
     return 2;
 }
@@ -90,9 +92,22 @@
     }else{
         return self.dataArray.count;
     }
-    
 }
 
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell *cell = [UITableViewCell new];
+    if (indexPath.section == 0) {
+        cell.textLabel.text = self.dataUIArray[indexPath.row];
+        cell.textLabel.font = [UIFont systemFontOfSize:font_15_size];
+    }else{
+        cell.textLabel.text = self.dataArray[indexPath.row];
+        cell.textLabel.font = [UIFont systemFontOfSize:font_15_size];
+    }
+    return cell;
+}
+
+#pragma mark - UITableViewDelegate
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
     return 20;
 }
@@ -117,21 +132,6 @@
     }
     return header;
 }
-
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    UITableViewCell *cell = [UITableViewCell new];
-    if (indexPath.section == 0) {
-        cell.textLabel.text = self.dataUIArray[indexPath.row];
-        cell.textLabel.font = [UIFont systemFontOfSize:font_15_size];
-    }else{
-        cell.textLabel.text = self.dataArray[indexPath.row];
-        cell.textLabel.font = [UIFont systemFontOfSize:font_15_size];
-    }
-    return cell;
-}
-
-#pragma mark - UITableViewDelegate
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
@@ -224,6 +224,22 @@
                 [self.navigationController pushViewController:datevc animated:YES];
             }
                 break;
+            case 1:
+            {
+//                NSURL *urlStr = [[NSBundle mainBundle] URLForResource:@"consumer_finance_introduce.html" withExtension:nil];
+                FileLoadViewController *filevc = [[FileLoadViewController alloc] init];
+//                appquestionvc.urlStr = urlStr;
+                [self.navigationController pushViewController:filevc animated:YES];
+            }
+                break;
+//            case 2:
+//            {
+//                NSURL *urlStr = [[NSBundle mainBundle] URLForResource:@"consumer_finance_introduce.docx" withExtension:nil];
+//                APPQuestionDetailController *appquestionvc = [[APPQuestionDetailController alloc] init];
+//                appquestionvc.urlStr = urlStr;
+//                [self.navigationController pushViewController:appquestionvc animated:YES];
+//            }
+//                break;
                 
             default:
                 break;
