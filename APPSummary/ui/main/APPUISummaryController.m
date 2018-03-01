@@ -233,10 +233,9 @@
                 break;
             case 2:
             {
-//                NSURL *urlStr = [[NSBundle mainBundle] URLForResource:@"consumer_finance_introduce.docx" withExtension:nil];
-                NSString *urlStr = [[NSBundle mainBundle] pathForResource:@"consumer_finance_introduce" ofType:@"docx"];
+                NSURL *urlStr = [[NSBundle mainBundle] URLForResource:@"consumer_finance_introduce.docx" withExtension:nil];
                 APPQuestionDetailController *appquestionvc = [[APPQuestionDetailController alloc] init];
-                appquestionvc.urlStr = [NSURL URLWithString:urlStr];
+                appquestionvc.urlStr = urlStr;
                 [self.navigationController pushViewController:appquestionvc animated:YES];
             }
                 break;
