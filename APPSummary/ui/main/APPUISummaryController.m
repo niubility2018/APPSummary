@@ -21,6 +21,7 @@
 #import "MusicListController.h"
 #import "APPQuestionDetailController.h"
 #import "FileLoadViewController.h"
+#import "DouDiZhuViewController.h"
 @interface APPUISummaryController ()
 @property (nonatomic, strong) NSArray *dataUIArray;
 @property (nonatomic, strong) NSArray *dataArray;
@@ -46,7 +47,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.dataUIArray = @[@"启动引导页动画",@"标签云",@"人脸识别",@"image处理",@"倒计时",@"画板",@"wifi认证",@"指纹识别",@"QQ临时会话",@"弹出视图",@"音乐"
                          ];
-    self.dataArray = @[@"时间计算",@"文件加载"
+    self.dataArray = @[@"时间计算",@"文件加载",@"斗地主发牌排序"
                        ];
     [self initTableView];
     [self initSearch];
@@ -226,27 +227,20 @@
                 break;
             case 1:
             {
-//                NSURL *urlStr = [[NSBundle mainBundle] URLForResource:@"consumer_finance_introduce.html" withExtension:nil];
                 FileLoadViewController *filevc = [[FileLoadViewController alloc] init];
-//                appquestionvc.urlStr = urlStr;
                 [self.navigationController pushViewController:filevc animated:YES];
             }
                 break;
-//            case 2:
-//            {
-//                NSURL *urlStr = [[NSBundle mainBundle] URLForResource:@"consumer_finance_introduce.docx" withExtension:nil];
-//                APPQuestionDetailController *appquestionvc = [[APPQuestionDetailController alloc] init];
-//                appquestionvc.urlStr = urlStr;
-//                [self.navigationController pushViewController:appquestionvc animated:YES];
-//            }
-//                break;
-                
+            case 2:
+            {
+                DouDiZhuViewController *ddzvc = [[DouDiZhuViewController alloc] init];
+                [self.navigationController pushViewController:ddzvc animated:YES];
+            }
+                break;
             default:
                 break;
         }
     }
-    
-    
 }
 
 - (void)viewWillDisappear:(BOOL)animated{
