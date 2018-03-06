@@ -21,4 +21,6 @@ target 'APPSummary' do
     pod 'MJExtension', '~> 3.0.13'
     pod 'JxbDebugTool', '~> 4.5'
     pod 'YYImage', '~> 1.0.4'
+    pod 'MJRefresh', '~> 3.1.15.3'
+    pod 'MBProgressHUD', '~> 1.1.0'
 end
