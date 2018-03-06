@@ -152,6 +152,7 @@
 		1CA1A001203FEA93005068A7 /* IMG_0019.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1CA1A000203FEA93005068A7 /* IMG_0019.mp4 */; };
 		1CA1A003203FEACF005068A7 /* logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1CA1A002203FEACF005068A7 /* logo.jpeg */; };
 		1CA1A01E20400A98005068A7 /* DateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA1A01D20400A98005068A7 /* DateUtils.m */; };
+		1CAC526C204E928600715A0F /* DLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAC526B204E928600715A0F /* DLabelViewController.m */; };
 		8051738E39294C535238661F /* libPods-APPSummary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B49D360D2CF98E3FFFAE9E2 /* libPods-APPSummary.a */; };
 /* End PBXBuildFile section */
 
@@ -364,6 +365,8 @@
 		1CA1A002203FEACF005068A7 /* logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpeg; sourceTree = "<group>"; };
 		1CA1A01C20400A98005068A7 /* DateUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateUtils.h; sourceTree = "<group>"; };
 		1CA1A01D20400A98005068A7 /* DateUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateUtils.m; sourceTree = "<group>"; };
+		1CAC526A204E928600715A0F /* DLabelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLabelViewController.h; sourceTree = "<group>"; };
+		1CAC526B204E928600715A0F /* DLabelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLabelViewController.m; sourceTree = "<group>"; };
 		71274DAE356E360D2330E077 /* Pods-APPSummary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APPSummary.release.xcconfig"; path = "Pods/Target Support Files/Pods-APPSummary/Pods-APPSummary.release.xcconfig"; sourceTree = "<group>"; };
 		CEF6AA7CE442815860C115DC /* Pods-APPSummary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APPSummary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-APPSummary/Pods-APPSummary.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -414,6 +417,7 @@
 		1C51D3532040FA1300539BD3 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				1CAC5269204E926900715A0F /* 标签云 */,
 				1C8F357E2043FF4F004DDC06 /* 音乐 */,
 				1C51D3552040FA1300539BD3 /* LaunchImageController.h */,
 				1C51D3692040FA1300539BD3 /* LaunchImageController.m */,
@@ -923,6 +927,15 @@
 			path = utils;
 			sourceTree = "<group>";
 		};
+		1CAC5269204E926900715A0F /* 标签云 */ = {
+			isa = PBXGroup;
+			children = (
+				1CAC526A204E928600715A0F /* DLabelViewController.h */,
+				1CAC526B204E928600715A0F /* DLabelViewController.m */,
+			);
+			path = "标签云";
+			sourceTree = "<group>";
+		};
 		8939C310516A62098E42A6B1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -1158,6 +1171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CAC526C204E928600715A0F /* DLabelViewController.m in Sources */,
 				1C51D3802040FA1400539BD3 /* AIViewController.m in Sources */,
 				1CA19F95203FE01E005068A7 /* UIView+ZJExtension.m in Sources */,
 				1C8F356F2043E1E5004DDC06 /* WRNavigationBar.m in Sources */,
