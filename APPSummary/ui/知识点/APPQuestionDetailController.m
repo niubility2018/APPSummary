@@ -29,8 +29,6 @@
     _webView.UIDelegate = self;
     _webView.navigationDelegate = self;
     NSURLRequest *request = [NSURLRequest requestWithURL:self.urlStr];
-//    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:self.urlStr] cachePolicy: NSURLRequestReloadIgnoringCacheData timeoutInterval:10];
-
     [_webView loadRequest:request];
     return _webView;
 }
