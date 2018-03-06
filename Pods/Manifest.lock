@@ -28,9 +28,12 @@ PODS:
   - MBProgressHUD (1.1.0)
   - MJExtension (3.0.13)
   - MJRefresh (3.1.15.3)
+  - MLEmojiLabel (1.0.2):
+    - TTTAttributedLabel (~> 1.13.4)
   - SDWebImage (4.2.3):
     - SDWebImage/Core (= 4.2.3)
   - SDWebImage/Core (4.2.3)
+  - TTTAttributedLabel (1.13.4)
   - TYAttributedLabel (2.6.6)
   - YYCache (1.0.4)
   - YYImage (1.0.4):
@@ -52,6 +55,7 @@ DEPENDENCIES:
   - MBProgressHUD (~> 1.1.0)
   - MJExtension (~> 3.0.13)
   - MJRefresh (~> 3.1.15.3)
+  - MLEmojiLabel (~> 1.0.2)
   - SDWebImage (~> 4.2.1)
   - TYAttributedLabel (~> 2.6.2)
   - YYCache (~> 1.0.4)
@@ -72,11 +76,13 @@ SPEC CHECKSUMS:
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
   MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  MLEmojiLabel: 36d73c19f9975cbf9def24e5bc135263b0337fd8
   SDWebImage: 791bb72962b3492327ddcac4b1880bd1b5458431
+  TTTAttributedLabel: 0a2ac7b2dd726d32a070dafb01446026b11e624f
   TYAttributedLabel: cb8fc910d97eb5224936d4f692a78e042af691b2
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
   YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
 
-PODFILE CHECKSUM: d1aebbebfa3474bee6103015375e40c6f8443ff9
+PODFILE CHECKSUM: 2062c11b0aa55be405f2e6796acc2adf080dcfed
 
 COCOAPODS: 1.3.1

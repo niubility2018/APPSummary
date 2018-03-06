@@ -153,6 +153,16 @@
 		1CA1A003203FEACF005068A7 /* logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1CA1A002203FEACF005068A7 /* logo.jpeg */; };
 		1CA1A01E20400A98005068A7 /* DateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA1A01D20400A98005068A7 /* DateUtils.m */; };
 		1CAC526C204E928600715A0F /* DLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAC526B204E928600715A0F /* DLabelViewController.m */; };
+		1CAC526F204E9FF300715A0F /* BarrageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAC526E204E9FF300715A0F /* BarrageViewController.m */; };
+		1CAC5283204EA42C00715A0F /* FlowerBarrageSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAC5273204EA42C00715A0F /* FlowerBarrageSprite.m */; };
+		1CAC5284204EA42C00715A0F /* AvatarBarrageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAC5274204EA42C00715A0F /* AvatarBarrageView.m */; };
+		1CAC5285204EA42C00715A0F /* BarrageWalkImageTextSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAC5278204EA42C00715A0F /* BarrageWalkImageTextSprite.m */; };
+		1CAC5286204EA42C00715A0F /* AdvancedBarrageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAC5279204EA42C00715A0F /* AdvancedBarrageController.m */; };
+		1CAC5287204EA42C00715A0F /* MLEmojiLabel+BarrageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAC527A204EA42C00715A0F /* MLEmojiLabel+BarrageView.m */; };
+		1CAC5288204EA42C00715A0F /* CommonBarrageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAC527F204EA42C00715A0F /* CommonBarrageController.m */; };
+		1CAC5289204EA42C00715A0F /* NSSafeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAC5281204EA42C00715A0F /* NSSafeObject.m */; };
+		1CAC528C204EA45600715A0F /* UIImage+Barrage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAC528A204EA45500715A0F /* UIImage+Barrage.m */; };
+		1CAC528E204EA48B00715A0F /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CAC528D204EA48B00715A0F /* avatar.png */; };
 		8051738E39294C535238661F /* libPods-APPSummary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B49D360D2CF98E3FFFAE9E2 /* libPods-APPSummary.a */; };
 /* End PBXBuildFile section */
 
@@ -367,6 +377,25 @@
 		1CA1A01D20400A98005068A7 /* DateUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateUtils.m; sourceTree = "<group>"; };
 		1CAC526A204E928600715A0F /* DLabelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLabelViewController.h; sourceTree = "<group>"; };
 		1CAC526B204E928600715A0F /* DLabelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLabelViewController.m; sourceTree = "<group>"; };
+		1CAC526D204E9FF300715A0F /* BarrageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarrageViewController.h; sourceTree = "<group>"; };
+		1CAC526E204E9FF300715A0F /* BarrageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarrageViewController.m; sourceTree = "<group>"; };
+		1CAC5272204EA42C00715A0F /* AvatarBarrageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvatarBarrageView.h; sourceTree = "<group>"; };
+		1CAC5273204EA42C00715A0F /* FlowerBarrageSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowerBarrageSprite.m; sourceTree = "<group>"; };
+		1CAC5274204EA42C00715A0F /* AvatarBarrageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvatarBarrageView.m; sourceTree = "<group>"; };
+		1CAC5275204EA42C00715A0F /* FlowerBarrageSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowerBarrageSprite.h; sourceTree = "<group>"; };
+		1CAC5277204EA42C00715A0F /* MLEmojiLabel+BarrageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MLEmojiLabel+BarrageView.h"; sourceTree = "<group>"; };
+		1CAC5278204EA42C00715A0F /* BarrageWalkImageTextSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarrageWalkImageTextSprite.m; sourceTree = "<group>"; };
+		1CAC5279204EA42C00715A0F /* AdvancedBarrageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvancedBarrageController.m; sourceTree = "<group>"; };
+		1CAC527A204EA42C00715A0F /* MLEmojiLabel+BarrageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MLEmojiLabel+BarrageView.m"; sourceTree = "<group>"; };
+		1CAC527B204EA42C00715A0F /* BarrageWalkImageTextSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarrageWalkImageTextSprite.h; sourceTree = "<group>"; };
+		1CAC527C204EA42C00715A0F /* AdvancedBarrageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvancedBarrageController.h; sourceTree = "<group>"; };
+		1CAC527E204EA42C00715A0F /* CommonBarrageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonBarrageController.h; sourceTree = "<group>"; };
+		1CAC527F204EA42C00715A0F /* CommonBarrageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonBarrageController.m; sourceTree = "<group>"; };
+		1CAC5281204EA42C00715A0F /* NSSafeObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSSafeObject.m; sourceTree = "<group>"; };
+		1CAC5282204EA42C00715A0F /* NSSafeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSSafeObject.h; sourceTree = "<group>"; };
+		1CAC528A204EA45500715A0F /* UIImage+Barrage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Barrage.m"; sourceTree = "<group>"; };
+		1CAC528B204EA45500715A0F /* UIImage+Barrage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Barrage.h"; sourceTree = "<group>"; };
+		1CAC528D204EA48B00715A0F /* avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar.png; sourceTree = "<group>"; };
 		71274DAE356E360D2330E077 /* Pods-APPSummary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APPSummary.release.xcconfig"; path = "Pods/Target Support Files/Pods-APPSummary/Pods-APPSummary.release.xcconfig"; sourceTree = "<group>"; };
 		CEF6AA7CE442815860C115DC /* Pods-APPSummary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APPSummary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-APPSummary/Pods-APPSummary.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -752,6 +781,8 @@
 		1CA19F92203FE001005068A7 /* category */ = {
 			isa = PBXGroup;
 			children = (
+				1CAC528B204EA45500715A0F /* UIImage+Barrage.h */,
+				1CAC528A204EA45500715A0F /* UIImage+Barrage.m */,
 				1C51D3932041012B00539BD3 /* UIColor+Random.h */,
 				1C51D3922041012B00539BD3 /* UIColor+Random.m */,
 				1CA19FF0203FE756005068A7 /* CIFilter+LUT.h */,
@@ -890,6 +921,7 @@
 		1CA19FE6203FE2D6005068A7 /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				1CAC528D204EA48B00715A0F /* avatar.png */,
 				1C8A70852046BAB7003443F0 /* consumer_finance_introduce.docx */,
 				1C8A70832046AAA9003443F0 /* consumer_finance_introduce.html */,
 				1C8A707E2046980C003443F0 /* design-model.pdf */,
@@ -932,8 +964,64 @@
 			children = (
 				1CAC526A204E928600715A0F /* DLabelViewController.h */,
 				1CAC526B204E928600715A0F /* DLabelViewController.m */,
+				1CAC526D204E9FF300715A0F /* BarrageViewController.h */,
+				1CAC526E204E9FF300715A0F /* BarrageViewController.m */,
+				1CAC5270204EA34B00715A0F /* 弹幕 */,
 			);
 			path = "标签云";
+			sourceTree = "<group>";
+		};
+		1CAC5270204EA34B00715A0F /* 弹幕 */ = {
+			isa = PBXGroup;
+			children = (
+				1CAC5276204EA42C00715A0F /* AdvancedBarrage */,
+				1CAC5271204EA42C00715A0F /* BarrageDemo */,
+				1CAC527D204EA42C00715A0F /* CommonBarrage */,
+				1CAC5280204EA42C00715A0F /* SafeObject */,
+			);
+			path = "弹幕";
+			sourceTree = "<group>";
+		};
+		1CAC5271204EA42C00715A0F /* BarrageDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1CAC5272204EA42C00715A0F /* AvatarBarrageView.h */,
+				1CAC5273204EA42C00715A0F /* FlowerBarrageSprite.m */,
+				1CAC5274204EA42C00715A0F /* AvatarBarrageView.m */,
+				1CAC5275204EA42C00715A0F /* FlowerBarrageSprite.h */,
+			);
+			path = BarrageDemo;
+			sourceTree = "<group>";
+		};
+		1CAC5276204EA42C00715A0F /* AdvancedBarrage */ = {
+			isa = PBXGroup;
+			children = (
+				1CAC5277204EA42C00715A0F /* MLEmojiLabel+BarrageView.h */,
+				1CAC5278204EA42C00715A0F /* BarrageWalkImageTextSprite.m */,
+				1CAC5279204EA42C00715A0F /* AdvancedBarrageController.m */,
+				1CAC527A204EA42C00715A0F /* MLEmojiLabel+BarrageView.m */,
+				1CAC527B204EA42C00715A0F /* BarrageWalkImageTextSprite.h */,
+				1CAC527C204EA42C00715A0F /* AdvancedBarrageController.h */,
+			);
+			path = AdvancedBarrage;
+			sourceTree = "<group>";
+		};
+		1CAC527D204EA42C00715A0F /* CommonBarrage */ = {
+			isa = PBXGroup;
+			children = (
+				1CAC527E204EA42C00715A0F /* CommonBarrageController.h */,
+				1CAC527F204EA42C00715A0F /* CommonBarrageController.m */,
+			);
+			path = CommonBarrage;
+			sourceTree = "<group>";
+		};
+		1CAC5280204EA42C00715A0F /* SafeObject */ = {
+			isa = PBXGroup;
+			children = (
+				1CAC5281204EA42C00715A0F /* NSSafeObject.m */,
+				1CAC5282204EA42C00715A0F /* NSSafeObject.h */,
+			);
+			path = SafeObject;
 			sourceTree = "<group>";
 		};
 		8939C310516A62098E42A6B1 /* Pods */ = {
@@ -1015,6 +1103,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CAC528E204EA48B00715A0F /* avatar.png in Resources */,
 				1C8F35BC2043FF79004DDC06 /* kzxd_icon@2x.jpg in Resources */,
 				1CA19FC4203FE0E2005068A7 /* loadingImg_3.png in Resources */,
 				1C8F35C92043FF79004DDC06 /* nanquan_icon@2x.jpg in Resources */,
@@ -1121,6 +1210,10 @@
 				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_2.png",
 				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/MLEmojiLabel/Classes/MLEmoji_Expression.plist",
+				"${PODS_ROOT}/MLEmojiLabel/Classes/MLEmoji_ExpressionImage.plist",
+				"${PODS_ROOT}/MLEmojiLabel/Classes/MLEmoji_Expression.bundle",
+				"${PODS_ROOT}/MLEmojiLabel/Classes/MLEmoji_Expression.bundle/gifexpression.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -1177,10 +1270,13 @@
 				1C8F356F2043E1E5004DDC06 /* WRNavigationBar.m in Sources */,
 				1C8A7082204698C9003443F0 /* CommonWebController.m in Sources */,
 				1C51D3A02041430700539BD3 /* APPQuestionDetailController.m in Sources */,
+				1CAC5286204EA42C00715A0F /* AdvancedBarrageController.m in Sources */,
 				1C51D3762040FA1400539BD3 /* GPUImageViewController.m in Sources */,
+				1CAC5287204EA42C00715A0F /* MLEmojiLabel+BarrageView.m in Sources */,
 				1C4B32A92047E53400A964A7 /* AdvertiseView.m in Sources */,
 				1CA19FBD203FE0E2005068A7 /* CaptivePortalCheck.m in Sources */,
 				1C8F35F720440503004DDC06 /* QQLrcModel.m in Sources */,
+				1CAC528C204EA45600715A0F /* UIImage+Barrage.m in Sources */,
 				1C51D3912040FF6900539BD3 /* APPQuestionSummaryController.m in Sources */,
 				1C51D3772040FA1400539BD3 /* TouchIDViewController.m in Sources */,
 				1C8F357D2043F627004DDC06 /* Const.m in Sources */,
@@ -1211,23 +1307,29 @@
 				1C51D3792040FA1400539BD3 /* DrawViewController.m in Sources */,
 				1C8F35D7204400EB004DDC06 /* MusicListController.m in Sources */,
 				1C4B32AA2047E53400A964A7 /* AdvertiseHelper.m in Sources */,
+				1CAC5284204EA42C00715A0F /* AvatarBarrageView.m in Sources */,
 				1C8F35F620440503004DDC06 /* QQMusicModel.m in Sources */,
+				1CAC5288204EA42C00715A0F /* CommonBarrageController.m in Sources */,
 				1C51D37A2040FA1400539BD3 /* DrawView.m in Sources */,
 				1C8F35ED204402FB004DDC06 /* QQImageTool.m in Sources */,
 				1C51D398204102EF00539BD3 /* APPSummaryNavigationController.m in Sources */,
 				1C8F35662043E031004DDC06 /* GBPopMenuButtonView.m in Sources */,
 				1C51D37B2040FA1400539BD3 /* CHWButton.swift in Sources */,
+				1CAC5283204EA42C00715A0F /* FlowerBarrageSprite.m in Sources */,
 				1C51D3732040FA1400539BD3 /* MusicViewController.m in Sources */,
 				1C51D37F2040FA1400539BD3 /* LaunchImageController.m in Sources */,
 				1C51D3872040FA9E00539BD3 /* SummaryListController.m in Sources */,
 				1CA19FF1203FE756005068A7 /* CIFilter+LUT.m in Sources */,
+				1CAC526F204E9FF300715A0F /* BarrageViewController.m in Sources */,
 				1C51D37E2040FA1400539BD3 /* CountDownViewController.m in Sources */,
 				1C8F35EB204402FB004DDC06 /* QQLrcDataTool.m in Sources */,
 				1CA1A01E20400A98005068A7 /* DateUtils.m in Sources */,
 				1C8F35692043E0CE004DDC06 /* PopViewController.m in Sources */,
+				1CAC5285204EA42C00715A0F /* BarrageWalkImageTextSprite.m in Sources */,
 				1C4B32A020479E1800A964A7 /* FileLoadViewController.m in Sources */,
 				1CA19FF8203FE78E005068A7 /* GpUImageScaleFilter.m in Sources */,
 				1CA19FBF203FE0E2005068A7 /* AISphereView.m in Sources */,
+				1CAC5289204EA42C00715A0F /* NSSafeObject.m in Sources */,
 				1C51D3812040FA1400539BD3 /* FaceIDViewController.m in Sources */,
 				1C8F35EC204402FB004DDC06 /* QQTimeTool.m in Sources */,
 				1C8F355C2043E031004DDC06 /* GBAnimationTool.m in Sources */,

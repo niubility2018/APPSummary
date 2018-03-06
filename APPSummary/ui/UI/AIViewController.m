@@ -8,6 +8,7 @@
 
 #import "AIViewController.h"
 #import "DLabelViewController.h"
+#import "BarrageViewController.h"
 @interface AIViewController ()
 @property (nonatomic, strong) NSArray *dataArray;
 @end
@@ -90,6 +91,8 @@
                 break;
             case 1:
             {
+                BarrageViewController *dvc = [[BarrageViewController alloc] init];
+                [self.navigationController pushViewController:dvc animated:YES];
             }
                 break;
             case 2:
