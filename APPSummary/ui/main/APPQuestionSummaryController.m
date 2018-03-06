@@ -19,7 +19,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
-    self.dataArray = @[@"iOS开发中的八种锁(Lock)",@"如何设定线程池中线程的数目",@"如何用HTTP实现长连接",@"线程安全以及nonatomic和atomic"];
+    self.dataArray = @[@"iOS开发中的八种锁(Lock)",@"如何设定线程池中线程的数目",@"如何用HTTP实现长连接",@"线程安全以及nonatomic和atomic",@"KVC实现原理",@"KVO实现原理"];
     [self initTableView];
 }
 //初始化tableview
@@ -100,6 +100,9 @@
                 break;
             case 3:
                 urlStr = [NSURL URLWithString:@"http://xubojoy.cn/2018/03/05/%E7%BA%BF%E7%A8%8B%E5%AE%89%E5%85%A8%E4%BB%A5%E5%8F%8Anonatomic%E5%92%8Catomic/#more"];
+                break;
+            case 4:
+                urlStr = [NSURL URLWithString:@"http://xubojoy.cn/2018/03/05/KVC%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86/#more"];
                 break;
             default:
                 break;
