@@ -23,4 +23,6 @@ target 'APPSummary' do
     pod 'YYImage', '~> 1.0.4'
     pod 'MJRefresh', '~> 3.1.15.3'
     pod 'MBProgressHUD', '~> 1.1.0'
+    pod 'BarrageRenderer', '~> 2.1.0'
+    pod 'MLEmojiLabel', '~> 1.0.2'
 end

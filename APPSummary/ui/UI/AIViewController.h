@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AIViewController : UIViewController
+@interface AIViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
+@property (nonatomic, strong) UITableView *tableView;
 
 @end

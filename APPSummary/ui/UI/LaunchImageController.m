@@ -163,11 +163,11 @@
     
     CGFloat topPadding = Screen58inch ? 9 * BAPadding : 3 * BAPadding;
     
-    _titleLabel = [UILabel labelWithFrame:CGRectMake(0, topPadding, BAScreenWidth, 28) text:@"房间搜索" color:BAWhiteColor font:BABlodFont(22) textAlignment:NSTextAlignmentCenter];
+    _titleLabel = [UILabel labelWithFrame:CGRectMake(0, topPadding, BAScreenWidth, 28) text:@"房间搜索" color:BAWhiteColor font:[UIFont boldSystemFontOfSize:20] textAlignment:NSTextAlignmentCenter];
     
     [self.view addSubview:_titleLabel];
     
-    _detailLabel = [UILabel labelWithFrame:CGRectMake(0, _titleLabel.bottom, BAScreenWidth, 43) text:@"一键搜索主播房间, 分析数据" color:BAWhiteColor font:BACommonFont(18) textAlignment:NSTextAlignmentCenter];
+    _detailLabel = [UILabel labelWithFrame:CGRectMake(0, _titleLabel.bottom, BAScreenWidth, 43) text:@"一键搜索主播房间, 分析数据" color:BAWhiteColor font:[UIFont boldSystemFontOfSize:18] textAlignment:NSTextAlignmentCenter];
     _detailLabel.numberOfLines = 0;
     
     [self.view addSubview:_detailLabel];
