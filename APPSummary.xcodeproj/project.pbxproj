@@ -81,6 +81,11 @@
 		1C4D5538204FB92A00ABF4BB /* BHBPaintPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D5532204FB92A00ABF4BB /* BHBPaintPath.m */; };
 		1C4D5539204FB92A00ABF4BB /* BHBScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D5533204FB92A00ABF4BB /* BHBScrollView.m */; };
 		1C4D553A204FB92A00ABF4BB /* BHBDrawBoarderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D5535204FB92A00ABF4BB /* BHBDrawBoarderView.m */; };
+		1C4D554E204FC00D00ABF4BB /* NNTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D553F204FC00D00ABF4BB /* NNTableViewCell.m */; };
+		1C4D554F204FC00D00ABF4BB /* NNTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C4D5540204FC00D00ABF4BB /* NNTableViewCell.xib */; };
+		1C4D5552204FC00D00ABF4BB /* NNDeviceInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D5547204FC00D00ABF4BB /* NNDeviceInformation.m */; };
+		1C4D5554204FC00D00ABF4BB /* NNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D554C204FC00D00ABF4BB /* NNViewController.m */; };
+		1C4D5556204FC0FD00ABF4BB /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C4D5555204FC0FC00ABF4BB /* CoreTelephony.framework */; };
 		1C51D3732040FA1400539BD3 /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D3542040FA1300539BD3 /* MusicViewController.m */; };
 		1C51D3742040FA1400539BD3 /* DateCalendarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D3572040FA1300539BD3 /* DateCalendarController.m */; };
 		1C51D3752040FA1400539BD3 /* QQTmpChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D3582040FA1300539BD3 /* QQTmpChatViewController.m */; };
@@ -361,6 +366,16 @@
 		1C4D5534204FB92A00ABF4BB /* BHBMyDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBMyDrawer.h; sourceTree = "<group>"; };
 		1C4D5535204FB92A00ABF4BB /* BHBDrawBoarderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBDrawBoarderView.m; sourceTree = "<group>"; };
 		1C4D5536204FB92A00ABF4BB /* BHBPaintPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBPaintPath.h; sourceTree = "<group>"; };
+		1C4D553F204FC00D00ABF4BB /* NNTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNTableViewCell.m; sourceTree = "<group>"; };
+		1C4D5540204FC00D00ABF4BB /* NNTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NNTableViewCell.xib; sourceTree = "<group>"; };
+		1C4D5541204FC00D00ABF4BB /* NNViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNViewController.h; sourceTree = "<group>"; };
+		1C4D5546204FC00D00ABF4BB /* NNDeviceInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNDeviceInformation.h; sourceTree = "<group>"; };
+		1C4D5547204FC00D00ABF4BB /* NNDeviceInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNDeviceInformation.m; sourceTree = "<group>"; };
+		1C4D554B204FC00D00ABF4BB /* NNTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNTableViewCell.h; sourceTree = "<group>"; };
+		1C4D554C204FC00D00ABF4BB /* NNViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNViewController.m; sourceTree = "<group>"; };
+		1C4D5555204FC0FC00ABF4BB /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		1C4D5557204FC19800ABF4BB /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		1C4D5559204FC1A700ABF4BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1C51D3542040FA1300539BD3 /* MusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicViewController.m; sourceTree = "<group>"; };
 		1C51D3552040FA1300539BD3 /* LaunchImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchImageController.h; sourceTree = "<group>"; };
 		1C51D3562040FA1300539BD3 /* CountDownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDownViewController.h; sourceTree = "<group>"; };
@@ -580,6 +595,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C4D5556204FC0FD00ABF4BB /* CoreTelephony.framework in Frameworks */,
 				8051738E39294C535238661F /* libPods-APPSummary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -774,9 +790,32 @@
 			path = BHBDrawBoarder;
 			sourceTree = "<group>";
 		};
+		1C4D553B204FC00D00ABF4BB /* 设备信息 */ = {
+			isa = PBXGroup;
+			children = (
+				1C4D5545204FC00D00ABF4BB /* NNDeviceInformation */,
+				1C4D554B204FC00D00ABF4BB /* NNTableViewCell.h */,
+				1C4D553F204FC00D00ABF4BB /* NNTableViewCell.m */,
+				1C4D5540204FC00D00ABF4BB /* NNTableViewCell.xib */,
+				1C4D5541204FC00D00ABF4BB /* NNViewController.h */,
+				1C4D554C204FC00D00ABF4BB /* NNViewController.m */,
+			);
+			path = "设备信息";
+			sourceTree = "<group>";
+		};
+		1C4D5545204FC00D00ABF4BB /* NNDeviceInformation */ = {
+			isa = PBXGroup;
+			children = (
+				1C4D5546204FC00D00ABF4BB /* NNDeviceInformation.h */,
+				1C4D5547204FC00D00ABF4BB /* NNDeviceInformation.m */,
+			);
+			path = NNDeviceInformation;
+			sourceTree = "<group>";
+		};
 		1C51D3532040FA1300539BD3 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				1C4D553B204FC00D00ABF4BB /* 设备信息 */,
 				1C4D5447204F7E5900ABF4BB /* 图表 */,
 				1CAC5269204E926900715A0F /* 标签云 */,
 				1C8F357E2043FF4F004DDC06 /* 音乐 */,
@@ -1370,6 +1409,9 @@
 		DC41A8DC83A1218DF9ED6100 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1C4D5559204FC1A700ABF4BB /* Foundation.framework */,
+				1C4D5557204FC19800ABF4BB /* CoreFoundation.framework */,
+				1C4D5555204FC0FC00ABF4BB /* CoreTelephony.framework */,
 				0B49D360D2CF98E3FFFAE9E2 /* libPods-APPSummary.a */,
 			);
 			name = Frameworks;
@@ -1455,6 +1497,7 @@
 				1CA19FD0203FE0E2005068A7 /* launchingImg_6.png in Resources */,
 				1C8A707F2046980D003443F0 /* design-model.pdf in Resources */,
 				1C8F35CC2043FF79004DDC06 /* 235319.mp3 in Resources */,
+				1C4D554F204FC00D00ABF4BB /* NNTableViewCell.xib in Resources */,
 				1C8F35CD2043FF79004DDC06 /* 309769.mp3 in Resources */,
 				1CA19FD1203FE0E2005068A7 /* launchingImg_2.png in Resources */,
 				1C4D551D204F891900ABF4BB /* IMG_1873.JPG in Resources */,
@@ -1622,8 +1665,10 @@
 				1C4D54EA204F887E00ABF4BB /* AAChartModel.m in Sources */,
 				1C51D3802040FA1400539BD3 /* AIViewController.m in Sources */,
 				1C4D5518204F891900ABF4BB /* ChartAnimationTypeVC.m in Sources */,
+				1C4D5552204FC00D00ABF4BB /* NNDeviceInformation.m in Sources */,
 				1CA19F95203FE01E005068A7 /* UIView+ZJExtension.m in Sources */,
 				1C8F356F2043E1E5004DDC06 /* WRNavigationBar.m in Sources */,
+				1C4D554E204FC00D00ABF4BB /* NNTableViewCell.m in Sources */,
 				1C8A7082204698C9003443F0 /* CommonWebController.m in Sources */,
 				1C4D54D4204F887E00ABF4BB /* AAPlotOptions.m in Sources */,
 				1C51D3A02041430700539BD3 /* APPQuestionDetailController.m in Sources */,
@@ -1666,6 +1711,7 @@
 				1C51D38E2040FF2800539BD3 /* APPUISummaryController.m in Sources */,
 				1C4D5538204FB92A00ABF4BB /* BHBPaintPath.m in Sources */,
 				1C4D5520204F891900ABF4BB /* AAChartModelComposer.m in Sources */,
+				1C4D5554204FC00D00ABF4BB /* NNViewController.m in Sources */,
 				1CA19F7A203FDBFA005068A7 /* AppDelegate.m in Sources */,
 				1C4D54D0204F887E00ABF4BB /* AAAreaspline.m in Sources */,
 				1C4D54E4204F887E00ABF4BB /* AAMarker.m in Sources */,
