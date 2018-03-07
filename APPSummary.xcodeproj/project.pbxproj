@@ -17,6 +17,66 @@
 		1C4B32A32047C49800A964A7 /* DouDiZhuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4B32A22047C49800A964A7 /* DouDiZhuViewController.m */; };
 		1C4B32A92047E53400A964A7 /* AdvertiseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4B32A52047E53400A964A7 /* AdvertiseView.m */; };
 		1C4B32AA2047E53400A964A7 /* AdvertiseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4B32A62047E53400A964A7 /* AdvertiseHelper.m */; };
+		1C4D5424204F7E0F00ABF4BB /* AAHighchartsLib.js in Resources */ = {isa = PBXBuildFile; fileRef = 1C4D53DF204F7E0F00ABF4BB /* AAHighchartsLib.js */; };
+		1C4D5425204F7E0F00ABF4BB /* AAHighchartsMore.js in Resources */ = {isa = PBXBuildFile; fileRef = 1C4D53E0204F7E0F00ABF4BB /* AAHighchartsMore.js */; };
+		1C4D5426204F7E0F00ABF4BB /* AAFunnel.js in Resources */ = {isa = PBXBuildFile; fileRef = 1C4D53E1204F7E0F00ABF4BB /* AAFunnel.js */; };
+		1C4D5427204F7E0F00ABF4BB /* AAHighcharts-3d.js in Resources */ = {isa = PBXBuildFile; fileRef = 1C4D53E2204F7E0F00ABF4BB /* AAHighcharts-3d.js */; };
+		1C4D5428204F7E0F00ABF4BB /* AAChartView.html in Resources */ = {isa = PBXBuildFile; fileRef = 1C4D53E3204F7E0F00ABF4BB /* AAChartView.html */; };
+		1C4D5429204F7E0F00ABF4BB /* AAAreaspline.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D53E7204F7E0F00ABF4BB /* AAAreaspline.m */; };
+		1C4D542A204F7E0F00ABF4BB /* AALabels.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D53E9204F7E0F00ABF4BB /* AALabels.m */; };
+		1C4D542B204F7E0F00ABF4BB /* AASeries.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D53EC204F7E0F00ABF4BB /* AASeries.m */; };
+		1C4D542C204F7E0F00ABF4BB /* AAXAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D53ED204F7E0F00ABF4BB /* AAXAxis.m */; };
+		1C4D542D204F7E0F00ABF4BB /* AAPlotOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D53EF204F7E0F00ABF4BB /* AAPlotOptions.m */; };
+		1C4D542E204F7E0F00ABF4BB /* AADataLabels.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D53F0204F7E0F00ABF4BB /* AADataLabels.m */; };
+		1C4D542F204F7E0F00ABF4BB /* AALine.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D53F1204F7E0F00ABF4BB /* AALine.m */; };
+		1C4D5430204F7E0F00ABF4BB /* AATooltip.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D53F4204F7E0F00ABF4BB /* AATooltip.m */; };
+		1C4D5431204F7E0F00ABF4BB /* AASubtitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D53F6204F7E0F00ABF4BB /* AASubtitle.m */; };
+		1C4D5432204F7E0F00ABF4BB /* AAYAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D53F7204F7E0F00ABF4BB /* AAYAxis.m */; };
+		1C4D5433204F7E0F00ABF4BB /* AAColumn.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D53FC204F7E0F00ABF4BB /* AAColumn.m */; };
+		1C4D5434204F7E0F00ABF4BB /* AAPlotLinesElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D53FD204F7E0F00ABF4BB /* AAPlotLinesElement.m */; };
+		1C4D5435204F7E0F00ABF4BB /* AAOptions3d.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D53FF204F7E0F00ABF4BB /* AAOptions3d.m */; };
+		1C4D5436204F7E0F00ABF4BB /* AAStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D5401204F7E0F00ABF4BB /* AAStyle.m */; };
+		1C4D5437204F7E0F00ABF4BB /* AABar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D5402204F7E0F00ABF4BB /* AABar.m */; };
+		1C4D5438204F7E0F00ABF4BB /* AATitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D5403204F7E0F00ABF4BB /* AATitle.m */; };
+		1C4D5439204F7E0F00ABF4BB /* AAOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D5406204F7E0F00ABF4BB /* AAOptions.m */; };
+		1C4D543A204F7E0F00ABF4BB /* AAArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D5407204F7E0F00ABF4BB /* AAArea.m */; };
+		1C4D543B204F7E0F00ABF4BB /* AAAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D5408204F7E0F00ABF4BB /* AAAnimation.m */; };
+		1C4D543C204F7E0F00ABF4BB /* AALegend.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D5409204F7E0F00ABF4BB /* AALegend.m */; };
+		1C4D543D204F7E0F00ABF4BB /* AAMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D540B204F7E0F00ABF4BB /* AAMarker.m */; };
+		1C4D543E204F7E0F00ABF4BB /* AASpline.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D540F204F7E0F00ABF4BB /* AASpline.m */; };
+		1C4D543F204F7E0F00ABF4BB /* AAItemStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D5410204F7E0F00ABF4BB /* AAItemStyle.m */; };
+		1C4D5440204F7E0F00ABF4BB /* AAPie.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D5411204F7E0F00ABF4BB /* AAPie.m */; };
+		1C4D5441204F7E0F00ABF4BB /* AAChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D5416204F7E0F00ABF4BB /* AAChart.m */; };
+		1C4D5442204F7E0F00ABF4BB /* AAChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D5418204F7E0F00ABF4BB /* AAChartView.m */; };
+		1C4D5443204F7E0F00ABF4BB /* AAChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D541B204F7E0F00ABF4BB /* AAChartModel.m */; };
+		1C4D5444204F7E0F00ABF4BB /* AAJsonConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D541C204F7E0F00ABF4BB /* AAJsonConverter.m */; };
+		1C4D5445204F7E0F00ABF4BB /* AASeriesElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D541F204F7E0F00ABF4BB /* AASeriesElement.m */; };
+		1C4D5446204F7E0F00ABF4BB /* AAOptionsConstructor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D5421204F7E0F00ABF4BB /* AAOptionsConstructor.m */; };
+		1C4D546C204F7E5A00ABF4BB /* IMG_1875.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 1C4D5448204F7E5900ABF4BB /* IMG_1875.JPG */; };
+		1C4D546D204F7E5A00ABF4BB /* IMG_1874.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 1C4D5449204F7E5900ABF4BB /* IMG_1874.JPG */; };
+		1C4D546E204F7E5A00ABF4BB /* AAChartKitDocumentLive.html in Resources */ = {isa = PBXBuildFile; fileRef = 1C4D544A204F7E5900ABF4BB /* AAChartKitDocumentLive.html */; };
+		1C4D546F204F7E5A00ABF4BB /* IMG_1877.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 1C4D544C204F7E5900ABF4BB /* IMG_1877.JPG */; };
+		1C4D5470204F7E5A00ABF4BB /* IMG_1863.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 1C4D544D204F7E5900ABF4BB /* IMG_1863.JPG */; };
+		1C4D5471204F7E5A00ABF4BB /* IMG_1867.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 1C4D544E204F7E5900ABF4BB /* IMG_1867.JPG */; };
+		1C4D5472204F7E5A00ABF4BB /* IMG_1873.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 1C4D544F204F7E5900ABF4BB /* IMG_1873.JPG */; };
+		1C4D5473204F7E5A00ABF4BB /* AAChartKitShow.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1C4D5450204F7E5900ABF4BB /* AAChartKitShow.gif */; };
+		1C4D5474204F7E5A00ABF4BB /* IMG_1866.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 1C4D5452204F7E5900ABF4BB /* IMG_1866.JPG */; };
+		1C4D5475204F7E5A00ABF4BB /* IMG_1865.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 1C4D5454204F7E5A00ABF4BB /* IMG_1865.JPG */; };
+		1C4D5476204F7E5A00ABF4BB /* SpecialChartVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D5457204F7E5A00ABF4BB /* SpecialChartVC.m */; };
+		1C4D5477204F7E5A00ABF4BB /* ChartAnimationTypeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D5458204F7E5A00ABF4BB /* ChartAnimationTypeVC.m */; };
+		1C4D5478204F7E5A00ABF4BB /* DrawChartWithAAOptionsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D545C204F7E5A00ABF4BB /* DrawChartWithAAOptionsVC.m */; };
+		1C4D5479204F7E5A00ABF4BB /* ShowManyChartViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D545D204F7E5A00ABF4BB /* ShowManyChartViewVC.m */; };
+		1C4D547A204F7E5A00ABF4BB /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D545E204F7E5A00ABF4BB /* FirstViewController.m */; };
+		1C4D547B204F7E5A00ABF4BB /* ThreeDimensionalChartVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D545F204F7E5A00ABF4BB /* ThreeDimensionalChartVC.m */; };
+		1C4D547C204F7E5A00ABF4BB /* DrilldownChartVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D5460204F7E5A00ABF4BB /* DrilldownChartVC.m */; };
+		1C4D547D204F7E5A00ABF4BB /* IMG_1882.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 1C4D5463204F7E5A00ABF4BB /* IMG_1882.JPG */; };
+		1C4D547E204F7E5A00ABF4BB /* IMG_1880.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 1C4D5464204F7E5A00ABF4BB /* IMG_1880.JPG */; };
+		1C4D547F204F7E5A00ABF4BB /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D5465204F7E5A00ABF4BB /* SecondViewController.m */; };
+		1C4D5480204F7E5A00ABF4BB /* MonitorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D5467204F7E5A00ABF4BB /* MonitorViewController.m */; };
+		1C4D5481204F7E5A00ABF4BB /* AAChartModelComposer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D5468204F7E5A00ABF4BB /* AAChartModelComposer.m */; };
+		1C4D5482204F7E5A00ABF4BB /* IMG_1879.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 1C4D5469204F7E5A00ABF4BB /* IMG_1879.JPG */; };
+		1C4D5483204F7E5A00ABF4BB /* IMG_1878.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 1C4D546A204F7E5A00ABF4BB /* IMG_1878.JPG */; };
+		1C4D5484204F7E5A00ABF4BB /* OnlyRefreshChartDataVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D546B204F7E5A00ABF4BB /* OnlyRefreshChartDataVC.m */; };
 		1C51D3732040FA1400539BD3 /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D3542040FA1300539BD3 /* MusicViewController.m */; };
 		1C51D3742040FA1400539BD3 /* DateCalendarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D3572040FA1300539BD3 /* DateCalendarController.m */; };
 		1C51D3752040FA1400539BD3 /* QQTmpChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D3582040FA1300539BD3 /* QQTmpChatViewController.m */; };
@@ -186,6 +246,109 @@
 		1C4B32A62047E53400A964A7 /* AdvertiseHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvertiseHelper.m; sourceTree = "<group>"; };
 		1C4B32A72047E53400A964A7 /* AdvertiseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvertiseHelper.h; sourceTree = "<group>"; };
 		1C4B32A82047E53400A964A7 /* AdvertiseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvertiseView.h; sourceTree = "<group>"; };
+		1C4D53DF204F7E0F00ABF4BB /* AAHighchartsLib.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = AAHighchartsLib.js; sourceTree = "<group>"; };
+		1C4D53E0204F7E0F00ABF4BB /* AAHighchartsMore.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = AAHighchartsMore.js; sourceTree = "<group>"; };
+		1C4D53E1204F7E0F00ABF4BB /* AAFunnel.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = AAFunnel.js; sourceTree = "<group>"; };
+		1C4D53E2204F7E0F00ABF4BB /* AAHighcharts-3d.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "AAHighcharts-3d.js"; sourceTree = "<group>"; };
+		1C4D53E3204F7E0F00ABF4BB /* AAChartView.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = AAChartView.html; sourceTree = "<group>"; };
+		1C4D53E5204F7E0F00ABF4BB /* AAOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAOptions.h; sourceTree = "<group>"; };
+		1C4D53E6204F7E0F00ABF4BB /* AAArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAArea.h; sourceTree = "<group>"; };
+		1C4D53E7204F7E0F00ABF4BB /* AAAreaspline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAAreaspline.m; sourceTree = "<group>"; };
+		1C4D53E8204F7E0F00ABF4BB /* AATitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AATitle.h; sourceTree = "<group>"; };
+		1C4D53E9204F7E0F00ABF4BB /* AALabels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AALabels.m; sourceTree = "<group>"; };
+		1C4D53EA204F7E0F00ABF4BB /* AAStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAStyle.h; sourceTree = "<group>"; };
+		1C4D53EB204F7E0F00ABF4BB /* AABar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AABar.h; sourceTree = "<group>"; };
+		1C4D53EC204F7E0F00ABF4BB /* AASeries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AASeries.m; sourceTree = "<group>"; };
+		1C4D53ED204F7E0F00ABF4BB /* AAXAxis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAXAxis.m; sourceTree = "<group>"; };
+		1C4D53EE204F7E0F00ABF4BB /* AAOptions3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAOptions3d.h; sourceTree = "<group>"; };
+		1C4D53EF204F7E0F00ABF4BB /* AAPlotOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPlotOptions.m; sourceTree = "<group>"; };
+		1C4D53F0204F7E0F00ABF4BB /* AADataLabels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AADataLabels.m; sourceTree = "<group>"; };
+		1C4D53F1204F7E0F00ABF4BB /* AALine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AALine.m; sourceTree = "<group>"; };
+		1C4D53F2204F7E0F00ABF4BB /* AAMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAMarker.h; sourceTree = "<group>"; };
+		1C4D53F3204F7E0F00ABF4BB /* AALegend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AALegend.h; sourceTree = "<group>"; };
+		1C4D53F4204F7E0F00ABF4BB /* AATooltip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AATooltip.m; sourceTree = "<group>"; };
+		1C4D53F5204F7E0F00ABF4BB /* AAAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAAnimation.h; sourceTree = "<group>"; };
+		1C4D53F6204F7E0F00ABF4BB /* AASubtitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AASubtitle.m; sourceTree = "<group>"; };
+		1C4D53F7204F7E0F00ABF4BB /* AAYAxis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAYAxis.m; sourceTree = "<group>"; };
+		1C4D53F8204F7E0F00ABF4BB /* AAPie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPie.h; sourceTree = "<group>"; };
+		1C4D53F9204F7E0F00ABF4BB /* AAItemStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAItemStyle.h; sourceTree = "<group>"; };
+		1C4D53FA204F7E0F00ABF4BB /* AASpline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AASpline.h; sourceTree = "<group>"; };
+		1C4D53FB204F7E0F00ABF4BB /* AAChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAChart.h; sourceTree = "<group>"; };
+		1C4D53FC204F7E0F00ABF4BB /* AAColumn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAColumn.m; sourceTree = "<group>"; };
+		1C4D53FD204F7E0F00ABF4BB /* AAPlotLinesElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPlotLinesElement.m; sourceTree = "<group>"; };
+		1C4D53FE204F7E0F00ABF4BB /* AAXAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAXAxis.h; sourceTree = "<group>"; };
+		1C4D53FF204F7E0F00ABF4BB /* AAOptions3d.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAOptions3d.m; sourceTree = "<group>"; };
+		1C4D5400204F7E0F00ABF4BB /* AASeries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AASeries.h; sourceTree = "<group>"; };
+		1C4D5401204F7E0F00ABF4BB /* AAStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAStyle.m; sourceTree = "<group>"; };
+		1C4D5402204F7E0F00ABF4BB /* AABar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AABar.m; sourceTree = "<group>"; };
+		1C4D5403204F7E0F00ABF4BB /* AATitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AATitle.m; sourceTree = "<group>"; };
+		1C4D5404204F7E0F00ABF4BB /* AALabels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AALabels.h; sourceTree = "<group>"; };
+		1C4D5405204F7E0F00ABF4BB /* AAAreaspline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAAreaspline.h; sourceTree = "<group>"; };
+		1C4D5406204F7E0F00ABF4BB /* AAOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAOptions.m; sourceTree = "<group>"; };
+		1C4D5407204F7E0F00ABF4BB /* AAArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAArea.m; sourceTree = "<group>"; };
+		1C4D5408204F7E0F00ABF4BB /* AAAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAAnimation.m; sourceTree = "<group>"; };
+		1C4D5409204F7E0F00ABF4BB /* AALegend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AALegend.m; sourceTree = "<group>"; };
+		1C4D540A204F7E0F00ABF4BB /* AATooltip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AATooltip.h; sourceTree = "<group>"; };
+		1C4D540B204F7E0F00ABF4BB /* AAMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAMarker.m; sourceTree = "<group>"; };
+		1C4D540C204F7E0F00ABF4BB /* AALine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AALine.h; sourceTree = "<group>"; };
+		1C4D540D204F7E0F00ABF4BB /* AADataLabels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AADataLabels.h; sourceTree = "<group>"; };
+		1C4D540E204F7E0F00ABF4BB /* AAPlotOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPlotOptions.h; sourceTree = "<group>"; };
+		1C4D540F204F7E0F00ABF4BB /* AASpline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AASpline.m; sourceTree = "<group>"; };
+		1C4D5410204F7E0F00ABF4BB /* AAItemStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAItemStyle.m; sourceTree = "<group>"; };
+		1C4D5411204F7E0F00ABF4BB /* AAPie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPie.m; sourceTree = "<group>"; };
+		1C4D5412204F7E0F00ABF4BB /* AAYAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAYAxis.h; sourceTree = "<group>"; };
+		1C4D5413204F7E0F00ABF4BB /* AASubtitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AASubtitle.h; sourceTree = "<group>"; };
+		1C4D5414204F7E0F00ABF4BB /* AAPlotLinesElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPlotLinesElement.h; sourceTree = "<group>"; };
+		1C4D5415204F7E0F00ABF4BB /* AAColumn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAColumn.h; sourceTree = "<group>"; };
+		1C4D5416204F7E0F00ABF4BB /* AAChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAChart.m; sourceTree = "<group>"; };
+		1C4D5418204F7E0F00ABF4BB /* AAChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAChartView.m; sourceTree = "<group>"; };
+		1C4D5419204F7E0F00ABF4BB /* AAGlobalMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAGlobalMacro.h; sourceTree = "<group>"; };
+		1C4D541A204F7E0F00ABF4BB /* AASeriesElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AASeriesElement.h; sourceTree = "<group>"; };
+		1C4D541B204F7E0F00ABF4BB /* AAChartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAChartModel.m; sourceTree = "<group>"; };
+		1C4D541C204F7E0F00ABF4BB /* AAJsonConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAJsonConverter.m; sourceTree = "<group>"; };
+		1C4D541D204F7E0F00ABF4BB /* AAOptionsConstructor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAOptionsConstructor.h; sourceTree = "<group>"; };
+		1C4D541E204F7E0F00ABF4BB /* AAChartKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAChartKit.h; sourceTree = "<group>"; };
+		1C4D541F204F7E0F00ABF4BB /* AASeriesElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AASeriesElement.m; sourceTree = "<group>"; };
+		1C4D5420204F7E0F00ABF4BB /* AAChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAChartView.h; sourceTree = "<group>"; };
+		1C4D5421204F7E0F00ABF4BB /* AAOptionsConstructor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAOptionsConstructor.m; sourceTree = "<group>"; };
+		1C4D5422204F7E0F00ABF4BB /* AAJsonConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAJsonConverter.h; sourceTree = "<group>"; };
+		1C4D5423204F7E0F00ABF4BB /* AAChartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAChartModel.h; sourceTree = "<group>"; };
+		1C4D5448204F7E5900ABF4BB /* IMG_1875.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1875.JPG; sourceTree = "<group>"; };
+		1C4D5449204F7E5900ABF4BB /* IMG_1874.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1874.JPG; sourceTree = "<group>"; };
+		1C4D544A204F7E5900ABF4BB /* AAChartKitDocumentLive.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = AAChartKitDocumentLive.html; sourceTree = "<group>"; };
+		1C4D544B204F7E5900ABF4BB /* ShowManyChartViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowManyChartViewVC.h; sourceTree = "<group>"; };
+		1C4D544C204F7E5900ABF4BB /* IMG_1877.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1877.JPG; sourceTree = "<group>"; };
+		1C4D544D204F7E5900ABF4BB /* IMG_1863.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1863.JPG; sourceTree = "<group>"; };
+		1C4D544E204F7E5900ABF4BB /* IMG_1867.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1867.JPG; sourceTree = "<group>"; };
+		1C4D544F204F7E5900ABF4BB /* IMG_1873.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1873.JPG; sourceTree = "<group>"; };
+		1C4D5450204F7E5900ABF4BB /* AAChartKitShow.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = AAChartKitShow.gif; sourceTree = "<group>"; };
+		1C4D5451204F7E5900ABF4BB /* DrilldownChartVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrilldownChartVC.h; sourceTree = "<group>"; };
+		1C4D5452204F7E5900ABF4BB /* IMG_1866.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1866.JPG; sourceTree = "<group>"; };
+		1C4D5453204F7E5A00ABF4BB /* ThreeDimensionalChartVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeDimensionalChartVC.h; sourceTree = "<group>"; };
+		1C4D5454204F7E5A00ABF4BB /* IMG_1865.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1865.JPG; sourceTree = "<group>"; };
+		1C4D5455204F7E5A00ABF4BB /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		1C4D5456204F7E5A00ABF4BB /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		1C4D5457204F7E5A00ABF4BB /* SpecialChartVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecialChartVC.m; sourceTree = "<group>"; };
+		1C4D5458204F7E5A00ABF4BB /* ChartAnimationTypeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartAnimationTypeVC.m; sourceTree = "<group>"; };
+		1C4D5459204F7E5A00ABF4BB /* OnlyRefreshChartDataVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnlyRefreshChartDataVC.h; sourceTree = "<group>"; };
+		1C4D545A204F7E5A00ABF4BB /* AAChartModelComposer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAChartModelComposer.h; sourceTree = "<group>"; };
+		1C4D545B204F7E5A00ABF4BB /* MonitorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonitorViewController.h; sourceTree = "<group>"; };
+		1C4D545C204F7E5A00ABF4BB /* DrawChartWithAAOptionsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawChartWithAAOptionsVC.m; sourceTree = "<group>"; };
+		1C4D545D204F7E5A00ABF4BB /* ShowManyChartViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowManyChartViewVC.m; sourceTree = "<group>"; };
+		1C4D545E204F7E5A00ABF4BB /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		1C4D545F204F7E5A00ABF4BB /* ThreeDimensionalChartVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeDimensionalChartVC.m; sourceTree = "<group>"; };
+		1C4D5460204F7E5A00ABF4BB /* DrilldownChartVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrilldownChartVC.m; sourceTree = "<group>"; };
+		1C4D5461204F7E5A00ABF4BB /* ChartAnimationTypeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartAnimationTypeVC.h; sourceTree = "<group>"; };
+		1C4D5462204F7E5A00ABF4BB /* SpecialChartVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecialChartVC.h; sourceTree = "<group>"; };
+		1C4D5463204F7E5A00ABF4BB /* IMG_1882.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1882.JPG; sourceTree = "<group>"; };
+		1C4D5464204F7E5A00ABF4BB /* IMG_1880.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1880.JPG; sourceTree = "<group>"; };
+		1C4D5465204F7E5A00ABF4BB /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		1C4D5466204F7E5A00ABF4BB /* DrawChartWithAAOptionsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawChartWithAAOptionsVC.h; sourceTree = "<group>"; };
+		1C4D5467204F7E5A00ABF4BB /* MonitorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonitorViewController.m; sourceTree = "<group>"; };
+		1C4D5468204F7E5A00ABF4BB /* AAChartModelComposer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAChartModelComposer.m; sourceTree = "<group>"; };
+		1C4D5469204F7E5A00ABF4BB /* IMG_1879.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1879.JPG; sourceTree = "<group>"; };
+		1C4D546A204F7E5A00ABF4BB /* IMG_1878.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1878.JPG; sourceTree = "<group>"; };
+		1C4D546B204F7E5A00ABF4BB /* OnlyRefreshChartDataVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnlyRefreshChartDataVC.m; sourceTree = "<group>"; };
 		1C51D3542040FA1300539BD3 /* MusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicViewController.m; sourceTree = "<group>"; };
 		1C51D3552040FA1300539BD3 /* LaunchImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchImageController.h; sourceTree = "<group>"; };
 		1C51D3562040FA1300539BD3 /* CountDownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDownViewController.h; sourceTree = "<group>"; };
@@ -443,9 +606,151 @@
 			path = "广告页";
 			sourceTree = "<group>";
 		};
+		1C4D53DD204F7E0F00ABF4BB /* AAChartKitLib */ = {
+			isa = PBXGroup;
+			children = (
+				1C4D53DE204F7E0F00ABF4BB /* AAJSFiles */,
+				1C4D53E4204F7E0F00ABF4BB /* AAOptionsModel */,
+				1C4D5417204F7E0F00ABF4BB /* AAChartConfiger */,
+			);
+			path = AAChartKitLib;
+			sourceTree = "<group>";
+		};
+		1C4D53DE204F7E0F00ABF4BB /* AAJSFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1C4D53DF204F7E0F00ABF4BB /* AAHighchartsLib.js */,
+				1C4D53E0204F7E0F00ABF4BB /* AAHighchartsMore.js */,
+				1C4D53E1204F7E0F00ABF4BB /* AAFunnel.js */,
+				1C4D53E2204F7E0F00ABF4BB /* AAHighcharts-3d.js */,
+				1C4D53E3204F7E0F00ABF4BB /* AAChartView.html */,
+			);
+			path = AAJSFiles;
+			sourceTree = "<group>";
+		};
+		1C4D53E4204F7E0F00ABF4BB /* AAOptionsModel */ = {
+			isa = PBXGroup;
+			children = (
+				1C4D53E5204F7E0F00ABF4BB /* AAOptions.h */,
+				1C4D53E6204F7E0F00ABF4BB /* AAArea.h */,
+				1C4D53E7204F7E0F00ABF4BB /* AAAreaspline.m */,
+				1C4D53E8204F7E0F00ABF4BB /* AATitle.h */,
+				1C4D53E9204F7E0F00ABF4BB /* AALabels.m */,
+				1C4D53EA204F7E0F00ABF4BB /* AAStyle.h */,
+				1C4D53EB204F7E0F00ABF4BB /* AABar.h */,
+				1C4D53EC204F7E0F00ABF4BB /* AASeries.m */,
+				1C4D53ED204F7E0F00ABF4BB /* AAXAxis.m */,
+				1C4D53EE204F7E0F00ABF4BB /* AAOptions3d.h */,
+				1C4D53EF204F7E0F00ABF4BB /* AAPlotOptions.m */,
+				1C4D53F0204F7E0F00ABF4BB /* AADataLabels.m */,
+				1C4D53F1204F7E0F00ABF4BB /* AALine.m */,
+				1C4D53F2204F7E0F00ABF4BB /* AAMarker.h */,
+				1C4D53F3204F7E0F00ABF4BB /* AALegend.h */,
+				1C4D53F4204F7E0F00ABF4BB /* AATooltip.m */,
+				1C4D53F5204F7E0F00ABF4BB /* AAAnimation.h */,
+				1C4D53F6204F7E0F00ABF4BB /* AASubtitle.m */,
+				1C4D53F7204F7E0F00ABF4BB /* AAYAxis.m */,
+				1C4D53F8204F7E0F00ABF4BB /* AAPie.h */,
+				1C4D53F9204F7E0F00ABF4BB /* AAItemStyle.h */,
+				1C4D53FA204F7E0F00ABF4BB /* AASpline.h */,
+				1C4D53FB204F7E0F00ABF4BB /* AAChart.h */,
+				1C4D53FC204F7E0F00ABF4BB /* AAColumn.m */,
+				1C4D53FD204F7E0F00ABF4BB /* AAPlotLinesElement.m */,
+				1C4D53FE204F7E0F00ABF4BB /* AAXAxis.h */,
+				1C4D53FF204F7E0F00ABF4BB /* AAOptions3d.m */,
+				1C4D5400204F7E0F00ABF4BB /* AASeries.h */,
+				1C4D5401204F7E0F00ABF4BB /* AAStyle.m */,
+				1C4D5402204F7E0F00ABF4BB /* AABar.m */,
+				1C4D5403204F7E0F00ABF4BB /* AATitle.m */,
+				1C4D5404204F7E0F00ABF4BB /* AALabels.h */,
+				1C4D5405204F7E0F00ABF4BB /* AAAreaspline.h */,
+				1C4D5406204F7E0F00ABF4BB /* AAOptions.m */,
+				1C4D5407204F7E0F00ABF4BB /* AAArea.m */,
+				1C4D5408204F7E0F00ABF4BB /* AAAnimation.m */,
+				1C4D5409204F7E0F00ABF4BB /* AALegend.m */,
+				1C4D540A204F7E0F00ABF4BB /* AATooltip.h */,
+				1C4D540B204F7E0F00ABF4BB /* AAMarker.m */,
+				1C4D540C204F7E0F00ABF4BB /* AALine.h */,
+				1C4D540D204F7E0F00ABF4BB /* AADataLabels.h */,
+				1C4D540E204F7E0F00ABF4BB /* AAPlotOptions.h */,
+				1C4D540F204F7E0F00ABF4BB /* AASpline.m */,
+				1C4D5410204F7E0F00ABF4BB /* AAItemStyle.m */,
+				1C4D5411204F7E0F00ABF4BB /* AAPie.m */,
+				1C4D5412204F7E0F00ABF4BB /* AAYAxis.h */,
+				1C4D5413204F7E0F00ABF4BB /* AASubtitle.h */,
+				1C4D5414204F7E0F00ABF4BB /* AAPlotLinesElement.h */,
+				1C4D5415204F7E0F00ABF4BB /* AAColumn.h */,
+				1C4D5416204F7E0F00ABF4BB /* AAChart.m */,
+			);
+			path = AAOptionsModel;
+			sourceTree = "<group>";
+		};
+		1C4D5417204F7E0F00ABF4BB /* AAChartConfiger */ = {
+			isa = PBXGroup;
+			children = (
+				1C4D5418204F7E0F00ABF4BB /* AAChartView.m */,
+				1C4D5419204F7E0F00ABF4BB /* AAGlobalMacro.h */,
+				1C4D541A204F7E0F00ABF4BB /* AASeriesElement.h */,
+				1C4D541B204F7E0F00ABF4BB /* AAChartModel.m */,
+				1C4D541C204F7E0F00ABF4BB /* AAJsonConverter.m */,
+				1C4D541D204F7E0F00ABF4BB /* AAOptionsConstructor.h */,
+				1C4D541E204F7E0F00ABF4BB /* AAChartKit.h */,
+				1C4D541F204F7E0F00ABF4BB /* AASeriesElement.m */,
+				1C4D5420204F7E0F00ABF4BB /* AAChartView.h */,
+				1C4D5421204F7E0F00ABF4BB /* AAOptionsConstructor.m */,
+				1C4D5422204F7E0F00ABF4BB /* AAJsonConverter.h */,
+				1C4D5423204F7E0F00ABF4BB /* AAChartModel.h */,
+			);
+			path = AAChartConfiger;
+			sourceTree = "<group>";
+		};
+		1C4D5447204F7E5900ABF4BB /* 图表 */ = {
+			isa = PBXGroup;
+			children = (
+				1C4D5448204F7E5900ABF4BB /* IMG_1875.JPG */,
+				1C4D5449204F7E5900ABF4BB /* IMG_1874.JPG */,
+				1C4D544A204F7E5900ABF4BB /* AAChartKitDocumentLive.html */,
+				1C4D544B204F7E5900ABF4BB /* ShowManyChartViewVC.h */,
+				1C4D544C204F7E5900ABF4BB /* IMG_1877.JPG */,
+				1C4D544D204F7E5900ABF4BB /* IMG_1863.JPG */,
+				1C4D544E204F7E5900ABF4BB /* IMG_1867.JPG */,
+				1C4D544F204F7E5900ABF4BB /* IMG_1873.JPG */,
+				1C4D5450204F7E5900ABF4BB /* AAChartKitShow.gif */,
+				1C4D5451204F7E5900ABF4BB /* DrilldownChartVC.h */,
+				1C4D5452204F7E5900ABF4BB /* IMG_1866.JPG */,
+				1C4D5453204F7E5A00ABF4BB /* ThreeDimensionalChartVC.h */,
+				1C4D5454204F7E5A00ABF4BB /* IMG_1865.JPG */,
+				1C4D5455204F7E5A00ABF4BB /* FirstViewController.h */,
+				1C4D5456204F7E5A00ABF4BB /* SecondViewController.h */,
+				1C4D5457204F7E5A00ABF4BB /* SpecialChartVC.m */,
+				1C4D5458204F7E5A00ABF4BB /* ChartAnimationTypeVC.m */,
+				1C4D5459204F7E5A00ABF4BB /* OnlyRefreshChartDataVC.h */,
+				1C4D545A204F7E5A00ABF4BB /* AAChartModelComposer.h */,
+				1C4D545B204F7E5A00ABF4BB /* MonitorViewController.h */,
+				1C4D545C204F7E5A00ABF4BB /* DrawChartWithAAOptionsVC.m */,
+				1C4D545D204F7E5A00ABF4BB /* ShowManyChartViewVC.m */,
+				1C4D545E204F7E5A00ABF4BB /* FirstViewController.m */,
+				1C4D545F204F7E5A00ABF4BB /* ThreeDimensionalChartVC.m */,
+				1C4D5460204F7E5A00ABF4BB /* DrilldownChartVC.m */,
+				1C4D5461204F7E5A00ABF4BB /* ChartAnimationTypeVC.h */,
+				1C4D5462204F7E5A00ABF4BB /* SpecialChartVC.h */,
+				1C4D5463204F7E5A00ABF4BB /* IMG_1882.JPG */,
+				1C4D5464204F7E5A00ABF4BB /* IMG_1880.JPG */,
+				1C4D5465204F7E5A00ABF4BB /* SecondViewController.m */,
+				1C4D5466204F7E5A00ABF4BB /* DrawChartWithAAOptionsVC.h */,
+				1C4D5467204F7E5A00ABF4BB /* MonitorViewController.m */,
+				1C4D5468204F7E5A00ABF4BB /* AAChartModelComposer.m */,
+				1C4D5469204F7E5A00ABF4BB /* IMG_1879.JPG */,
+				1C4D546A204F7E5A00ABF4BB /* IMG_1878.JPG */,
+				1C4D546B204F7E5A00ABF4BB /* OnlyRefreshChartDataVC.m */,
+			);
+			path = "图表";
+			sourceTree = "<group>";
+		};
 		1C51D3532040FA1300539BD3 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				1C4D5447204F7E5900ABF4BB /* 图表 */,
 				1CAC5269204E926900715A0F /* 标签云 */,
 				1C8F357E2043FF4F004DDC06 /* 音乐 */,
 				1C51D3552040FA1300539BD3 /* LaunchImageController.h */,
@@ -798,6 +1103,7 @@
 		1CA19F96203FE0B4005068A7 /* third */ = {
 			isa = PBXGroup;
 			children = (
+				1C4D53DD204F7E0F00ABF4BB /* AAChartKitLib */,
 				1C8F356A2043E1E4004DDC06 /* WRNavigationBar */,
 				1C8F35482043E031004DDC06 /* GBPopMenuButtonView */,
 				1CA19FF2203FE77E005068A7 /* imagehandle */,
@@ -1110,12 +1416,15 @@
 				1CA19FD5203FE0E2005068A7 /* launchAnimation.json in Resources */,
 				1C8F35BE2043FF79004DDC06 /* jj@2x.jpg in Resources */,
 				1CA19F85203FDBFA005068A7 /* LaunchScreen.storyboard in Resources */,
+				1C4D546E204F7E5A00ABF4BB /* AAChartKitDocumentLive.html in Resources */,
 				1C8F35632043E031004DDC06 /* dropbox@2x.png in Resources */,
+				1C4D5475204F7E5A00ABF4BB /* IMG_1865.JPG in Resources */,
 				1C8F35AE2043FF79004DDC06 /* 14945107.lrc in Resources */,
 				1C8F35CF2043FF79004DDC06 /* 1201111234.mp3 in Resources */,
 				1C8F35BF2043FF79004DDC06 /* lkq@2x.jpg in Resources */,
 				1CA19FC1203FE0E2005068A7 /* empty_status.json in Resources */,
 				1CA19FD0203FE0E2005068A7 /* launchingImg_6.png in Resources */,
+				1C4D546D204F7E5A00ABF4BB /* IMG_1874.JPG in Resources */,
 				1C8A707F2046980D003443F0 /* design-model.pdf in Resources */,
 				1C8F35CC2043FF79004DDC06 /* 235319.mp3 in Resources */,
 				1C8F35CD2043FF79004DDC06 /* 309769.mp3 in Resources */,
@@ -1129,7 +1438,11 @@
 				1CA19FC8203FE0E2005068A7 /* loadingImg_5.png in Resources */,
 				1C8F35602043E031004DDC06 /* Contents.json in Resources */,
 				1C8F35D32043FF79004DDC06 /* 339744.mp3 in Resources */,
+				1C4D5425204F7E0F00ABF4BB /* AAHighchartsMore.js in Resources */,
+				1C4D5474204F7E5A00ABF4BB /* IMG_1866.JPG in Resources */,
 				1C8F35BD2043FF79004DDC06 /* dzq@2x.jpg in Resources */,
+				1C4D5424204F7E0F00ABF4BB /* AAHighchartsLib.js in Resources */,
+				1C4D5482204F7E5A00ABF4BB /* IMG_1879.JPG in Resources */,
 				1C8F355F2043E031004DDC06 /* camera@2x.png in Resources */,
 				1CA19FEB203FE2D6005068A7 /* oldmovie.png in Resources */,
 				1CA19FCB203FE0E2005068A7 /* servishero_loading.json in Resources */,
@@ -1147,16 +1460,21 @@
 				1CA19FCD203FE0E2005068A7 /* launchingImg_4.png in Resources */,
 				1C8F35B82043FF79004DDC06 /* lkq_icon@2x.jpg in Resources */,
 				1C8F35C52043FF79004DDC06 /* jj_icon@2x.png in Resources */,
+				1C4D5426204F7E0F00ABF4BB /* AAFunnel.js in Resources */,
 				1CA19FC5203FE0E2005068A7 /* loadingImg_1.png in Resources */,
 				1C8F35B32043FF79004DDC06 /* 339744.lrc in Resources */,
+				1C4D5473204F7E5A00ABF4BB /* AAChartKitShow.gif in Resources */,
 				1CA19FC0203FE0E2005068A7 /* .gitkeep in Resources */,
 				1C8F355E2043E031004DDC06 /* Contents.json in Resources */,
+				1C4D546C204F7E5A00ABF4BB /* IMG_1875.JPG in Resources */,
 				0C8355AB2046C6CF00A9373C /* PDF1.pdf in Resources */,
 				1C8F35AD2043FF79004DDC06 /* 255319.lrc in Resources */,
 				1CA19FD2203FE0E2005068A7 /* launchingImg_3.png in Resources */,
 				1CA19FED203FE2D6005068A7 /* lookup_glitch.png in Resources */,
 				0C8355AA2046C6CF00A9373C /* PDF2.pdf in Resources */,
+				1C4D5483204F7E5A00ABF4BB /* IMG_1878.JPG in Resources */,
 				1C8F35C32043FF79004DDC06 /* bb@2x.jpg in Resources */,
+				1C4D5427204F7E0F00ABF4BB /* AAHighcharts-3d.js in Resources */,
 				1C8F35C42043FF79004DDC06 /* eason@2x.jpg in Resources */,
 				1CA19FC2203FE0E2005068A7 /* loading.json in Resources */,
 				1CA19FCA203FE0E2005068A7 /* loadingImg_6.png in Resources */,
@@ -1165,6 +1483,7 @@
 				1CA19FBE203FE0E2005068A7 /* .gitkeep in Resources */,
 				1CA19FC7203FE0E2005068A7 /* loadingImg_4.png in Resources */,
 				1CA19FCF203FE0E2005068A7 /* launchingImg_7.png in Resources */,
+				1C4D5428204F7E0F00ABF4BB /* AAChartView.html in Resources */,
 				1CA19FD4203FE0E2005068A7 /* launchingImg_0.png in Resources */,
 				1C8F35B02043FF79004DDC06 /* 309769.lrc in Resources */,
 				1C8F35B52043FF79004DDC06 /* 120125029.lrc in Resources */,
@@ -1172,7 +1491,10 @@
 				1C8F35C82043FF79004DDC06 /* zxy_icon@2x.jpg in Resources */,
 				1C8A70842046AAA9003443F0 /* consumer_finance_introduce.html in Resources */,
 				1C8F35D22043FF79004DDC06 /* 12309111.mp3 in Resources */,
+				1C4D547E204F7E5A00ABF4BB /* IMG_1880.JPG in Resources */,
 				1C8F35B22043FF79004DDC06 /* 12309111.lrc in Resources */,
+				1C4D547D204F7E5A00ABF4BB /* IMG_1882.JPG in Resources */,
+				1C4D546F204F7E5A00ABF4BB /* IMG_1877.JPG in Resources */,
 				1C8F35B92043FF79004DDC06 /* jay_icon@2x.png in Resources */,
 				1C8F35CB2043FF79004DDC06 /* 255319.mp3 in Resources */,
 				1C8F35CA2043FF79004DDC06 /* 14945107.mp3 in Resources */,
@@ -1183,12 +1505,15 @@
 				1C8F35C62043FF79004DDC06 /* nanquan@2x.jpg in Resources */,
 				1CA19FC6203FE0E2005068A7 /* loadingImg_0.png in Resources */,
 				1C8F35642043E031004DDC06 /* Contents.json in Resources */,
+				1C4D5471204F7E5A00ABF4BB /* IMG_1867.JPG in Resources */,
+				1C4D5472204F7E5A00ABF4BB /* IMG_1873.JPG in Resources */,
 				1C8F35C22043FF79004DDC06 /* kzxd@2x.jpg in Resources */,
 				1CA19FEC203FE2D6005068A7 /* noise.png in Resources */,
 				1C8F35B42043FF79004DDC06 /* 10405520.lrc in Resources */,
 				1CA19FC3203FE0E2005068A7 /* loadingImg_2.png in Resources */,
 				1C8F35612043E031004DDC06 /* gallery@2x.png in Resources */,
 				1C8F35B12043FF79004DDC06 /* 235319.lrc in Resources */,
+				1C4D5470204F7E5A00ABF4BB /* IMG_1863.JPG in Resources */,
 				1C8F35622043E031004DDC06 /* Contents.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1271,20 +1596,29 @@
 				1C8A7082204698C9003443F0 /* CommonWebController.m in Sources */,
 				1C51D3A02041430700539BD3 /* APPQuestionDetailController.m in Sources */,
 				1CAC5286204EA42C00715A0F /* AdvancedBarrageController.m in Sources */,
+				1C4D547F204F7E5A00ABF4BB /* SecondViewController.m in Sources */,
+				1C4D547A204F7E5A00ABF4BB /* FirstViewController.m in Sources */,
 				1C51D3762040FA1400539BD3 /* GPUImageViewController.m in Sources */,
 				1CAC5287204EA42C00715A0F /* MLEmojiLabel+BarrageView.m in Sources */,
 				1C4B32A92047E53400A964A7 /* AdvertiseView.m in Sources */,
+				1C4D547B204F7E5A00ABF4BB /* ThreeDimensionalChartVC.m in Sources */,
+				1C4D5446204F7E0F00ABF4BB /* AAOptionsConstructor.m in Sources */,
 				1CA19FBD203FE0E2005068A7 /* CaptivePortalCheck.m in Sources */,
+				1C4D5479204F7E5A00ABF4BB /* ShowManyChartViewVC.m in Sources */,
 				1C8F35F720440503004DDC06 /* QQLrcModel.m in Sources */,
 				1CAC528C204EA45600715A0F /* UIImage+Barrage.m in Sources */,
 				1C51D3912040FF6900539BD3 /* APPQuestionSummaryController.m in Sources */,
 				1C51D3772040FA1400539BD3 /* TouchIDViewController.m in Sources */,
+				1C4D5442204F7E0F00ABF4BB /* AAChartView.m in Sources */,
 				1C8F357D2043F627004DDC06 /* Const.m in Sources */,
+				1C4D5432204F7E0F00ABF4BB /* AAYAxis.m in Sources */,
 				1CA19FDF203FE29E005068A7 /* NSObject+ZJUIExtension.m in Sources */,
+				1C4D5481204F7E5A00ABF4BB /* AAChartModelComposer.m in Sources */,
 				1CA19F88203FDBFA005068A7 /* main.m in Sources */,
 				1C51D3942041012B00539BD3 /* UIColor+Random.m in Sources */,
 				1C4B32A32047C49800A964A7 /* DouDiZhuViewController.m in Sources */,
 				0C8355A02046C61800A9373C /* PDFBrowserController.m in Sources */,
+				1C4D542F204F7E0F00ABF4BB /* AALine.m in Sources */,
 				1C51D3752040FA1400539BD3 /* QQTmpChatViewController.m in Sources */,
 				1C8F35EA204402FB004DDC06 /* NeteaseMusicAPI.m in Sources */,
 				0C8355A72046C68100A9373C /* DrawPDFViewController.m in Sources */,
@@ -1292,45 +1626,77 @@
 				1C51D3782040FA1400539BD3 /* WIFICheckViewController.m in Sources */,
 				1C51D3742040FA1400539BD3 /* DateCalendarController.m in Sources */,
 				1C8F357A2043F5D4004DDC06 /* ColorUtil.m in Sources */,
+				1C4D5478204F7E5A00ABF4BB /* DrawChartWithAAOptionsVC.m in Sources */,
+				1C4D5430204F7E0F00ABF4BB /* AATooltip.m in Sources */,
 				1C8F35702043E1E5004DDC06 /* WRCustomNavigationBar.m in Sources */,
 				1C51D38E2040FF2800539BD3 /* APPUISummaryController.m in Sources */,
+				1C4D543D204F7E0F00ABF4BB /* AAMarker.m in Sources */,
+				1C4D543E204F7E0F00ABF4BB /* AASpline.m in Sources */,
 				1CA19F7A203FDBFA005068A7 /* AppDelegate.m in Sources */,
+				1C4D542D204F7E0F00ABF4BB /* AAPlotOptions.m in Sources */,
+				1C4D5435204F7E0F00ABF4BB /* AAOptions3d.m in Sources */,
+				1C4D543F204F7E0F00ABF4BB /* AAItemStyle.m in Sources */,
 				1C8F35EE204402FB004DDC06 /* QQMusicOperationTool.m in Sources */,
 				1C51D38B2040FEDD00539BD3 /* APPSummaryTabbarController.m in Sources */,
 				1C51D37C2040FA1400539BD3 /* CountDownLabel.swift in Sources */,
+				1C4D542B204F7E0F00ABF4BB /* AASeries.m in Sources */,
 				1C51D37D2040FA1400539BD3 /* ILGLKImageView.m in Sources */,
 				1C8F35EF204402FB004DDC06 /* QQMusicTool.m in Sources */,
+				1C4D543B204F7E0F00ABF4BB /* AAAnimation.m in Sources */,
 				1C8F35F820440503004DDC06 /* QQMusicMessageModel.m in Sources */,
+				1C4D5438204F7E0F00ABF4BB /* AATitle.m in Sources */,
+				1C4D5444204F7E0F00ABF4BB /* AAJsonConverter.m in Sources */,
 				1C4930672044F15500F674F2 /* MusicListCell.m in Sources */,
 				1CA19FF7203FE78E005068A7 /* GPUImageSoulFilter.m in Sources */,
+				1C4D5441204F7E0F00ABF4BB /* AAChart.m in Sources */,
+				1C4D5429204F7E0F00ABF4BB /* AAAreaspline.m in Sources */,
 				1C8F35652043E031004DDC06 /* GBPopMenuButtonItem.m in Sources */,
+				1C4D5439204F7E0F00ABF4BB /* AAOptions.m in Sources */,
 				1C51D3792040FA1400539BD3 /* DrawViewController.m in Sources */,
 				1C8F35D7204400EB004DDC06 /* MusicListController.m in Sources */,
+				1C4D5484204F7E5A00ABF4BB /* OnlyRefreshChartDataVC.m in Sources */,
 				1C4B32AA2047E53400A964A7 /* AdvertiseHelper.m in Sources */,
 				1CAC5284204EA42C00715A0F /* AvatarBarrageView.m in Sources */,
 				1C8F35F620440503004DDC06 /* QQMusicModel.m in Sources */,
 				1CAC5288204EA42C00715A0F /* CommonBarrageController.m in Sources */,
 				1C51D37A2040FA1400539BD3 /* DrawView.m in Sources */,
+				1C4D5477204F7E5A00ABF4BB /* ChartAnimationTypeVC.m in Sources */,
 				1C8F35ED204402FB004DDC06 /* QQImageTool.m in Sources */,
 				1C51D398204102EF00539BD3 /* APPSummaryNavigationController.m in Sources */,
+				1C4D5445204F7E0F00ABF4BB /* AASeriesElement.m in Sources */,
 				1C8F35662043E031004DDC06 /* GBPopMenuButtonView.m in Sources */,
+				1C4D5437204F7E0F00ABF4BB /* AABar.m in Sources */,
 				1C51D37B2040FA1400539BD3 /* CHWButton.swift in Sources */,
 				1CAC5283204EA42C00715A0F /* FlowerBarrageSprite.m in Sources */,
+				1C4D5480204F7E5A00ABF4BB /* MonitorViewController.m in Sources */,
 				1C51D3732040FA1400539BD3 /* MusicViewController.m in Sources */,
 				1C51D37F2040FA1400539BD3 /* LaunchImageController.m in Sources */,
+				1C4D5431204F7E0F00ABF4BB /* AASubtitle.m in Sources */,
+				1C4D543C204F7E0F00ABF4BB /* AALegend.m in Sources */,
 				1C51D3872040FA9E00539BD3 /* SummaryListController.m in Sources */,
+				1C4D543A204F7E0F00ABF4BB /* AAArea.m in Sources */,
 				1CA19FF1203FE756005068A7 /* CIFilter+LUT.m in Sources */,
 				1CAC526F204E9FF300715A0F /* BarrageViewController.m in Sources */,
+				1C4D5476204F7E5A00ABF4BB /* SpecialChartVC.m in Sources */,
 				1C51D37E2040FA1400539BD3 /* CountDownViewController.m in Sources */,
 				1C8F35EB204402FB004DDC06 /* QQLrcDataTool.m in Sources */,
+				1C4D547C204F7E5A00ABF4BB /* DrilldownChartVC.m in Sources */,
+				1C4D5443204F7E0F00ABF4BB /* AAChartModel.m in Sources */,
 				1CA1A01E20400A98005068A7 /* DateUtils.m in Sources */,
+				1C4D542E204F7E0F00ABF4BB /* AADataLabels.m in Sources */,
 				1C8F35692043E0CE004DDC06 /* PopViewController.m in Sources */,
+				1C4D5433204F7E0F00ABF4BB /* AAColumn.m in Sources */,
+				1C4D5434204F7E0F00ABF4BB /* AAPlotLinesElement.m in Sources */,
+				1C4D542A204F7E0F00ABF4BB /* AALabels.m in Sources */,
 				1CAC5285204EA42C00715A0F /* BarrageWalkImageTextSprite.m in Sources */,
+				1C4D542C204F7E0F00ABF4BB /* AAXAxis.m in Sources */,
 				1C4B32A020479E1800A964A7 /* FileLoadViewController.m in Sources */,
 				1CA19FF8203FE78E005068A7 /* GpUImageScaleFilter.m in Sources */,
 				1CA19FBF203FE0E2005068A7 /* AISphereView.m in Sources */,
 				1CAC5289204EA42C00715A0F /* NSSafeObject.m in Sources */,
 				1C51D3812040FA1400539BD3 /* FaceIDViewController.m in Sources */,
+				1C4D5436204F7E0F00ABF4BB /* AAStyle.m in Sources */,
+				1C4D5440204F7E0F00ABF4BB /* AAPie.m in Sources */,
 				1C8F35EC204402FB004DDC06 /* QQTimeTool.m in Sources */,
 				1C8F355C2043E031004DDC06 /* GBAnimationTool.m in Sources */,
 			);
