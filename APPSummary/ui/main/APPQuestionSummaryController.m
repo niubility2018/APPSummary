@@ -104,6 +104,9 @@
             case 4:
                 urlStr = [NSURL URLWithString:@"http://xubojoy.cn/2018/03/05/KVC%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86/#more"];
                 break;
+            case 5:
+                urlStr = [NSURL URLWithString:@"http://xubojoy.cn/2018/03/05/KVO%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86/#more"];
+                break;
             default:
                 break;
         }
