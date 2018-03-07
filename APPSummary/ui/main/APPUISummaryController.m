@@ -22,6 +22,7 @@
 #import "APPQuestionDetailController.h"
 #import "FileLoadViewController.h"
 #import "DouDiZhuViewController.h"
+#import "FirstViewController.h"
 @interface APPUISummaryController ()
 @property (nonatomic, strong) NSArray *dataUIArray;
 @property (nonatomic, strong) NSArray *dataArray;
@@ -45,7 +46,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.dataUIArray = @[@"启动引导页动画",@"标签云",@"人脸识别",@"image处理",@"倒计时",@"画板",@"wifi认证",@"指纹识别",@"QQ临时会话",@"弹出视图",@"音乐"
+    self.dataUIArray = @[@"启动引导页动画",@"标签云",@"人脸识别",@"image处理",@"倒计时",@"画板",@"wifi认证",@"指纹识别",@"QQ临时会话",@"弹出视图",@"音乐",@"图表库"
                          ];
     self.dataArray = @[@"时间计算",@"文件加载",@"斗地主发牌排序"
                        ];
@@ -211,6 +212,12 @@
             case 10:
             {
                 MusicListController *musicvc = [[MusicListController alloc] init];
+                [self.navigationController pushViewController:musicvc animated:YES];
+            }
+                break;
+            case 11:
+            {
+                FirstViewController *musicvc = [[FirstViewController alloc] init];
                 [self.navigationController pushViewController:musicvc animated:YES];
             }
                 break;

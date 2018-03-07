@@ -25,4 +25,5 @@ target 'APPSummary' do
     pod 'MBProgressHUD', '~> 1.1.0'
     pod 'BarrageRenderer', '~> 2.1.0'
     pod 'MLEmojiLabel', '~> 1.0.2'
+#    pod 'AAChartKit', '~> 2.1.6'
 end

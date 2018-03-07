@@ -21,4 +21,5 @@
 #import <MJExtension/MJExtension.h>
 #import <Masonry.h>
 #import <MBProgressHUD.h>
+#import "AAGlobalMacro.h"
 
