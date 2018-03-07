@@ -26,4 +26,5 @@ target 'APPSummary' do
     pod 'BarrageRenderer', '~> 2.1.0'
     pod 'MLEmojiLabel', '~> 1.0.2'
 #    pod 'AAChartKit', '~> 2.1.6'
+    pod 'KVOController', '~> 1.2.0'
 end
