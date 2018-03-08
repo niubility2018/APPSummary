@@ -69,14 +69,19 @@ static NSString *tableViewCellID = @"NNTableViewCellID";
                       @([NNDeviceInformation getBatteryLevel]),
                       [NNDeviceInformation getSystemName],
                       [NNDeviceInformation getSystemVersion],
-                      [NNDeviceInformation getUUID],
                       [NNDeviceInformation getDeviceIPAdress],
                       [NNDeviceInformation getIPAddress:YES],
                       @([NNDeviceInformation getTotalMemorySize]),
                       @([NNDeviceInformation getAvailableMemorySize]),
                       @([NNDeviceInformation getCurrentBatteryLevel]),
                       [NNDeviceInformation getBatteryState],
-                      [NNDeviceInformation getDeviceLanguage],[NNDeviceInformation dy_getDeviceIDFA],[NNDeviceInformation dy_getDeviceIDFV],[NNDeviceInformation dy_getDeviceIMEI],[NNDeviceInformation dy_getDeviceMAC],[NNDeviceInformation dy_getDeviceUUID],[NNDeviceInformation dy_getDeviceUDID], nil];
+                      [NNDeviceInformation getDeviceLanguage],
+                      [NNDeviceInformation dy_getDeviceIDFA],
+                      [NNDeviceInformation dy_getDeviceIDFV],
+                      [NNDeviceInformation dy_getDeviceIMEI],
+                      [NNDeviceInformation dy_getDeviceMAC],
+                      [NNDeviceInformation dy_getDeviceUUID],
+                      [NNDeviceInformation dy_getDeviceUDID], nil];
     }
     return _infoArray;
 }
@@ -93,7 +98,6 @@ static NSString *tableViewCellID = @"NNTableViewCellID";
                       @"电池电量",
                       @"当前系统名称",
                       @"当前系统版本号",
-                      @"识别码UUID",
                       @"当前设备IP(WIFI)",
                       @"当前设备IP(蜂窝网络/WIFI)",
                       @"总内存大小",
@@ -102,10 +106,10 @@ static NSString *tableViewCellID = @"NNTableViewCellID";
                       @"电池当前的状态",
                       @"当前语言",
                       @"获取设备IDFA",
-                      @"获取设备IDFV",
+                      @"获取设备IDFV(通常使用此方式获取UUID结合keychain来作设备唯一标识符)",
                       @"获取设备IMEI",
                       @"获取设备MAC",
-                      @"获取设备UUID",
+                      @"获取设备UUID(此方式获取每次都会变)",
                       @"获取设备UDID",nil];
     }
     return _nameArray;
