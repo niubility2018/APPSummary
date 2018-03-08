@@ -271,9 +271,9 @@ kern_return_t   mach_port_deallocate
 }
 
 /// 通用唯一识别码UUID
-+ (NSString *)getUUID {
-    return [[UIDevice currentDevice] identifierForVendor].UUIDString;
-}
+//+ (NSString *)getUUID {
+//    return [[UIDevice currentDevice] identifierForVendor].UUIDString;
+//}
 
 // 获取当前设备IP
 + (NSString *)getDeviceIPAdress {
