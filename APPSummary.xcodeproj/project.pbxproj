@@ -90,6 +90,12 @@
 		1C4D5561204FC8E200ABF4BB /* ClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D555E204FC8E200ABF4BB /* ClockView.m */; };
 		1C4D5564204FC90300ABF4BB /* ClockDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D5563204FC90300ABF4BB /* ClockDrawViewController.m */; };
 		1C4D5567204FC9A700ABF4BB /* Clock.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D5566204FC9A700ABF4BB /* Clock.m */; };
+		1C4D9A8F2050E6D400082259 /* StepModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D9A892050E6D300082259 /* StepModel.m */; };
+		1C4D9A902050E6D400082259 /* MMPSilence.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1C4D9A8B2050E6D300082259 /* MMPSilence.wav */; };
+		1C4D9A912050E6D400082259 /* StepManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D9A8C2050E6D300082259 /* StepManager.m */; };
+		1C4D9A922050E6D400082259 /* MMPDeepSleepPreventer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D9A8E2050E6D300082259 /* MMPDeepSleepPreventer.m */; };
+		1C4D9A952050E71C00082259 /* StepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D9A942050E71C00082259 /* StepViewController.m */; };
+		1C4D9A982051000200082259 /* CommonLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D9A972051000100082259 /* CommonLabelViewController.m */; };
 		1C51D3732040FA1400539BD3 /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D3542040FA1300539BD3 /* MusicViewController.m */; };
 		1C51D3742040FA1400539BD3 /* DateCalendarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D3572040FA1300539BD3 /* DateCalendarController.m */; };
 		1C51D3752040FA1400539BD3 /* QQTmpChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D3582040FA1300539BD3 /* QQTmpChatViewController.m */; };
@@ -386,6 +392,17 @@
 		1C4D5563204FC90300ABF4BB /* ClockDrawViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockDrawViewController.m; sourceTree = "<group>"; };
 		1C4D5565204FC9A600ABF4BB /* Clock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clock.h; sourceTree = "<group>"; };
 		1C4D5566204FC9A700ABF4BB /* Clock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Clock.m; sourceTree = "<group>"; };
+		1C4D9A882050E6D300082259 /* MMPDeepSleepPreventer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMPDeepSleepPreventer.h; sourceTree = "<group>"; };
+		1C4D9A892050E6D300082259 /* StepModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepModel.m; sourceTree = "<group>"; };
+		1C4D9A8A2050E6D300082259 /* StepManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepManager.h; sourceTree = "<group>"; };
+		1C4D9A8B2050E6D300082259 /* MMPSilence.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = MMPSilence.wav; sourceTree = "<group>"; };
+		1C4D9A8C2050E6D300082259 /* StepManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepManager.m; sourceTree = "<group>"; };
+		1C4D9A8D2050E6D300082259 /* StepModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepModel.h; sourceTree = "<group>"; };
+		1C4D9A8E2050E6D300082259 /* MMPDeepSleepPreventer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMPDeepSleepPreventer.m; sourceTree = "<group>"; };
+		1C4D9A932050E71C00082259 /* StepViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StepViewController.h; sourceTree = "<group>"; };
+		1C4D9A942050E71C00082259 /* StepViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StepViewController.m; sourceTree = "<group>"; };
+		1C4D9A962051000100082259 /* CommonLabelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonLabelViewController.h; sourceTree = "<group>"; };
+		1C4D9A972051000100082259 /* CommonLabelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonLabelViewController.m; sourceTree = "<group>"; };
 		1C51D3542040FA1300539BD3 /* MusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicViewController.m; sourceTree = "<group>"; };
 		1C51D3552040FA1300539BD3 /* LaunchImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchImageController.h; sourceTree = "<group>"; };
 		1C51D3562040FA1300539BD3 /* CountDownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDownViewController.h; sourceTree = "<group>"; };
@@ -837,9 +854,26 @@
 			path = "钟表";
 			sourceTree = "<group>";
 		};
+		1C4D9A872050E6D300082259 /* 计步器 */ = {
+			isa = PBXGroup;
+			children = (
+				1C4D9A882050E6D300082259 /* MMPDeepSleepPreventer.h */,
+				1C4D9A892050E6D300082259 /* StepModel.m */,
+				1C4D9A8A2050E6D300082259 /* StepManager.h */,
+				1C4D9A8B2050E6D300082259 /* MMPSilence.wav */,
+				1C4D9A8C2050E6D300082259 /* StepManager.m */,
+				1C4D9A8D2050E6D300082259 /* StepModel.h */,
+				1C4D9A8E2050E6D300082259 /* MMPDeepSleepPreventer.m */,
+				1C4D9A932050E71C00082259 /* StepViewController.h */,
+				1C4D9A942050E71C00082259 /* StepViewController.m */,
+			);
+			path = "计步器";
+			sourceTree = "<group>";
+		};
 		1C51D3532040FA1300539BD3 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				1C4D9A872050E6D300082259 /* 计步器 */,
 				1C4D555B204FC8E200ABF4BB /* 钟表 */,
 				1C4D553B204FC00D00ABF4BB /* 设备信息 */,
 				1C4D5447204F7E5900ABF4BB /* 图表 */,
@@ -871,6 +905,8 @@
 				1C8F35682043E0CE004DDC06 /* PopViewController.m */,
 				1C8A7080204698C9003443F0 /* CommonWebController.h */,
 				1C8A7081204698C9003443F0 /* CommonWebController.m */,
+				1C4D9A962051000100082259 /* CommonLabelViewController.h */,
+				1C4D9A972051000100082259 /* CommonLabelViewController.m */,
 				0C83559E2046C61800A9373C /* PDFBrowserController.h */,
 				0C83559F2046C61800A9373C /* PDFBrowserController.m */,
 				1C4B329E20479E1800A964A7 /* FileLoadViewController.h */,
@@ -1526,6 +1562,7 @@
 				1CA19FD1203FE0E2005068A7 /* launchingImg_2.png in Resources */,
 				1C4D551D204F891900ABF4BB /* IMG_1873.JPG in Resources */,
 				1CA19FCC203FE0E2005068A7 /* launchingImg_8.png in Resources */,
+				1C4D9A902050E6D400082259 /* MMPSilence.wav in Resources */,
 				1C8F35D42043FF79004DDC06 /* Musics.plist in Resources */,
 				1CA19F82203FDBFA005068A7 /* Assets.xcassets in Resources */,
 				1CA19FEE203FE2D6005068A7 /* lookup_vertigo.png in Resources */,
@@ -1694,6 +1731,7 @@
 				1C8F356F2043E1E5004DDC06 /* WRNavigationBar.m in Sources */,
 				1C4D554E204FC00D00ABF4BB /* NNTableViewCell.m in Sources */,
 				1C8A7082204698C9003443F0 /* CommonWebController.m in Sources */,
+				1C4D9A982051000200082259 /* CommonLabelViewController.m in Sources */,
 				1C4D54D4204F887E00ABF4BB /* AAPlotOptions.m in Sources */,
 				1C51D3A02041430700539BD3 /* APPQuestionDetailController.m in Sources */,
 				1C4D5561204FC8E200ABF4BB /* ClockView.m in Sources */,
@@ -1701,6 +1739,8 @@
 				1C4D551F204F891900ABF4BB /* ThreeDimensionalChartVC.m in Sources */,
 				1C4D54D3204F887E00ABF4BB /* AAXAxis.m in Sources */,
 				1C4D54D6204F887E00ABF4BB /* AALine.m in Sources */,
+				1C4D9A8F2050E6D400082259 /* StepModel.m in Sources */,
+				1C4D9A912050E6D400082259 /* StepManager.m in Sources */,
 				1C51D3762040FA1400539BD3 /* GPUImageViewController.m in Sources */,
 				1C4D54D5204F887E00ABF4BB /* AADataLabels.m in Sources */,
 				1CAC5287204EA42C00715A0F /* MLEmojiLabel+BarrageView.m in Sources */,
@@ -1803,7 +1843,9 @@
 				1CAC5289204EA42C00715A0F /* NSSafeObject.m in Sources */,
 				1C4D54D1204F887E00ABF4BB /* AALabels.m in Sources */,
 				1C51D3812040FA1400539BD3 /* FaceIDViewController.m in Sources */,
+				1C4D9A952050E71C00082259 /* StepViewController.m in Sources */,
 				1C8F35EC204402FB004DDC06 /* QQTimeTool.m in Sources */,
+				1C4D9A922050E6D400082259 /* MMPDeepSleepPreventer.m in Sources */,
 				1C8F355C2043E031004DDC06 /* GBAnimationTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -25,6 +25,7 @@
 #import "FirstViewController.h"
 #import "NNViewController.h"
 #import "ClockDrawViewController.h"
+#import "StepViewController.h"
 @interface APPUISummaryController ()
 @property (nonatomic, strong) NSArray *dataUIArray;
 @property (nonatomic, strong) NSArray *dataArray;
@@ -48,7 +49,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.dataUIArray = @[@"启动引导页动画",@"标签云",@"人脸识别",@"image处理",@"倒计时",@"画板",@"wifi认证",@"指纹识别",@"QQ临时会话",@"弹出视图",@"音乐",@"图表库",@"钟表"
+    self.dataUIArray = @[@"启动引导页动画",@"标签云",@"人脸识别",@"image处理",@"倒计时",@"画板",@"wifi认证",@"指纹识别",@"QQ临时会话",@"弹出视图",@"音乐",@"图表库",@"钟表",@"计步器"
                          ];
     self.dataArray = @[@"时间计算",@"文件加载",@"斗地主发牌排序",@"设备信息相关"
                        ];
@@ -226,6 +227,12 @@
             case 12:
             {
                 ClockDrawViewController *clockvc = [[ClockDrawViewController alloc] init];
+                [self.navigationController pushViewController:clockvc animated:YES];
+            }
+                break;
+            case 13:
+            {
+                StepViewController *clockvc = [[StepViewController alloc] init];
                 [self.navigationController pushViewController:clockvc animated:YES];
             }
                 break;
