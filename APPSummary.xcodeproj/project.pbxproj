@@ -99,6 +99,10 @@
 		1C4D9A9E205117B900082259 /* GSKeyChainDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D9A9C205117B800082259 /* GSKeyChainDataManager.m */; };
 		1C4D9A9F205117B900082259 /* GSKeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D9A9D205117B800082259 /* GSKeyChain.m */; };
 		1C4D9AA22051187800082259 /* UUIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D9AA12051187800082259 /* UUIDViewController.m */; };
+		1C4D9AA8205137BE00082259 /* SortClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D9AA5205137BE00082259 /* SortClass.swift */; };
+		1C4D9AA9205137BE00082259 /* Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D9AA6205137BE00082259 /* Sort.swift */; };
+		1C4D9AAA205137BE00082259 /* SortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D9AA7205137BE00082259 /* SortView.swift */; };
+		1C4D9AAC205137F000082259 /* SortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D9AAB205137F000082259 /* SortViewController.swift */; };
 		1C51D3732040FA1400539BD3 /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D3542040FA1300539BD3 /* MusicViewController.m */; };
 		1C51D3742040FA1400539BD3 /* DateCalendarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D3572040FA1300539BD3 /* DateCalendarController.m */; };
 		1C51D3752040FA1400539BD3 /* QQTmpChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D3582040FA1300539BD3 /* QQTmpChatViewController.m */; };
@@ -412,6 +416,10 @@
 		1C4D9A9D205117B800082259 /* GSKeyChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSKeyChain.m; sourceTree = "<group>"; };
 		1C4D9AA02051187800082259 /* UUIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UUIDViewController.h; sourceTree = "<group>"; };
 		1C4D9AA12051187800082259 /* UUIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UUIDViewController.m; sourceTree = "<group>"; };
+		1C4D9AA5205137BE00082259 /* SortClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortClass.swift; sourceTree = "<group>"; };
+		1C4D9AA6205137BE00082259 /* Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sort.swift; sourceTree = "<group>"; };
+		1C4D9AA7205137BE00082259 /* SortView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortView.swift; sourceTree = "<group>"; };
+		1C4D9AAB205137F000082259 /* SortViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortViewController.swift; sourceTree = "<group>"; };
 		1C51D3542040FA1300539BD3 /* MusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicViewController.m; sourceTree = "<group>"; };
 		1C51D3552040FA1300539BD3 /* LaunchImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchImageController.h; sourceTree = "<group>"; };
 		1C51D3562040FA1300539BD3 /* CountDownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDownViewController.h; sourceTree = "<group>"; };
@@ -892,9 +900,29 @@
 			path = "设备标识符";
 			sourceTree = "<group>";
 		};
+		1C4D9AA3205137BE00082259 /* 算法 */ = {
+			isa = PBXGroup;
+			children = (
+				1C4D9AA4205137BE00082259 /* Sort */,
+				1C4D9AA7205137BE00082259 /* SortView.swift */,
+				1C4D9AAB205137F000082259 /* SortViewController.swift */,
+			);
+			path = "算法";
+			sourceTree = "<group>";
+		};
+		1C4D9AA4205137BE00082259 /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				1C4D9AA5205137BE00082259 /* SortClass.swift */,
+				1C4D9AA6205137BE00082259 /* Sort.swift */,
+			);
+			path = Sort;
+			sourceTree = "<group>";
+		};
 		1C51D3532040FA1300539BD3 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				1C4D9AA3205137BE00082259 /* 算法 */,
 				1C4D9A99205117B800082259 /* 设备标识符 */,
 				1C4D9A872050E6D300082259 /* 计步器 */,
 				1C4D555B204FC8E200ABF4BB /* 钟表 */,
@@ -1792,6 +1820,7 @@
 				1C8F35EA204402FB004DDC06 /* NeteaseMusicAPI.m in Sources */,
 				0C8355A72046C68100A9373C /* DrawPDFViewController.m in Sources */,
 				0C8355A62046C68100A9373C /* DrawPDFView.m in Sources */,
+				1C4D9AAA205137BE00082259 /* SortView.swift in Sources */,
 				1C51D3782040FA1400539BD3 /* WIFICheckViewController.m in Sources */,
 				1C51D3742040FA1400539BD3 /* DateCalendarController.m in Sources */,
 				1C8F357A2043F5D4004DDC06 /* ColorUtil.m in Sources */,
@@ -1822,6 +1851,7 @@
 				1CA19FF7203FE78E005068A7 /* GPUImageSoulFilter.m in Sources */,
 				1C4D54D7204F887E00ABF4BB /* AATooltip.m in Sources */,
 				1C4D54DC204F887E00ABF4BB /* AAOptions3d.m in Sources */,
+				1C4D9AA9205137BE00082259 /* Sort.swift in Sources */,
 				1C4D9A9F205117B900082259 /* GSKeyChain.m in Sources */,
 				1C4D5523204F891900ABF4BB /* SecondViewController.m in Sources */,
 				1C8F35652043E031004DDC06 /* GBPopMenuButtonItem.m in Sources */,
@@ -1851,11 +1881,13 @@
 				1C4D54E6204F887E00ABF4BB /* AAItemStyle.m in Sources */,
 				1C4D5512204F891900ABF4BB /* SpecialChartVC.m in Sources */,
 				1C4D54E3204F887E00ABF4BB /* AALegend.m in Sources */,
+				1C4D9AAC205137F000082259 /* SortViewController.swift in Sources */,
 				1C51D3732040FA1400539BD3 /* MusicViewController.m in Sources */,
 				1C51D37F2040FA1400539BD3 /* LaunchImageController.m in Sources */,
 				1C51D3872040FA9E00539BD3 /* SummaryListController.m in Sources */,
 				1CA19FF1203FE756005068A7 /* CIFilter+LUT.m in Sources */,
 				1CAC526F204E9FF300715A0F /* BarrageViewController.m in Sources */,
+				1C4D9AA8205137BE00082259 /* SortClass.swift in Sources */,
 				1C51D37E2040FA1400539BD3 /* CountDownViewController.m in Sources */,
 				1C4D54E1204F887E00ABF4BB /* AAArea.m in Sources */,
 				1C8F35EB204402FB004DDC06 /* QQLrcDataTool.m in Sources */,
