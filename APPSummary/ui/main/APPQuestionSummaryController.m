@@ -9,8 +9,10 @@
 #import "APPQuestionSummaryController.h"
 #import "APPQuestionDetailController.h"
 #import "CommonWebController.h"
+#import "CommonLabelViewController.h"
 @interface APPQuestionSummaryController ()
 @property (nonatomic, strong) NSArray *dataArray;
+@property (nonatomic, strong) NSArray *section2DataArray;
 @end
 
 @implementation APPQuestionSummaryController
@@ -20,6 +22,7 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
     self.dataArray = @[@"iOS开发中的八种锁(Lock)",@"如何设定线程池中线程的数目",@"如何用HTTP实现长连接",@"线程安全以及nonatomic和atomic",@"KVC实现原理",@"KVO实现原理"];
+    self.section2DataArray = @[@"kvo与代理区别",@"isKindOfClass与isMumberOfClass的区别",@"NSArray与NSMutableArray 的区别"];
     [self initTableView];
 }
 //初始化tableview
@@ -41,7 +44,7 @@
     if (section == 0) {
         return self.dataArray.count;
     }else{
-        return 1;
+        return self.section2DataArray.count;
     }
 }
 
@@ -54,7 +57,8 @@
         return cell;
     }else{
         UITableViewCell *cell = [UITableViewCell new];
-       
+        cell.textLabel.text = self.section2DataArray[indexPath.row];
+        cell.textLabel.font = [UIFont systemFontOfSize:font_15_size];
         return cell;
     }
     
@@ -119,8 +123,23 @@
         appquestionvc.urlStr = urlStr;
         [self.navigationController pushViewController:appquestionvc animated:YES];
     }else{
-       
-        
+        NSString *str;
+        switch (indexPath.row) {
+            case 0:
+                str = @"代理是一种回调机制，是一对一的关系，二通知是一对多的关系，一个中心对象向多个观察者提供变更通知，KVO是被观察者向观察者直接发送通知，这是代理、通知、KVO的直观区别。";
+                break;
+            case 1:
+                str = @"共同点：\nisKindOfClass与isMemberOfClass都是NSObject中比较Class的方法。\n不同点：\n1.isKindOfClass用来判断某个对象是否属于某个类，或者是属于某个派生类。\n2.isMemberOfClass 用来判断某个对象是否为当前类的实例。";
+                break;
+            case 2:
+                str = @"NSArray 创建的是静态数组，一旦创建之后，就再也不能添加和删除数组中的对象了。\nNSMutableArray 是 NSArray 补充类。NSMutalbeArray 创建的是动态数组，可随意添加或删除数组中的元素。";
+                break;
+                
+            default:
+                break;
+        }
+        CommonLabelViewController *commonLabelvc = [[CommonLabelViewController alloc] initWithString:str];
+        [self.navigationController pushViewController:commonLabelvc animated:YES];
     }
    
 }
