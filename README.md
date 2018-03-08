@@ -9,6 +9,10 @@
 * 如何用HTTP实现长连接
 * 线程安全以及nonatomic和atomic
 * KVC实现原理
+* KVO实现原理
+* kvo与代理区别
+* isKindOfClass与isMumberOfClass的区别
+* NSArray与NSMutableArray 的区别
 
 #### UI
 1、UI
@@ -30,9 +34,12 @@
 * 弹出视图
 * 音乐
 * 图表库
+* 钟表
+* 计步器
 
 2、DATA
 
 * 时间计算
 * 文件加载
 * 斗地主发牌排序
+* 设备信息相关
