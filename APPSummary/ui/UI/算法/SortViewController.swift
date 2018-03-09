@@ -50,21 +50,29 @@ class SortViewController: UIViewController, UITextFieldDelegate {
     
     func initUI() {
         modeMaskView = UIView.init(frame: CGRect.init(x: 0, y: 64, width: UIScreen.main.bounds.width, height: 114))
+        modeMaskView.backgroundColor = UIColor.brown
         self.view.addSubview(modeMaskView)
         
         
-        numberCountTextField = UITextField.init(frame: CGRect.init(x: 0, y: 0, width: 100, height: 40))
+        numberCountTextField = UITextField.init(frame: CGRect.init(x: 0, y: 0, width: 300, height: 40))
+        numberCountTextField.backgroundColor = UIColor.white
         modeMaskView.addSubview(numberCountTextField)
         
+        let leftView = UIView.init(frame: CGRect.init(x: 0, y: 0, width: 100, height: 40))
+        let label = UILabel.init(frame: CGRect.init(x: 0, y: 0, width: 100, height: 40))
+        label.text = "元素个数"
+        label.font = UIFont.systemFont(ofSize: 14)
+        label.textAlignment = .center
+        leftView.addSubview(label)
+        numberCountTextField.leftView = leftView
+        numberCountTextField.leftViewMode = UITextFieldViewMode.always
+        
+    
         sortButton = UIButton.init(frame: CGRect.init(x: UIScreen.main.bounds.width-60-10, y: 0, width: 60, height: 40))
         sortButton.setTitle("排序", for: UIControlState.normal)
         sortButton.backgroundColor = UIColor.brown
         sortButton.addTarget(self, action: #selector(tapSortButton), for: UIControlEvents.touchUpInside)
         modeMaskView.addSubview(sortButton)
-        
-        
-        
-        segment = UISegmentedControl.init(frame: CGRect.init(x: 0, y: 40+64, width: UIScreen.main.bounds.width, height: 40))
         
         //分段选项显示
         let items = ["冒泡","选择","插入","希尔","堆排","归并","快排","基数"]
@@ -72,11 +80,16 @@ class SortViewController: UIViewController, UITextFieldDelegate {
         //初始化对象
         segment = UISegmentedControl(items:items)
         
+        segment.frame = CGRect.init(x: 0, y: 40+20, width: UIScreen.main.bounds.width, height: 40)
+//        segment.backgroundColor = UIColor.cyan
+        
+        segment.tintColor = UIColor.black
+        
         //设置位置
-        //        segment.center = self.view.center
+//        segment.center = modeMaskView.center
         
         //当前选中下标
-        segment.selectedSegmentIndex = 1
+        segment.selectedSegmentIndex = 0
         
         //添加事件
         segment.addTarget(self, action: #selector(tapSegmentContol), for: UIControlEvents.valueChanged)
@@ -84,7 +97,7 @@ class SortViewController: UIViewController, UITextFieldDelegate {
         //添加
         modeMaskView.addSubview(segment)
 
-        displayView = UIView.init(frame: CGRect.init(x: 0, y: 114+64, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height-114))
+        displayView = UIView.init(frame: CGRect.init(x: 0, y: 114+64, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height-114-64))
         self.view.addSubview(displayView)
         
     }
@@ -141,7 +154,7 @@ class SortViewController: UIViewController, UITextFieldDelegate {
             }
         }) { (list) in
             DispatchQueue.main.async {
-                weak_self?.modeMaskView.isHidden = true
+//                weak_self?.modeMaskView.isHidden = true
             }
         }
     }
@@ -163,7 +176,7 @@ class SortViewController: UIViewController, UITextFieldDelegate {
             let sortView = SortView(frame: CGRect(origin: origin, size: size))
             self.displayView.addSubview(sortView)
             self.sortViews.append(sortView)
-            CGRect(origin: CGPoint.zero, size: CGSize())
+//            CGRect.init(origin: CGPoint.zero, size: CGSize())
         }
     }
     
