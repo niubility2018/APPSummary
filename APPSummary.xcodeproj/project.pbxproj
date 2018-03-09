@@ -7,14 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C8355A02046C61800A9373C /* PDFBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C83559F2046C61800A9373C /* PDFBrowserController.m */; };
 		0C8355A62046C68100A9373C /* DrawPDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8355A42046C68100A9373C /* DrawPDFView.m */; };
 		0C8355A72046C68100A9373C /* DrawPDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8355A52046C68100A9373C /* DrawPDFViewController.m */; };
 		0C8355AA2046C6CF00A9373C /* PDF2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0C8355A82046C6CF00A9373C /* PDF2.pdf */; };
 		0C8355AB2046C6CF00A9373C /* PDF1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0C8355A92046C6CF00A9373C /* PDF1.pdf */; };
 		1C4930672044F15500F674F2 /* MusicListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4930662044F15500F674F2 /* MusicListCell.m */; };
-		1C4B32A020479E1800A964A7 /* FileLoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4B329F20479E1800A964A7 /* FileLoadViewController.m */; };
-		1C4B32A32047C49800A964A7 /* DouDiZhuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4B32A22047C49800A964A7 /* DouDiZhuViewController.m */; };
 		1C4B32A92047E53400A964A7 /* AdvertiseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4B32A52047E53400A964A7 /* AdvertiseView.m */; };
 		1C4B32AA2047E53400A964A7 /* AdvertiseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4B32A62047E53400A964A7 /* AdvertiseHelper.m */; };
 		1C4D54CB204F887E00ABF4BB /* AAHighchartsLib.js in Resources */ = {isa = PBXBuildFile; fileRef = 1C4D5486204F887E00ABF4BB /* AAHighchartsLib.js */; };
@@ -95,7 +92,6 @@
 		1C4D9A912050E6D400082259 /* StepManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D9A8C2050E6D300082259 /* StepManager.m */; };
 		1C4D9A922050E6D400082259 /* MMPDeepSleepPreventer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D9A8E2050E6D300082259 /* MMPDeepSleepPreventer.m */; };
 		1C4D9A952050E71C00082259 /* StepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D9A942050E71C00082259 /* StepViewController.m */; };
-		1C4D9A982051000200082259 /* CommonLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D9A972051000100082259 /* CommonLabelViewController.m */; };
 		1C4D9A9E205117B900082259 /* GSKeyChainDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D9A9C205117B800082259 /* GSKeyChainDataManager.m */; };
 		1C4D9A9F205117B900082259 /* GSKeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D9A9D205117B800082259 /* GSKeyChain.m */; };
 		1C4D9AA22051187800082259 /* UUIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D9AA12051187800082259 /* UUIDViewController.m */; };
@@ -103,21 +99,10 @@
 		1C4D9AA9205137BE00082259 /* Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D9AA6205137BE00082259 /* Sort.swift */; };
 		1C4D9AAA205137BE00082259 /* SortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D9AA7205137BE00082259 /* SortView.swift */; };
 		1C4D9AAC205137F000082259 /* SortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D9AAB205137F000082259 /* SortViewController.swift */; };
-		1C51D3732040FA1400539BD3 /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D3542040FA1300539BD3 /* MusicViewController.m */; };
-		1C51D3742040FA1400539BD3 /* DateCalendarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D3572040FA1300539BD3 /* DateCalendarController.m */; };
-		1C51D3752040FA1400539BD3 /* QQTmpChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D3582040FA1300539BD3 /* QQTmpChatViewController.m */; };
-		1C51D3762040FA1400539BD3 /* GPUImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D35A2040FA1300539BD3 /* GPUImageViewController.m */; };
-		1C51D3772040FA1400539BD3 /* TouchIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D35B2040FA1300539BD3 /* TouchIDViewController.m */; };
-		1C51D3782040FA1400539BD3 /* WIFICheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D35C2040FA1300539BD3 /* WIFICheckViewController.m */; };
-		1C51D3792040FA1400539BD3 /* DrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D35D2040FA1300539BD3 /* DrawViewController.m */; };
 		1C51D37A2040FA1400539BD3 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D3612040FA1300539BD3 /* DrawView.m */; };
 		1C51D37B2040FA1400539BD3 /* CHWButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D3632040FA1300539BD3 /* CHWButton.swift */; };
 		1C51D37C2040FA1400539BD3 /* CountDownLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D3642040FA1300539BD3 /* CountDownLabel.swift */; };
 		1C51D37D2040FA1400539BD3 /* ILGLKImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D3662040FA1300539BD3 /* ILGLKImageView.m */; };
-		1C51D37E2040FA1400539BD3 /* CountDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D3682040FA1300539BD3 /* CountDownViewController.m */; };
-		1C51D37F2040FA1400539BD3 /* LaunchImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D3692040FA1300539BD3 /* LaunchImageController.m */; };
-		1C51D3802040FA1400539BD3 /* AIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D36B2040FA1300539BD3 /* AIViewController.m */; };
-		1C51D3812040FA1400539BD3 /* FaceIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D3702040FA1300539BD3 /* FaceIDViewController.m */; };
 		1C51D3872040FA9E00539BD3 /* SummaryListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D3862040FA9E00539BD3 /* SummaryListController.m */; };
 		1C51D38B2040FEDD00539BD3 /* APPSummaryTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D38A2040FEDD00539BD3 /* APPSummaryTabbarController.m */; };
 		1C51D38E2040FF2800539BD3 /* APPUISummaryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D38D2040FF2800539BD3 /* APPUISummaryController.m */; };
@@ -125,8 +110,24 @@
 		1C51D3942041012B00539BD3 /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D3922041012B00539BD3 /* UIColor+Random.m */; };
 		1C51D398204102EF00539BD3 /* APPSummaryNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D397204102EF00539BD3 /* APPSummaryNavigationController.m */; };
 		1C51D3A02041430700539BD3 /* APPQuestionDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D39F2041430700539BD3 /* APPQuestionDetailController.m */; };
+		1C753423205274AC0057B318 /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C753401205274AC0057B318 /* MusicViewController.m */; };
+		1C753424205274AC0057B318 /* DouDiZhuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C753405205274AC0057B318 /* DouDiZhuViewController.m */; };
+		1C753425205274AC0057B318 /* DateCalendarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C753406205274AC0057B318 /* DateCalendarController.m */; };
+		1C753426205274AC0057B318 /* PopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C753407205274AC0057B318 /* PopViewController.m */; };
+		1C753427205274AC0057B318 /* QQTmpChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C753408205274AC0057B318 /* QQTmpChatViewController.m */; };
+		1C753428205274AC0057B318 /* GPUImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C75340A205274AC0057B318 /* GPUImageViewController.m */; };
+		1C753429205274AC0057B318 /* PDFBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C75340B205274AC0057B318 /* PDFBrowserController.m */; };
+		1C75342A205274AC0057B318 /* TouchIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C75340C205274AC0057B318 /* TouchIDViewController.m */; };
+		1C75342B205274AC0057B318 /* WIFICheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C75340D205274AC0057B318 /* WIFICheckViewController.m */; };
+		1C75342C205274AC0057B318 /* DrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C75340E205274AC0057B318 /* DrawViewController.m */; };
+		1C75342D205274AC0057B318 /* FileLoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C75340F205274AC0057B318 /* FileLoadViewController.m */; };
+		1C75342E205274AC0057B318 /* CommonLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C753411205274AC0057B318 /* CommonLabelViewController.m */; };
+		1C75342F205274AC0057B318 /* CountDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C753414205274AC0057B318 /* CountDownViewController.m */; };
+		1C753430205274AC0057B318 /* CommonWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C753415205274AC0057B318 /* CommonWebController.m */; };
+		1C753431205274AC0057B318 /* LaunchImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C753416205274AC0057B318 /* LaunchImageController.m */; };
+		1C753432205274AC0057B318 /* AIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C75341A205274AC0057B318 /* AIViewController.m */; };
+		1C753433205274AC0057B318 /* FaceIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C753421205274AC0057B318 /* FaceIDViewController.m */; };
 		1C8A707F2046980D003443F0 /* design-model.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1C8A707E2046980C003443F0 /* design-model.pdf */; };
-		1C8A7082204698C9003443F0 /* CommonWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8A7081204698C9003443F0 /* CommonWebController.m */; };
 		1C8A70842046AAA9003443F0 /* consumer_finance_introduce.html in Resources */ = {isa = PBXBuildFile; fileRef = 1C8A70832046AAA9003443F0 /* consumer_finance_introduce.html */; };
 		1C8A70862046BAB8003443F0 /* consumer_finance_introduce.docx in Resources */ = {isa = PBXBuildFile; fileRef = 1C8A70852046BAB7003443F0 /* consumer_finance_introduce.docx */; };
 		1C8F355C2043E031004DDC06 /* GBAnimationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8F35492043E031004DDC06 /* GBAnimationTool.m */; };
@@ -140,7 +141,6 @@
 		1C8F35642043E031004DDC06 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C8F35562043E031004DDC06 /* Contents.json */; };
 		1C8F35652043E031004DDC06 /* GBPopMenuButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8F35572043E031004DDC06 /* GBPopMenuButtonItem.m */; };
 		1C8F35662043E031004DDC06 /* GBPopMenuButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8F35582043E031004DDC06 /* GBPopMenuButtonView.m */; };
-		1C8F35692043E0CE004DDC06 /* PopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8F35682043E0CE004DDC06 /* PopViewController.m */; };
 		1C8F356F2043E1E5004DDC06 /* WRNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8F356B2043E1E4004DDC06 /* WRNavigationBar.m */; };
 		1C8F35702043E1E5004DDC06 /* WRCustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8F356E2043E1E4004DDC06 /* WRCustomNavigationBar.m */; };
 		1C8F357A2043F5D4004DDC06 /* ColorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8F35792043F5D4004DDC06 /* ColorUtil.m */; };
@@ -254,8 +254,6 @@
 
 /* Begin PBXFileReference section */
 		0B49D360D2CF98E3FFFAE9E2 /* libPods-APPSummary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-APPSummary.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C83559E2046C61800A9373C /* PDFBrowserController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDFBrowserController.h; sourceTree = "<group>"; };
-		0C83559F2046C61800A9373C /* PDFBrowserController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFBrowserController.m; sourceTree = "<group>"; };
 		0C8355A22046C68100A9373C /* DrawPDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawPDFView.h; sourceTree = "<group>"; };
 		0C8355A32046C68100A9373C /* DrawPDFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawPDFViewController.h; sourceTree = "<group>"; };
 		0C8355A42046C68100A9373C /* DrawPDFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawPDFView.m; sourceTree = "<group>"; };
@@ -264,10 +262,6 @@
 		0C8355A92046C6CF00A9373C /* PDF1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = PDF1.pdf; sourceTree = "<group>"; };
 		1C4930652044F15500F674F2 /* MusicListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicListCell.h; sourceTree = "<group>"; };
 		1C4930662044F15500F674F2 /* MusicListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicListCell.m; sourceTree = "<group>"; };
-		1C4B329E20479E1800A964A7 /* FileLoadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileLoadViewController.h; sourceTree = "<group>"; };
-		1C4B329F20479E1800A964A7 /* FileLoadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileLoadViewController.m; sourceTree = "<group>"; };
-		1C4B32A12047C49800A964A7 /* DouDiZhuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DouDiZhuViewController.h; sourceTree = "<group>"; };
-		1C4B32A22047C49800A964A7 /* DouDiZhuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DouDiZhuViewController.m; sourceTree = "<group>"; };
 		1C4B32A52047E53400A964A7 /* AdvertiseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvertiseView.m; sourceTree = "<group>"; };
 		1C4B32A62047E53400A964A7 /* AdvertiseHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvertiseHelper.m; sourceTree = "<group>"; };
 		1C4B32A72047E53400A964A7 /* AdvertiseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvertiseHelper.h; sourceTree = "<group>"; };
@@ -408,8 +402,6 @@
 		1C4D9A8E2050E6D300082259 /* MMPDeepSleepPreventer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMPDeepSleepPreventer.m; sourceTree = "<group>"; };
 		1C4D9A932050E71C00082259 /* StepViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StepViewController.h; sourceTree = "<group>"; };
 		1C4D9A942050E71C00082259 /* StepViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StepViewController.m; sourceTree = "<group>"; };
-		1C4D9A962051000100082259 /* CommonLabelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonLabelViewController.h; sourceTree = "<group>"; };
-		1C4D9A972051000100082259 /* CommonLabelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonLabelViewController.m; sourceTree = "<group>"; };
 		1C4D9A9A205117B800082259 /* GSKeyChainDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSKeyChainDataManager.h; sourceTree = "<group>"; };
 		1C4D9A9B205117B800082259 /* GSKeyChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSKeyChain.h; sourceTree = "<group>"; };
 		1C4D9A9C205117B800082259 /* GSKeyChainDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSKeyChainDataManager.m; sourceTree = "<group>"; };
@@ -420,18 +412,6 @@
 		1C4D9AA6205137BE00082259 /* Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sort.swift; sourceTree = "<group>"; };
 		1C4D9AA7205137BE00082259 /* SortView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortView.swift; sourceTree = "<group>"; };
 		1C4D9AAB205137F000082259 /* SortViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortViewController.swift; sourceTree = "<group>"; };
-		1C51D3542040FA1300539BD3 /* MusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicViewController.m; sourceTree = "<group>"; };
-		1C51D3552040FA1300539BD3 /* LaunchImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchImageController.h; sourceTree = "<group>"; };
-		1C51D3562040FA1300539BD3 /* CountDownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDownViewController.h; sourceTree = "<group>"; };
-		1C51D3572040FA1300539BD3 /* DateCalendarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateCalendarController.m; sourceTree = "<group>"; };
-		1C51D3582040FA1300539BD3 /* QQTmpChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQTmpChatViewController.m; sourceTree = "<group>"; };
-		1C51D3592040FA1300539BD3 /* FaceIDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceIDViewController.h; sourceTree = "<group>"; };
-		1C51D35A2040FA1300539BD3 /* GPUImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageViewController.m; sourceTree = "<group>"; };
-		1C51D35B2040FA1300539BD3 /* TouchIDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchIDViewController.m; sourceTree = "<group>"; };
-		1C51D35C2040FA1300539BD3 /* WIFICheckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIFICheckViewController.m; sourceTree = "<group>"; };
-		1C51D35D2040FA1300539BD3 /* DrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawViewController.m; sourceTree = "<group>"; };
-		1C51D35E2040FA1300539BD3 /* AIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIViewController.h; sourceTree = "<group>"; };
-		1C51D35F2040FA1300539BD3 /* MusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicViewController.h; sourceTree = "<group>"; };
 		1C51D3612040FA1300539BD3 /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
 		1C51D3622040FA1300539BD3 /* ILGLKImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILGLKImageView.h; sourceTree = "<group>"; };
 		1C51D3632040FA1300539BD3 /* CHWButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHWButton.swift; sourceTree = "<group>"; };
@@ -439,16 +419,6 @@
 		1C51D3652040FA1300539BD3 /* APPSummary-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "APPSummary-Bridging-Header.h"; sourceTree = "<group>"; };
 		1C51D3662040FA1300539BD3 /* ILGLKImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILGLKImageView.m; sourceTree = "<group>"; };
 		1C51D3672040FA1300539BD3 /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
-		1C51D3682040FA1300539BD3 /* CountDownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountDownViewController.m; sourceTree = "<group>"; };
-		1C51D3692040FA1300539BD3 /* LaunchImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchImageController.m; sourceTree = "<group>"; };
-		1C51D36A2040FA1300539BD3 /* DateCalendarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateCalendarController.h; sourceTree = "<group>"; };
-		1C51D36B2040FA1300539BD3 /* AIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIViewController.m; sourceTree = "<group>"; };
-		1C51D36C2040FA1300539BD3 /* DrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawViewController.h; sourceTree = "<group>"; };
-		1C51D36D2040FA1300539BD3 /* TouchIDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchIDViewController.h; sourceTree = "<group>"; };
-		1C51D36E2040FA1300539BD3 /* WIFICheckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIFICheckViewController.h; sourceTree = "<group>"; };
-		1C51D36F2040FA1300539BD3 /* GPUImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageViewController.h; sourceTree = "<group>"; };
-		1C51D3702040FA1300539BD3 /* FaceIDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceIDViewController.m; sourceTree = "<group>"; };
-		1C51D3712040FA1300539BD3 /* QQTmpChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQTmpChatViewController.h; sourceTree = "<group>"; };
 		1C51D3852040FA9E00539BD3 /* SummaryListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SummaryListController.h; sourceTree = "<group>"; };
 		1C51D3862040FA9E00539BD3 /* SummaryListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SummaryListController.m; sourceTree = "<group>"; };
 		1C51D3892040FEDD00539BD3 /* APPSummaryTabbarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APPSummaryTabbarController.h; sourceTree = "<group>"; };
@@ -463,9 +433,41 @@
 		1C51D397204102EF00539BD3 /* APPSummaryNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APPSummaryNavigationController.m; sourceTree = "<group>"; };
 		1C51D39E2041430700539BD3 /* APPQuestionDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APPQuestionDetailController.h; sourceTree = "<group>"; };
 		1C51D39F2041430700539BD3 /* APPQuestionDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APPQuestionDetailController.m; sourceTree = "<group>"; };
+		1C753401205274AC0057B318 /* MusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicViewController.m; sourceTree = "<group>"; };
+		1C753402205274AC0057B318 /* LaunchImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchImageController.h; sourceTree = "<group>"; };
+		1C753403205274AC0057B318 /* CommonWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonWebController.h; sourceTree = "<group>"; };
+		1C753404205274AC0057B318 /* CountDownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDownViewController.h; sourceTree = "<group>"; };
+		1C753405205274AC0057B318 /* DouDiZhuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DouDiZhuViewController.m; sourceTree = "<group>"; };
+		1C753406205274AC0057B318 /* DateCalendarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateCalendarController.m; sourceTree = "<group>"; };
+		1C753407205274AC0057B318 /* PopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopViewController.m; sourceTree = "<group>"; };
+		1C753408205274AC0057B318 /* QQTmpChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQTmpChatViewController.m; sourceTree = "<group>"; };
+		1C753409205274AC0057B318 /* FaceIDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceIDViewController.h; sourceTree = "<group>"; };
+		1C75340A205274AC0057B318 /* GPUImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageViewController.m; sourceTree = "<group>"; };
+		1C75340B205274AC0057B318 /* PDFBrowserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFBrowserController.m; sourceTree = "<group>"; };
+		1C75340C205274AC0057B318 /* TouchIDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchIDViewController.m; sourceTree = "<group>"; };
+		1C75340D205274AC0057B318 /* WIFICheckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIFICheckViewController.m; sourceTree = "<group>"; };
+		1C75340E205274AC0057B318 /* DrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawViewController.m; sourceTree = "<group>"; };
+		1C75340F205274AC0057B318 /* FileLoadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileLoadViewController.m; sourceTree = "<group>"; };
+		1C753410205274AC0057B318 /* AIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIViewController.h; sourceTree = "<group>"; };
+		1C753411205274AC0057B318 /* CommonLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonLabelViewController.m; sourceTree = "<group>"; };
+		1C753412205274AC0057B318 /* MusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicViewController.h; sourceTree = "<group>"; };
+		1C753413205274AC0057B318 /* DouDiZhuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DouDiZhuViewController.h; sourceTree = "<group>"; };
+		1C753414205274AC0057B318 /* CountDownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountDownViewController.m; sourceTree = "<group>"; };
+		1C753415205274AC0057B318 /* CommonWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonWebController.m; sourceTree = "<group>"; };
+		1C753416205274AC0057B318 /* LaunchImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchImageController.m; sourceTree = "<group>"; };
+		1C753417205274AC0057B318 /* PopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopViewController.h; sourceTree = "<group>"; };
+		1C753418205274AC0057B318 /* DateCalendarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateCalendarController.h; sourceTree = "<group>"; };
+		1C753419205274AC0057B318 /* CommonLabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonLabelViewController.h; sourceTree = "<group>"; };
+		1C75341A205274AC0057B318 /* AIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIViewController.m; sourceTree = "<group>"; };
+		1C75341B205274AC0057B318 /* DrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawViewController.h; sourceTree = "<group>"; };
+		1C75341C205274AC0057B318 /* FileLoadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileLoadViewController.h; sourceTree = "<group>"; };
+		1C75341D205274AC0057B318 /* TouchIDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchIDViewController.h; sourceTree = "<group>"; };
+		1C75341E205274AC0057B318 /* WIFICheckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIFICheckViewController.h; sourceTree = "<group>"; };
+		1C75341F205274AC0057B318 /* GPUImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageViewController.h; sourceTree = "<group>"; };
+		1C753420205274AC0057B318 /* PDFBrowserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFBrowserController.h; sourceTree = "<group>"; };
+		1C753421205274AC0057B318 /* FaceIDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceIDViewController.m; sourceTree = "<group>"; };
+		1C753422205274AC0057B318 /* QQTmpChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQTmpChatViewController.h; sourceTree = "<group>"; };
 		1C8A707E2046980C003443F0 /* design-model.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "design-model.pdf"; sourceTree = "<group>"; };
-		1C8A7080204698C9003443F0 /* CommonWebController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonWebController.h; sourceTree = "<group>"; };
-		1C8A7081204698C9003443F0 /* CommonWebController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonWebController.m; sourceTree = "<group>"; };
 		1C8A70832046AAA9003443F0 /* consumer_finance_introduce.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = consumer_finance_introduce.html; sourceTree = "<group>"; };
 		1C8A70852046BAB7003443F0 /* consumer_finance_introduce.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = consumer_finance_introduce.docx; sourceTree = "<group>"; };
 		1C8F35492043E031004DDC06 /* GBAnimationTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBAnimationTool.m; sourceTree = "<group>"; };
@@ -482,8 +484,6 @@
 		1C8F35592043E031004DDC06 /* GBAnimationTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBAnimationTool.h; sourceTree = "<group>"; };
 		1C8F355A2043E031004DDC06 /* GBPopMenuButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBPopMenuButtonItem.h; sourceTree = "<group>"; };
 		1C8F355B2043E031004DDC06 /* GBPopMenuButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBPopMenuButtonView.h; sourceTree = "<group>"; };
-		1C8F35672043E0CE004DDC06 /* PopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopViewController.h; sourceTree = "<group>"; };
-		1C8F35682043E0CE004DDC06 /* PopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopViewController.m; sourceTree = "<group>"; };
 		1C8F356B2043E1E4004DDC06 /* WRNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRNavigationBar.m; sourceTree = "<group>"; };
 		1C8F356C2043E1E4004DDC06 /* WRCustomNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRCustomNavigationBar.h; sourceTree = "<group>"; };
 		1C8F356D2043E1E4004DDC06 /* WRNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRNavigationBar.h; sourceTree = "<group>"; };
@@ -922,6 +922,7 @@
 		1C51D3532040FA1300539BD3 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				1C753400205274AC0057B318 /* controller */,
 				1C4D9AA3205137BE00082259 /* 算法 */,
 				1C4D9A99205117B800082259 /* 设备标识符 */,
 				1C4D9A872050E6D300082259 /* 计步器 */,
@@ -930,40 +931,6 @@
 				1C4D5447204F7E5900ABF4BB /* 图表 */,
 				1CAC5269204E926900715A0F /* 标签云 */,
 				1C8F357E2043FF4F004DDC06 /* 音乐 */,
-				1C51D3552040FA1300539BD3 /* LaunchImageController.h */,
-				1C51D3692040FA1300539BD3 /* LaunchImageController.m */,
-				1C51D36A2040FA1300539BD3 /* DateCalendarController.h */,
-				1C51D3572040FA1300539BD3 /* DateCalendarController.m */,
-				1C51D36F2040FA1300539BD3 /* GPUImageViewController.h */,
-				1C51D35A2040FA1300539BD3 /* GPUImageViewController.m */,
-				1C51D36D2040FA1300539BD3 /* TouchIDViewController.h */,
-				1C51D35B2040FA1300539BD3 /* TouchIDViewController.m */,
-				1C51D36E2040FA1300539BD3 /* WIFICheckViewController.h */,
-				1C51D35C2040FA1300539BD3 /* WIFICheckViewController.m */,
-				1C51D35F2040FA1300539BD3 /* MusicViewController.h */,
-				1C51D3542040FA1300539BD3 /* MusicViewController.m */,
-				1C51D3562040FA1300539BD3 /* CountDownViewController.h */,
-				1C51D3682040FA1300539BD3 /* CountDownViewController.m */,
-				1C51D35E2040FA1300539BD3 /* AIViewController.h */,
-				1C51D36B2040FA1300539BD3 /* AIViewController.m */,
-				1C51D36C2040FA1300539BD3 /* DrawViewController.h */,
-				1C51D35D2040FA1300539BD3 /* DrawViewController.m */,
-				1C51D3592040FA1300539BD3 /* FaceIDViewController.h */,
-				1C51D3702040FA1300539BD3 /* FaceIDViewController.m */,
-				1C51D3712040FA1300539BD3 /* QQTmpChatViewController.h */,
-				1C51D3582040FA1300539BD3 /* QQTmpChatViewController.m */,
-				1C8F35672043E0CE004DDC06 /* PopViewController.h */,
-				1C8F35682043E0CE004DDC06 /* PopViewController.m */,
-				1C8A7080204698C9003443F0 /* CommonWebController.h */,
-				1C8A7081204698C9003443F0 /* CommonWebController.m */,
-				1C4D9A962051000100082259 /* CommonLabelViewController.h */,
-				1C4D9A972051000100082259 /* CommonLabelViewController.m */,
-				0C83559E2046C61800A9373C /* PDFBrowserController.h */,
-				0C83559F2046C61800A9373C /* PDFBrowserController.m */,
-				1C4B329E20479E1800A964A7 /* FileLoadViewController.h */,
-				1C4B329F20479E1800A964A7 /* FileLoadViewController.m */,
-				1C4B32A12047C49800A964A7 /* DouDiZhuViewController.h */,
-				1C4B32A22047C49800A964A7 /* DouDiZhuViewController.m */,
 				0C8355A12046C66A00A9373C /* PDFTool */,
 				1C51D3602040FA1300539BD3 /* view */,
 			);
@@ -1015,6 +982,47 @@
 				1C51D397204102EF00539BD3 /* APPSummaryNavigationController.m */,
 			);
 			path = base;
+			sourceTree = "<group>";
+		};
+		1C753400205274AC0057B318 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				1C753401205274AC0057B318 /* MusicViewController.m */,
+				1C753402205274AC0057B318 /* LaunchImageController.h */,
+				1C753403205274AC0057B318 /* CommonWebController.h */,
+				1C753404205274AC0057B318 /* CountDownViewController.h */,
+				1C753405205274AC0057B318 /* DouDiZhuViewController.m */,
+				1C753406205274AC0057B318 /* DateCalendarController.m */,
+				1C753407205274AC0057B318 /* PopViewController.m */,
+				1C753408205274AC0057B318 /* QQTmpChatViewController.m */,
+				1C753409205274AC0057B318 /* FaceIDViewController.h */,
+				1C75340A205274AC0057B318 /* GPUImageViewController.m */,
+				1C75340B205274AC0057B318 /* PDFBrowserController.m */,
+				1C75340C205274AC0057B318 /* TouchIDViewController.m */,
+				1C75340D205274AC0057B318 /* WIFICheckViewController.m */,
+				1C75340E205274AC0057B318 /* DrawViewController.m */,
+				1C75340F205274AC0057B318 /* FileLoadViewController.m */,
+				1C753410205274AC0057B318 /* AIViewController.h */,
+				1C753411205274AC0057B318 /* CommonLabelViewController.m */,
+				1C753412205274AC0057B318 /* MusicViewController.h */,
+				1C753413205274AC0057B318 /* DouDiZhuViewController.h */,
+				1C753414205274AC0057B318 /* CountDownViewController.m */,
+				1C753415205274AC0057B318 /* CommonWebController.m */,
+				1C753416205274AC0057B318 /* LaunchImageController.m */,
+				1C753417205274AC0057B318 /* PopViewController.h */,
+				1C753418205274AC0057B318 /* DateCalendarController.h */,
+				1C753419205274AC0057B318 /* CommonLabelViewController.h */,
+				1C75341A205274AC0057B318 /* AIViewController.m */,
+				1C75341B205274AC0057B318 /* DrawViewController.h */,
+				1C75341C205274AC0057B318 /* FileLoadViewController.h */,
+				1C75341D205274AC0057B318 /* TouchIDViewController.h */,
+				1C75341E205274AC0057B318 /* WIFICheckViewController.h */,
+				1C75341F205274AC0057B318 /* GPUImageViewController.h */,
+				1C753420205274AC0057B318 /* PDFBrowserController.h */,
+				1C753421205274AC0057B318 /* FaceIDViewController.m */,
+				1C753422205274AC0057B318 /* QQTmpChatViewController.h */,
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 		1C8F35482043E031004DDC06 /* GBPopMenuButtonView */ = {
@@ -1775,16 +1783,15 @@
 				1CAC526C204E928600715A0F /* DLabelViewController.m in Sources */,
 				1C4D54E9204F887E00ABF4BB /* AAChartView.m in Sources */,
 				1C4D54EA204F887E00ABF4BB /* AAChartModel.m in Sources */,
-				1C51D3802040FA1400539BD3 /* AIViewController.m in Sources */,
 				1C4D5518204F891900ABF4BB /* ChartAnimationTypeVC.m in Sources */,
 				1C4D5552204FC00D00ABF4BB /* NNDeviceInformation.m in Sources */,
 				1CA19F95203FE01E005068A7 /* UIView+ZJExtension.m in Sources */,
 				1C8F356F2043E1E5004DDC06 /* WRNavigationBar.m in Sources */,
 				1C4D554E204FC00D00ABF4BB /* NNTableViewCell.m in Sources */,
-				1C8A7082204698C9003443F0 /* CommonWebController.m in Sources */,
-				1C4D9A982051000200082259 /* CommonLabelViewController.m in Sources */,
+				1C753424205274AC0057B318 /* DouDiZhuViewController.m in Sources */,
 				1C4D54D4204F887E00ABF4BB /* AAPlotOptions.m in Sources */,
 				1C51D3A02041430700539BD3 /* APPQuestionDetailController.m in Sources */,
+				1C75342F205274AC0057B318 /* CountDownViewController.m in Sources */,
 				1C4D5561204FC8E200ABF4BB /* ClockView.m in Sources */,
 				1CAC5286204EA42C00715A0F /* AdvancedBarrageController.m in Sources */,
 				1C4D551F204F891900ABF4BB /* ThreeDimensionalChartVC.m in Sources */,
@@ -1792,37 +1799,36 @@
 				1C4D54D6204F887E00ABF4BB /* AALine.m in Sources */,
 				1C4D9A8F2050E6D400082259 /* StepModel.m in Sources */,
 				1C4D9A912050E6D400082259 /* StepManager.m in Sources */,
-				1C51D3762040FA1400539BD3 /* GPUImageViewController.m in Sources */,
 				1C4D54D5204F887E00ABF4BB /* AADataLabels.m in Sources */,
 				1CAC5287204EA42C00715A0F /* MLEmojiLabel+BarrageView.m in Sources */,
 				1C4B32A92047E53400A964A7 /* AdvertiseView.m in Sources */,
 				1C4D9A9E205117B900082259 /* GSKeyChainDataManager.m in Sources */,
+				1C753423205274AC0057B318 /* MusicViewController.m in Sources */,
 				1C4D54D9204F887E00ABF4BB /* AAYAxis.m in Sources */,
 				1C4D54E5204F887E00ABF4BB /* AASpline.m in Sources */,
+				1C753431205274AC0057B318 /* LaunchImageController.m in Sources */,
 				1CA19FBD203FE0E2005068A7 /* CaptivePortalCheck.m in Sources */,
 				1C8F35F720440503004DDC06 /* QQLrcModel.m in Sources */,
 				1CAC528C204EA45600715A0F /* UIImage+Barrage.m in Sources */,
 				1C51D3912040FF6900539BD3 /* APPQuestionSummaryController.m in Sources */,
 				1C4D54D8204F887E00ABF4BB /* AASubtitle.m in Sources */,
-				1C51D3772040FA1400539BD3 /* TouchIDViewController.m in Sources */,
 				1C8F357D2043F627004DDC06 /* Const.m in Sources */,
 				1CA19FDF203FE29E005068A7 /* NSObject+ZJUIExtension.m in Sources */,
 				1C4D552A204F891900ABF4BB /* DrawChartWithAAOptionsVC.m in Sources */,
 				1C4D54DA204F887E00ABF4BB /* AAColumn.m in Sources */,
 				1C4D9AA22051187800082259 /* UUIDViewController.m in Sources */,
 				1C4D5567204FC9A700ABF4BB /* Clock.m in Sources */,
+				1C75342D205274AC0057B318 /* FileLoadViewController.m in Sources */,
+				1C753426205274AC0057B318 /* PopViewController.m in Sources */,
+				1C753427205274AC0057B318 /* QQTmpChatViewController.m in Sources */,
 				1CA19F88203FDBFA005068A7 /* main.m in Sources */,
 				1C51D3942041012B00539BD3 /* UIColor+Random.m in Sources */,
+				1C753433205274AC0057B318 /* FaceIDViewController.m in Sources */,
 				1C4D5537204FB92A00ABF4BB /* BHBMyDrawer.m in Sources */,
-				1C4B32A32047C49800A964A7 /* DouDiZhuViewController.m in Sources */,
-				0C8355A02046C61800A9373C /* PDFBrowserController.m in Sources */,
-				1C51D3752040FA1400539BD3 /* QQTmpChatViewController.m in Sources */,
 				1C8F35EA204402FB004DDC06 /* NeteaseMusicAPI.m in Sources */,
 				0C8355A72046C68100A9373C /* DrawPDFViewController.m in Sources */,
 				0C8355A62046C68100A9373C /* DrawPDFView.m in Sources */,
 				1C4D9AAA205137BE00082259 /* SortView.swift in Sources */,
-				1C51D3782040FA1400539BD3 /* WIFICheckViewController.m in Sources */,
-				1C51D3742040FA1400539BD3 /* DateCalendarController.m in Sources */,
 				1C8F357A2043F5D4004DDC06 /* ColorUtil.m in Sources */,
 				1C4D5539204FB92A00ABF4BB /* BHBScrollView.m in Sources */,
 				1C4D54ED204F887E00ABF4BB /* AAOptionsConstructor.m in Sources */,
@@ -1831,6 +1837,8 @@
 				1C51D38E2040FF2800539BD3 /* APPUISummaryController.m in Sources */,
 				1C4D5538204FB92A00ABF4BB /* BHBPaintPath.m in Sources */,
 				1C4D5520204F891900ABF4BB /* AAChartModelComposer.m in Sources */,
+				1C753430205274AC0057B318 /* CommonWebController.m in Sources */,
+				1C75342A205274AC0057B318 /* TouchIDViewController.m in Sources */,
 				1C4D5554204FC00D00ABF4BB /* NNViewController.m in Sources */,
 				1CA19F7A203FDBFA005068A7 /* AppDelegate.m in Sources */,
 				1C4D54D0204F887E00ABF4BB /* AAAreaspline.m in Sources */,
@@ -1838,10 +1846,12 @@
 				1C4D54DD204F887E00ABF4BB /* AAStyle.m in Sources */,
 				1C8F35EE204402FB004DDC06 /* QQMusicOperationTool.m in Sources */,
 				1C4D54D2204F887E00ABF4BB /* AASeries.m in Sources */,
+				1C75342E205274AC0057B318 /* CommonLabelViewController.m in Sources */,
 				1C51D38B2040FEDD00539BD3 /* APPSummaryTabbarController.m in Sources */,
 				1C51D37C2040FA1400539BD3 /* CountDownLabel.swift in Sources */,
 				1C4D54DB204F887E00ABF4BB /* AAPlotLinesElement.m in Sources */,
 				1C51D37D2040FA1400539BD3 /* ILGLKImageView.m in Sources */,
+				1C753432205274AC0057B318 /* AIViewController.m in Sources */,
 				1C4D553A204FB92A00ABF4BB /* BHBDrawBoarderView.m in Sources */,
 				1C8F35EF204402FB004DDC06 /* QQMusicTool.m in Sources */,
 				1C8F35F820440503004DDC06 /* QQMusicMessageModel.m in Sources */,
@@ -1849,15 +1859,16 @@
 				1C4D551A204F891900ABF4BB /* OnlyRefreshChartDataVC.m in Sources */,
 				1C4D5522204F891900ABF4BB /* DrilldownChartVC.m in Sources */,
 				1CA19FF7203FE78E005068A7 /* GPUImageSoulFilter.m in Sources */,
+				1C75342C205274AC0057B318 /* DrawViewController.m in Sources */,
 				1C4D54D7204F887E00ABF4BB /* AATooltip.m in Sources */,
 				1C4D54DC204F887E00ABF4BB /* AAOptions3d.m in Sources */,
 				1C4D9AA9205137BE00082259 /* Sort.swift in Sources */,
 				1C4D9A9F205117B900082259 /* GSKeyChain.m in Sources */,
 				1C4D5523204F891900ABF4BB /* SecondViewController.m in Sources */,
 				1C8F35652043E031004DDC06 /* GBPopMenuButtonItem.m in Sources */,
+				1C753425205274AC0057B318 /* DateCalendarController.m in Sources */,
 				1C4D54EB204F887E00ABF4BB /* AAJsonConverter.m in Sources */,
 				1C4D5560204FC8E200ABF4BB /* ClockLayer.m in Sources */,
-				1C51D3792040FA1400539BD3 /* DrawViewController.m in Sources */,
 				1C4D5521204F891900ABF4BB /* MonitorViewController.m in Sources */,
 				1C8F35D7204400EB004DDC06 /* MusicListController.m in Sources */,
 				1C4D54DE204F887E00ABF4BB /* AABar.m in Sources */,
@@ -1882,27 +1893,24 @@
 				1C4D5512204F891900ABF4BB /* SpecialChartVC.m in Sources */,
 				1C4D54E3204F887E00ABF4BB /* AALegend.m in Sources */,
 				1C4D9AAC205137F000082259 /* SortViewController.swift in Sources */,
-				1C51D3732040FA1400539BD3 /* MusicViewController.m in Sources */,
-				1C51D37F2040FA1400539BD3 /* LaunchImageController.m in Sources */,
+				1C75342B205274AC0057B318 /* WIFICheckViewController.m in Sources */,
 				1C51D3872040FA9E00539BD3 /* SummaryListController.m in Sources */,
 				1CA19FF1203FE756005068A7 /* CIFilter+LUT.m in Sources */,
 				1CAC526F204E9FF300715A0F /* BarrageViewController.m in Sources */,
 				1C4D9AA8205137BE00082259 /* SortClass.swift in Sources */,
-				1C51D37E2040FA1400539BD3 /* CountDownViewController.m in Sources */,
+				1C753429205274AC0057B318 /* PDFBrowserController.m in Sources */,
 				1C4D54E1204F887E00ABF4BB /* AAArea.m in Sources */,
 				1C8F35EB204402FB004DDC06 /* QQLrcDataTool.m in Sources */,
 				1CA1A01E20400A98005068A7 /* DateUtils.m in Sources */,
 				1C4D5564204FC90300ABF4BB /* ClockDrawViewController.m in Sources */,
-				1C8F35692043E0CE004DDC06 /* PopViewController.m in Sources */,
 				1CAC5285204EA42C00715A0F /* BarrageWalkImageTextSprite.m in Sources */,
-				1C4B32A020479E1800A964A7 /* FileLoadViewController.m in Sources */,
 				1CA19FF8203FE78E005068A7 /* GpUImageScaleFilter.m in Sources */,
 				1CA19FBF203FE0E2005068A7 /* AISphereView.m in Sources */,
 				1CAC5289204EA42C00715A0F /* NSSafeObject.m in Sources */,
 				1C4D54D1204F887E00ABF4BB /* AALabels.m in Sources */,
-				1C51D3812040FA1400539BD3 /* FaceIDViewController.m in Sources */,
 				1C4D9A952050E71C00082259 /* StepViewController.m in Sources */,
 				1C8F35EC204402FB004DDC06 /* QQTimeTool.m in Sources */,
+				1C753428205274AC0057B318 /* GPUImageViewController.m in Sources */,
 				1C4D9A922050E6D400082259 /* MMPDeepSleepPreventer.m in Sources */,
 				1C8F355C2043E031004DDC06 /* GBAnimationTool.m in Sources */,
 			);
