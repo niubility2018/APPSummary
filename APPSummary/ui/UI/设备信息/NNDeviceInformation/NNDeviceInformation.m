@@ -275,6 +275,18 @@ kern_return_t   mach_port_deallocate
 //    return [[UIDevice currentDevice] identifierForVendor].UUIDString;
 //}
 
+//+ (NSString*)getDeviceUUID
+//{
+//    CFUUIDRef puuid = CFUUIDCreate( nil );
+//    CFStringRef uuidString = CFUUIDCreateString( nil, puuid );
+//    NSString * result = (NSString *)CFBridgingRelease(CFStringCreateCopy( NULL, uuidString));
+//    CFRelease(puuid);
+//    CFRelease(uuidString);
+//    //将字符串中"-" 全部替换成 ""
+//    NSString *str = [result stringByReplacingOccurrencesOfString :@"-" withString:@""];
+//    return str;
+//}
+
 // 获取当前设备IP
 + (NSString *)getDeviceIPAdress {
     NSString *address = @"an error occurred when obtaining ip address";
@@ -612,12 +624,21 @@ kern_return_t   mach_port_deallocate
 
 +(NSString*)dy_getDeviceUUID{
     
-    CFUUIDRef uuid = CFUUIDCreate(NULL);
-    assert(uuid != NULL);
-    CFStringRef uuidStr = CFUUIDCreateString(NULL, uuid);
-    
-    DYLog(@"uuidStr------》%@",uuidStr);
-    return (__bridge NSString *)(uuidStr);
+//    CFUUIDRef uuid = CFUUIDCreate(NULL);
+//    assert(uuid != NULL);
+//    CFStringRef uuidStr = CFUUIDCreateString(NULL, uuid);
+//
+//    DYLog(@"uuidStr------》%@",uuidStr);
+//    return (__bridge NSString *)(uuidStr);
+    CFUUIDRef puuid = CFUUIDCreate( nil );
+    CFStringRef uuidString = CFUUIDCreateString( nil, puuid );
+    NSString * result = (NSString *)CFBridgingRelease(CFStringCreateCopy( NULL, uuidString));
+    CFRelease(puuid);
+    CFRelease(uuidString);
+    //将字符串中"-" 全部替换成 ""
+    NSString *str = [result stringByReplacingOccurrencesOfString :@"-" withString:@""];
+    NSLog(@"-UUID----------%@",str);
+    return str;
 }
 //no way，UDID是肯定要被苹果拒绝的，炸了！Stack Overflow提供了另外一种方法，越狱可尝试：http://stackoverflow.com/questions/27602368/how-to-get-serial-number-of-a-device-using-iokit-in-ios8-as-ioplatformserialnumb/27686125#27686125
 +(NSString*)dy_getDeviceUDID{
