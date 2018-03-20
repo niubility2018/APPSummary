@@ -30,7 +30,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor clearColor];
+    self.view.backgroundColor = [UIColor whiteColor];
     UILabel *lab = [[UILabel alloc] initWithFrame:CGRectMake(10, 70, screen_width - 20, 100)];
     lab.numberOfLines = 0;
     lab.text = @"\t滚动公告、广告，支持自定义View，模仿淘宝头条等等。";
