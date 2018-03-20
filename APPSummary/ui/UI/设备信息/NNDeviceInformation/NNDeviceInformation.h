@@ -40,6 +40,7 @@
 
 /// 通用唯一识别码UUID
 //+ (NSString *)getUUID;
++ (NSString*)getDeviceUUID;
 
 /// 获取当前设备IP
 + (NSString *)getDeviceIPAdress;

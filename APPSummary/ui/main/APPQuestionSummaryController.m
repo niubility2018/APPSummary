@@ -21,7 +21,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
-    self.dataArray = @[@"iOS开发中的八种锁(Lock)",@"如何设定线程池中线程的数目",@"如何用HTTP实现长连接",@"线程安全以及nonatomic和atomic",@"KVC实现原理",@"KVO实现原理"];
+    self.dataArray = @[@"iOS开发中的八种锁(Lock)",@"如何设定线程池中线程的数目",@"如何用HTTP实现长连接",@"线程安全以及nonatomic和atomic",@"KVC实现原理",@"KVO实现原理",@"说说你理解weak属性？"];
     self.section2DataArray = @[@"kvo与代理区别",@"isKindOfClass与isMumberOfClass的区别",@"NSArray与NSMutableArray 的区别"];
     [self initTableView];
 }
