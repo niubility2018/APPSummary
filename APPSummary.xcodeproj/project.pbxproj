@@ -202,6 +202,12 @@
 		1C90489E2060A336007BAA9D /* CustomNoticeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C9048992060A335007BAA9D /* CustomNoticeCell.xib */; };
 		1C90489F2060A336007BAA9D /* CustomNoticeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C90489B2060A335007BAA9D /* CustomNoticeCell.m */; };
 		1C9048A02060A336007BAA9D /* JGCustomNoticeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C90489D2060A336007BAA9D /* JGCustomNoticeCell.m */; };
+		1C9048A82060AB8C007BAA9D /* ZWMusicDownLoadBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9048A22060AB8C007BAA9D /* ZWMusicDownLoadBtn.m */; };
+		1C9048A92060AB8C007BAA9D /* ZWMusicDownLoadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9048A52060AB8C007BAA9D /* ZWMusicDownLoadView.m */; };
+		1C9048AA2060AB8C007BAA9D /* ZWMusicalNoteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9048A72060AB8C007BAA9D /* ZWMusicalNoteView.m */; };
+		1C9048AE2060ABD7007BAA9D /* MusicBaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9048AD2060ABD7007BAA9D /* MusicBaViewController.m */; };
+		1C9048B22060AFD1007BAA9D /* RegularVerification.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9048B02060AFD1007BAA9D /* RegularVerification.m */; };
+		1C9048B62060B035007BAA9D /* RegularViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9048B52060B035007BAA9D /* RegularViewController.m */; };
 		1CA19F7A203FDBFA005068A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA19F79203FDBFA005068A7 /* AppDelegate.m */; };
 		1CA19F80203FDBFA005068A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CA19F7E203FDBFA005068A7 /* Main.storyboard */; };
 		1CA19F82203FDBFA005068A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CA19F81203FDBFA005068A7 /* Assets.xcassets */; };
@@ -571,6 +577,18 @@
 		1C90489B2060A335007BAA9D /* CustomNoticeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNoticeCell.m; sourceTree = "<group>"; };
 		1C90489C2060A336007BAA9D /* JGCustomNoticeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGCustomNoticeCell.h; sourceTree = "<group>"; };
 		1C90489D2060A336007BAA9D /* JGCustomNoticeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGCustomNoticeCell.m; sourceTree = "<group>"; };
+		1C9048A22060AB8C007BAA9D /* ZWMusicDownLoadBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWMusicDownLoadBtn.m; sourceTree = "<group>"; };
+		1C9048A32060AB8C007BAA9D /* ZWMusicDownLoadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWMusicDownLoadView.h; sourceTree = "<group>"; };
+		1C9048A42060AB8C007BAA9D /* ZWMusicalNoteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWMusicalNoteView.h; sourceTree = "<group>"; };
+		1C9048A52060AB8C007BAA9D /* ZWMusicDownLoadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWMusicDownLoadView.m; sourceTree = "<group>"; };
+		1C9048A62060AB8C007BAA9D /* ZWMusicDownLoadBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWMusicDownLoadBtn.h; sourceTree = "<group>"; };
+		1C9048A72060AB8C007BAA9D /* ZWMusicalNoteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWMusicalNoteView.m; sourceTree = "<group>"; };
+		1C9048AC2060ABD7007BAA9D /* MusicBaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicBaViewController.h; sourceTree = "<group>"; };
+		1C9048AD2060ABD7007BAA9D /* MusicBaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicBaViewController.m; sourceTree = "<group>"; };
+		1C9048B02060AFD1007BAA9D /* RegularVerification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegularVerification.m; sourceTree = "<group>"; };
+		1C9048B12060AFD1007BAA9D /* RegularVerification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegularVerification.h; sourceTree = "<group>"; };
+		1C9048B42060B035007BAA9D /* RegularViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegularViewController.h; sourceTree = "<group>"; };
+		1C9048B52060B035007BAA9D /* RegularViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegularViewController.m; sourceTree = "<group>"; };
 		1CA19F75203FDBFA005068A7 /* APPSummary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APPSummary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CA19F78203FDBFA005068A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1CA19F79203FDBFA005068A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -939,6 +957,8 @@
 		1C51D3532040FA1300539BD3 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				1C9048B32060B025007BAA9D /* 正则匹配 */,
+				1C9048AB2060ABB3007BAA9D /* 仿唱吧音乐下载 */,
 				1C9048952060A2AD007BAA9D /* 广告滚动 */,
 				1C753400205274AC0057B318 /* controller */,
 				1C4D9AA3205137BE00082259 /* 算法 */,
@@ -1265,6 +1285,46 @@
 			path = "广告滚动";
 			sourceTree = "<group>";
 		};
+		1C9048A12060AB8C007BAA9D /* ZWMusicDownLoadView */ = {
+			isa = PBXGroup;
+			children = (
+				1C9048A22060AB8C007BAA9D /* ZWMusicDownLoadBtn.m */,
+				1C9048A32060AB8C007BAA9D /* ZWMusicDownLoadView.h */,
+				1C9048A42060AB8C007BAA9D /* ZWMusicalNoteView.h */,
+				1C9048A52060AB8C007BAA9D /* ZWMusicDownLoadView.m */,
+				1C9048A62060AB8C007BAA9D /* ZWMusicDownLoadBtn.h */,
+				1C9048A72060AB8C007BAA9D /* ZWMusicalNoteView.m */,
+			);
+			path = ZWMusicDownLoadView;
+			sourceTree = "<group>";
+		};
+		1C9048AB2060ABB3007BAA9D /* 仿唱吧音乐下载 */ = {
+			isa = PBXGroup;
+			children = (
+				1C9048AC2060ABD7007BAA9D /* MusicBaViewController.h */,
+				1C9048AD2060ABD7007BAA9D /* MusicBaViewController.m */,
+			);
+			path = "仿唱吧音乐下载";
+			sourceTree = "<group>";
+		};
+		1C9048AF2060AFD1007BAA9D /* Verification */ = {
+			isa = PBXGroup;
+			children = (
+				1C9048B02060AFD1007BAA9D /* RegularVerification.m */,
+				1C9048B12060AFD1007BAA9D /* RegularVerification.h */,
+			);
+			path = Verification;
+			sourceTree = "<group>";
+		};
+		1C9048B32060B025007BAA9D /* 正则匹配 */ = {
+			isa = PBXGroup;
+			children = (
+				1C9048B42060B035007BAA9D /* RegularViewController.h */,
+				1C9048B52060B035007BAA9D /* RegularViewController.m */,
+			);
+			path = "正则匹配";
+			sourceTree = "<group>";
+		};
 		1CA19F6C203FDBFA005068A7 = {
 			isa = PBXGroup;
 			children = (
@@ -1333,6 +1393,8 @@
 		1CA19F96203FE0B4005068A7 /* third */ = {
 			isa = PBXGroup;
 			children = (
+				1C9048AF2060AFD1007BAA9D /* Verification */,
+				1C9048A12060AB8C007BAA9D /* ZWMusicDownLoadView */,
 				1C90488E2060A289007BAA9D /* JGRollingNoticeView */,
 				1C4D552E204FB92A00ABF4BB /* BHBDrawBoarder */,
 				1C4D53DD204F7E0F00ABF4BB /* AAChartKitLib */,
@@ -1839,6 +1901,7 @@
 				1C75342F205274AC0057B318 /* CountDownViewController.m in Sources */,
 				1C4D5561204FC8E200ABF4BB /* ClockView.m in Sources */,
 				1CAC5286204EA42C00715A0F /* AdvancedBarrageController.m in Sources */,
+				1C9048AA2060AB8C007BAA9D /* ZWMusicalNoteView.m in Sources */,
 				1C4D551F204F891900ABF4BB /* ThreeDimensionalChartVC.m in Sources */,
 				1C4D54D3204F887E00ABF4BB /* AAXAxis.m in Sources */,
 				1C4D54D6204F887E00ABF4BB /* AALine.m in Sources */,
@@ -1862,6 +1925,7 @@
 				1C4D552A204F891900ABF4BB /* DrawChartWithAAOptionsVC.m in Sources */,
 				1C4D54DA204F887E00ABF4BB /* AAColumn.m in Sources */,
 				1C4D9AA22051187800082259 /* UUIDViewController.m in Sources */,
+				1C9048A92060AB8C007BAA9D /* ZWMusicDownLoadView.m in Sources */,
 				1C4D5567204FC9A700ABF4BB /* Clock.m in Sources */,
 				1C75342D205274AC0057B318 /* FileLoadViewController.m in Sources */,
 				1C90489F2060A336007BAA9D /* CustomNoticeCell.m in Sources */,
@@ -1889,6 +1953,7 @@
 				1C4D5554204FC00D00ABF4BB /* NNViewController.m in Sources */,
 				1CA19F7A203FDBFA005068A7 /* AppDelegate.m in Sources */,
 				1C4D54D0204F887E00ABF4BB /* AAAreaspline.m in Sources */,
+				1C9048A82060AB8C007BAA9D /* ZWMusicDownLoadBtn.m in Sources */,
 				1C4D54E4204F887E00ABF4BB /* AAMarker.m in Sources */,
 				1C4D54DD204F887E00ABF4BB /* AAStyle.m in Sources */,
 				1C8F35EE204402FB004DDC06 /* QQMusicOperationTool.m in Sources */,
@@ -1901,6 +1966,7 @@
 				1C753432205274AC0057B318 /* AIViewController.m in Sources */,
 				1C4D553A204FB92A00ABF4BB /* BHBDrawBoarderView.m in Sources */,
 				1C8F35EF204402FB004DDC06 /* QQMusicTool.m in Sources */,
+				1C9048B22060AFD1007BAA9D /* RegularVerification.m in Sources */,
 				1C8F35F820440503004DDC06 /* QQMusicMessageModel.m in Sources */,
 				1C4930672044F15500F674F2 /* MusicListCell.m in Sources */,
 				1C4D551A204F891900ABF4BB /* OnlyRefreshChartDataVC.m in Sources */,
@@ -1945,12 +2011,14 @@
 				1C4D9AAC205137F000082259 /* SortViewController.swift in Sources */,
 				1C75342B205274AC0057B318 /* WIFICheckViewController.m in Sources */,
 				1C51D3872040FA9E00539BD3 /* SummaryListController.m in Sources */,
+				1C9048AE2060ABD7007BAA9D /* MusicBaViewController.m in Sources */,
 				1CA19FF1203FE756005068A7 /* CIFilter+LUT.m in Sources */,
 				1CAC526F204E9FF300715A0F /* BarrageViewController.m in Sources */,
 				1C4D9AA8205137BE00082259 /* SortClass.swift in Sources */,
 				1C753429205274AC0057B318 /* PDFBrowserController.m in Sources */,
 				1C4D54E1204F887E00ABF4BB /* AAArea.m in Sources */,
 				1C8F35EB204402FB004DDC06 /* QQLrcDataTool.m in Sources */,
+				1C9048B62060B035007BAA9D /* RegularViewController.m in Sources */,
 				1CA1A01E20400A98005068A7 /* DateUtils.m in Sources */,
 				1C4D5564204FC90300ABF4BB /* ClockDrawViewController.m in Sources */,
 				1CAC5285204EA42C00715A0F /* BarrageWalkImageTextSprite.m in Sources */,
