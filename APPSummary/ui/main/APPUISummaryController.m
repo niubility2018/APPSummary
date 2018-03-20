@@ -30,6 +30,7 @@
 #import "APPSummary-Swift.h"
 #import "RollingNoticeViewController.h"
 #import "MusicBaViewController.h"
+#import "RegularViewController.h"
 @interface APPUISummaryController ()
 @property (nonatomic, strong) NSArray *dataUIArray;
 @property (nonatomic, strong) NSArray *dataArray;
@@ -55,7 +56,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.dataUIArray = @[@"启动引导页动画",@"标签云",@"人脸识别",@"image处理",@"倒计时",@"画板",@"wifi认证",@"指纹识别",@"QQ临时会话",@"弹出视图",@"音乐",@"图表库",@"钟表",@"计步器",@"滚动公告",@"仿唱吧下载"
                          ];
-    self.dataArray = @[@"时间计算",@"文件加载",@"斗地主发牌排序",@"设备信息相关",@"设备唯一标识符",@"算法"
+    self.dataArray = @[@"时间计算",@"文件加载",@"斗地主发牌排序",@"设备信息相关",@"设备唯一标识符",@"算法",@"正则匹配"
                        ];
     [self initTableView];
     [self initSearch];
@@ -290,6 +291,12 @@
             case 5:{
                 SortViewController *sort = [[SortViewController alloc] init];
                 [self.navigationController pushViewController:sort animated:YES];
+            }
+                break;
+            case 6:
+            {
+                RegularViewController *regularvc = [[RegularViewController alloc] init];
+                [self.navigationController pushViewController:regularvc animated:YES];
             }
                 break;
             default:
