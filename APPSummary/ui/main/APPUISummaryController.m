@@ -31,6 +31,7 @@
 #import "RollingNoticeViewController.h"
 #import "MusicBaViewController.h"
 #import "RegularViewController.h"
+#import "TanHuangListController.h"
 @interface APPUISummaryController ()
 @property (nonatomic, strong) NSArray *dataUIArray;
 @property (nonatomic, strong) NSArray *dataArray;
@@ -54,7 +55,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.dataUIArray = @[@"启动引导页动画",@"标签云",@"人脸识别",@"image处理",@"倒计时",@"画板",@"wifi认证",@"指纹识别",@"QQ临时会话",@"弹出视图",@"音乐",@"图表库",@"钟表",@"计步器",@"滚动公告",@"仿唱吧下载"
+    self.dataUIArray = @[@"启动引导页动画",@"标签云",@"人脸识别",@"image处理",@"倒计时",@"画板",@"wifi认证",@"指纹识别",@"QQ临时会话",@"弹出视图",@"音乐",@"图表库",@"钟表",@"计步器",@"滚动公告",@"仿唱吧下载",@"弹簧效果"
                          ];
     self.dataArray = @[@"时间计算",@"文件加载",@"斗地主发牌排序",@"设备信息相关",@"设备唯一标识符",@"算法",@"正则匹配"
                        ];
@@ -250,6 +251,12 @@
             case 15:
             {
                 MusicBaViewController *musicvc = [[MusicBaViewController alloc] init];
+                [self.navigationController pushViewController:musicvc animated:YES];
+            }
+                break;
+            case 16:
+            {
+                TanHuangListController *musicvc = [[TanHuangListController alloc] init];
                 [self.navigationController pushViewController:musicvc animated:YES];
             }
                 break;

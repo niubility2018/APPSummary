@@ -28,4 +28,5 @@ target 'APPSummary' do
 #    pod 'AAChartKit', '~> 2.1.6'
     pod 'KVOController', '~> 1.2.0'
 #    pod 'YYTNetwork', '~> 0.1.5'
+    pod 'pop', '~> 1.0.10'
 end

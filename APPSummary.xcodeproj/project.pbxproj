@@ -82,7 +82,6 @@
 		1C4D554F204FC00D00ABF4BB /* NNTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C4D5540204FC00D00ABF4BB /* NNTableViewCell.xib */; };
 		1C4D5552204FC00D00ABF4BB /* NNDeviceInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D5547204FC00D00ABF4BB /* NNDeviceInformation.m */; };
 		1C4D5554204FC00D00ABF4BB /* NNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D554C204FC00D00ABF4BB /* NNViewController.m */; };
-		1C4D5556204FC0FD00ABF4BB /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C4D5555204FC0FC00ABF4BB /* CoreTelephony.framework */; };
 		1C4D5560204FC8E200ABF4BB /* ClockLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D555D204FC8E200ABF4BB /* ClockLayer.m */; };
 		1C4D5561204FC8E200ABF4BB /* ClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D555E204FC8E200ABF4BB /* ClockView.m */; };
 		1C4D5564204FC90300ABF4BB /* ClockDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D5563204FC90300ABF4BB /* ClockDrawViewController.m */; };
@@ -261,6 +260,17 @@
 		1CAC5289204EA42C00715A0F /* NSSafeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAC5281204EA42C00715A0F /* NSSafeObject.m */; };
 		1CAC528C204EA45600715A0F /* UIImage+Barrage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAC528A204EA45500715A0F /* UIImage+Barrage.m */; };
 		1CAC528E204EA48B00715A0F /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CAC528D204EA48B00715A0F /* avatar.png */; };
+		1CBABC39206CCF4600EB3F68 /* TanHuangListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBABC38206CCF4600EB3F68 /* TanHuangListController.m */; };
+		1CBABC3D206CCF6D00EB3F68 /* BounceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBABC3C206CCF6D00EB3F68 /* BounceView.m */; };
+		1CBABC40206CD0DE00EB3F68 /* BounceAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBABC3F206CD0DE00EB3F68 /* BounceAnimationController.m */; };
+		1CBABC44206CD6E200EB3F68 /* ShouchangController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBABC43206CD6E200EB3F68 /* ShouchangController.m */; };
+		1CBABC47206CD6F600EB3F68 /* ErChangController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBABC46206CD6F600EB3F68 /* ErChangController.m */; };
+		1CBABC4D206CD79800EB3F68 /* PingTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBABC49206CD79700EB3F68 /* PingTransition.m */; };
+		1CBABC4E206CD79800EB3F68 /* PingInvertTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBABC4A206CD79700EB3F68 /* PingInvertTransition.m */; };
+		1CBABC51206CE05A00EB3F68 /* BingZhuangViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBABC50206CE05A00EB3F68 /* BingZhuangViewController.m */; };
+		1CBABC5A206CE0A400EB3F68 /* WLPieView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBABC53206CE0A400EB3F68 /* WLPieView.m */; };
+		1CBABC5B206CE0A400EB3F68 /* PieModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBABC55206CE0A400EB3F68 /* PieModel.m */; };
+		1CBABC5C206CE0A400EB3F68 /* PieView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBABC58206CE0A400EB3F68 /* PieView.m */; };
 		8051738E39294C535238661F /* libPods-APPSummary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B49D360D2CF98E3FFFAE9E2 /* libPods-APPSummary.a */; };
 /* End PBXBuildFile section */
 
@@ -396,7 +406,6 @@
 		1C4D5547204FC00D00ABF4BB /* NNDeviceInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNDeviceInformation.m; sourceTree = "<group>"; };
 		1C4D554B204FC00D00ABF4BB /* NNTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNTableViewCell.h; sourceTree = "<group>"; };
 		1C4D554C204FC00D00ABF4BB /* NNViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNViewController.m; sourceTree = "<group>"; };
-		1C4D5555204FC0FC00ABF4BB /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		1C4D555C204FC8E200ABF4BB /* ClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockView.h; sourceTree = "<group>"; };
 		1C4D555D204FC8E200ABF4BB /* ClockLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockLayer.m; sourceTree = "<group>"; };
 		1C4D555E204FC8E200ABF4BB /* ClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockView.m; sourceTree = "<group>"; };
@@ -665,6 +674,28 @@
 		1CAC528A204EA45500715A0F /* UIImage+Barrage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Barrage.m"; sourceTree = "<group>"; };
 		1CAC528B204EA45500715A0F /* UIImage+Barrage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Barrage.h"; sourceTree = "<group>"; };
 		1CAC528D204EA48B00715A0F /* avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar.png; sourceTree = "<group>"; };
+		1CBABC37206CCF4600EB3F68 /* TanHuangListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TanHuangListController.h; sourceTree = "<group>"; };
+		1CBABC38206CCF4600EB3F68 /* TanHuangListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TanHuangListController.m; sourceTree = "<group>"; };
+		1CBABC3B206CCF6D00EB3F68 /* BounceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BounceView.h; sourceTree = "<group>"; };
+		1CBABC3C206CCF6D00EB3F68 /* BounceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BounceView.m; sourceTree = "<group>"; };
+		1CBABC3E206CD0DE00EB3F68 /* BounceAnimationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BounceAnimationController.h; sourceTree = "<group>"; };
+		1CBABC3F206CD0DE00EB3F68 /* BounceAnimationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BounceAnimationController.m; sourceTree = "<group>"; };
+		1CBABC42206CD6E200EB3F68 /* ShouchangController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShouchangController.h; sourceTree = "<group>"; };
+		1CBABC43206CD6E200EB3F68 /* ShouchangController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShouchangController.m; sourceTree = "<group>"; };
+		1CBABC45206CD6F600EB3F68 /* ErChangController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ErChangController.h; sourceTree = "<group>"; };
+		1CBABC46206CD6F600EB3F68 /* ErChangController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ErChangController.m; sourceTree = "<group>"; };
+		1CBABC49206CD79700EB3F68 /* PingTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingTransition.m; sourceTree = "<group>"; };
+		1CBABC4A206CD79700EB3F68 /* PingInvertTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingInvertTransition.m; sourceTree = "<group>"; };
+		1CBABC4B206CD79700EB3F68 /* PingTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingTransition.h; sourceTree = "<group>"; };
+		1CBABC4C206CD79800EB3F68 /* PingInvertTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingInvertTransition.h; sourceTree = "<group>"; };
+		1CBABC4F206CE05A00EB3F68 /* BingZhuangViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BingZhuangViewController.h; sourceTree = "<group>"; };
+		1CBABC50206CE05A00EB3F68 /* BingZhuangViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BingZhuangViewController.m; sourceTree = "<group>"; };
+		1CBABC53206CE0A400EB3F68 /* WLPieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLPieView.m; sourceTree = "<group>"; };
+		1CBABC55206CE0A400EB3F68 /* PieModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieModel.m; sourceTree = "<group>"; };
+		1CBABC56206CE0A400EB3F68 /* PieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieView.h; sourceTree = "<group>"; };
+		1CBABC57206CE0A400EB3F68 /* PieModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieModel.h; sourceTree = "<group>"; };
+		1CBABC58206CE0A400EB3F68 /* PieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieView.m; sourceTree = "<group>"; };
+		1CBABC59206CE0A400EB3F68 /* WLPieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLPieView.h; sourceTree = "<group>"; };
 		71274DAE356E360D2330E077 /* Pods-APPSummary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APPSummary.release.xcconfig"; path = "Pods/Target Support Files/Pods-APPSummary/Pods-APPSummary.release.xcconfig"; sourceTree = "<group>"; };
 		CEF6AA7CE442815860C115DC /* Pods-APPSummary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APPSummary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-APPSummary/Pods-APPSummary.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -674,7 +705,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C4D5556204FC0FD00ABF4BB /* CoreTelephony.framework in Frameworks */,
 				8051738E39294C535238661F /* libPods-APPSummary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -762,6 +792,8 @@
 				1C4D54EE204F891000ABF4BB /* SpecialChartVC.m */,
 				1C4D54FC204F891300ABF4BB /* ThreeDimensionalChartVC.h */,
 				1C4D5500204F891400ABF4BB /* ThreeDimensionalChartVC.m */,
+				1CBABC4F206CE05A00EB3F68 /* BingZhuangViewController.h */,
+				1CBABC50206CE05A00EB3F68 /* BingZhuangViewController.m */,
 			);
 			path = "图表";
 			sourceTree = "<group>";
@@ -957,6 +989,8 @@
 		1C51D3532040FA1300539BD3 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				1CBABC41206CD6AC00EB3F68 /* 转场动画 */,
+				1CBABC36206CCF2D00EB3F68 /* 弹簧效果 */,
 				1C9048B32060B025007BAA9D /* 正则匹配 */,
 				1C9048AB2060ABB3007BAA9D /* 仿唱吧音乐下载 */,
 				1C9048952060A2AD007BAA9D /* 广告滚动 */,
@@ -1025,6 +1059,8 @@
 		1C753400205274AC0057B318 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				1CBABC37206CCF4600EB3F68 /* TanHuangListController.h */,
+				1CBABC38206CCF4600EB3F68 /* TanHuangListController.m */,
 				1C753401205274AC0057B318 /* MusicViewController.m */,
 				1C753402205274AC0057B318 /* LaunchImageController.h */,
 				1C753403205274AC0057B318 /* CommonWebController.h */,
@@ -1393,6 +1429,9 @@
 		1CA19F96203FE0B4005068A7 /* third */ = {
 			isa = PBXGroup;
 			children = (
+				1CBABC52206CE0A400EB3F68 /* 饼状图 */,
+				1CBABC48206CD77C00EB3F68 /* 转场View */,
+				1CBABC3A206CCF6D00EB3F68 /* BounceView */,
 				1C9048AF2060AFD1007BAA9D /* Verification */,
 				1C9048A12060AB8C007BAA9D /* ZWMusicDownLoadView */,
 				1C90488E2060A289007BAA9D /* JGRollingNoticeView */,
@@ -1624,6 +1663,67 @@
 			path = SafeObject;
 			sourceTree = "<group>";
 		};
+		1CBABC36206CCF2D00EB3F68 /* 弹簧效果 */ = {
+			isa = PBXGroup;
+			children = (
+				1CBABC3E206CD0DE00EB3F68 /* BounceAnimationController.h */,
+				1CBABC3F206CD0DE00EB3F68 /* BounceAnimationController.m */,
+			);
+			path = "弹簧效果";
+			sourceTree = "<group>";
+		};
+		1CBABC3A206CCF6D00EB3F68 /* BounceView */ = {
+			isa = PBXGroup;
+			children = (
+				1CBABC3B206CCF6D00EB3F68 /* BounceView.h */,
+				1CBABC3C206CCF6D00EB3F68 /* BounceView.m */,
+			);
+			path = BounceView;
+			sourceTree = "<group>";
+		};
+		1CBABC41206CD6AC00EB3F68 /* 转场动画 */ = {
+			isa = PBXGroup;
+			children = (
+				1CBABC42206CD6E200EB3F68 /* ShouchangController.h */,
+				1CBABC43206CD6E200EB3F68 /* ShouchangController.m */,
+				1CBABC45206CD6F600EB3F68 /* ErChangController.h */,
+				1CBABC46206CD6F600EB3F68 /* ErChangController.m */,
+			);
+			path = "转场动画";
+			sourceTree = "<group>";
+		};
+		1CBABC48206CD77C00EB3F68 /* 转场View */ = {
+			isa = PBXGroup;
+			children = (
+				1CBABC4C206CD79800EB3F68 /* PingInvertTransition.h */,
+				1CBABC4A206CD79700EB3F68 /* PingInvertTransition.m */,
+				1CBABC4B206CD79700EB3F68 /* PingTransition.h */,
+				1CBABC49206CD79700EB3F68 /* PingTransition.m */,
+			);
+			path = "转场View";
+			sourceTree = "<group>";
+		};
+		1CBABC52206CE0A400EB3F68 /* 饼状图 */ = {
+			isa = PBXGroup;
+			children = (
+				1CBABC53206CE0A400EB3F68 /* WLPieView.m */,
+				1CBABC54206CE0A400EB3F68 /* view */,
+				1CBABC59206CE0A400EB3F68 /* WLPieView.h */,
+			);
+			path = "饼状图";
+			sourceTree = "<group>";
+		};
+		1CBABC54206CE0A400EB3F68 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				1CBABC55206CE0A400EB3F68 /* PieModel.m */,
+				1CBABC56206CE0A400EB3F68 /* PieView.h */,
+				1CBABC57206CE0A400EB3F68 /* PieModel.h */,
+				1CBABC58206CE0A400EB3F68 /* PieView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		8939C310516A62098E42A6B1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -1636,7 +1736,6 @@
 		DC41A8DC83A1218DF9ED6100 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1C4D5555204FC0FC00ABF4BB /* CoreTelephony.framework */,
 				0B49D360D2CF98E3FFFAE9E2 /* libPods-APPSummary.a */,
 			);
 			name = Frameworks;
@@ -1895,16 +1994,22 @@
 				1CA19F95203FE01E005068A7 /* UIView+ZJExtension.m in Sources */,
 				1C8F356F2043E1E5004DDC06 /* WRNavigationBar.m in Sources */,
 				1C4D554E204FC00D00ABF4BB /* NNTableViewCell.m in Sources */,
+				1CBABC3D206CCF6D00EB3F68 /* BounceView.m in Sources */,
+				1CBABC5C206CE0A400EB3F68 /* PieView.m in Sources */,
 				1C753424205274AC0057B318 /* DouDiZhuViewController.m in Sources */,
 				1C4D54D4204F887E00ABF4BB /* AAPlotOptions.m in Sources */,
 				1C51D3A02041430700539BD3 /* APPQuestionDetailController.m in Sources */,
 				1C75342F205274AC0057B318 /* CountDownViewController.m in Sources */,
+				1CBABC40206CD0DE00EB3F68 /* BounceAnimationController.m in Sources */,
 				1C4D5561204FC8E200ABF4BB /* ClockView.m in Sources */,
 				1CAC5286204EA42C00715A0F /* AdvancedBarrageController.m in Sources */,
 				1C9048AA2060AB8C007BAA9D /* ZWMusicalNoteView.m in Sources */,
+				1CBABC51206CE05A00EB3F68 /* BingZhuangViewController.m in Sources */,
+				1CBABC5B206CE0A400EB3F68 /* PieModel.m in Sources */,
 				1C4D551F204F891900ABF4BB /* ThreeDimensionalChartVC.m in Sources */,
 				1C4D54D3204F887E00ABF4BB /* AAXAxis.m in Sources */,
 				1C4D54D6204F887E00ABF4BB /* AALine.m in Sources */,
+				1CBABC4E206CD79800EB3F68 /* PingInvertTransition.m in Sources */,
 				1C4D9A8F2050E6D400082259 /* StepModel.m in Sources */,
 				1C4D9A912050E6D400082259 /* StepManager.m in Sources */,
 				1C4D54D5204F887E00ABF4BB /* AADataLabels.m in Sources */,
@@ -1925,10 +2030,12 @@
 				1C4D552A204F891900ABF4BB /* DrawChartWithAAOptionsVC.m in Sources */,
 				1C4D54DA204F887E00ABF4BB /* AAColumn.m in Sources */,
 				1C4D9AA22051187800082259 /* UUIDViewController.m in Sources */,
+				1CBABC44206CD6E200EB3F68 /* ShouchangController.m in Sources */,
 				1C9048A92060AB8C007BAA9D /* ZWMusicDownLoadView.m in Sources */,
 				1C4D5567204FC9A700ABF4BB /* Clock.m in Sources */,
 				1C75342D205274AC0057B318 /* FileLoadViewController.m in Sources */,
 				1C90489F2060A336007BAA9D /* CustomNoticeCell.m in Sources */,
+				1CBABC39206CCF4600EB3F68 /* TanHuangListController.m in Sources */,
 				1C753426205274AC0057B318 /* PopViewController.m in Sources */,
 				1C753427205274AC0057B318 /* QQTmpChatViewController.m in Sources */,
 				1CA19F88203FDBFA005068A7 /* main.m in Sources */,
@@ -2006,6 +2113,7 @@
 				1C4D54E2204F887E00ABF4BB /* AAAnimation.m in Sources */,
 				1C4D54E0204F887E00ABF4BB /* AAOptions.m in Sources */,
 				1C4D54E6204F887E00ABF4BB /* AAItemStyle.m in Sources */,
+				1CBABC5A206CE0A400EB3F68 /* WLPieView.m in Sources */,
 				1C4D5512204F891900ABF4BB /* SpecialChartVC.m in Sources */,
 				1C4D54E3204F887E00ABF4BB /* AALegend.m in Sources */,
 				1C4D9AAC205137F000082259 /* SortViewController.swift in Sources */,
@@ -2019,11 +2127,13 @@
 				1C4D54E1204F887E00ABF4BB /* AAArea.m in Sources */,
 				1C8F35EB204402FB004DDC06 /* QQLrcDataTool.m in Sources */,
 				1C9048B62060B035007BAA9D /* RegularViewController.m in Sources */,
+				1CBABC47206CD6F600EB3F68 /* ErChangController.m in Sources */,
 				1CA1A01E20400A98005068A7 /* DateUtils.m in Sources */,
 				1C4D5564204FC90300ABF4BB /* ClockDrawViewController.m in Sources */,
 				1CAC5285204EA42C00715A0F /* BarrageWalkImageTextSprite.m in Sources */,
 				1CA19FF8203FE78E005068A7 /* GpUImageScaleFilter.m in Sources */,
 				1CA19FBF203FE0E2005068A7 /* AISphereView.m in Sources */,
+				1CBABC4D206CD79800EB3F68 /* PingTransition.m in Sources */,
 				1CAC5289204EA42C00715A0F /* NSSafeObject.m in Sources */,
 				1C4D54D1204F887E00ABF4BB /* AALabels.m in Sources */,
 				1C4D9A952050E71C00082259 /* StepViewController.m in Sources */,
@@ -2169,10 +2279,15 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2QC668LVNU;
+				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/APPSummary/APPSummary-Prefix.pch";
 				INFOPLIST_FILE = APPSummary/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/APPSummary/header",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.golfd.APPSummary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "APPSummary/ui/UI/view/APPSummary-Bridging-Header.h";
@@ -2190,10 +2305,15 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2QC668LVNU;
+				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/APPSummary/APPSummary-Prefix.pch";
 				INFOPLIST_FILE = APPSummary/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/APPSummary/header",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.golfd.APPSummary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "APPSummary/ui/UI/view/APPSummary-Bridging-Header.h";
