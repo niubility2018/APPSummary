@@ -109,6 +109,7 @@
 		1C51D3942041012B00539BD3 /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D3922041012B00539BD3 /* UIColor+Random.m */; };
 		1C51D398204102EF00539BD3 /* APPSummaryNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D397204102EF00539BD3 /* APPSummaryNavigationController.m */; };
 		1C51D3A02041430700539BD3 /* APPQuestionDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D39F2041430700539BD3 /* APPQuestionDetailController.m */; };
+		1C539B0E2073556900EAA9FF /* ZhuanAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C539B0D2073556900EAA9FF /* ZhuanAnimationController.m */; };
 		1C753423205274AC0057B318 /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C753401205274AC0057B318 /* MusicViewController.m */; };
 		1C753424205274AC0057B318 /* DouDiZhuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C753405205274AC0057B318 /* DouDiZhuViewController.m */; };
 		1C753425205274AC0057B318 /* DateCalendarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C753406205274AC0057B318 /* DateCalendarController.m */; };
@@ -454,6 +455,8 @@
 		1C51D397204102EF00539BD3 /* APPSummaryNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APPSummaryNavigationController.m; sourceTree = "<group>"; };
 		1C51D39E2041430700539BD3 /* APPQuestionDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APPQuestionDetailController.h; sourceTree = "<group>"; };
 		1C51D39F2041430700539BD3 /* APPQuestionDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APPQuestionDetailController.m; sourceTree = "<group>"; };
+		1C539B0C2073556900EAA9FF /* ZhuanAnimationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZhuanAnimationController.h; sourceTree = "<group>"; };
+		1C539B0D2073556900EAA9FF /* ZhuanAnimationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZhuanAnimationController.m; sourceTree = "<group>"; };
 		1C753401205274AC0057B318 /* MusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicViewController.m; sourceTree = "<group>"; };
 		1C753402205274AC0057B318 /* LaunchImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchImageController.h; sourceTree = "<group>"; };
 		1C753403205274AC0057B318 /* CommonWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonWebController.h; sourceTree = "<group>"; };
@@ -989,6 +992,7 @@
 		1C51D3532040FA1300539BD3 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				1C539B0B2073554C00EAA9FF /* 转动 */,
 				1CBABC41206CD6AC00EB3F68 /* 转场动画 */,
 				1CBABC36206CCF2D00EB3F68 /* 弹簧效果 */,
 				1C9048B32060B025007BAA9D /* 正则匹配 */,
@@ -1054,6 +1058,15 @@
 				1C51D397204102EF00539BD3 /* APPSummaryNavigationController.m */,
 			);
 			path = base;
+			sourceTree = "<group>";
+		};
+		1C539B0B2073554C00EAA9FF /* 转动 */ = {
+			isa = PBXGroup;
+			children = (
+				1C539B0C2073556900EAA9FF /* ZhuanAnimationController.h */,
+				1C539B0D2073556900EAA9FF /* ZhuanAnimationController.m */,
+			);
+			path = "转动";
 			sourceTree = "<group>";
 		};
 		1C753400205274AC0057B318 /* controller */ = {
@@ -2133,6 +2146,7 @@
 				1CAC5285204EA42C00715A0F /* BarrageWalkImageTextSprite.m in Sources */,
 				1CA19FF8203FE78E005068A7 /* GpUImageScaleFilter.m in Sources */,
 				1CA19FBF203FE0E2005068A7 /* AISphereView.m in Sources */,
+				1C539B0E2073556900EAA9FF /* ZhuanAnimationController.m in Sources */,
 				1CBABC4D206CD79800EB3F68 /* PingTransition.m in Sources */,
 				1CAC5289204EA42C00715A0F /* NSSafeObject.m in Sources */,
 				1C4D54D1204F887E00ABF4BB /* AALabels.m in Sources */,
