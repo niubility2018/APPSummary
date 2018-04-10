@@ -29,4 +29,6 @@ target 'APPSummary' do
     pod 'KVOController', '~> 1.2.0'
 #    pod 'YYTNetwork', '~> 0.1.5'
     pod 'pop', '~> 1.0.10'
+    pod 'FLEX', '~> 2.4.0'
+    pod 'Bugly', '~> 2.5.0'
 end

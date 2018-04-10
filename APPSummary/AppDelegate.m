@@ -13,6 +13,14 @@
 #import <JxbDebugTool.h>
 #import "AdvertiseHelper.h"
 #import "GSKeyChainDataManager.h"
+#if DEBUG
+#import <FLEX/FLEX.h>
+#endif
+#import "LXDAppFluencyMonitor.h"
+#import "LXDFPSMonitor.h"
+#import "LXDResourceMonitor.h"
+#import "LXDCrashMonitor.h"
+#import <Bugly/Bugly.h>
 @interface AppDelegate ()
 
 @end
@@ -32,6 +40,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+    
+    
     self.window.rootViewController = [[APPSummaryTabbarController alloc] init];
     
     NSString *deviceUUID = [[UIDevice currentDevice].identifierForVendor UUIDString];
@@ -45,9 +55,22 @@
     // 启动广告
     [AdvertiseHelper showAdvertiserView:imagesURLS];
     
-#if defined(DEBUG)||defined(_DEBUG)
-    [[JPFPSStatus sharedInstance] open];
-#endif
+    
+    [FLUENCYMONITOR startMonitoring];
+    [FPS_MONITOR startMonitoring];
+    [RESOURCE_MONITOR startMonitoring];
+    [LXDCrashMonitor startMonitoring];
+    
+    [Bugly startWithAppId:@"fd8a6049ce"];
+    
+//#if defined(DEBUG)||defined(_DEBUG)
+//    [[JPFPSStatus sharedInstance] open];
+//#endif
+    
+//#if DEBUG
+//    [[FLEXManager sharedManager] setNetworkDebuggingEnabled:YES];
+//#endif
+    
 #if DEBUG
     [[JxbDebugTool shareInstance] setMainColor:[UIColor redColor]]; //设置主色调
     [[JxbDebugTool shareInstance] enableDebugMode];//启用debug工具

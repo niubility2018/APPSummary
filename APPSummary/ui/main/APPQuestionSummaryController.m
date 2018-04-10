@@ -10,6 +10,10 @@
 #import "APPQuestionDetailController.h"
 #import "CommonWebController.h"
 #import "CommonLabelViewController.h"
+#if DEBUG
+// FLEX should only be compiled and used in debug builds.
+#import <FLEX/FLEX.h>
+#endif
 @interface APPQuestionSummaryController ()
 @property (nonatomic, strong) NSArray *dataArray;
 @property (nonatomic, strong) NSArray *section2DataArray;
@@ -21,6 +25,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
+#if DEBUG
+    // This call shows the FLEX toolbar if it's not already shown.
+    [[FLEXManager sharedManager] showExplorer];
+#endif
     self.dataArray = @[@"iOS开发中的八种锁(Lock)",@"如何设定线程池中线程的数目",@"如何用HTTP实现长连接",@"线程安全以及nonatomic和atomic",@"KVC实现原理",@"KVO实现原理",@"说说你理解weak属性？"];
     self.section2DataArray = @[@"kvo与代理区别",@"isKindOfClass与isMumberOfClass的区别",@"NSArray与NSMutableArray 的区别"];
     [self initTableView];

@@ -14,6 +14,31 @@
 		1C4930672044F15500F674F2 /* MusicListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4930662044F15500F674F2 /* MusicListCell.m */; };
 		1C4B32A92047E53400A964A7 /* AdvertiseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4B32A52047E53400A964A7 /* AdvertiseView.m */; };
 		1C4B32AA2047E53400A964A7 /* AdvertiseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4B32A62047E53400A964A7 /* AdvertiseHelper.m */; };
+		1C4D3FCB207CA36D00D2B5F6 /* LXDDNSInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D3F8E207CA36C00D2B5F6 /* LXDDNSInterceptor.m */; };
+		1C4D3FCC207CA36D00D2B5F6 /* NSURLProtocol+WebKitSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D3F90207CA36C00D2B5F6 /* NSURLProtocol+WebKitSupport.m */; };
+		1C4D3FCD207CA36D00D2B5F6 /* LXDHostMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D3F92207CA36C00D2B5F6 /* LXDHostMapper.m */; };
+		1C4D3FCE207CA36D00D2B5F6 /* LXDHostFilterRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D3F95207CA36C00D2B5F6 /* LXDHostFilterRule.m */; };
+		1C4D3FCF207CA36D00D2B5F6 /* LXDCrashMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D3F97207CA36C00D2B5F6 /* LXDCrashMonitor.m */; };
+		1C4D3FD0207CA36D00D2B5F6 /* LXDCrashLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D3F9A207CA36C00D2B5F6 /* LXDCrashLogger.m */; };
+		1C4D3FD1207CA36D00D2B5F6 /* LXDAppFluencyMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D3F9C207CA36C00D2B5F6 /* LXDAppFluencyMonitor.m */; };
+		1C4D3FD2207CA36D00D2B5F6 /* LXDMemoryDisplayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D3FA4207CA36C00D2B5F6 /* LXDMemoryDisplayer.m */; };
+		1C4D3FD3207CA36D00D2B5F6 /* LXDCPUDisplayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D3FA6207CA36C00D2B5F6 /* LXDCPUDisplayer.m */; };
+		1C4D3FD4207CA36D00D2B5F6 /* LXDApplicationMemory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D3FA7207CA36C00D2B5F6 /* LXDApplicationMemory.m */; };
+		1C4D3FD5207CA36D00D2B5F6 /* LXDResourceMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D3FA8207CA36C00D2B5F6 /* LXDResourceMonitor.m */; };
+		1C4D3FD6207CA36D00D2B5F6 /* LXDSystemMemory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D3FA9207CA36C00D2B5F6 /* LXDSystemMemory.m */; };
+		1C4D3FD7207CA36D00D2B5F6 /* LXDApplicationCPU.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D3FAA207CA36C00D2B5F6 /* LXDApplicationCPU.m */; };
+		1C4D3FD8207CA36D00D2B5F6 /* LXDSystemCPU.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D3FAB207CA36C00D2B5F6 /* LXDSystemCPU.m */; };
+		1C4D3FD9207CA36D00D2B5F6 /* LXDFPSMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D3FAF207CA36C00D2B5F6 /* LXDFPSMonitor.m */; };
+		1C4D3FDA207CA36D00D2B5F6 /* LXDFPSDisplayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D3FB2207CA36C00D2B5F6 /* LXDFPSDisplayer.m */; };
+		1C4D3FDB207CA36D00D2B5F6 /* LXDWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D3FB3207CA36C00D2B5F6 /* LXDWeakProxy.m */; };
+		1C4D3FDC207CA36D00D2B5F6 /* LXDAsyncLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D3FBA207CA36C00D2B5F6 /* LXDAsyncLabel.m */; };
+		1C4D3FDD207CA36D00D2B5F6 /* LXDTopWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D3FBB207CA36C00D2B5F6 /* LXDTopWindow.m */; };
+		1C4D3FDE207CA36D00D2B5F6 /* UIApplication+LXDTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D3FBC207CA36C00D2B5F6 /* UIApplication+LXDTool.m */; };
+		1C4D3FDF207CA36D00D2B5F6 /* LXDBacktraceLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D3FBE207CA36C00D2B5F6 /* LXDBacktraceLogger.m */; };
+		1C4D3FE0207CA36D00D2B5F6 /* LXDDispatchAsync.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D3FC2207CA36C00D2B5F6 /* LXDDispatchAsync.m */; };
+		1C4D3FE1207CA36D00D2B5F6 /* LXDDispatchOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D3FC3207CA36C00D2B5F6 /* LXDDispatchOperation.m */; };
+		1C4D3FE2207CA36D00D2B5F6 /* LXDGlobalTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D3FC6207CA36C00D2B5F6 /* LXDGlobalTimer.m */; };
+		1C4D3FE3207CA36D00D2B5F6 /* LXDTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D3FCA207CA36C00D2B5F6 /* LXDTransaction.m */; };
 		1C4D54CB204F887E00ABF4BB /* AAHighchartsLib.js in Resources */ = {isa = PBXBuildFile; fileRef = 1C4D5486204F887E00ABF4BB /* AAHighchartsLib.js */; };
 		1C4D54CC204F887E00ABF4BB /* AAHighchartsMore.js in Resources */ = {isa = PBXBuildFile; fileRef = 1C4D5487204F887E00ABF4BB /* AAHighchartsMore.js */; };
 		1C4D54CD204F887E00ABF4BB /* AAFunnel.js in Resources */ = {isa = PBXBuildFile; fileRef = 1C4D5488204F887E00ABF4BB /* AAFunnel.js */; };
@@ -289,6 +314,57 @@
 		1C4B32A62047E53400A964A7 /* AdvertiseHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvertiseHelper.m; sourceTree = "<group>"; };
 		1C4B32A72047E53400A964A7 /* AdvertiseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvertiseHelper.h; sourceTree = "<group>"; };
 		1C4B32A82047E53400A964A7 /* AdvertiseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvertiseView.h; sourceTree = "<group>"; };
+		1C4D3F8E207CA36C00D2B5F6 /* LXDDNSInterceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDDNSInterceptor.m; sourceTree = "<group>"; };
+		1C4D3F8F207CA36C00D2B5F6 /* LXDHostMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDHostMapper.h; sourceTree = "<group>"; };
+		1C4D3F90207CA36C00D2B5F6 /* NSURLProtocol+WebKitSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLProtocol+WebKitSupport.m"; sourceTree = "<group>"; };
+		1C4D3F91207CA36C00D2B5F6 /* LXDHostFilterRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDHostFilterRule.h; sourceTree = "<group>"; };
+		1C4D3F92207CA36C00D2B5F6 /* LXDHostMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDHostMapper.m; sourceTree = "<group>"; };
+		1C4D3F93207CA36C00D2B5F6 /* LXDDNSInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDDNSInterceptor.h; sourceTree = "<group>"; };
+		1C4D3F94207CA36C00D2B5F6 /* NSURLProtocol+WebKitSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLProtocol+WebKitSupport.h"; sourceTree = "<group>"; };
+		1C4D3F95207CA36C00D2B5F6 /* LXDHostFilterRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDHostFilterRule.m; sourceTree = "<group>"; };
+		1C4D3F97207CA36C00D2B5F6 /* LXDCrashMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDCrashMonitor.m; sourceTree = "<group>"; };
+		1C4D3F98207CA36C00D2B5F6 /* LXDCrashLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDCrashLogger.h; sourceTree = "<group>"; };
+		1C4D3F99207CA36C00D2B5F6 /* LXDCrashMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDCrashMonitor.h; sourceTree = "<group>"; };
+		1C4D3F9A207CA36C00D2B5F6 /* LXDCrashLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDCrashLogger.m; sourceTree = "<group>"; };
+		1C4D3F9C207CA36C00D2B5F6 /* LXDAppFluencyMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDAppFluencyMonitor.m; sourceTree = "<group>"; };
+		1C4D3F9D207CA36C00D2B5F6 /* LXDAppFluencyMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDAppFluencyMonitor.h; sourceTree = "<group>"; };
+		1C4D3F9F207CA36C00D2B5F6 /* LXDResourceMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDResourceMonitor.h; sourceTree = "<group>"; };
+		1C4D3FA0207CA36C00D2B5F6 /* LXDCPUDisplayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDCPUDisplayer.h; sourceTree = "<group>"; };
+		1C4D3FA1207CA36C00D2B5F6 /* LXDApplicationMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDApplicationMemory.h; sourceTree = "<group>"; };
+		1C4D3FA2207CA36C00D2B5F6 /* LXDApplicationCPU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDApplicationCPU.h; sourceTree = "<group>"; };
+		1C4D3FA3207CA36C00D2B5F6 /* LXDSystemMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDSystemMemory.h; sourceTree = "<group>"; };
+		1C4D3FA4207CA36C00D2B5F6 /* LXDMemoryDisplayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDMemoryDisplayer.m; sourceTree = "<group>"; };
+		1C4D3FA5207CA36C00D2B5F6 /* LXDSystemCPU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDSystemCPU.h; sourceTree = "<group>"; };
+		1C4D3FA6207CA36C00D2B5F6 /* LXDCPUDisplayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDCPUDisplayer.m; sourceTree = "<group>"; };
+		1C4D3FA7207CA36C00D2B5F6 /* LXDApplicationMemory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDApplicationMemory.m; sourceTree = "<group>"; };
+		1C4D3FA8207CA36C00D2B5F6 /* LXDResourceMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDResourceMonitor.m; sourceTree = "<group>"; };
+		1C4D3FA9207CA36C00D2B5F6 /* LXDSystemMemory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDSystemMemory.m; sourceTree = "<group>"; };
+		1C4D3FAA207CA36C00D2B5F6 /* LXDApplicationCPU.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDApplicationCPU.m; sourceTree = "<group>"; };
+		1C4D3FAB207CA36C00D2B5F6 /* LXDSystemCPU.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDSystemCPU.m; sourceTree = "<group>"; };
+		1C4D3FAC207CA36C00D2B5F6 /* LXDMemoryDisplayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDMemoryDisplayer.h; sourceTree = "<group>"; };
+		1C4D3FAE207CA36C00D2B5F6 /* LXDFPSDisplayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDFPSDisplayer.h; sourceTree = "<group>"; };
+		1C4D3FAF207CA36C00D2B5F6 /* LXDFPSMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDFPSMonitor.m; sourceTree = "<group>"; };
+		1C4D3FB0207CA36C00D2B5F6 /* LXDWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDWeakProxy.h; sourceTree = "<group>"; };
+		1C4D3FB1207CA36C00D2B5F6 /* LXDFPSMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDFPSMonitor.h; sourceTree = "<group>"; };
+		1C4D3FB2207CA36C00D2B5F6 /* LXDFPSDisplayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDFPSDisplayer.m; sourceTree = "<group>"; };
+		1C4D3FB3207CA36C00D2B5F6 /* LXDWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDWeakProxy.m; sourceTree = "<group>"; };
+		1C4D3FB6207CA36C00D2B5F6 /* LXDAsyncLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDAsyncLabel.h; sourceTree = "<group>"; };
+		1C4D3FB7207CA36C00D2B5F6 /* LXDMonitorUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDMonitorUI.h; sourceTree = "<group>"; };
+		1C4D3FB8207CA36C00D2B5F6 /* LXDTopWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDTopWindow.h; sourceTree = "<group>"; };
+		1C4D3FB9207CA36C00D2B5F6 /* UIApplication+LXDTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+LXDTool.h"; sourceTree = "<group>"; };
+		1C4D3FBA207CA36C00D2B5F6 /* LXDAsyncLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDAsyncLabel.m; sourceTree = "<group>"; };
+		1C4D3FBB207CA36C00D2B5F6 /* LXDTopWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDTopWindow.m; sourceTree = "<group>"; };
+		1C4D3FBC207CA36C00D2B5F6 /* UIApplication+LXDTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+LXDTool.m"; sourceTree = "<group>"; };
+		1C4D3FBE207CA36C00D2B5F6 /* LXDBacktraceLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDBacktraceLogger.m; sourceTree = "<group>"; };
+		1C4D3FBF207CA36C00D2B5F6 /* LXDBacktraceLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDBacktraceLogger.h; sourceTree = "<group>"; };
+		1C4D3FC1207CA36C00D2B5F6 /* LXDDispatchOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDDispatchOperation.h; sourceTree = "<group>"; };
+		1C4D3FC2207CA36C00D2B5F6 /* LXDDispatchAsync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDDispatchAsync.m; sourceTree = "<group>"; };
+		1C4D3FC3207CA36C00D2B5F6 /* LXDDispatchOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDDispatchOperation.m; sourceTree = "<group>"; };
+		1C4D3FC4207CA36C00D2B5F6 /* LXDDispatchAsync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDDispatchAsync.h; sourceTree = "<group>"; };
+		1C4D3FC6207CA36C00D2B5F6 /* LXDGlobalTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDGlobalTimer.m; sourceTree = "<group>"; };
+		1C4D3FC7207CA36C00D2B5F6 /* LXDGlobalTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDGlobalTimer.h; sourceTree = "<group>"; };
+		1C4D3FC9207CA36C00D2B5F6 /* LXDTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDTransaction.h; sourceTree = "<group>"; };
+		1C4D3FCA207CA36C00D2B5F6 /* LXDTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDTransaction.m; sourceTree = "<group>"; };
 		1C4D5486204F887E00ABF4BB /* AAHighchartsLib.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = AAHighchartsLib.js; sourceTree = "<group>"; };
 		1C4D5487204F887E00ABF4BB /* AAHighchartsMore.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = AAHighchartsMore.js; sourceTree = "<group>"; };
 		1C4D5488204F887E00ABF4BB /* AAFunnel.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = AAFunnel.js; sourceTree = "<group>"; };
@@ -744,6 +820,152 @@
 				1C4B32A62047E53400A964A7 /* AdvertiseHelper.m */,
 			);
 			path = "广告页";
+			sourceTree = "<group>";
+		};
+		1C4D3F8C207CA36C00D2B5F6 /* LXDAppMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				1C4D3F8D207CA36C00D2B5F6 /* Intercept */,
+				1C4D3F96207CA36C00D2B5F6 /* Crash */,
+				1C4D3F9B207CA36C00D2B5F6 /* Fluency */,
+				1C4D3F9E207CA36C00D2B5F6 /* Resource */,
+				1C4D3FAD207CA36C00D2B5F6 /* FPS */,
+				1C4D3FB4207CA36C00D2B5F6 /* Tool */,
+			);
+			path = LXDAppMonitor;
+			sourceTree = "<group>";
+		};
+		1C4D3F8D207CA36C00D2B5F6 /* Intercept */ = {
+			isa = PBXGroup;
+			children = (
+				1C4D3F8E207CA36C00D2B5F6 /* LXDDNSInterceptor.m */,
+				1C4D3F8F207CA36C00D2B5F6 /* LXDHostMapper.h */,
+				1C4D3F90207CA36C00D2B5F6 /* NSURLProtocol+WebKitSupport.m */,
+				1C4D3F91207CA36C00D2B5F6 /* LXDHostFilterRule.h */,
+				1C4D3F92207CA36C00D2B5F6 /* LXDHostMapper.m */,
+				1C4D3F93207CA36C00D2B5F6 /* LXDDNSInterceptor.h */,
+				1C4D3F94207CA36C00D2B5F6 /* NSURLProtocol+WebKitSupport.h */,
+				1C4D3F95207CA36C00D2B5F6 /* LXDHostFilterRule.m */,
+			);
+			path = Intercept;
+			sourceTree = "<group>";
+		};
+		1C4D3F96207CA36C00D2B5F6 /* Crash */ = {
+			isa = PBXGroup;
+			children = (
+				1C4D3F97207CA36C00D2B5F6 /* LXDCrashMonitor.m */,
+				1C4D3F98207CA36C00D2B5F6 /* LXDCrashLogger.h */,
+				1C4D3F99207CA36C00D2B5F6 /* LXDCrashMonitor.h */,
+				1C4D3F9A207CA36C00D2B5F6 /* LXDCrashLogger.m */,
+			);
+			path = Crash;
+			sourceTree = "<group>";
+		};
+		1C4D3F9B207CA36C00D2B5F6 /* Fluency */ = {
+			isa = PBXGroup;
+			children = (
+				1C4D3F9C207CA36C00D2B5F6 /* LXDAppFluencyMonitor.m */,
+				1C4D3F9D207CA36C00D2B5F6 /* LXDAppFluencyMonitor.h */,
+			);
+			path = Fluency;
+			sourceTree = "<group>";
+		};
+		1C4D3F9E207CA36C00D2B5F6 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				1C4D3F9F207CA36C00D2B5F6 /* LXDResourceMonitor.h */,
+				1C4D3FA0207CA36C00D2B5F6 /* LXDCPUDisplayer.h */,
+				1C4D3FA1207CA36C00D2B5F6 /* LXDApplicationMemory.h */,
+				1C4D3FA2207CA36C00D2B5F6 /* LXDApplicationCPU.h */,
+				1C4D3FA3207CA36C00D2B5F6 /* LXDSystemMemory.h */,
+				1C4D3FA4207CA36C00D2B5F6 /* LXDMemoryDisplayer.m */,
+				1C4D3FA5207CA36C00D2B5F6 /* LXDSystemCPU.h */,
+				1C4D3FA6207CA36C00D2B5F6 /* LXDCPUDisplayer.m */,
+				1C4D3FA7207CA36C00D2B5F6 /* LXDApplicationMemory.m */,
+				1C4D3FA8207CA36C00D2B5F6 /* LXDResourceMonitor.m */,
+				1C4D3FA9207CA36C00D2B5F6 /* LXDSystemMemory.m */,
+				1C4D3FAA207CA36C00D2B5F6 /* LXDApplicationCPU.m */,
+				1C4D3FAB207CA36C00D2B5F6 /* LXDSystemCPU.m */,
+				1C4D3FAC207CA36C00D2B5F6 /* LXDMemoryDisplayer.h */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		1C4D3FAD207CA36C00D2B5F6 /* FPS */ = {
+			isa = PBXGroup;
+			children = (
+				1C4D3FAE207CA36C00D2B5F6 /* LXDFPSDisplayer.h */,
+				1C4D3FAF207CA36C00D2B5F6 /* LXDFPSMonitor.m */,
+				1C4D3FB0207CA36C00D2B5F6 /* LXDWeakProxy.h */,
+				1C4D3FB1207CA36C00D2B5F6 /* LXDFPSMonitor.h */,
+				1C4D3FB2207CA36C00D2B5F6 /* LXDFPSDisplayer.m */,
+				1C4D3FB3207CA36C00D2B5F6 /* LXDWeakProxy.m */,
+			);
+			path = FPS;
+			sourceTree = "<group>";
+		};
+		1C4D3FB4207CA36C00D2B5F6 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				1C4D3FB5207CA36C00D2B5F6 /* UI */,
+				1C4D3FBD207CA36C00D2B5F6 /* Backtrace */,
+				1C4D3FC0207CA36C00D2B5F6 /* Dispatch */,
+				1C4D3FC5207CA36C00D2B5F6 /* Timer */,
+				1C4D3FC8207CA36C00D2B5F6 /* Performance */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		1C4D3FB5207CA36C00D2B5F6 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1C4D3FB6207CA36C00D2B5F6 /* LXDAsyncLabel.h */,
+				1C4D3FB7207CA36C00D2B5F6 /* LXDMonitorUI.h */,
+				1C4D3FB8207CA36C00D2B5F6 /* LXDTopWindow.h */,
+				1C4D3FB9207CA36C00D2B5F6 /* UIApplication+LXDTool.h */,
+				1C4D3FBA207CA36C00D2B5F6 /* LXDAsyncLabel.m */,
+				1C4D3FBB207CA36C00D2B5F6 /* LXDTopWindow.m */,
+				1C4D3FBC207CA36C00D2B5F6 /* UIApplication+LXDTool.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		1C4D3FBD207CA36C00D2B5F6 /* Backtrace */ = {
+			isa = PBXGroup;
+			children = (
+				1C4D3FBE207CA36C00D2B5F6 /* LXDBacktraceLogger.m */,
+				1C4D3FBF207CA36C00D2B5F6 /* LXDBacktraceLogger.h */,
+			);
+			path = Backtrace;
+			sourceTree = "<group>";
+		};
+		1C4D3FC0207CA36C00D2B5F6 /* Dispatch */ = {
+			isa = PBXGroup;
+			children = (
+				1C4D3FC1207CA36C00D2B5F6 /* LXDDispatchOperation.h */,
+				1C4D3FC2207CA36C00D2B5F6 /* LXDDispatchAsync.m */,
+				1C4D3FC3207CA36C00D2B5F6 /* LXDDispatchOperation.m */,
+				1C4D3FC4207CA36C00D2B5F6 /* LXDDispatchAsync.h */,
+			);
+			path = Dispatch;
+			sourceTree = "<group>";
+		};
+		1C4D3FC5207CA36C00D2B5F6 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				1C4D3FC6207CA36C00D2B5F6 /* LXDGlobalTimer.m */,
+				1C4D3FC7207CA36C00D2B5F6 /* LXDGlobalTimer.h */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		1C4D3FC8207CA36C00D2B5F6 /* Performance */ = {
+			isa = PBXGroup;
+			children = (
+				1C4D3FC9207CA36C00D2B5F6 /* LXDTransaction.h */,
+				1C4D3FCA207CA36C00D2B5F6 /* LXDTransaction.m */,
+			);
+			path = Performance;
 			sourceTree = "<group>";
 		};
 		1C4D53DD204F7E0F00ABF4BB /* AAChartKitLib */ = {
@@ -1442,6 +1664,7 @@
 		1CA19F96203FE0B4005068A7 /* third */ = {
 			isa = PBXGroup;
 			children = (
+				1C4D3F8C207CA36C00D2B5F6 /* LXDAppMonitor */,
 				1CBABC52206CE0A400EB3F68 /* 饼状图 */,
 				1CBABC48206CD77C00EB3F68 /* 转场View */,
 				1CBABC3A206CCF6D00EB3F68 /* BounceView */,
@@ -1783,7 +2006,7 @@
 		1CA19F6D203FDBFA005068A7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = xubojoy;
 				TargetAttributes = {
 					1CA19F74203FDBFA005068A7 = {
@@ -2008,6 +2231,7 @@
 				1C8F356F2043E1E5004DDC06 /* WRNavigationBar.m in Sources */,
 				1C4D554E204FC00D00ABF4BB /* NNTableViewCell.m in Sources */,
 				1CBABC3D206CCF6D00EB3F68 /* BounceView.m in Sources */,
+				1C4D3FD2207CA36D00D2B5F6 /* LXDMemoryDisplayer.m in Sources */,
 				1CBABC5C206CE0A400EB3F68 /* PieView.m in Sources */,
 				1C753424205274AC0057B318 /* DouDiZhuViewController.m in Sources */,
 				1C4D54D4204F887E00ABF4BB /* AAPlotOptions.m in Sources */,
@@ -2015,6 +2239,7 @@
 				1C75342F205274AC0057B318 /* CountDownViewController.m in Sources */,
 				1CBABC40206CD0DE00EB3F68 /* BounceAnimationController.m in Sources */,
 				1C4D5561204FC8E200ABF4BB /* ClockView.m in Sources */,
+				1C4D3FE3207CA36D00D2B5F6 /* LXDTransaction.m in Sources */,
 				1CAC5286204EA42C00715A0F /* AdvancedBarrageController.m in Sources */,
 				1C9048AA2060AB8C007BAA9D /* ZWMusicalNoteView.m in Sources */,
 				1CBABC51206CE05A00EB3F68 /* BingZhuangViewController.m in Sources */,
@@ -2027,9 +2252,11 @@
 				1C4D9A912050E6D400082259 /* StepManager.m in Sources */,
 				1C4D54D5204F887E00ABF4BB /* AADataLabels.m in Sources */,
 				1CAC5287204EA42C00715A0F /* MLEmojiLabel+BarrageView.m in Sources */,
+				1C4D3FD0207CA36D00D2B5F6 /* LXDCrashLogger.m in Sources */,
 				1C4B32A92047E53400A964A7 /* AdvertiseView.m in Sources */,
 				1C4D9A9E205117B900082259 /* GSKeyChainDataManager.m in Sources */,
 				1C753423205274AC0057B318 /* MusicViewController.m in Sources */,
+				1C4D3FCD207CA36D00D2B5F6 /* LXDHostMapper.m in Sources */,
 				1C4D54D9204F887E00ABF4BB /* AAYAxis.m in Sources */,
 				1C4D54E5204F887E00ABF4BB /* AASpline.m in Sources */,
 				1C753431205274AC0057B318 /* LaunchImageController.m in Sources */,
@@ -2041,6 +2268,7 @@
 				1C8F357D2043F627004DDC06 /* Const.m in Sources */,
 				1CA19FDF203FE29E005068A7 /* NSObject+ZJUIExtension.m in Sources */,
 				1C4D552A204F891900ABF4BB /* DrawChartWithAAOptionsVC.m in Sources */,
+				1C4D3FD5207CA36D00D2B5F6 /* LXDResourceMonitor.m in Sources */,
 				1C4D54DA204F887E00ABF4BB /* AAColumn.m in Sources */,
 				1C4D9AA22051187800082259 /* UUIDViewController.m in Sources */,
 				1CBABC44206CD6E200EB3F68 /* ShouchangController.m in Sources */,
@@ -2048,18 +2276,23 @@
 				1C4D5567204FC9A700ABF4BB /* Clock.m in Sources */,
 				1C75342D205274AC0057B318 /* FileLoadViewController.m in Sources */,
 				1C90489F2060A336007BAA9D /* CustomNoticeCell.m in Sources */,
+				1C4D3FCE207CA36D00D2B5F6 /* LXDHostFilterRule.m in Sources */,
+				1C4D3FDB207CA36D00D2B5F6 /* LXDWeakProxy.m in Sources */,
 				1CBABC39206CCF4600EB3F68 /* TanHuangListController.m in Sources */,
 				1C753426205274AC0057B318 /* PopViewController.m in Sources */,
 				1C753427205274AC0057B318 /* QQTmpChatViewController.m in Sources */,
+				1C4D3FE1207CA36D00D2B5F6 /* LXDDispatchOperation.m in Sources */,
 				1CA19F88203FDBFA005068A7 /* main.m in Sources */,
 				1C51D3942041012B00539BD3 /* UIColor+Random.m in Sources */,
 				1C753433205274AC0057B318 /* FaceIDViewController.m in Sources */,
+				1C4D3FD8207CA36D00D2B5F6 /* LXDSystemCPU.m in Sources */,
 				1C4D5537204FB92A00ABF4BB /* BHBMyDrawer.m in Sources */,
 				1C8F35EA204402FB004DDC06 /* NeteaseMusicAPI.m in Sources */,
 				0C8355A72046C68100A9373C /* DrawPDFViewController.m in Sources */,
 				0C8355A62046C68100A9373C /* DrawPDFView.m in Sources */,
 				1C4D9AAA205137BE00082259 /* SortView.swift in Sources */,
 				1C8F357A2043F5D4004DDC06 /* ColorUtil.m in Sources */,
+				1C4D3FCB207CA36D00D2B5F6 /* LXDDNSInterceptor.m in Sources */,
 				1C4D5539204FB92A00ABF4BB /* BHBScrollView.m in Sources */,
 				1C4D54ED204F887E00ABF4BB /* AAOptionsConstructor.m in Sources */,
 				1C4D54DF204F887E00ABF4BB /* AATitle.m in Sources */,
@@ -2067,6 +2300,7 @@
 				1C51D38E2040FF2800539BD3 /* APPUISummaryController.m in Sources */,
 				1C9048942060A289007BAA9D /* JGRollingNoticeView.m in Sources */,
 				1C4D5538204FB92A00ABF4BB /* BHBPaintPath.m in Sources */,
+				1C4D3FD6207CA36D00D2B5F6 /* LXDSystemMemory.m in Sources */,
 				1C4D5520204F891900ABF4BB /* AAChartModelComposer.m in Sources */,
 				1C753430205274AC0057B318 /* CommonWebController.m in Sources */,
 				1C75342A205274AC0057B318 /* TouchIDViewController.m in Sources */,
@@ -2074,6 +2308,7 @@
 				1CA19F7A203FDBFA005068A7 /* AppDelegate.m in Sources */,
 				1C4D54D0204F887E00ABF4BB /* AAAreaspline.m in Sources */,
 				1C9048A82060AB8C007BAA9D /* ZWMusicDownLoadBtn.m in Sources */,
+				1C4D3FD4207CA36D00D2B5F6 /* LXDApplicationMemory.m in Sources */,
 				1C4D54E4204F887E00ABF4BB /* AAMarker.m in Sources */,
 				1C4D54DD204F887E00ABF4BB /* AAStyle.m in Sources */,
 				1C8F35EE204402FB004DDC06 /* QQMusicOperationTool.m in Sources */,
@@ -2090,8 +2325,10 @@
 				1C8F35F820440503004DDC06 /* QQMusicMessageModel.m in Sources */,
 				1C4930672044F15500F674F2 /* MusicListCell.m in Sources */,
 				1C4D551A204F891900ABF4BB /* OnlyRefreshChartDataVC.m in Sources */,
+				1C4D3FDD207CA36D00D2B5F6 /* LXDTopWindow.m in Sources */,
 				1C9048A02060A336007BAA9D /* JGCustomNoticeCell.m in Sources */,
 				1C4D5522204F891900ABF4BB /* DrilldownChartVC.m in Sources */,
+				1C4D3FCC207CA36D00D2B5F6 /* NSURLProtocol+WebKitSupport.m in Sources */,
 				1CA19FF7203FE78E005068A7 /* GPUImageSoulFilter.m in Sources */,
 				1C75342C205274AC0057B318 /* DrawViewController.m in Sources */,
 				1C4D54D7204F887E00ABF4BB /* AATooltip.m in Sources */,
@@ -2099,8 +2336,10 @@
 				1C4D9AA9205137BE00082259 /* Sort.swift in Sources */,
 				1C4D9A9F205117B900082259 /* GSKeyChain.m in Sources */,
 				1C4D5523204F891900ABF4BB /* SecondViewController.m in Sources */,
+				1C4D3FD3207CA36D00D2B5F6 /* LXDCPUDisplayer.m in Sources */,
 				1C8F35652043E031004DDC06 /* GBPopMenuButtonItem.m in Sources */,
 				1C753425205274AC0057B318 /* DateCalendarController.m in Sources */,
+				1C4D3FD9207CA36D00D2B5F6 /* LXDFPSMonitor.m in Sources */,
 				1C4D54EB204F887E00ABF4BB /* AAJsonConverter.m in Sources */,
 				1C4D5560204FC8E200ABF4BB /* ClockLayer.m in Sources */,
 				1C4D5521204F891900ABF4BB /* MonitorViewController.m in Sources */,
@@ -2125,18 +2364,23 @@
 				1CAC5283204EA42C00715A0F /* FlowerBarrageSprite.m in Sources */,
 				1C4D54E2204F887E00ABF4BB /* AAAnimation.m in Sources */,
 				1C4D54E0204F887E00ABF4BB /* AAOptions.m in Sources */,
+				1C4D3FDA207CA36D00D2B5F6 /* LXDFPSDisplayer.m in Sources */,
+				1C4D3FCF207CA36D00D2B5F6 /* LXDCrashMonitor.m in Sources */,
 				1C4D54E6204F887E00ABF4BB /* AAItemStyle.m in Sources */,
 				1CBABC5A206CE0A400EB3F68 /* WLPieView.m in Sources */,
 				1C4D5512204F891900ABF4BB /* SpecialChartVC.m in Sources */,
 				1C4D54E3204F887E00ABF4BB /* AALegend.m in Sources */,
 				1C4D9AAC205137F000082259 /* SortViewController.swift in Sources */,
+				1C4D3FE0207CA36D00D2B5F6 /* LXDDispatchAsync.m in Sources */,
 				1C75342B205274AC0057B318 /* WIFICheckViewController.m in Sources */,
 				1C51D3872040FA9E00539BD3 /* SummaryListController.m in Sources */,
+				1C4D3FDC207CA36D00D2B5F6 /* LXDAsyncLabel.m in Sources */,
 				1C9048AE2060ABD7007BAA9D /* MusicBaViewController.m in Sources */,
 				1CA19FF1203FE756005068A7 /* CIFilter+LUT.m in Sources */,
 				1CAC526F204E9FF300715A0F /* BarrageViewController.m in Sources */,
 				1C4D9AA8205137BE00082259 /* SortClass.swift in Sources */,
 				1C753429205274AC0057B318 /* PDFBrowserController.m in Sources */,
+				1C4D3FE2207CA36D00D2B5F6 /* LXDGlobalTimer.m in Sources */,
 				1C4D54E1204F887E00ABF4BB /* AAArea.m in Sources */,
 				1C8F35EB204402FB004DDC06 /* QQLrcDataTool.m in Sources */,
 				1C9048B62060B035007BAA9D /* RegularViewController.m in Sources */,
@@ -2145,14 +2389,18 @@
 				1C4D5564204FC90300ABF4BB /* ClockDrawViewController.m in Sources */,
 				1CAC5285204EA42C00715A0F /* BarrageWalkImageTextSprite.m in Sources */,
 				1CA19FF8203FE78E005068A7 /* GpUImageScaleFilter.m in Sources */,
+				1C4D3FDF207CA36D00D2B5F6 /* LXDBacktraceLogger.m in Sources */,
 				1CA19FBF203FE0E2005068A7 /* AISphereView.m in Sources */,
 				1C539B0E2073556900EAA9FF /* ZhuanAnimationController.m in Sources */,
+				1C4D3FDE207CA36D00D2B5F6 /* UIApplication+LXDTool.m in Sources */,
 				1CBABC4D206CD79800EB3F68 /* PingTransition.m in Sources */,
 				1CAC5289204EA42C00715A0F /* NSSafeObject.m in Sources */,
 				1C4D54D1204F887E00ABF4BB /* AALabels.m in Sources */,
+				1C4D3FD7207CA36D00D2B5F6 /* LXDApplicationCPU.m in Sources */,
 				1C4D9A952050E71C00082259 /* StepViewController.m in Sources */,
 				1C8F35EC204402FB004DDC06 /* QQTimeTool.m in Sources */,
 				1C753428205274AC0057B318 /* GPUImageViewController.m in Sources */,
+				1C4D3FD1207CA36D00D2B5F6 /* LXDAppFluencyMonitor.m in Sources */,
 				1C4D9A922050E6D400082259 /* MMPDeepSleepPreventer.m in Sources */,
 				1C8F355C2043E031004DDC06 /* GBAnimationTool.m in Sources */,
 			);
@@ -2194,6 +2442,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -2201,6 +2450,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -2249,6 +2499,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -2256,6 +2507,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
