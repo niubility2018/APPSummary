@@ -6,6 +6,7 @@
 	<dict>
 		<key>AFNetworking.xcscheme</key>
 		<dict>
+<<<<<<< HEAD
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
@@ -28,31 +29,85 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>4</integer>
+=======
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>BarrageRenderer.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>CYLTabBarController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>FDFullscreenPopGesture.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>FJAlertView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>FLEX.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
+>>>>>>> br_0.1
+		</dict>
+		<key>FLEX.xcscheme</key>
+		<dict>
+<<<<<<< HEAD
 			<key>orderHint</key>
 			<integer>5</integer>
+=======
+			<key>isShown</key>
+			<false/>
+>>>>>>> br_0.1
 		</dict>
 		<key>GPUImage.xcscheme</key>
 		<dict>
+<<<<<<< HEAD
 			<key>orderHint</key>
 			<integer>6</integer>
+=======
+			<key>isShown</key>
+			<false/>
+>>>>>>> br_0.1
 		</dict>
 		<key>IQKeyboardManager.xcscheme</key>
 		<dict>
+<<<<<<< HEAD
 			<key>orderHint</key>
 			<integer>7</integer>
+=======
+			<key>isShown</key>
+			<false/>
+>>>>>>> br_0.1
 		</dict>
 		<key>JPFPSStatus.xcscheme</key>
 		<dict>
+<<<<<<< HEAD
 			<key>orderHint</key>
 			<integer>8</integer>
+=======
+			<key>isShown</key>
+			<false/>
+>>>>>>> br_0.1
 		</dict>
 		<key>JxbDebugTool.xcscheme</key>
 		<dict>
+<<<<<<< HEAD
 			<key>orderHint</key>
 			<integer>9</integer>
+=======
+			<key>isShown</key>
+			<false/>
+>>>>>>> br_0.1
 		</dict>
 		<key>KVOController.xcscheme</key>
 		<dict>
@@ -61,6 +116,7 @@
 		</dict>
 		<key>MBProgressHUD.xcscheme</key>
 		<dict>
+<<<<<<< HEAD
 			<key>orderHint</key>
 			<integer>13</integer>
 		</dict>
@@ -123,6 +179,70 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>18</integer>
+=======
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MJExtension.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MJRefresh.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MLEmojiLabel.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Masonry.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-APPSummary.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>TTTAttributedLabel.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>TYAttributedLabel.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>YYCache.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>YYImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>lottie-ios.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>pop.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+>>>>>>> br_0.1
 		</dict>
 	</dict>
 </dict>
