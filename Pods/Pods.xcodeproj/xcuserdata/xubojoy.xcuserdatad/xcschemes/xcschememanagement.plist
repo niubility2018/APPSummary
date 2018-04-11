@@ -29,90 +29,100 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
-		<key>GPUImage.xcscheme</key>
+		<key>FLEX.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
-		<key>IQKeyboardManager.xcscheme</key>
+		<key>GPUImage.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
-		<key>JPFPSStatus.xcscheme</key>
+		<key>IQKeyboardManager.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>7</integer>
 		</dict>
-		<key>JxbDebugTool.xcscheme</key>
+		<key>JPFPSStatus.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>8</integer>
 		</dict>
-		<key>KVOController.xcscheme</key>
+		<key>JxbDebugTool.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>9</integer>
 		</dict>
-		<key>MBProgressHUD.xcscheme</key>
+		<key>KVOController.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>12</integer>
+			<integer>10</integer>
 		</dict>
-		<key>MJExtension.xcscheme</key>
+		<key>MBProgressHUD.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>13</integer>
 		</dict>
-		<key>MJRefresh.xcscheme</key>
+		<key>MJExtension.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>14</integer>
 		</dict>
-		<key>MLEmojiLabel.xcscheme</key>
+		<key>MJRefresh.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>15</integer>
 		</dict>
-		<key>Masonry.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>11</integer>
-		</dict>
-		<key>Pods-APPSummary.xcscheme</key>
+		<key>MLEmojiLabel.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>16</integer>
 		</dict>
-		<key>SDWebImage.xcscheme</key>
+		<key>Masonry.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
+		<key>Pods-APPSummary.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>17</integer>
 		</dict>
-		<key>TTTAttributedLabel.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>18</integer>
-		</dict>
-		<key>TYAttributedLabel.xcscheme</key>
+		<key>SDWebImage.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>19</integer>
 		</dict>
-		<key>YYCache.xcscheme</key>
+		<key>TTTAttributedLabel.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>20</integer>
 		</dict>
-		<key>YYImage.xcscheme</key>
+		<key>TYAttributedLabel.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>21</integer>
 		</dict>
+		<key>YYCache.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>22</integer>
+		</dict>
+		<key>YYImage.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>23</integer>
+		</dict>
 		<key>lottie-ios.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>10</integer>
+			<integer>11</integer>
+		</dict>
+		<key>pop.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>18</integer>
 		</dict>
 	</dict>
 </dict>
