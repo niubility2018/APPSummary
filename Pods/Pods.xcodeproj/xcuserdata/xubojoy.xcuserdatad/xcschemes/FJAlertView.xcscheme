@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'D0E88BCCF071F646DC3F69225FB43122'
-               BlueprintName = 'FJAlertView'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libFJAlertView.a'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D0E88BCCF071F646DC3F69225FB43122"
+               BlueprintName = "FJAlertView"
+               ReferencedContainer = "container:Pods.xcodeproj"
+               BuildableName = "libFJAlertView.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

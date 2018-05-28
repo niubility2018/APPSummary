@@ -32,6 +32,26 @@
     self.dataArray = @[@"iOS开发中的八种锁(Lock)",@"如何设定线程池中线程的数目",@"如何用HTTP实现长连接",@"线程安全以及nonatomic和atomic",@"KVC实现原理",@"KVO实现原理",@"说说你理解weak属性？"];
     self.section2DataArray = @[@"kvo与代理区别",@"isKindOfClass与isMumberOfClass的区别",@"NSArray与NSMutableArray 的区别"];
     [self initTableView];
+    
+    
+//    CFAbsoluteTime startTime =CFAbsoluteTimeGetCurrent();
+//
+//    //在这写入要计算时间的代码
+//    NSArray *array = @[@"a",@"d",@"f",@"g",@"t"];
+//
+//    //数组越界,但是不会crash
+//    for (int i = 0; i < 100000; i++) {
+//        NSLog(@"array >>> %@",[array objectAtIndex:i]);
+//    }
+//
+//    CFAbsoluteTime linkTime = (CFAbsoluteTimeGetCurrent() - startTime);
+//
+//    NSLog(@"Linked in %f ms", linkTime *1000.0);
+    
+//   Linked in 2771.674991 ms   3019.006014 ms   3061.177015 ms  使用dispatch_once
+//   Linked in 2307.027936 ms   2197.233915 ms   2268.103957 ms  不使用dispatch_once
+    
+    
 }
 //初始化tableview
 - (void)initTableView{
