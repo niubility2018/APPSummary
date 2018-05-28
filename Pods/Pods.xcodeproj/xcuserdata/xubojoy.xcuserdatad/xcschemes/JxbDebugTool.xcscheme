@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'A4D3B3268347894F1B21D310D10FBCEE'
-               BlueprintName = 'JxbDebugTool'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libJxbDebugTool.a'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A4D3B3268347894F1B21D310D10FBCEE"
+               BlueprintName = "JxbDebugTool"
+               ReferencedContainer = "container:Pods.xcodeproj"
+               BuildableName = "libJxbDebugTool.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

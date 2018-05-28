@@ -21,6 +21,7 @@
 #import "LXDResourceMonitor.h"
 #import "LXDCrashMonitor.h"
 #import <Bugly/Bugly.h>
+#import "IQKeyboardManager.h"
 @interface AppDelegate ()
 
 @end
@@ -62,6 +63,8 @@
     [LXDCrashMonitor startMonitoring];
     
     [Bugly startWithAppId:@"fd8a6049ce"];
+    
+    [[IQKeyboardManager sharedManager] setToolbarManageBehaviour:IQAutoToolbarByPosition];
     
 //#if defined(DEBUG)||defined(_DEBUG)
 //    [[JPFPSStatus sharedInstance] open];

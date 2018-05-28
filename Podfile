@@ -13,7 +13,7 @@ target 'APPSummary' do
     pod 'GPUImage', '~> 0.1.7'
     pod 'YYCache', '~> 1.0.4'
     #     pod 'FJAlertView', '~> 0.0.4'
-    pod 'IQKeyboardManager', '~> 5.0.7'
+    pod 'IQKeyboardManager', '~> 6.0.2'
     #     pod 'FTLinearActivityIndicator', '~> 1.0.4'
     pod 'FDFullscreenPopGesture', '~> 1.1'
     #     pod 'AXWebViewController', '~> 0.7.1'
@@ -31,4 +31,6 @@ target 'APPSummary' do
     pod 'pop', '~> 1.0.10'
     pod 'FLEX', '~> 2.4.0'
     pod 'Bugly', '~> 2.5.0'
+    pod 'YYText', '~> 1.0.7'
+    pod 'Aspects', '~> 1.4.1'
 end

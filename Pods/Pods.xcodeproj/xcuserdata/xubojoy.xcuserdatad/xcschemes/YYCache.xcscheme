@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '63952928CE7796EA0E94A1FBAC4BEC0F'
-               BlueprintName = 'YYCache'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libYYCache.a'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EBAA325DA62E5DAB352841BAEA95CA49"
+               BlueprintName = "YYCache"
+               ReferencedContainer = "container:Pods.xcodeproj"
+               BuildableName = "libYYCache.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
