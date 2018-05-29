@@ -36,8 +36,8 @@
     
 //    CFAbsoluteTime startTime =CFAbsoluteTimeGetCurrent();
 //
-//    //在这写入要计算时间的代码
-//    NSArray *array = @[@"a",@"d",@"f",@"g",@"t"];
+//    //在这写入要计算时间的代码  __attribute__((unused)) 消除unused警告
+    NSArray *array __attribute__((unused)) = @[@"a",@"d",@"f",@"g",@"t"];
 //
 //    //数组越界,但是不会crash
 //    for (int i = 0; i < 100000; i++) {
