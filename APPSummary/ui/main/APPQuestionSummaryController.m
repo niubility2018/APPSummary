@@ -50,8 +50,7 @@
     
 //   Linked in 2771.674991 ms   3019.006014 ms   3061.177015 ms  使用dispatch_once
 //   Linked in 2307.027936 ms   2197.233915 ms   2268.103957 ms  不使用dispatch_once
-    
-    
+
 }
 //初始化tableview
 - (void)initTableView{

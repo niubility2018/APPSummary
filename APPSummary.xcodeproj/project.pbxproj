@@ -241,6 +241,10 @@
 		1C9048AE2060ABD7007BAA9D /* MusicBaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9048AD2060ABD7007BAA9D /* MusicBaViewController.m */; };
 		1C9048B22060AFD1007BAA9D /* RegularVerification.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9048B02060AFD1007BAA9D /* RegularVerification.m */; };
 		1C9048B62060B035007BAA9D /* RegularViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9048B52060B035007BAA9D /* RegularViewController.m */; };
+		1C91D25020C53E0F00CDE9DA /* TimerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C91D24E20C53E0F00CDE9DA /* TimerButton.swift */; };
+		1C91D25120C53E0F00CDE9DA /* SendCodeBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C91D24F20C53E0F00CDE9DA /* SendCodeBtn.swift */; };
+		1C91D25320C53E3000CDE9DA /* TimerBtnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C91D25220C53E3000CDE9DA /* TimerBtnViewController.swift */; };
+		1C9408F620E35796000221EB /* ECDSAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9408F520E35796000221EB /* ECDSAViewController.m */; };
 		1CA19F7A203FDBFA005068A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA19F79203FDBFA005068A7 /* AppDelegate.m */; };
 		1CA19F80203FDBFA005068A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CA19F7E203FDBFA005068A7 /* Main.storyboard */; };
 		1CA19F82203FDBFA005068A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CA19F81203FDBFA005068A7 /* Assets.xcassets */; };
@@ -705,6 +709,11 @@
 		1C9048B12060AFD1007BAA9D /* RegularVerification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegularVerification.h; sourceTree = "<group>"; };
 		1C9048B42060B035007BAA9D /* RegularViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegularViewController.h; sourceTree = "<group>"; };
 		1C9048B52060B035007BAA9D /* RegularViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegularViewController.m; sourceTree = "<group>"; };
+		1C91D24E20C53E0F00CDE9DA /* TimerButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerButton.swift; sourceTree = "<group>"; };
+		1C91D24F20C53E0F00CDE9DA /* SendCodeBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendCodeBtn.swift; sourceTree = "<group>"; };
+		1C91D25220C53E3000CDE9DA /* TimerBtnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerBtnViewController.swift; sourceTree = "<group>"; };
+		1C9408F420E35796000221EB /* ECDSAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECDSAViewController.h; sourceTree = "<group>"; };
+		1C9408F520E35796000221EB /* ECDSAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECDSAViewController.m; sourceTree = "<group>"; };
 		1CA19F75203FDBFA005068A7 /* APPSummary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APPSummary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CA19F78203FDBFA005068A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1CA19F79203FDBFA005068A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1276,6 +1285,8 @@
 		1C51D3532040FA1300539BD3 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				1C9408F320E3577B000221EB /* 加解密 */,
+				1C91D24D20C53E0F00CDE9DA /* swift版倒计时 */,
 				1C8BF10B208EF8D200A98D2F /* 文字处理 */,
 				1C450C53207DAC58000EBBB2 /* 屏幕截图分享 */,
 				1C539B0B2073554C00EAA9FF /* 转动 */,
@@ -1667,6 +1678,25 @@
 				1C9048B52060B035007BAA9D /* RegularViewController.m */,
 			);
 			path = "正则匹配";
+			sourceTree = "<group>";
+		};
+		1C91D24D20C53E0F00CDE9DA /* swift版倒计时 */ = {
+			isa = PBXGroup;
+			children = (
+				1C91D24E20C53E0F00CDE9DA /* TimerButton.swift */,
+				1C91D24F20C53E0F00CDE9DA /* SendCodeBtn.swift */,
+				1C91D25220C53E3000CDE9DA /* TimerBtnViewController.swift */,
+			);
+			path = "swift版倒计时";
+			sourceTree = "<group>";
+		};
+		1C9408F320E3577B000221EB /* 加解密 */ = {
+			isa = PBXGroup;
+			children = (
+				1C9408F420E35796000221EB /* ECDSAViewController.h */,
+				1C9408F520E35796000221EB /* ECDSAViewController.m */,
+			);
+			path = "加解密";
 			sourceTree = "<group>";
 		};
 		1CA19F6C203FDBFA005068A7 = {
@@ -2399,6 +2429,7 @@
 				1C8F35EE204402FB004DDC06 /* QQMusicOperationTool.m in Sources */,
 				1CFF5F2720BB97D600D6713B /* TraceHandler.m in Sources */,
 				1C4D54D2204F887E00ABF4BB /* AASeries.m in Sources */,
+				1C91D25020C53E0F00CDE9DA /* TimerButton.swift in Sources */,
 				1C75342E205274AC0057B318 /* CommonLabelViewController.m in Sources */,
 				1C51D38B2040FEDD00539BD3 /* APPSummaryTabbarController.m in Sources */,
 				1C51D37C2040FA1400539BD3 /* CountDownLabel.swift in Sources */,
@@ -2430,6 +2461,7 @@
 				1C4D3FD9207CA36D00D2B5F6 /* LXDFPSMonitor.m in Sources */,
 				1C4D54EB204F887E00ABF4BB /* AAJsonConverter.m in Sources */,
 				1C4D5560204FC8E200ABF4BB /* ClockLayer.m in Sources */,
+				1C91D25320C53E3000CDE9DA /* TimerBtnViewController.swift in Sources */,
 				1C4D5521204F891900ABF4BB /* MonitorViewController.m in Sources */,
 				1C8F35D7204400EB004DDC06 /* MusicListController.m in Sources */,
 				1C4D54DE204F887E00ABF4BB /* AABar.m in Sources */,
@@ -2478,6 +2510,7 @@
 				1CA1A01E20400A98005068A7 /* DateUtils.m in Sources */,
 				1C4D5564204FC90300ABF4BB /* ClockDrawViewController.m in Sources */,
 				1CAC5285204EA42C00715A0F /* BarrageWalkImageTextSprite.m in Sources */,
+				1C91D25120C53E0F00CDE9DA /* SendCodeBtn.swift in Sources */,
 				1CA19FF8203FE78E005068A7 /* GpUImageScaleFilter.m in Sources */,
 				1C4D3FDF207CA36D00D2B5F6 /* LXDBacktraceLogger.m in Sources */,
 				1CA19FBF203FE0E2005068A7 /* AISphereView.m in Sources */,
@@ -2489,6 +2522,7 @@
 				1C4D3FD7207CA36D00D2B5F6 /* LXDApplicationCPU.m in Sources */,
 				1C4D9A952050E71C00082259 /* StepViewController.m in Sources */,
 				1C8F35EC204402FB004DDC06 /* QQTimeTool.m in Sources */,
+				1C9408F620E35796000221EB /* ECDSAViewController.m in Sources */,
 				1C753428205274AC0057B318 /* GPUImageViewController.m in Sources */,
 				1C4D3FD1207CA36D00D2B5F6 /* LXDAppFluencyMonitor.m in Sources */,
 				1C4D9A922050E6D400082259 /* MMPDeepSleepPreventer.m in Sources */,
@@ -2644,6 +2678,71 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/APPSummary/header",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"Aspects\"",
+					"-l\"BarrageRenderer\"",
+					"-l\"CYLTabBarController\"",
+					"-l\"FDFullscreenPopGesture\"",
+					"-l\"FJAlertView\"",
+					"-l\"FLEX\"",
+					"-l\"GPUImage\"",
+					"-l\"IQKeyboardManager\"",
+					"-l\"JPFPSStatus\"",
+					"-l\"JxbDebugTool\"",
+					"-l\"KVOController\"",
+					"-l\"MBProgressHUD\"",
+					"-l\"MJExtension\"",
+					"-l\"MJRefresh\"",
+					"-l\"MLEmojiLabel\"",
+					"-l\"Masonry\"",
+					"-l\"SDWebImage\"",
+					"-l\"TTTAttributedLabel\"",
+					"-l\"TYAttributedLabel\"",
+					"-l\"YYCache\"",
+					"-l\"YYImage\"",
+					"-l\"YYText\"",
+					"-l\"c++\"",
+					"-l\"lottie-ios\"",
+					"-l\"pop\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"Bugly\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-fno-objc-arc",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.golfd.APPSummary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "APPSummary/ui/UI/view/APPSummary-Bridging-Header.h";
@@ -2669,6 +2768,71 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/APPSummary/header",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"Aspects\"",
+					"-l\"BarrageRenderer\"",
+					"-l\"CYLTabBarController\"",
+					"-l\"FDFullscreenPopGesture\"",
+					"-l\"FJAlertView\"",
+					"-l\"FLEX\"",
+					"-l\"GPUImage\"",
+					"-l\"IQKeyboardManager\"",
+					"-l\"JPFPSStatus\"",
+					"-l\"JxbDebugTool\"",
+					"-l\"KVOController\"",
+					"-l\"MBProgressHUD\"",
+					"-l\"MJExtension\"",
+					"-l\"MJRefresh\"",
+					"-l\"MLEmojiLabel\"",
+					"-l\"Masonry\"",
+					"-l\"SDWebImage\"",
+					"-l\"TTTAttributedLabel\"",
+					"-l\"TYAttributedLabel\"",
+					"-l\"YYCache\"",
+					"-l\"YYImage\"",
+					"-l\"YYText\"",
+					"-l\"c++\"",
+					"-l\"lottie-ios\"",
+					"-l\"pop\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"Bugly\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-fno-objc-arc",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.golfd.APPSummary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
