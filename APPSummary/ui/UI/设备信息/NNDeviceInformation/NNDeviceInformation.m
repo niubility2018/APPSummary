@@ -576,6 +576,11 @@ kern_return_t   mach_port_deallocate
     return nil;
 }
 
+/**
+ 获得手机的mac地址，但是有个限制，是在iOS7以下才可以获得。iOS7以后苹果对于sysctl和ioctl进行了技术处理，MAC地址返回的都是02:00:00:00:00:00。官方文档上这样写的“Twolow-level networking APIs that used to return a MAC address now return thefixed value 02:00:00:00:00:00. The APIs in question are sysctl(NET_RT_IFLIST) and ioctl(SIOCGIFCONF). Developers using the value of the MAC address should migrate toidentifiers such as -[UIDevice identifierForVendor].This change affects all apps running on iOS 7”。
+ 所以在iOS7以后想要获取设备的唯一标示Mac地址已经不行了，只能用其他的代替。
+ */
+
 +(NSString*)dy_getDeviceMAC{
     int mib[6];
     size_t len;
