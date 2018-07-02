@@ -86,7 +86,7 @@ static NSString *tableViewCellID = @"NNTableViewCellID";
                       [NNDeviceInformation dy_getDeviceMAC],
                       [NNDeviceInformation dy_getDeviceUUID],
                       [NNDeviceInformation dy_getDeviceUDID],
-                      @"",
+                      @"请点击------------------------------》》》》",
                       nil];
     }
     return _infoArray;
