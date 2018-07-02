@@ -13,6 +13,8 @@
 		0C8355AB2046C6CF00A9373C /* PDF1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0C8355A92046C6CF00A9373C /* PDF1.pdf */; };
 		1C450C58207DACD3000EBBB2 /* SnapshotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C450C57207DACD3000EBBB2 /* SnapshotViewController.m */; };
 		1C4930672044F15500F674F2 /* MusicListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4930662044F15500F674F2 /* MusicListCell.m */; };
+		1C4A8D1520E47E2100D07D81 /* HeartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4A8D1420E47E2100D07D81 /* HeartViewController.m */; };
+		1C4A8D1820E47E3100D07D81 /* HeartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4A8D1720E47E3100D07D81 /* HeartView.m */; };
 		1C4B32A92047E53400A964A7 /* AdvertiseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4B32A52047E53400A964A7 /* AdvertiseView.m */; };
 		1C4B32AA2047E53400A964A7 /* AdvertiseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4B32A62047E53400A964A7 /* AdvertiseHelper.m */; };
 		1C4D3FCB207CA36D00D2B5F6 /* LXDDNSInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4D3F8E207CA36C00D2B5F6 /* LXDDNSInterceptor.m */; };
@@ -141,6 +143,13 @@
 		1C51D398204102EF00539BD3 /* APPSummaryNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D397204102EF00539BD3 /* APPSummaryNavigationController.m */; };
 		1C51D3A02041430700539BD3 /* APPQuestionDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C51D39F2041430700539BD3 /* APPQuestionDetailController.m */; };
 		1C539B0E2073556900EAA9FF /* ZhuanAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C539B0D2073556900EAA9FF /* ZhuanAnimationController.m */; };
+		1C5CBBE320E9CBD300B09D67 /* NSData+CRC32.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5CBBD920E9CBD200B09D67 /* NSData+CRC32.m */; };
+		1C5CBBE420E9CBD300B09D67 /* DeviceInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5CBBDF20E9CBD300B09D67 /* DeviceInfoManager.m */; };
+		1C5CBBE520E9CBD300B09D67 /* NetWorkInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5CBBE020E9CBD300B09D67 /* NetWorkInfoManager.m */; };
+		1C5CBBE620E9CBD300B09D67 /* DeviceDataLibrery.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5CBBE120E9CBD300B09D67 /* DeviceDataLibrery.m */; };
+		1C5CBBE720E9CBD300B09D67 /* BatteryInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5CBBE220E9CBD300B09D67 /* BatteryInfoManager.m */; };
+		1C5CBBEA20E9CBE600B09D67 /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5CBBE920E9CBE600B09D67 /* OtherViewController.m */; };
+		1C5CBBED20E9CC5A00B09D67 /* OtherDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5CBBEC20E9CC5A00B09D67 /* OtherDetailViewController.m */; };
 		1C753423205274AC0057B318 /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C753401205274AC0057B318 /* MusicViewController.m */; };
 		1C753424205274AC0057B318 /* DouDiZhuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C753405205274AC0057B318 /* DouDiZhuViewController.m */; };
 		1C753425205274AC0057B318 /* DateCalendarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C753406205274AC0057B318 /* DateCalendarController.m */; };
@@ -328,6 +337,10 @@
 		1C450C57207DACD3000EBBB2 /* SnapshotViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnapshotViewController.m; sourceTree = "<group>"; };
 		1C4930652044F15500F674F2 /* MusicListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicListCell.h; sourceTree = "<group>"; };
 		1C4930662044F15500F674F2 /* MusicListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicListCell.m; sourceTree = "<group>"; };
+		1C4A8D1320E47E2100D07D81 /* HeartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeartViewController.h; sourceTree = "<group>"; };
+		1C4A8D1420E47E2100D07D81 /* HeartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeartViewController.m; sourceTree = "<group>"; };
+		1C4A8D1620E47E3100D07D81 /* HeartView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeartView.h; sourceTree = "<group>"; };
+		1C4A8D1720E47E3100D07D81 /* HeartView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeartView.m; sourceTree = "<group>"; };
 		1C4B32A52047E53400A964A7 /* AdvertiseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvertiseView.m; sourceTree = "<group>"; };
 		1C4B32A62047E53400A964A7 /* AdvertiseHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvertiseHelper.m; sourceTree = "<group>"; };
 		1C4B32A72047E53400A964A7 /* AdvertiseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvertiseHelper.h; sourceTree = "<group>"; };
@@ -561,6 +574,20 @@
 		1C51D39F2041430700539BD3 /* APPQuestionDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APPQuestionDetailController.m; sourceTree = "<group>"; };
 		1C539B0C2073556900EAA9FF /* ZhuanAnimationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZhuanAnimationController.h; sourceTree = "<group>"; };
 		1C539B0D2073556900EAA9FF /* ZhuanAnimationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZhuanAnimationController.m; sourceTree = "<group>"; };
+		1C5CBBD820E9CBD200B09D67 /* NSData+CRC32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CRC32.h"; sourceTree = "<group>"; };
+		1C5CBBD920E9CBD200B09D67 /* NSData+CRC32.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CRC32.m"; sourceTree = "<group>"; };
+		1C5CBBDB20E9CBD300B09D67 /* NetWorkInfoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkInfoManager.h; sourceTree = "<group>"; };
+		1C5CBBDC20E9CBD300B09D67 /* DeviceInfoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInfoManager.h; sourceTree = "<group>"; };
+		1C5CBBDD20E9CBD300B09D67 /* DeviceDataLibrery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceDataLibrery.h; sourceTree = "<group>"; };
+		1C5CBBDE20E9CBD300B09D67 /* BatteryInfoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BatteryInfoManager.h; sourceTree = "<group>"; };
+		1C5CBBDF20E9CBD300B09D67 /* DeviceInfoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceInfoManager.m; sourceTree = "<group>"; };
+		1C5CBBE020E9CBD300B09D67 /* NetWorkInfoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkInfoManager.m; sourceTree = "<group>"; };
+		1C5CBBE120E9CBD300B09D67 /* DeviceDataLibrery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceDataLibrery.m; sourceTree = "<group>"; };
+		1C5CBBE220E9CBD300B09D67 /* BatteryInfoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BatteryInfoManager.m; sourceTree = "<group>"; };
+		1C5CBBE820E9CBE600B09D67 /* OtherViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
+		1C5CBBE920E9CBE600B09D67 /* OtherViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
+		1C5CBBEB20E9CC5A00B09D67 /* OtherDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OtherDetailViewController.h; sourceTree = "<group>"; };
+		1C5CBBEC20E9CC5A00B09D67 /* OtherDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OtherDetailViewController.m; sourceTree = "<group>"; };
 		1C753401205274AC0057B318 /* MusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicViewController.m; sourceTree = "<group>"; };
 		1C753402205274AC0057B318 /* LaunchImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchImageController.h; sourceTree = "<group>"; };
 		1C753403205274AC0057B318 /* CommonWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonWebController.h; sourceTree = "<group>"; };
@@ -1183,12 +1210,19 @@
 		1C4D553B204FC00D00ABF4BB /* 设备信息 */ = {
 			isa = PBXGroup;
 			children = (
+				1C5CBBD820E9CBD200B09D67 /* NSData+CRC32.h */,
+				1C5CBBD920E9CBD200B09D67 /* NSData+CRC32.m */,
+				1C5CBBDA20E9CBD300B09D67 /* Tools */,
 				1C4D5545204FC00D00ABF4BB /* NNDeviceInformation */,
 				1C4D554B204FC00D00ABF4BB /* NNTableViewCell.h */,
 				1C4D553F204FC00D00ABF4BB /* NNTableViewCell.m */,
 				1C4D5540204FC00D00ABF4BB /* NNTableViewCell.xib */,
 				1C4D5541204FC00D00ABF4BB /* NNViewController.h */,
 				1C4D554C204FC00D00ABF4BB /* NNViewController.m */,
+				1C5CBBE820E9CBE600B09D67 /* OtherViewController.h */,
+				1C5CBBE920E9CBE600B09D67 /* OtherViewController.m */,
+				1C5CBBEB20E9CC5A00B09D67 /* OtherDetailViewController.h */,
+				1C5CBBEC20E9CC5A00B09D67 /* OtherDetailViewController.m */,
 			);
 			path = "设备信息";
 			sourceTree = "<group>";
@@ -1364,6 +1398,21 @@
 				1C539B0D2073556900EAA9FF /* ZhuanAnimationController.m */,
 			);
 			path = "转动";
+			sourceTree = "<group>";
+		};
+		1C5CBBDA20E9CBD300B09D67 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				1C5CBBDB20E9CBD300B09D67 /* NetWorkInfoManager.h */,
+				1C5CBBDC20E9CBD300B09D67 /* DeviceInfoManager.h */,
+				1C5CBBDD20E9CBD300B09D67 /* DeviceDataLibrery.h */,
+				1C5CBBDE20E9CBD300B09D67 /* BatteryInfoManager.h */,
+				1C5CBBDF20E9CBD300B09D67 /* DeviceInfoManager.m */,
+				1C5CBBE020E9CBD300B09D67 /* NetWorkInfoManager.m */,
+				1C5CBBE120E9CBD300B09D67 /* DeviceDataLibrery.m */,
+				1C5CBBE220E9CBD300B09D67 /* BatteryInfoManager.m */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 		1C753400205274AC0057B318 /* controller */ = {
@@ -2038,6 +2087,10 @@
 				1CBABC43206CD6E200EB3F68 /* ShouchangController.m */,
 				1CBABC45206CD6F600EB3F68 /* ErChangController.h */,
 				1CBABC46206CD6F600EB3F68 /* ErChangController.m */,
+				1C4A8D1320E47E2100D07D81 /* HeartViewController.h */,
+				1C4A8D1420E47E2100D07D81 /* HeartViewController.m */,
+				1C4A8D1620E47E3100D07D81 /* HeartView.h */,
+				1C4A8D1720E47E3100D07D81 /* HeartView.m */,
 			);
 			path = "转场动画";
 			sourceTree = "<group>";
@@ -2350,6 +2403,7 @@
 				1CBABC40206CD0DE00EB3F68 /* BounceAnimationController.m in Sources */,
 				1C4D5561204FC8E200ABF4BB /* ClockView.m in Sources */,
 				1C4D3FE3207CA36D00D2B5F6 /* LXDTransaction.m in Sources */,
+				1C5CBBE320E9CBD300B09D67 /* NSData+CRC32.m in Sources */,
 				1CAC5286204EA42C00715A0F /* AdvancedBarrageController.m in Sources */,
 				1C9048AA2060AB8C007BAA9D /* ZWMusicalNoteView.m in Sources */,
 				1CBABC51206CE05A00EB3F68 /* BingZhuangViewController.m in Sources */,
@@ -2403,6 +2457,8 @@
 				1C8F35EA204402FB004DDC06 /* NeteaseMusicAPI.m in Sources */,
 				0C8355A72046C68100A9373C /* DrawPDFViewController.m in Sources */,
 				0C8355A62046C68100A9373C /* DrawPDFView.m in Sources */,
+				1C5CBBED20E9CC5A00B09D67 /* OtherDetailViewController.m in Sources */,
+				1C4A8D1820E47E3100D07D81 /* HeartView.m in Sources */,
 				1C4F9EA120AA865800933EB4 /* NSObject+ImpChangeTool.m in Sources */,
 				1C4D9AAA205137BE00082259 /* SortView.swift in Sources */,
 				1C8F357A2043F5D4004DDC06 /* ColorUtil.m in Sources */,
@@ -2429,6 +2485,7 @@
 				1C8F35EE204402FB004DDC06 /* QQMusicOperationTool.m in Sources */,
 				1CFF5F2720BB97D600D6713B /* TraceHandler.m in Sources */,
 				1C4D54D2204F887E00ABF4BB /* AASeries.m in Sources */,
+				1C5CBBE720E9CBD300B09D67 /* BatteryInfoManager.m in Sources */,
 				1C91D25020C53E0F00CDE9DA /* TimerButton.swift in Sources */,
 				1C75342E205274AC0057B318 /* CommonLabelViewController.m in Sources */,
 				1C51D38B2040FEDD00539BD3 /* APPSummaryTabbarController.m in Sources */,
@@ -2483,6 +2540,7 @@
 				1C4D5516204F891900ABF4BB /* FirstViewController.m in Sources */,
 				1C51D37B2040FA1400539BD3 /* CHWButton.swift in Sources */,
 				1CAC5283204EA42C00715A0F /* FlowerBarrageSprite.m in Sources */,
+				1C5CBBEA20E9CBE600B09D67 /* OtherViewController.m in Sources */,
 				1C4D54E2204F887E00ABF4BB /* AAAnimation.m in Sources */,
 				1C4D54E0204F887E00ABF4BB /* AAOptions.m in Sources */,
 				1C4D3FDA207CA36D00D2B5F6 /* LXDFPSDisplayer.m in Sources */,
@@ -2499,6 +2557,7 @@
 				1C4D3FDC207CA36D00D2B5F6 /* LXDAsyncLabel.m in Sources */,
 				1C9048AE2060ABD7007BAA9D /* MusicBaViewController.m in Sources */,
 				1CA19FF1203FE756005068A7 /* CIFilter+LUT.m in Sources */,
+				1C5CBBE420E9CBD300B09D67 /* DeviceInfoManager.m in Sources */,
 				1CAC526F204E9FF300715A0F /* BarrageViewController.m in Sources */,
 				1C4D9AA8205137BE00082259 /* SortClass.swift in Sources */,
 				1C753429205274AC0057B318 /* PDFBrowserController.m in Sources */,
@@ -2506,9 +2565,11 @@
 				1C4D54E1204F887E00ABF4BB /* AAArea.m in Sources */,
 				1C8F35EB204402FB004DDC06 /* QQLrcDataTool.m in Sources */,
 				1C9048B62060B035007BAA9D /* RegularViewController.m in Sources */,
+				1C5CBBE620E9CBD300B09D67 /* DeviceDataLibrery.m in Sources */,
 				1CBABC47206CD6F600EB3F68 /* ErChangController.m in Sources */,
 				1CA1A01E20400A98005068A7 /* DateUtils.m in Sources */,
 				1C4D5564204FC90300ABF4BB /* ClockDrawViewController.m in Sources */,
+				1C5CBBE520E9CBD300B09D67 /* NetWorkInfoManager.m in Sources */,
 				1CAC5285204EA42C00715A0F /* BarrageWalkImageTextSprite.m in Sources */,
 				1C91D25120C53E0F00CDE9DA /* SendCodeBtn.swift in Sources */,
 				1CA19FF8203FE78E005068A7 /* GpUImageScaleFilter.m in Sources */,
@@ -2523,6 +2584,7 @@
 				1C4D9A952050E71C00082259 /* StepViewController.m in Sources */,
 				1C8F35EC204402FB004DDC06 /* QQTimeTool.m in Sources */,
 				1C9408F620E35796000221EB /* ECDSAViewController.m in Sources */,
+				1C4A8D1520E47E2100D07D81 /* HeartViewController.m in Sources */,
 				1C753428205274AC0057B318 /* GPUImageViewController.m in Sources */,
 				1C4D3FD1207CA36D00D2B5F6 /* LXDAppFluencyMonitor.m in Sources */,
 				1C4D9A922050E6D400082259 /* MMPDeepSleepPreventer.m in Sources */,

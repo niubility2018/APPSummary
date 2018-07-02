@@ -9,7 +9,7 @@
 #import "NNViewController.h"
 #import "NNTableViewCell.h"
 #import "NNDeviceInformation.h"
-
+#import "OtherViewController.h"
 static NSString *tableViewCellID = @"NNTableViewCellID";
 
 @interface NNViewController ()<UITableViewDelegate, UITableViewDataSource>
@@ -40,6 +40,10 @@ static NSString *tableViewCellID = @"NNTableViewCellID";
 #pragma mark - UITableViewDelegate
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    if (indexPath.row == (self.nameArray.count -1)) {
+        OtherViewController *ovc = [[OtherViewController alloc] init];
+        [self.navigationController pushViewController:ovc animated:YES];
+    }
 }
 
 #pragma mark - LazyLoading
@@ -81,7 +85,9 @@ static NSString *tableViewCellID = @"NNTableViewCellID";
                       [NNDeviceInformation dy_getDeviceIMEI],
                       [NNDeviceInformation dy_getDeviceMAC],
                       [NNDeviceInformation dy_getDeviceUUID],
-                      [NNDeviceInformation dy_getDeviceUDID], nil];
+                      [NNDeviceInformation dy_getDeviceUDID],
+                      @"",
+                      nil];
     }
     return _infoArray;
 }
@@ -110,7 +116,9 @@ static NSString *tableViewCellID = @"NNTableViewCellID";
                       @"获取设备IMEI",
                       @"获取设备MAC",
                       @"获取设备UUID(此方式获取每次都会变)",
-                      @"获取设备UDID",nil];
+                      @"获取设备UDID",
+                      @"其他",
+                      nil];
     }
     return _nameArray;
 }
