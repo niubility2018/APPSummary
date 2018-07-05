@@ -36,6 +36,8 @@
 #import "SnapshotViewController.h"
 #import "WenZiHandleController.h"
 #import "HeartViewController.h"
+#import "CellTypeViewController.h"
+#import "WordAnimationController.h"
 @interface APPUISummaryController ()
 @property (nonatomic, strong) NSArray *dataUIArray;
 @property (nonatomic, strong) NSArray *dataArray;
@@ -59,7 +61,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.dataUIArray = @[@"启动引导页动画",@"标签云",@"人脸识别",@"image处理",@"倒计时",@"画板",@"wifi认证",@"指纹识别",@"QQ临时会话",@"弹出视图",@"音乐",@"图表库",@"钟表",@"计步器",@"滚动公告",@"仿唱吧下载",@"弹簧效果",@"转动",@"屏幕截图",@"YYText文字处理",@"动画"];
+    self.dataUIArray = @[@"启动引导页动画",@"标签云",@"人脸识别",@"image处理",@"倒计时",@"画板",@"wifi认证",@"指纹识别",@"QQ临时会话",@"弹出视图",@"音乐",@"图表库",@"钟表",@"计步器",@"滚动公告",@"仿唱吧下载",@"弹簧效果",@"转动",@"屏幕截图",@"YYText文字处理",@"动画",@"tableViewCell动画",@"文字动画"];
     self.dataArray = @[@"时间计算",@"文件加载",@"斗地主发牌排序",@"设备信息相关",@"设备唯一标识符",@"算法",@"正则匹配"
                        ];
     [self initTableView];
@@ -284,6 +286,18 @@
             case 20:
             {
                 HeartViewController *svc = [[HeartViewController alloc] init];
+                [self.navigationController pushViewController:svc animated:YES];
+            }
+                break;
+            case 21:
+            {
+                CellTypeViewController *svc = [[CellTypeViewController alloc] init];
+                [self.navigationController pushViewController:svc animated:YES];
+            }
+                break;
+            case 22:
+            {
+                WordAnimationController *svc = [[WordAnimationController alloc] init];
                 [self.navigationController pushViewController:svc animated:YES];
             }
                 break;
