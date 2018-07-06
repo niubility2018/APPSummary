@@ -1,0 +1,106 @@
+//
+//  ONEEssayItem.h
+//  CWOne
+//
+//  Created by Coulson_Wang on 2017/8/6.
+//  Copyright © 2017年 Coulson_Wang. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@class ONEUserItem;
+
+@interface ONEEssayItem : NSObject
+
+/* ********************************************* 普通详情页内容 ********************************************* */
+
+/// 文章标题
+@property (strong, nonatomic) NSString *title;
+
+/// 正文
+@property (strong, nonatomic) NSString *html_content;
+
+/// 点赞数
+@property (assign, nonatomic) NSInteger praisenum;
+
+/// 评论数
+@property (assign, nonatomic) NSInteger commentnum;
+
+/// 另一个标题
+@property (strong, nonatomic) NSString *tagTitle;
+
+/// 分享用的链接地址
+@property (strong, nonatomic) NSString *web_url;
+
+/// 类别
+@property (assign, nonatomic) NSInteger category;
+
+@property (strong, nonatomic) NSString *item_id;
+
+/* ********************************************* 音乐详情页内容 ********************************************* */
+
+/// 故事标题
+@property (strong, nonatomic) NSString *story_title;
+
+/// 故事正文
+@property (strong, nonatomic) NSString *story;
+
+/// 歌词信息
+@property (strong, nonatomic) NSString *lyric;
+
+/// 歌曲信息
+@property (strong, nonatomic) NSString *info;
+
+@property (strong, nonatomic) NSString *feeds_cover;
+
+@property (strong, nonatomic) NSString *feedsCoverURLstring;
+
+@property (strong, nonatomic) NSString *cover;
+
+@property (strong, nonatomic) NSString *music_id;
+
+@property (strong, nonatomic) NSString *album;
+
+@property (strong, nonatomic) ONEUserItem *author;
+
+@property (strong, nonatomic) NSString *platform;
+
+/* ********************************************* 影视详情页内容 ********************************************* */
+
+/// 故事正文
+@property (strong, nonatomic) NSString *content;
+
+@property (strong, nonatomic) NSString *movieTitle;
+
+@property (strong, nonatomic) NSString *contentTitle;
+
+@property (strong, nonatomic) NSString *summary;
+
+@property (strong, nonatomic) NSString *detailcover;
+
+@property (strong, nonatomic) NSString *officialstory;
+
+@property (strong, nonatomic) NSString *charge_edt;
+
+@property (strong, nonatomic) NSString *editor_email;
+
+@property (strong, nonatomic) NSString *poster;
+
+@property (strong, nonatomic) NSArray *photo;
+
+
+/* ********************************************* 专题详情页内容 ********************************************* */
+
+@property (strong, nonatomic) NSString *bg_color;
+@property (strong, nonatomic) NSString *font_color;
+
+@property (strong, nonatomic) UIColor *backgroundColor;
+@property (strong, nonatomic) UIColor *fontColor;
+
+
++ (instancetype)essayItemWithDict:(NSDictionary *)dict;
+
+// 加载电影数据
+- (void)setMovieStroyDateWithDetailDict:(NSDictionary *)dict;
+
+@end

@@ -33,4 +33,12 @@ target 'APPSummary' do
     pod 'Bugly', '~> 2.5.0'
     pod 'YYText', '~> 1.0.7'
     pod 'Aspects', '~> 1.4.1'
+    pod 'RTRootNavigationController', '~> 0.6.7'
+    pod 'TZImagePickerController', '~> 2.1.6'
+    pod 'NYTPhotoViewer', '~> 1.2.0'
+    pod 'SVProgressHUD', '~> 2.1.2'
+    pod 'FLAnimatedImage', '~> 1.0.12'
+#    pod 'ZFPlayer', '~> 3.0.9.1'
+#    pod 'WMPlayer', '~> 5.0.0'
+    pod 'YYCategories', '~> 1.0.4'
 end

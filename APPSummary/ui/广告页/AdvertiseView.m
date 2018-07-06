@@ -87,7 +87,7 @@ NSString *const NotificationContants_Advertise_Key = @"NotificationContants_Adve
     
     // 倒计时方法2：定时器
     [self startTimer];
-    UIWindow *window = [UIApplication sharedApplication].keyWindow;
+    UIWindow *window = [UIApplication sharedApplication].delegate.window;
     [window addSubview:self];
 }
 

@@ -60,18 +60,52 @@ OBJC_EXTERN CFStringRef MGCopyAnswer(CFStringRef key) WEAK_IMPORT_ATTRIBUTE;
 
 //字体大小
 #define font_10_size  10
-#define font_11_size   11
-#define font_12_size     12
-#define font_13_size 13
-#define font_14_size   14
-#define font_15_size 15
-#define font_16_size       16
+#define font_11_size  11
+#define font_12_size  12
+#define font_13_size  13
+#define font_14_size  14
+#define font_15_size  15
+#define font_16_size  16
 #define font_17_size  17
-#define font_18_size    18
-#define font_24_size   24
+#define font_18_size  18
+#define font_24_size  24
 
 //颜色
-#define splite_line_color         @"#cccccc"
+#define splite_line_color @"#cccccc"
+
+#define gray_light_color  @"#8C8481"
+#define dark_light_color  @"#515151"
+
+
+#define CWScreenW [UIScreen mainScreen].bounds.size.width
+#define CWScreenH [UIScreen mainScreen].bounds.size.height
+#define radian(angle) M_PI * angle / 180.0
+#define ONEBackgroundColor [UIColor colorWithWhite:238/255.0 alpha:1.0]
+#define kNavigationBarHeight 64.0
+#define kTabBarHeight 49.0
+#define kCatalogueAnimationDuration 0.3
+#define kCurrentDateString @"Today"
+
+#define ONECommentIdKey @"commentId"
+#define ONEEssayItemKey @"essayItem"
+#define ONEPhotoArrayKey @"photoArray"
+#define ONEMenuItemKey @"menuItem"
+#define ONEIndexKey @"index"
+#define ONEDateStringKey @"dataString"
+#define ONECityNameKey @"cityName"
+
+#define ONECoverPresentationImageKey @"ONECoverPresentationImage"
+#define ONECoverPresentationImageOrientationKey @"ONECoverPresentationImageOrientation"
+#define ONECoverPresentationSubTitleKey @"ONECoverPresentationSubTitle"
+#define ONECoverPresentationSerialStringKey @"ONECoverPresentationSerialString"
+#define ONECoverPresentationOriginFrameKey @"ONECoverPresentationOriginFrame"
+#define ONEDiaryPresentationContentKey @"ONEDiaryPresentationContent"
+#define ONEDiaryPresentationAuthorInfoKey @"ONEDiaryPresentationAuthorInfo"
+#define ONEDiartPresentationShareUrlKey @"ONEDiartPresentationShareUrl"
+
+#import "UIColor+CWQuickCreate.h"
+#import "UIView+CWFrame.h"
+#import "ONEConst.h"
 
 @interface Const : NSObject
 

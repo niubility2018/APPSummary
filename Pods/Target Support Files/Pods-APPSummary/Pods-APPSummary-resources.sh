@@ -103,6 +103,9 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_ROOT}/MLEmojiLabel/Classes/MLEmoji_ExpressionImage.plist"
   install_resource "${PODS_ROOT}/MLEmojiLabel/Classes/MLEmoji_Expression.bundle"
   install_resource "${PODS_ROOT}/MLEmojiLabel/Classes/MLEmoji_Expression.bundle/gifexpression.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/NYTPhotoViewer/NYTPhotoViewer.bundle"
+  install_resource "${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle"
+  install_resource "${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_ROOT}/GPUImage/framework/Resources/lookup.png"
@@ -116,6 +119,9 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_ROOT}/MLEmojiLabel/Classes/MLEmoji_ExpressionImage.plist"
   install_resource "${PODS_ROOT}/MLEmojiLabel/Classes/MLEmoji_Expression.bundle"
   install_resource "${PODS_ROOT}/MLEmojiLabel/Classes/MLEmoji_Expression.bundle/gifexpression.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/NYTPhotoViewer/NYTPhotoViewer.bundle"
+  install_resource "${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle"
+  install_resource "${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
