@@ -578,6 +578,12 @@
 		1C53D5BF20EF49F800CE60FB /* LBView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C53D5AD20EF49F800CE60FB /* LBView.m */; };
 		1C53D5C020EF49F800CE60FB /* CFMyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C53D5AF20EF49F800CE60FB /* CFMyImageView.m */; };
 		1C53D5C520EF49F800CE60FB /* BLBView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C53D5BE20EF49F800CE60FB /* BLBView.m */; };
+		1C53D5CE20EF4F2100CE60FB /* ProvinceSampleKeyboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C53D5C820EF4F2100CE60FB /* ProvinceSampleKeyboardView.xib */; };
+		1C53D5CF20EF4F2100CE60FB /* clear_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C53D5CA20EF4F2100CE60FB /* clear_button@2x.png */; };
+		1C53D5D020EF4F2100CE60FB /* clear_button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C53D5CB20EF4F2100CE60FB /* clear_button@3x.png */; };
+		1C53D5D120EF4F2100CE60FB /* LicensePlateTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C53D5CC20EF4F2100CE60FB /* LicensePlateTextField.m */; };
+		1C53D5D220EF4F2100CE60FB /* ProvinceSampleKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C53D5CD20EF4F2100CE60FB /* ProvinceSampleKeyboardView.m */; };
+		1C53D5D520EF4F5200CE60FB /* LiceKeyBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C53D5D420EF4F5200CE60FB /* LiceKeyBoardViewController.m */; };
 		1C5CBBE320E9CBD300B09D67 /* NSData+CRC32.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5CBBD920E9CBD200B09D67 /* NSData+CRC32.m */; };
 		1C5CBBE420E9CBD300B09D67 /* DeviceInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5CBBDF20E9CBD300B09D67 /* DeviceInfoManager.m */; };
 		1C5CBBE520E9CBD300B09D67 /* NetWorkInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5CBBE020E9CBD300B09D67 /* NetWorkInfoManager.m */; };
@@ -1639,6 +1645,15 @@
 		1C53D5BC20EF49F800CE60FB /* LBView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBView.h; sourceTree = "<group>"; };
 		1C53D5BD20EF49F800CE60FB /* CFMyImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFMyImageView.h; sourceTree = "<group>"; };
 		1C53D5BE20EF49F800CE60FB /* BLBView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLBView.m; sourceTree = "<group>"; };
+		1C53D5C720EF4F2100CE60FB /* LicensePlateTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LicensePlateTextField.h; sourceTree = "<group>"; };
+		1C53D5C820EF4F2100CE60FB /* ProvinceSampleKeyboardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProvinceSampleKeyboardView.xib; sourceTree = "<group>"; };
+		1C53D5C920EF4F2100CE60FB /* ProvinceSampleKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProvinceSampleKeyboardView.h; sourceTree = "<group>"; };
+		1C53D5CA20EF4F2100CE60FB /* clear_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clear_button@2x.png"; sourceTree = "<group>"; };
+		1C53D5CB20EF4F2100CE60FB /* clear_button@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clear_button@3x.png"; sourceTree = "<group>"; };
+		1C53D5CC20EF4F2100CE60FB /* LicensePlateTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LicensePlateTextField.m; sourceTree = "<group>"; };
+		1C53D5CD20EF4F2100CE60FB /* ProvinceSampleKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProvinceSampleKeyboardView.m; sourceTree = "<group>"; };
+		1C53D5D320EF4F5200CE60FB /* LiceKeyBoardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiceKeyBoardViewController.h; sourceTree = "<group>"; };
+		1C53D5D420EF4F5200CE60FB /* LiceKeyBoardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiceKeyBoardViewController.m; sourceTree = "<group>"; };
 		1C5CBBD820E9CBD200B09D67 /* NSData+CRC32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CRC32.h"; sourceTree = "<group>"; };
 		1C5CBBD920E9CBD200B09D67 /* NSData+CRC32.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CRC32.m"; sourceTree = "<group>"; };
 		1C5CBBDB20E9CBD300B09D67 /* NetWorkInfoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkInfoManager.h; sourceTree = "<group>"; };
@@ -2393,6 +2408,7 @@
 		1C51D3532040FA1300539BD3 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				1C53D5C620EF4F2100CE60FB /* 车牌键盘 */,
 				1C53D58920EF444400CE60FB /* 轮播图 */,
 				1C53D54D20EF342700CE60FB /* 引导页动画 */,
 				1C53D4F120EF186A00CE60FB /* 祝福动画 */,
@@ -4043,6 +4059,22 @@
 			path = "仿转转";
 			sourceTree = "<group>";
 		};
+		1C53D5C620EF4F2100CE60FB /* 车牌键盘 */ = {
+			isa = PBXGroup;
+			children = (
+				1C53D5C720EF4F2100CE60FB /* LicensePlateTextField.h */,
+				1C53D5CC20EF4F2100CE60FB /* LicensePlateTextField.m */,
+				1C53D5C920EF4F2100CE60FB /* ProvinceSampleKeyboardView.h */,
+				1C53D5CD20EF4F2100CE60FB /* ProvinceSampleKeyboardView.m */,
+				1C53D5C820EF4F2100CE60FB /* ProvinceSampleKeyboardView.xib */,
+				1C53D5CA20EF4F2100CE60FB /* clear_button@2x.png */,
+				1C53D5CB20EF4F2100CE60FB /* clear_button@3x.png */,
+				1C53D5D320EF4F5200CE60FB /* LiceKeyBoardViewController.h */,
+				1C53D5D420EF4F5200CE60FB /* LiceKeyBoardViewController.m */,
+			);
+			path = "车牌键盘";
+			sourceTree = "<group>";
+		};
 		1C5CBBDA20E9CBD300B09D67 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
@@ -5096,9 +5128,11 @@
 				1C8F35AD2043FF79004DDC06 /* 255319.lrc in Resources */,
 				1CA19FD2203FE0E2005068A7 /* launchingImg_3.png in Resources */,
 				1C524E4720EDFBF4001658E8 /* 96.png in Resources */,
+				1C53D5CF20EF4F2100CE60FB /* clear_button@2x.png in Resources */,
 				1C53D54120EF195700CE60FB /* YKDetailViewController.xib in Resources */,
 				1C524E4820EDFBF4001658E8 /* beautyOFF@3x.png in Resources */,
 				1C524DE920EDFBF4001658E8 /* audio532.mp3 in Resources */,
+				1C53D5D020EF4F2100CE60FB /* clear_button@3x.png in Resources */,
 				1C4D5529204F891900ABF4BB /* IMG_1878.JPG in Resources */,
 				1C524DFA20EDFBF4001658E8 /* icon534.png in Resources */,
 				1C4D551B204F891900ABF4BB /* IMG_1866.JPG in Resources */,
@@ -5146,6 +5180,7 @@
 				1C524DDB20EDFBF4001658E8 /* icon543.png in Resources */,
 				1C52501420EE186F001658E8 /* ONEAllHotAuthorView.xib in Resources */,
 				1CA1A001203FEA93005068A7 /* IMG_0019.mp4 in Resources */,
+				1C53D5CE20EF4F2100CE60FB /* ProvinceSampleKeyboardView.xib in Resources */,
 				1C524E6220EDFBF4001658E8 /* actionbar_transparent_white_spectrum_13@2x.png in Resources */,
 				1CA19F80203FDBFA005068A7 /* Main.storyboard in Resources */,
 				1C524E6420EDFBF4001658E8 /* Homepage_changebigbtn_diabled@2x.png in Resources */,
@@ -5354,6 +5389,7 @@
 				1C9048AA2060AB8C007BAA9D /* ZWMusicalNoteView.m in Sources */,
 				1C52502420EE186F001658E8 /* ONEHomeNavigationBarTitleTextView.m in Sources */,
 				1CBABC51206CE05A00EB3F68 /* BingZhuangViewController.m in Sources */,
+				1C53D5D220EF4F2100CE60FB /* ProvinceSampleKeyboardView.m in Sources */,
 				1C52508120EE1870001658E8 /* ONERadioItem.m in Sources */,
 				1CBABC5B206CE0A400EB3F68 /* PieModel.m in Sources */,
 				1C524ED620EE1409001658E8 /* UINavigationController+ZFPlayerRotation.m in Sources */,
@@ -5380,6 +5416,7 @@
 				1C53D55420EF34A000CE60FB /* IntroduceViewController.m in Sources */,
 				1C4B32A92047E53400A964A7 /* AdvertiseView.m in Sources */,
 				1C524CB820EDE844001658E8 /* WSRedPacketView.m in Sources */,
+				1C53D5D520EF4F5200CE60FB /* LiceKeyBoardViewController.m in Sources */,
 				1C52507220EE1870001658E8 /* UIImage+CWColorAndStretch.m in Sources */,
 				1C52507520EE1870001658E8 /* CWCarouselView.m in Sources */,
 				1C4D9A9E205117B900082259 /* GSKeyChainDataManager.m in Sources */,
@@ -5519,6 +5556,7 @@
 				1C524EA720EDFBF5001658E8 /* PlayVideoViewController.mm in Sources */,
 				1C52506220EE1870001658E8 /* ONEDetailSectionHeaderView.m in Sources */,
 				1C75342E205274AC0057B318 /* CommonLabelViewController.m in Sources */,
+				1C53D5D120EF4F2100CE60FB /* LicensePlateTextField.m in Sources */,
 				1C51D38B2040FEDD00539BD3 /* APPSummaryTabbarController.m in Sources */,
 				1C51D37C2040FA1400539BD3 /* CountDownLabel.swift in Sources */,
 				1C524EA420EDFBF5001658E8 /* HomeVideoCollectionViewCell.mm in Sources */,
