@@ -208,11 +208,11 @@
         if (offsetX == 0) {
             if (![_titleLabel.text isEqualToString:@"房间搜索"]) {
                 [UIView transitionWithView:_titleLabel duration:0.3f options:UIViewAnimationOptionTransitionCrossDissolve animations:^(void) {
-                    _titleLabel.text = @"房间搜索";
-                    _detailLabel.text = nil;
+                    self.titleLabel.text = @"房间搜索";
+                    self.detailLabel.text = nil;
                 } completion: ^(BOOL isFinished) {
-                    [UIView transitionWithView:_detailLabel duration:0.3f options:UIViewAnimationOptionTransitionCrossDissolve animations:^(void) {
-                        _detailLabel.text = @"一键搜索主播房间, 分析数据";
+                    [UIView transitionWithView:self.detailLabel duration:0.3f options:UIViewAnimationOptionTransitionCrossDissolve animations:^(void) {
+                        self.detailLabel.text = @"一键搜索主播房间, 分析数据";
                     } completion: ^(BOOL isFinished) {
                         
                     }];
@@ -221,11 +221,11 @@
         } else if (offsetX == BAScreenWidth) {
             if (![_titleLabel.text isEqualToString:@"弹幕列表"]) {
                 [UIView transitionWithView:_titleLabel duration:0.3f options:UIViewAnimationOptionTransitionCrossDissolve animations:^(void) {
-                    _titleLabel.text = @"弹幕列表";
-                    _detailLabel.text = nil;
+                    self.titleLabel.text = @"弹幕列表";
+                    self.detailLabel.text = nil;
                 } completion: ^(BOOL isFinished) {
-                    [UIView transitionWithView:_detailLabel duration:0.3f options:UIViewAnimationOptionTransitionCrossDissolve animations:^(void) {
-                        _detailLabel.text = @"速度控制/语义分析/\n节奏屏蔽/土豪关注";
+                    [UIView transitionWithView:self.detailLabel duration:0.3f options:UIViewAnimationOptionTransitionCrossDissolve animations:^(void) {
+                        self.detailLabel.text = @"速度控制/语义分析/\n节奏屏蔽/土豪关注";
                     } completion: ^(BOOL isFinished) {
                         
                     }];
@@ -234,11 +234,11 @@
         } else if (offsetX == 2 * BAScreenWidth) {
             if (![_titleLabel.text isEqualToString:@"分析报告"]) {
                 [UIView transitionWithView:_titleLabel duration:0.3f options:UIViewAnimationOptionTransitionCrossDissolve animations:^(void) {
-                    _titleLabel.text = @"分析报告";
-                    _detailLabel.text = nil;
+                    self.titleLabel.text = @"分析报告";
+                    self.detailLabel.text = nil;
                 } completion: ^(BOOL isFinished) {
-                    [UIView transitionWithView:_detailLabel duration:0.3f options:UIViewAnimationOptionTransitionCrossDissolve animations:^(void) {
-                        _detailLabel.text = @"全方位监控直播状态\n实时弹幕、礼物分析";
+                    [UIView transitionWithView:self.detailLabel duration:0.3f options:UIViewAnimationOptionTransitionCrossDissolve animations:^(void) {
+                        self.detailLabel.text = @"全方位监控直播状态\n实时弹幕、礼物分析";
                     } completion: ^(BOOL isFinished) {
                         
                     }];
@@ -246,11 +246,11 @@
             }
             
             [UIView animateWithDuration:0.8 animations:^{
-                _startBtn.alpha = 1;
+                self.startBtn.alpha = 1;
             }];
         } else {
             [UIView animateWithDuration:0.8 animations:^{
-                _startBtn.alpha = 0;
+                self.startBtn.alpha = 0;
             }];
         }
         
