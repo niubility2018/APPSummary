@@ -572,6 +572,12 @@
 		1C53D56220EF36EB00CE60FB /* CustomIntroductionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C53D55E20EF36EA00CE60FB /* CustomIntroductionCell.xib */; };
 		1C53D56320EF36EB00CE60FB /* CustomIntroductionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C53D55F20EF36EA00CE60FB /* CustomIntroductionCell.m */; };
 		1C53D56420EF36EB00CE60FB /* intro_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1C53D56020EF36EA00CE60FB /* intro_video.mp4 */; };
+		1C53D58C20EF445E00CE60FB /* CycleImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C53D58B20EF445E00CE60FB /* CycleImageViewController.m */; };
+		1C53D5AA20EF44F500CE60FB /* CycleStyleOneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C53D5A820EF44F500CE60FB /* CycleStyleOneController.m */; };
+		1C53D5AB20EF44F500CE60FB /* CycleStyleOneController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C53D5A920EF44F500CE60FB /* CycleStyleOneController.xib */; };
+		1C53D5BF20EF49F800CE60FB /* LBView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C53D5AD20EF49F800CE60FB /* LBView.m */; };
+		1C53D5C020EF49F800CE60FB /* CFMyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C53D5AF20EF49F800CE60FB /* CFMyImageView.m */; };
+		1C53D5C520EF49F800CE60FB /* BLBView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C53D5BE20EF49F800CE60FB /* BLBView.m */; };
 		1C5CBBE320E9CBD300B09D67 /* NSData+CRC32.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5CBBD920E9CBD200B09D67 /* NSData+CRC32.m */; };
 		1C5CBBE420E9CBD300B09D67 /* DeviceInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5CBBDF20E9CBD300B09D67 /* DeviceInfoManager.m */; };
 		1C5CBBE520E9CBD300B09D67 /* NetWorkInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5CBBE020E9CBD300B09D67 /* NetWorkInfoManager.m */; };
@@ -1622,6 +1628,17 @@
 		1C53D55F20EF36EA00CE60FB /* CustomIntroductionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomIntroductionCell.m; sourceTree = "<group>"; };
 		1C53D56020EF36EA00CE60FB /* intro_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = intro_video.mp4; sourceTree = "<group>"; };
 		1C53D56120EF36EA00CE60FB /* CustomIntroductionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomIntroductionCell.h; sourceTree = "<group>"; };
+		1C53D58A20EF445E00CE60FB /* CycleImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CycleImageViewController.h; sourceTree = "<group>"; };
+		1C53D58B20EF445E00CE60FB /* CycleImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CycleImageViewController.m; sourceTree = "<group>"; };
+		1C53D5A720EF44F500CE60FB /* CycleStyleOneController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CycleStyleOneController.h; sourceTree = "<group>"; };
+		1C53D5A820EF44F500CE60FB /* CycleStyleOneController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CycleStyleOneController.m; sourceTree = "<group>"; };
+		1C53D5A920EF44F500CE60FB /* CycleStyleOneController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CycleStyleOneController.xib; sourceTree = "<group>"; };
+		1C53D5AD20EF49F800CE60FB /* LBView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBView.m; sourceTree = "<group>"; };
+		1C53D5AE20EF49F800CE60FB /* BLBView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLBView.h; sourceTree = "<group>"; };
+		1C53D5AF20EF49F800CE60FB /* CFMyImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFMyImageView.m; sourceTree = "<group>"; };
+		1C53D5BC20EF49F800CE60FB /* LBView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBView.h; sourceTree = "<group>"; };
+		1C53D5BD20EF49F800CE60FB /* CFMyImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFMyImageView.h; sourceTree = "<group>"; };
+		1C53D5BE20EF49F800CE60FB /* BLBView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLBView.m; sourceTree = "<group>"; };
 		1C5CBBD820E9CBD200B09D67 /* NSData+CRC32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CRC32.h"; sourceTree = "<group>"; };
 		1C5CBBD920E9CBD200B09D67 /* NSData+CRC32.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CRC32.m"; sourceTree = "<group>"; };
 		1C5CBBDB20E9CBD300B09D67 /* NetWorkInfoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkInfoManager.h; sourceTree = "<group>"; };
@@ -2376,6 +2393,7 @@
 		1C51D3532040FA1300539BD3 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				1C53D58920EF444400CE60FB /* 轮播图 */,
 				1C53D54D20EF342700CE60FB /* 引导页动画 */,
 				1C53D4F120EF186A00CE60FB /* 祝福动画 */,
 				1C524CAC20EDE843001658E8 /* 拆红包动画 */,
@@ -3999,6 +4017,32 @@
 			path = GYIntroductionView;
 			sourceTree = "<group>";
 		};
+		1C53D58920EF444400CE60FB /* 轮播图 */ = {
+			isa = PBXGroup;
+			children = (
+				1C53D5AC20EF49F800CE60FB /* 仿转转 */,
+				1C53D58A20EF445E00CE60FB /* CycleImageViewController.h */,
+				1C53D58B20EF445E00CE60FB /* CycleImageViewController.m */,
+				1C53D5A720EF44F500CE60FB /* CycleStyleOneController.h */,
+				1C53D5A820EF44F500CE60FB /* CycleStyleOneController.m */,
+				1C53D5A920EF44F500CE60FB /* CycleStyleOneController.xib */,
+			);
+			path = "轮播图";
+			sourceTree = "<group>";
+		};
+		1C53D5AC20EF49F800CE60FB /* 仿转转 */ = {
+			isa = PBXGroup;
+			children = (
+				1C53D5AD20EF49F800CE60FB /* LBView.m */,
+				1C53D5AE20EF49F800CE60FB /* BLBView.h */,
+				1C53D5AF20EF49F800CE60FB /* CFMyImageView.m */,
+				1C53D5BC20EF49F800CE60FB /* LBView.h */,
+				1C53D5BD20EF49F800CE60FB /* CFMyImageView.h */,
+				1C53D5BE20EF49F800CE60FB /* BLBView.m */,
+			);
+			path = "仿转转";
+			sourceTree = "<group>";
+		};
 		1C5CBBDA20E9CBD300B09D67 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
@@ -5067,6 +5111,7 @@
 				1C524E8D20EDFBF5001658E8 /* recomment_search@3x.png in Resources */,
 				1C524E0E20EDFBF4001658E8 /* stickers532.jpg in Resources */,
 				1C524E7C20EDFBF4001658E8 /* xgshare@2x.png in Resources */,
+				1C53D5AB20EF44F500CE60FB /* CycleStyleOneController.xib in Resources */,
 				1C524E8320EDFBF4001658E8 /* actionbar_transparent_white_spectrum_9@2x.png in Resources */,
 				1C524E7320EDFBF4001658E8 /* xgjubao@3x.png in Resources */,
 				0C8355AA2046C6CF00A9373C /* PDF2.pdf in Resources */,
@@ -5281,6 +5326,7 @@
 				1C52502920EE186F001658E8 /* ONEHomeViewController.m in Sources */,
 				1C8F356F2043E1E5004DDC06 /* WRNavigationBar.m in Sources */,
 				1C52501120EE186F001658E8 /* ONEAllHotAuthorCell.m in Sources */,
+				1C53D5AA20EF44F500CE60FB /* CycleStyleOneController.m in Sources */,
 				1C52506120EE1870001658E8 /* ONEDetailRelatedCell.m in Sources */,
 				1C4D554E204FC00D00ABF4BB /* NNTableViewCell.m in Sources */,
 				1CBABC3D206CCF6D00EB3F68 /* BounceView.m in Sources */,
@@ -5330,6 +5376,7 @@
 				1C4D54D5204F887E00ABF4BB /* AADataLabels.m in Sources */,
 				1CAC5287204EA42C00715A0F /* MLEmojiLabel+BarrageView.m in Sources */,
 				1C4D3FD0207CA36D00D2B5F6 /* LXDCrashLogger.m in Sources */,
+				1C53D5C020EF49F800CE60FB /* CFMyImageView.m in Sources */,
 				1C53D55420EF34A000CE60FB /* IntroduceViewController.m in Sources */,
 				1C4B32A92047E53400A964A7 /* AdvertiseView.m in Sources */,
 				1C524CB820EDE844001658E8 /* WSRedPacketView.m in Sources */,
@@ -5364,6 +5411,7 @@
 				1C4D9AA22051187800082259 /* UUIDViewController.m in Sources */,
 				1CBABC44206CD6E200EB3F68 /* ShouchangController.m in Sources */,
 				1C9048A92060AB8C007BAA9D /* ZWMusicDownLoadView.m in Sources */,
+				1C53D5C520EF49F800CE60FB /* BLBView.m in Sources */,
 				1C4D5567204FC9A700ABF4BB /* Clock.m in Sources */,
 				1C524E2620EDFBF4001658E8 /* MusicItemCollectionViewCell.mm in Sources */,
 				1C53D54720EF195700CE60FB /* YKBirthdayItem.m in Sources */,
@@ -5413,6 +5461,7 @@
 				1C524EE020EE1409001658E8 /* ASValueTrackingSlider.m in Sources */,
 				1C4D3FCB207CA36D00D2B5F6 /* LXDDNSInterceptor.m in Sources */,
 				1C524ED720EE1409001658E8 /* UIAlertController+ZFPlayerRotation.m in Sources */,
+				1C53D58C20EF445E00CE60FB /* CycleImageViewController.m in Sources */,
 				1C524CA520EDC59B001658E8 /* WordAnimationController.m in Sources */,
 				1C52502A20EE186F001658E8 /* ONEHomeTableViewController.m in Sources */,
 				1C52502E20EE186F001658E8 /* ONEHomeAdvertisementCell.m in Sources */,
@@ -5428,6 +5477,7 @@
 				1C53D53120EF195700CE60FB /* YKBirthdayViewController.m in Sources */,
 				1C4D54DF204F887E00ABF4BB /* AATitle.m in Sources */,
 				1C524DD320EDFBF4001658E8 /* LFGPUImageEmptyFilter.mm in Sources */,
+				1C53D5BF20EF49F800CE60FB /* LBView.m in Sources */,
 				1C8F35702043E1E5004DDC06 /* WRCustomNavigationBar.m in Sources */,
 				1C51D38E2040FF2800539BD3 /* APPUISummaryController.m in Sources */,
 				1C9048942060A289007BAA9D /* JGRollingNoticeView.m in Sources */,
