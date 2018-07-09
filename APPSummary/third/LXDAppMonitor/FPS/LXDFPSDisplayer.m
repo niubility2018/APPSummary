@@ -43,8 +43,8 @@
 
 - (void)updateFPS: (int)fps {
     LXDDispatchQueueAsyncBlockInDefault(^{
-        NSMutableAttributedString * attributed = [[NSMutableAttributedString alloc] initWithString: [NSString stringWithFormat: @"%d", fps] attributes: @{ NSForegroundColorAttributeName: [UIColor colorWithHue: 0.27 * (fps / 60.0 - 0.2) saturation: 1 brightness: 0.9 alpha: 1], NSFontAttributeName: self->_fpsDisplayer.font }];
-        [attributed appendAttributedString: [[NSAttributedString alloc] initWithString: @"FPS" attributes: @{ NSFontAttributeName: self->_fpsDisplayer.font, NSForegroundColorAttributeName: [UIColor whiteColor] }]];
+        NSMutableAttributedString * attributed = [[NSMutableAttributedString alloc] initWithString: [NSString stringWithFormat: @"%d", fps] attributes: @{ NSForegroundColorAttributeName: [UIColor colorWithHue: 0.27 * (fps / 60.0 - 0.2) saturation: 1 brightness: 0.9 alpha: 1], NSFontAttributeName: self.fpsDisplayer.font }];
+        [attributed appendAttributedString: [[NSAttributedString alloc] initWithString: @"FPS" attributes: @{ NSFontAttributeName: self.fpsDisplayer.font, NSForegroundColorAttributeName: [UIColor whiteColor] }]];
         self.fpsDisplayer.attributedText = attributed;
     });
 }

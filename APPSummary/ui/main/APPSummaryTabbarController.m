@@ -10,6 +10,7 @@
 #import "APPSummaryNavigationController.h"
 #import "APPUISummaryController.h"
 #import "APPQuestionSummaryController.h"
+#import "SuperProjectViewController.h"
 @interface APPSummaryTabbarController ()<UITabBarControllerDelegate>
 
 @end
@@ -31,7 +32,8 @@
 {
     APPSummaryNavigationController *one = [[APPSummaryNavigationController alloc] initWithRootViewController:[[APPQuestionSummaryController alloc] init]];
     APPSummaryNavigationController *two = [[APPSummaryNavigationController alloc] initWithRootViewController:[[APPUISummaryController alloc] init]];
-    self.viewControllers = @[one, two];
+    APPSummaryNavigationController *third = [[APPSummaryNavigationController alloc] initWithRootViewController:[[SuperProjectViewController alloc] init]];
+    self.viewControllers = @[one, two, third];
 }
 
 - (void)addTabarItems
@@ -50,8 +52,15 @@
                                                   CYLTabBarItemSelectedImage : @"tabBar_new_click_icon",
                                                   };
     
+    NSDictionary *thirdTabBarItemsAttributes = @{
+                                                  CYLTabBarItemTitle : @"高仿",
+                                                  CYLTabBarItemImage : @"project_unselect_1",
+                                                  CYLTabBarItemSelectedImage : @"project_selected_1",
+                                                  };
+    
     self.tabBarItemsAttributes = @[ secondTabBarItemsAttributes,
-                                    firstTabBarItemsAttributes
+                                    firstTabBarItemsAttributes,
+                                    thirdTabBarItemsAttributes
                                        ];
     
 }
