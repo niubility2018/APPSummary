@@ -41,4 +41,8 @@ target 'APPSummary' do
 #    pod 'ZFPlayer', '~> 3.0.9.1'
 #    pod 'WMPlayer', '~> 5.0.0'
     pod 'YYCategories', '~> 1.0.4'
+    #分页
+    pod 'WMPageController', '~> 1.4.1'
+    #滑动菜单
+    pod 'VTMagic'
 end

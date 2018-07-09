@@ -43,6 +43,7 @@
 #import "IntroduceViewController.h"
 #import "CycleImageViewController.h"
 #import "LiceKeyBoardViewController.h"
+#import "MusicStyleController.h"
 @interface APPUISummaryController ()
 @property (nonatomic, strong) NSArray *dataUIArray;
 @property (nonatomic, strong) NSArray *dataArray;
@@ -229,7 +230,7 @@
                 break;
             case 10:
             {
-                MusicListController *musicvc = [[MusicListController alloc] init];
+                MusicStyleController *musicvc = [[MusicStyleController alloc] init];
                 [self.navigationController pushViewController:musicvc animated:YES];
             }
                 break;

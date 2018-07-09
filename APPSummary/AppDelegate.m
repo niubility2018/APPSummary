@@ -52,7 +52,6 @@
     
     NSLog(@"%@",[GSKeyChainDataManager readUUID]);
     
-    
     NSArray <NSString *> *imagesURLS = @[@"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1495189872684&di=03f9df0b71bb536223236235515cf227&imgtype=0&src=http%3A%2F%2Fatt1.dzwww.com%2Fforum%2F201405%2F29%2F1033545qqmieznviecgdmm.gif", @"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1495189851096&di=224fad7f17468c2cc080221dd78a4abf&imgtype=0&src=http%3A%2F%2Fimg3.duitang.com%2Fuploads%2Fitem%2F201505%2F12%2F20150512124019_GPjEJ.gif"];
     // 启动广告
     [AdvertiseHelper showAdvertiserView:imagesURLS];
@@ -75,12 +74,50 @@
 //    [[FLEXManager sharedManager] setNetworkDebuggingEnabled:YES];
 //#endif
     
+    //后台播放
+    AVAudioSession *session = [AVAudioSession sharedInstance];
+    [session  setCategory:AVAudioSessionCategoryPlayback error:nil];
+    [session setActive:YES error:nil];
+    [application beginReceivingRemoteControlEvents];//开启接收远程事件
+    
 #if DEBUG
     [[JxbDebugTool shareInstance] setMainColor:[UIColor redColor]]; //设置主色调
     [[JxbDebugTool shareInstance] enableDebugMode];//启用debug工具
 #endif
     return YES;
 }
+
+#pragma mark - 接收远程事件
+-(void)remoteControlReceivedWithEvent:(UIEvent *)event{
+    if (event.type == UIEventTypeRemoteControl) {
+        switch (event.subtype) {
+            case UIEventSubtypeRemoteControlPause://暂停
+            {
+                [[LZPlayerManager lzPlayerManager] playAndPause];
+                [LZPlayerBottomView lzPlayerBottomView].isSongPlayer = NO;
+                break;
+            }case UIEventSubtypeRemoteControlPlay://播放
+            {
+                [[LZPlayerManager lzPlayerManager] playAndPause];
+                [LZPlayerBottomView lzPlayerBottomView].isSongPlayer = YES;
+                break;
+            }case UIEventSubtypeRemoteControlPreviousTrack://前一首
+            {
+                [[LZPlayerManager lzPlayerManager]playPrevious];
+                [[LZPlayerBottomView lzPlayerBottomView] reloadDataWithIndex: [LZPlayerManager lzPlayerManager].index];
+                break;
+            }case UIEventSubtypeRemoteControlNextTrack://下一首
+            {
+                [[LZPlayerManager lzPlayerManager]playNext];
+                [[LZPlayerBottomView lzPlayerBottomView] reloadDataWithIndex: [LZPlayerManager lzPlayerManager].index];
+                break;
+            }
+            default:
+                break;
+        }
+    }
+}
+
 
 
 - (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {

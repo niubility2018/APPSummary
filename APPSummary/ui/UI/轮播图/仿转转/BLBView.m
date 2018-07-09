@@ -8,7 +8,7 @@
 
 #import "BLBView.h"
 #import "LBView.h"
-#import "INTUAnimationEngine.h"
+//#import "INTUAnimationEngine.h"
 #import "CFMyImageView.h"
 #import "UIImageView+WebCache.h"
 #define SCREEN_WIDTH               ([[UIScreen mainScreen] bounds].size.width)
