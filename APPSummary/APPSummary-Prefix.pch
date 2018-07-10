@@ -30,6 +30,18 @@
 #import <AFNetworking.h>
 #import <AVFoundation/AVFoundation.h>
 
+#import "NSNotificationClass.h"
+#import "TonePlayerSimple.h"
+#import "ToolClass.h"
+
+#import <easyar/engine.oc.h>
+#import <easyar/camera.oc.h>
+
+#import "UIButton+WebCache.h"
+#import <SDWebImage/SDImageCache.h>
+#import <SDWebImage/SDWebImagePrefetcher.h>
+#import <SDWebImage/SDWebImageManager.h>
+
 
 //工具类
 #import "LZNetWorking.h"
@@ -37,6 +49,7 @@
 #import "LZPlayerManager.h"
 #import "LZSignSongIdSimple.h"//标记歌曲id
 #import "HealpClass.h"
+#import "FailedView.h"
 
 #define LZSongUrl @"http://218.200.160.29/rdp2/v5.5/sub/listen.do?contentid=%@&ua=Iphone_Sst&version=4.243&netType=1&toneFlag=1"
 

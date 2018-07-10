@@ -23,6 +23,11 @@
 #import <Bugly/Bugly.h>
 #import "IQKeyboardManager.h"
 #import "NSData+CRC32.h"
+
+
+NSString * key = @"XDZzB7SNUeJOi90vPtl9i1PT8VxUKCr3M7IKCAiluw1FvWqeolmFUhT0qjTKyplvKYlFPvECMd7Cf0yQUHeIWOu9sbrrMPx78yneExR00MPvCf9707KFMp7lndO9XFWO0d0Un6ztL4a3GfwWD0hzeL5qURQNhC8oZR7UqDt5GMtMvHVhRuO97HhC7wnEglJ9jdU1Wzq7";
+
+
 @interface AppDelegate ()
 
 @end
@@ -79,6 +84,11 @@
     [session  setCategory:AVAudioSessionCategoryPlayback error:nil];
     [session setActive:YES error:nil];
     [application beginReceivingRemoteControlEvents];//开启接收远程事件
+    
+
+    if (![easyar_Engine initialize:key]) {
+        NSLog(@"Initialization Failed.");
+    }
     
 #if DEBUG
     [[JxbDebugTool shareInstance] setMainColor:[UIColor redColor]]; //设置主色调
@@ -149,6 +159,7 @@
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
+    [easyar_Engine onPause];
 }
 
 
@@ -165,6 +176,7 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    [easyar_Engine onResume];
 }
 
 
