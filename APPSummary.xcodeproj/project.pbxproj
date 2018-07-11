@@ -11,6 +11,18 @@
 		0C8355A72046C68100A9373C /* DrawPDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8355A52046C68100A9373C /* DrawPDFViewController.m */; };
 		0C8355AA2046C6CF00A9373C /* PDF2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0C8355A82046C6CF00A9373C /* PDF2.pdf */; };
 		0C8355AB2046C6CF00A9373C /* PDF1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0C8355A92046C6CF00A9373C /* PDF1.pdf */; };
+		1C2E144020F5DED000986AA5 /* ZFJPermissionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E142C20F5DECF00986AA5 /* ZFJPermissionManager.m */; };
+		1C2E144120F5DED000986AA5 /* PaletteColorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E143120F5DED000986AA5 /* PaletteColorUtils.m */; };
+		1C2E144220F5DED000986AA5 /* Palette.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E143220F5DED000986AA5 /* Palette.m */; };
+		1C2E144320F5DED000986AA5 /* PaletteSwatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E143320F5DED000986AA5 /* PaletteSwatch.m */; };
+		1C2E144420F5DED000986AA5 /* UIImage+Palette.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E143520F5DED000986AA5 /* UIImage+Palette.m */; };
+		1C2E144520F5DED000986AA5 /* PaletteColorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E143C20F5DED000986AA5 /* PaletteColorModel.m */; };
+		1C2E144620F5DED000986AA5 /* PriorityBoxArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E143D20F5DED000986AA5 /* PriorityBoxArray.m */; };
+		1C2E144720F5DED000986AA5 /* PaletteTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E143E20F5DED000986AA5 /* PaletteTarget.m */; };
+		1C2E144A20F5DFC900986AA5 /* ZFJPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E144920F5DFC900986AA5 /* ZFJPermission.m */; };
+		1C2E144D20F5E2EA00986AA5 /* UIView+Geometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E144B20F5E2E900986AA5 /* UIView+Geometry.m */; };
+		1C2E145120F5E37300986AA5 /* RGBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E145020F5E37300986AA5 /* RGBViewController.m */; };
+		1C2E145420F5E43200986AA5 /* DemoShowColorSingleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E145320F5E43200986AA5 /* DemoShowColorSingleView.m */; };
 		1C3FC84320F45A6900627433 /* easyar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C3FC84220F45A6800627433 /* easyar.framework */; };
 		1C3FC84520F45A8D00627433 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C3FC84420F45A8C00627433 /* libc++.tbd */; };
 		1C3FC84720F45A9700627433 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C3FC84620F45A9500627433 /* AVFoundation.framework */; };
@@ -30,6 +42,37 @@
 		1C3FC87620F45B8400627433 /* ARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3FC86720F45B8400627433 /* ARViewController.m */; };
 		1C3FC87720F45B8400627433 /* ToolClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3FC86A20F45B8400627433 /* ToolClass.m */; };
 		1C3FC87820F45B8400627433 /* TonePlayerSimple.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3FC86D20F45B8400627433 /* TonePlayerSimple.m */; };
+		1C3FC8B820F47C2E00627433 /* SDThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3FC87B20F47C2E00627433 /* SDThemeManager.m */; };
+		1C3FC8B920F47C2E00627433 /* UIButton+SDTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3FC88120F47C2E00627433 /* UIButton+SDTheme.m */; };
+		1C3FC8BA20F47C2E00627433 /* UIBarItem+SDTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3FC88320F47C2E00627433 /* UIBarItem+SDTheme.m */; };
+		1C3FC8BB20F47C2E00627433 /* UISwitch+SDTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3FC88820F47C2E00627433 /* UISwitch+SDTheme.m */; };
+		1C3FC8BC20F47C2E00627433 /* CAShapeLayer+SDTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3FC88A20F47C2E00627433 /* CAShapeLayer+SDTheme.m */; };
+		1C3FC8BD20F47C2E00627433 /* UIImage+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3FC88B20F47C2E00627433 /* UIImage+SDExtension.m */; };
+		1C3FC8BE20F47C2E00627433 /* UINavigationBar+SDTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3FC88D20F47C2E00627433 /* UINavigationBar+SDTheme.m */; };
+		1C3FC8BF20F47C2E00627433 /* UIColor+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3FC88E20F47C2E00627433 /* UIColor+SDExtension.m */; };
+		1C3FC8C020F47C2E00627433 /* UIView+SDTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3FC89120F47C2E00627433 /* UIView+SDTheme.m */; };
+		1C3FC8C120F47C2E00627433 /* UITabBar+SDTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3FC89220F47C2E00627433 /* UITabBar+SDTheme.m */; };
+		1C3FC8C220F47C2E00627433 /* UILabel+SDTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3FC89320F47C2E00627433 /* UILabel+SDTheme.m */; };
+		1C3FC8C320F47C2E00627433 /* UITabBarItem+SDTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3FC89620F47C2E00627433 /* UITabBarItem+SDTheme.m */; };
+		1C3FC8C420F47C2E00627433 /* UIImageView+SDTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3FC89720F47C2E00627433 /* UIImageView+SDTheme.m */; };
+		1C3FC8C520F47C2E00627433 /* UIPageControl+SDTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3FC89820F47C2E00627433 /* UIPageControl+SDTheme.m */; };
+		1C3FC8C620F47C2E00627433 /* CALayer+SDTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3FC89920F47C2E00627433 /* CALayer+SDTheme.m */; };
+		1C3FC8C720F47C2E00627433 /* UITextView+SDTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3FC89B20F47C2E00627433 /* UITextView+SDTheme.m */; };
+		1C3FC8C820F47C2E00627433 /* UIApplication+SDTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3FC89C20F47C2E00627433 /* UIApplication+SDTheme.m */; };
+		1C3FC8C920F47C2E00627433 /* UITextField+SDTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3FC89D20F47C2E00627433 /* UITextField+SDTheme.m */; };
+		1C3FC8CA20F47C2E00627433 /* UIActivityIndicatorView+SDTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3FC89F20F47C2E00627433 /* UIActivityIndicatorView+SDTheme.m */; };
+		1C3FC8CB20F47C2E00627433 /* UITableView+SDTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3FC8A020F47C2E00627433 /* UITableView+SDTheme.m */; };
+		1C3FC8CC20F47C2E00627433 /* UISegmentedControl+SDTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3FC8A320F47C2E00627433 /* UISegmentedControl+SDTheme.m */; };
+		1C3FC8CD20F47C2E00627433 /* NSDictionary+SDTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3FC8A820F47C2E00627433 /* NSDictionary+SDTheme.m */; };
+		1C3FC8CE20F47C2E00627433 /* NSObject+SDTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3FC8AA20F47C2E00627433 /* NSObject+SDTheme.m */; };
+		1C3FC8CF20F47C2E00627433 /* NSAttributedString+SDTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3FC8AD20F47C2E00627433 /* NSAttributedString+SDTheme.m */; };
+		1C3FC8D020F47C2E00627433 /* NSObject+SDDeallocBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3FC8AF20F47C2E00627433 /* NSObject+SDDeallocBlock.m */; };
+		1C3FC8D120F47C2E00627433 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C3FC8B120F47C2E00627433 /* Images.xcassets */; };
+		1C3FC8D220F47C2E00627433 /* ColorsMap.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C3FC8B220F47C2E00627433 /* ColorsMap.plist */; };
+		1C3FC8D320F47C2F00627433 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C3FC8B320F47C2E00627433 /* Info.plist */; };
+		1C3FC8D420F47C2F00627433 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C3FC8B520F47C2E00627433 /* Images.xcassets */; };
+		1C3FC8D520F47C2F00627433 /* ColorsMap.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C3FC8B620F47C2E00627433 /* ColorsMap.plist */; };
+		1C3FC8D620F47C2F00627433 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C3FC8B720F47C2E00627433 /* Info.plist */; };
 		1C450C58207DACD3000EBBB2 /* SnapshotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C450C57207DACD3000EBBB2 /* SnapshotViewController.m */; };
 		1C4A8D1520E47E2100D07D81 /* HeartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4A8D1420E47E2100D07D81 /* HeartViewController.m */; };
 		1C4A8D1820E47E3100D07D81 /* HeartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4A8D1720E47E3100D07D81 /* HeartView.m */; };
@@ -823,6 +866,31 @@
 		0C8355A52046C68100A9373C /* DrawPDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawPDFViewController.m; sourceTree = "<group>"; };
 		0C8355A82046C6CF00A9373C /* PDF2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = PDF2.pdf; sourceTree = "<group>"; };
 		0C8355A92046C6CF00A9373C /* PDF1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = PDF1.pdf; sourceTree = "<group>"; };
+		1C2E142C20F5DECF00986AA5 /* ZFJPermissionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFJPermissionManager.m; sourceTree = "<group>"; };
+		1C2E142D20F5DECF00986AA5 /* ZFJPermissionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFJPermissionManager.h; sourceTree = "<group>"; };
+		1C2E142F20F5DED000986AA5 /* iOSPalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSPalette.h; sourceTree = "<group>"; };
+		1C2E143120F5DED000986AA5 /* PaletteColorUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaletteColorUtils.m; sourceTree = "<group>"; };
+		1C2E143220F5DED000986AA5 /* Palette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Palette.m; sourceTree = "<group>"; };
+		1C2E143320F5DED000986AA5 /* PaletteSwatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaletteSwatch.m; sourceTree = "<group>"; };
+		1C2E143420F5DED000986AA5 /* PriorityBoxArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PriorityBoxArray.h; sourceTree = "<group>"; };
+		1C2E143520F5DED000986AA5 /* UIImage+Palette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Palette.m"; sourceTree = "<group>"; };
+		1C2E143620F5DED000986AA5 /* PaletteTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaletteTarget.h; sourceTree = "<group>"; };
+		1C2E143720F5DED000986AA5 /* PaletteSwatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaletteSwatch.h; sourceTree = "<group>"; };
+		1C2E143820F5DED000986AA5 /* Palette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Palette.h; sourceTree = "<group>"; };
+		1C2E143920F5DED000986AA5 /* PaletteColorUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaletteColorUtils.h; sourceTree = "<group>"; };
+		1C2E143B20F5DED000986AA5 /* PaletteColorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaletteColorModel.h; sourceTree = "<group>"; };
+		1C2E143C20F5DED000986AA5 /* PaletteColorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaletteColorModel.m; sourceTree = "<group>"; };
+		1C2E143D20F5DED000986AA5 /* PriorityBoxArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PriorityBoxArray.m; sourceTree = "<group>"; };
+		1C2E143E20F5DED000986AA5 /* PaletteTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaletteTarget.m; sourceTree = "<group>"; };
+		1C2E143F20F5DED000986AA5 /* UIImage+Palette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Palette.h"; sourceTree = "<group>"; };
+		1C2E144820F5DFC900986AA5 /* ZFJPermission.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFJPermission.h; sourceTree = "<group>"; };
+		1C2E144920F5DFC900986AA5 /* ZFJPermission.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFJPermission.m; sourceTree = "<group>"; };
+		1C2E144B20F5E2E900986AA5 /* UIView+Geometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Geometry.m"; sourceTree = "<group>"; };
+		1C2E144C20F5E2E900986AA5 /* UIView+Geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Geometry.h"; sourceTree = "<group>"; };
+		1C2E144F20F5E37300986AA5 /* RGBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGBViewController.h; sourceTree = "<group>"; };
+		1C2E145020F5E37300986AA5 /* RGBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGBViewController.m; sourceTree = "<group>"; };
+		1C2E145220F5E43200986AA5 /* DemoShowColorSingleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoShowColorSingleView.h; sourceTree = "<group>"; };
+		1C2E145320F5E43200986AA5 /* DemoShowColorSingleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoShowColorSingleView.m; sourceTree = "<group>"; };
 		1C3FC84220F45A6800627433 /* easyar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = easyar.framework; path = APPSummary/Frameworks/easyar.framework; sourceTree = "<group>"; };
 		1C3FC84420F45A8C00627433 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		1C3FC84620F45A9500627433 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -853,6 +921,63 @@
 		1C3FC86B20F45B8400627433 /* PopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopView.h; sourceTree = "<group>"; };
 		1C3FC86D20F45B8400627433 /* TonePlayerSimple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TonePlayerSimple.m; sourceTree = "<group>"; };
 		1C3FC86E20F45B8400627433 /* TonePlayerSimple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TonePlayerSimple.h; sourceTree = "<group>"; };
+		1C3FC87B20F47C2E00627433 /* SDThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDThemeManager.m; sourceTree = "<group>"; };
+		1C3FC87C20F47C2E00627433 /* SDThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDThemeManager.h; sourceTree = "<group>"; };
+		1C3FC87E20F47C2E00627433 /* UIPageControl+SDTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPageControl+SDTheme.h"; sourceTree = "<group>"; };
+		1C3FC87F20F47C2E00627433 /* CALayer+SDTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+SDTheme.h"; sourceTree = "<group>"; };
+		1C3FC88020F47C2E00627433 /* UIImageView+SDTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SDTheme.h"; sourceTree = "<group>"; };
+		1C3FC88120F47C2E00627433 /* UIButton+SDTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SDTheme.m"; sourceTree = "<group>"; };
+		1C3FC88220F47C2E00627433 /* UITabBarItem+SDTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+SDTheme.h"; sourceTree = "<group>"; };
+		1C3FC88320F47C2E00627433 /* UIBarItem+SDTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarItem+SDTheme.m"; sourceTree = "<group>"; };
+		1C3FC88420F47C2E00627433 /* UILabel+SDTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+SDTheme.h"; sourceTree = "<group>"; };
+		1C3FC88520F47C2E00627433 /* UITabBar+SDTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+SDTheme.h"; sourceTree = "<group>"; };
+		1C3FC88620F47C2E00627433 /* UIApplication+SDTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+SDTheme.h"; sourceTree = "<group>"; };
+		1C3FC88720F47C2E00627433 /* UITextView+SDTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+SDTheme.h"; sourceTree = "<group>"; };
+		1C3FC88820F47C2E00627433 /* UISwitch+SDTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISwitch+SDTheme.m"; sourceTree = "<group>"; };
+		1C3FC88920F47C2E00627433 /* UITextField+SDTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+SDTheme.h"; sourceTree = "<group>"; };
+		1C3FC88A20F47C2E00627433 /* CAShapeLayer+SDTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAShapeLayer+SDTheme.m"; sourceTree = "<group>"; };
+		1C3FC88B20F47C2E00627433 /* UIImage+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SDExtension.m"; sourceTree = "<group>"; };
+		1C3FC88C20F47C2E00627433 /* UISegmentedControl+SDTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISegmentedControl+SDTheme.h"; sourceTree = "<group>"; };
+		1C3FC88D20F47C2E00627433 /* UINavigationBar+SDTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+SDTheme.m"; sourceTree = "<group>"; };
+		1C3FC88E20F47C2E00627433 /* UIColor+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SDExtension.m"; sourceTree = "<group>"; };
+		1C3FC88F20F47C2E00627433 /* UITableView+SDTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SDTheme.h"; sourceTree = "<group>"; };
+		1C3FC89020F47C2E00627433 /* UIActivityIndicatorView+SDTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+SDTheme.h"; sourceTree = "<group>"; };
+		1C3FC89120F47C2E00627433 /* UIView+SDTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDTheme.m"; sourceTree = "<group>"; };
+		1C3FC89220F47C2E00627433 /* UITabBar+SDTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+SDTheme.m"; sourceTree = "<group>"; };
+		1C3FC89320F47C2E00627433 /* UILabel+SDTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+SDTheme.m"; sourceTree = "<group>"; };
+		1C3FC89420F47C2E00627433 /* UIBarItem+SDTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarItem+SDTheme.h"; sourceTree = "<group>"; };
+		1C3FC89520F47C2E00627433 /* UIButton+SDTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+SDTheme.h"; sourceTree = "<group>"; };
+		1C3FC89620F47C2E00627433 /* UITabBarItem+SDTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+SDTheme.m"; sourceTree = "<group>"; };
+		1C3FC89720F47C2E00627433 /* UIImageView+SDTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SDTheme.m"; sourceTree = "<group>"; };
+		1C3FC89820F47C2E00627433 /* UIPageControl+SDTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPageControl+SDTheme.m"; sourceTree = "<group>"; };
+		1C3FC89920F47C2E00627433 /* CALayer+SDTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+SDTheme.m"; sourceTree = "<group>"; };
+		1C3FC89A20F47C2E00627433 /* UISwitch+SDTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISwitch+SDTheme.h"; sourceTree = "<group>"; };
+		1C3FC89B20F47C2E00627433 /* UITextView+SDTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+SDTheme.m"; sourceTree = "<group>"; };
+		1C3FC89C20F47C2E00627433 /* UIApplication+SDTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+SDTheme.m"; sourceTree = "<group>"; };
+		1C3FC89D20F47C2E00627433 /* UITextField+SDTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+SDTheme.m"; sourceTree = "<group>"; };
+		1C3FC89E20F47C2E00627433 /* UIView+SDTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDTheme.h"; sourceTree = "<group>"; };
+		1C3FC89F20F47C2E00627433 /* UIActivityIndicatorView+SDTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+SDTheme.m"; sourceTree = "<group>"; };
+		1C3FC8A020F47C2E00627433 /* UITableView+SDTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SDTheme.m"; sourceTree = "<group>"; };
+		1C3FC8A120F47C2E00627433 /* UIColor+SDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SDExtension.h"; sourceTree = "<group>"; };
+		1C3FC8A220F47C2E00627433 /* UINavigationBar+SDTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+SDTheme.h"; sourceTree = "<group>"; };
+		1C3FC8A320F47C2E00627433 /* UISegmentedControl+SDTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISegmentedControl+SDTheme.m"; sourceTree = "<group>"; };
+		1C3FC8A420F47C2E00627433 /* UIImage+SDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SDExtension.h"; sourceTree = "<group>"; };
+		1C3FC8A520F47C2E00627433 /* CAShapeLayer+SDTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAShapeLayer+SDTheme.h"; sourceTree = "<group>"; };
+		1C3FC8A620F47C2E00627433 /* SDTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDTheme.h; sourceTree = "<group>"; };
+		1C3FC8A820F47C2E00627433 /* NSDictionary+SDTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SDTheme.m"; sourceTree = "<group>"; };
+		1C3FC8A920F47C2E00627433 /* NSObject+SDDeallocBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SDDeallocBlock.h"; sourceTree = "<group>"; };
+		1C3FC8AA20F47C2E00627433 /* NSObject+SDTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SDTheme.m"; sourceTree = "<group>"; };
+		1C3FC8AB20F47C2E00627433 /* NSAttributedString+SDTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+SDTheme.h"; sourceTree = "<group>"; };
+		1C3FC8AC20F47C2E00627433 /* NSDictionary+SDTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SDTheme.h"; sourceTree = "<group>"; };
+		1C3FC8AD20F47C2E00627433 /* NSAttributedString+SDTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+SDTheme.m"; sourceTree = "<group>"; };
+		1C3FC8AE20F47C2E00627433 /* NSObject+SDTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SDTheme.h"; sourceTree = "<group>"; };
+		1C3FC8AF20F47C2E00627433 /* NSObject+SDDeallocBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SDDeallocBlock.m"; sourceTree = "<group>"; };
+		1C3FC8B120F47C2E00627433 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1C3FC8B220F47C2E00627433 /* ColorsMap.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ColorsMap.plist; sourceTree = "<group>"; };
+		1C3FC8B320F47C2E00627433 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C3FC8B520F47C2E00627433 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1C3FC8B620F47C2E00627433 /* ColorsMap.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ColorsMap.plist; sourceTree = "<group>"; };
+		1C3FC8B720F47C2E00627433 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C450C56207DACD3000EBBB2 /* SnapshotViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SnapshotViewController.h; sourceTree = "<group>"; };
 		1C450C57207DACD3000EBBB2 /* SnapshotViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnapshotViewController.m; sourceTree = "<group>"; };
 		1C4A8D1320E47E2100D07D81 /* HeartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeartViewController.h; sourceTree = "<group>"; };
@@ -2090,6 +2215,66 @@
 			path = PDFTool;
 			sourceTree = "<group>";
 		};
+		1C2E142B20F5DECF00986AA5 /* iOS权限 */ = {
+			isa = PBXGroup;
+			children = (
+				1C2E142C20F5DECF00986AA5 /* ZFJPermissionManager.m */,
+				1C2E142D20F5DECF00986AA5 /* ZFJPermissionManager.h */,
+				1C2E144820F5DFC900986AA5 /* ZFJPermission.h */,
+				1C2E144920F5DFC900986AA5 /* ZFJPermission.m */,
+			);
+			path = "iOS权限";
+			sourceTree = "<group>";
+		};
+		1C2E142E20F5DED000986AA5 /* 图片色值 */ = {
+			isa = PBXGroup;
+			children = (
+				1C2E142F20F5DED000986AA5 /* iOSPalette.h */,
+				1C2E143020F5DED000986AA5 /* Source */,
+			);
+			path = "图片色值";
+			sourceTree = "<group>";
+		};
+		1C2E143020F5DED000986AA5 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1C2E143120F5DED000986AA5 /* PaletteColorUtils.m */,
+				1C2E143220F5DED000986AA5 /* Palette.m */,
+				1C2E143320F5DED000986AA5 /* PaletteSwatch.m */,
+				1C2E143420F5DED000986AA5 /* PriorityBoxArray.h */,
+				1C2E143520F5DED000986AA5 /* UIImage+Palette.m */,
+				1C2E143620F5DED000986AA5 /* PaletteTarget.h */,
+				1C2E143720F5DED000986AA5 /* PaletteSwatch.h */,
+				1C2E143820F5DED000986AA5 /* Palette.h */,
+				1C2E143920F5DED000986AA5 /* PaletteColorUtils.h */,
+				1C2E143A20F5DED000986AA5 /* Model */,
+				1C2E143D20F5DED000986AA5 /* PriorityBoxArray.m */,
+				1C2E143E20F5DED000986AA5 /* PaletteTarget.m */,
+				1C2E143F20F5DED000986AA5 /* UIImage+Palette.h */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		1C2E143A20F5DED000986AA5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1C2E143B20F5DED000986AA5 /* PaletteColorModel.h */,
+				1C2E143C20F5DED000986AA5 /* PaletteColorModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1C2E144E20F5E35800986AA5 /* 获取图片色值 */ = {
+			isa = PBXGroup;
+			children = (
+				1C2E144F20F5E37300986AA5 /* RGBViewController.h */,
+				1C2E145020F5E37300986AA5 /* RGBViewController.m */,
+				1C2E145220F5E43200986AA5 /* DemoShowColorSingleView.h */,
+				1C2E145320F5E43200986AA5 /* DemoShowColorSingleView.m */,
+			);
+			path = "获取图片色值";
+			sourceTree = "<group>";
+		};
 		1C3FC85420F45B8400627433 /* AR识别 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2156,6 +2341,110 @@
 				1C3FC86E20F45B8400627433 /* TonePlayerSimple.h */,
 			);
 			path = TonePlayer;
+			sourceTree = "<group>";
+		};
+		1C3FC87920F47C2E00627433 /* 更换主题 */ = {
+			isa = PBXGroup;
+			children = (
+				1C3FC87A20F47C2E00627433 /* Core */,
+				1C3FC87D20F47C2E00627433 /* UIKit */,
+				1C3FC8A620F47C2E00627433 /* SDTheme.h */,
+				1C3FC8A720F47C2E00627433 /* Foundation */,
+				1C3FC8B020F47C2E00627433 /* SDTheme-White */,
+				1C3FC8B420F47C2E00627433 /* SDTheme-Black */,
+			);
+			path = "更换主题";
+			sourceTree = "<group>";
+		};
+		1C3FC87A20F47C2E00627433 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1C3FC87B20F47C2E00627433 /* SDThemeManager.m */,
+				1C3FC87C20F47C2E00627433 /* SDThemeManager.h */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		1C3FC87D20F47C2E00627433 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				1C3FC87E20F47C2E00627433 /* UIPageControl+SDTheme.h */,
+				1C3FC87F20F47C2E00627433 /* CALayer+SDTheme.h */,
+				1C3FC88020F47C2E00627433 /* UIImageView+SDTheme.h */,
+				1C3FC88120F47C2E00627433 /* UIButton+SDTheme.m */,
+				1C3FC88220F47C2E00627433 /* UITabBarItem+SDTheme.h */,
+				1C3FC88320F47C2E00627433 /* UIBarItem+SDTheme.m */,
+				1C3FC88420F47C2E00627433 /* UILabel+SDTheme.h */,
+				1C3FC88520F47C2E00627433 /* UITabBar+SDTheme.h */,
+				1C3FC88620F47C2E00627433 /* UIApplication+SDTheme.h */,
+				1C3FC88720F47C2E00627433 /* UITextView+SDTheme.h */,
+				1C3FC88820F47C2E00627433 /* UISwitch+SDTheme.m */,
+				1C3FC88920F47C2E00627433 /* UITextField+SDTheme.h */,
+				1C3FC88A20F47C2E00627433 /* CAShapeLayer+SDTheme.m */,
+				1C3FC88B20F47C2E00627433 /* UIImage+SDExtension.m */,
+				1C3FC88C20F47C2E00627433 /* UISegmentedControl+SDTheme.h */,
+				1C3FC88D20F47C2E00627433 /* UINavigationBar+SDTheme.m */,
+				1C3FC88E20F47C2E00627433 /* UIColor+SDExtension.m */,
+				1C3FC88F20F47C2E00627433 /* UITableView+SDTheme.h */,
+				1C3FC89020F47C2E00627433 /* UIActivityIndicatorView+SDTheme.h */,
+				1C3FC89120F47C2E00627433 /* UIView+SDTheme.m */,
+				1C3FC89220F47C2E00627433 /* UITabBar+SDTheme.m */,
+				1C3FC89320F47C2E00627433 /* UILabel+SDTheme.m */,
+				1C3FC89420F47C2E00627433 /* UIBarItem+SDTheme.h */,
+				1C3FC89520F47C2E00627433 /* UIButton+SDTheme.h */,
+				1C3FC89620F47C2E00627433 /* UITabBarItem+SDTheme.m */,
+				1C3FC89720F47C2E00627433 /* UIImageView+SDTheme.m */,
+				1C3FC89820F47C2E00627433 /* UIPageControl+SDTheme.m */,
+				1C3FC89920F47C2E00627433 /* CALayer+SDTheme.m */,
+				1C3FC89A20F47C2E00627433 /* UISwitch+SDTheme.h */,
+				1C3FC89B20F47C2E00627433 /* UITextView+SDTheme.m */,
+				1C3FC89C20F47C2E00627433 /* UIApplication+SDTheme.m */,
+				1C3FC89D20F47C2E00627433 /* UITextField+SDTheme.m */,
+				1C3FC89E20F47C2E00627433 /* UIView+SDTheme.h */,
+				1C3FC89F20F47C2E00627433 /* UIActivityIndicatorView+SDTheme.m */,
+				1C3FC8A020F47C2E00627433 /* UITableView+SDTheme.m */,
+				1C3FC8A120F47C2E00627433 /* UIColor+SDExtension.h */,
+				1C3FC8A220F47C2E00627433 /* UINavigationBar+SDTheme.h */,
+				1C3FC8A320F47C2E00627433 /* UISegmentedControl+SDTheme.m */,
+				1C3FC8A420F47C2E00627433 /* UIImage+SDExtension.h */,
+				1C3FC8A520F47C2E00627433 /* CAShapeLayer+SDTheme.h */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		1C3FC8A720F47C2E00627433 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				1C3FC8A820F47C2E00627433 /* NSDictionary+SDTheme.m */,
+				1C3FC8A920F47C2E00627433 /* NSObject+SDDeallocBlock.h */,
+				1C3FC8AA20F47C2E00627433 /* NSObject+SDTheme.m */,
+				1C3FC8AB20F47C2E00627433 /* NSAttributedString+SDTheme.h */,
+				1C3FC8AC20F47C2E00627433 /* NSDictionary+SDTheme.h */,
+				1C3FC8AD20F47C2E00627433 /* NSAttributedString+SDTheme.m */,
+				1C3FC8AE20F47C2E00627433 /* NSObject+SDTheme.h */,
+				1C3FC8AF20F47C2E00627433 /* NSObject+SDDeallocBlock.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		1C3FC8B020F47C2E00627433 /* SDTheme-White */ = {
+			isa = PBXGroup;
+			children = (
+				1C3FC8B120F47C2E00627433 /* Images.xcassets */,
+				1C3FC8B220F47C2E00627433 /* ColorsMap.plist */,
+				1C3FC8B320F47C2E00627433 /* Info.plist */,
+			);
+			path = "SDTheme-White";
+			sourceTree = "<group>";
+		};
+		1C3FC8B420F47C2E00627433 /* SDTheme-Black */ = {
+			isa = PBXGroup;
+			children = (
+				1C3FC8B520F47C2E00627433 /* Images.xcassets */,
+				1C3FC8B620F47C2E00627433 /* ColorsMap.plist */,
+				1C3FC8B720F47C2E00627433 /* Info.plist */,
+			);
+			path = "SDTheme-Black";
 			sourceTree = "<group>";
 		};
 		1C450C53207DAC58000EBBB2 /* 屏幕截图分享 */ = {
@@ -2741,6 +3030,8 @@
 		1C51D3532040FA1300539BD3 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				1C2E144E20F5E35800986AA5 /* 获取图片色值 */,
+				1C3FC87920F47C2E00627433 /* 更换主题 */,
 				1C3FC85420F45B8400627433 /* AR识别 */,
 				1CC21ADB20F34E900040162A /* 仿京东签到 */,
 				1C53D5C620EF4F2100CE60FB /* 车牌键盘 */,
@@ -4839,6 +5130,8 @@
 		1CA19F92203FE001005068A7 /* category */ = {
 			isa = PBXGroup;
 			children = (
+				1C2E144C20F5E2E900986AA5 /* UIView+Geometry.h */,
+				1C2E144B20F5E2E900986AA5 /* UIView+Geometry.m */,
 				1C53D4EC20EEFAB600CE60FB /* MBProgressHUD+LMJ.h */,
 				1C53D4E920EEFAB500CE60FB /* MBProgressHUD+LMJ.m */,
 				1C53D4E820EEFAB500CE60FB /* UIButton+LMJ.h */,
@@ -4870,6 +5163,8 @@
 		1CA19F96203FE0B4005068A7 /* third */ = {
 			isa = PBXGroup;
 			children = (
+				1C2E142E20F5DED000986AA5 /* 图片色值 */,
+				1C2E142B20F5DECF00986AA5 /* iOS权限 */,
 				1C524ECE20EE1409001658E8 /* WMPlayer */,
 				1C524EAD20EE1409001658E8 /* ZFPlayer */,
 				1C4D3F8C207CA36C00D2B5F6 /* LXDAppMonitor */,
@@ -5410,6 +5705,7 @@
 				1C92DF0A20F3456100C34C89 /* Musics.plist in Resources */,
 				1C53D56220EF36EB00CE60FB /* CustomIntroductionCell.xib in Resources */,
 				1C4D554F204FC00D00ABF4BB /* NNTableViewCell.xib in Resources */,
+				1C3FC8D120F47C2E00627433 /* Images.xcassets in Resources */,
 				1C524E8C20EDFBF4001658E8 /* locationlaidian@2x.png in Resources */,
 				1C524DD820EDFBF4001658E8 /* icon531.png in Resources */,
 				1C524E8A20EDFBF4001658E8 /* actionbar_transparent_white_spectrum_12@2x.png in Resources */,
@@ -5420,6 +5716,7 @@
 				1C524DF620EDFBF4001658E8 /* audio546.mp3 in Resources */,
 				1C53D54420EF195700CE60FB /* bg_iPhoneX.jpg in Resources */,
 				1C4D551D204F891900ABF4BB /* IMG_1873.JPG in Resources */,
+				1C3FC8D320F47C2F00627433 /* Info.plist in Resources */,
 				1CA19FCC203FE0E2005068A7 /* launchingImg_8.png in Resources */,
 				1C52505720EE1870001658E8 /* ONEDetailMusicInfoController.xib in Resources */,
 				1C524E0320EDFBF4001658E8 /* stickers563.jpg in Resources */,
@@ -5486,6 +5783,7 @@
 				1C524E9920EDFBF5001658E8 /* location@2x.png in Resources */,
 				1C524DD620EDFBF4001658E8 /* icon548.png in Resources */,
 				1C4D5527204F891900ABF4BB /* IMG_1877.JPG in Resources */,
+				1C3FC8D520F47C2F00627433 /* ColorsMap.plist in Resources */,
 				1C92DEF920F3456100C34C89 /* bb@2x.jpg in Resources */,
 				1C92DF0020F3456100C34C89 /* 14945107.mp3 in Resources */,
 				1C524E9120EDFBF5001658E8 /* GiftRank@3x.png in Resources */,
@@ -5499,6 +5797,7 @@
 				1C92DEF720F3456100C34C89 /* eason_icon@2x.jpg in Resources */,
 				1C52502120EE186F001658E8 /* ONEHomeNavigationBarTitleView.xib in Resources */,
 				1C92DEE520F3456100C34C89 /* 10736444.lrc in Resources */,
+				1C3FC8D620F47C2F00627433 /* Info.plist in Resources */,
 				1C524E2020EDFBF4001658E8 /* stickers543.jpg in Resources */,
 				1C524E5E20EDFBF4001658E8 /* RayOfRotate@3x.png in Resources */,
 				1C524E7720EDFBF4001658E8 /* HistoryNorecord@2x.png in Resources */,
@@ -5526,6 +5825,7 @@
 				1CA1A003203FEACF005068A7 /* logo.jpeg in Resources */,
 				1C524E1820EDFBF4001658E8 /* stickers551.jpg in Resources */,
 				1C524E0920EDFBF4001658E8 /* stickers539.jpg in Resources */,
+				1C3FC8D220F47C2E00627433 /* ColorsMap.plist in Resources */,
 				1CA19FD3203FE0E2005068A7 /* launchingImg_1.png in Resources */,
 				1C524E0020EDFBF4001658E8 /* stickers559.jpg in Resources */,
 				1C524DEE20EDFBF4001658E8 /* audio540.mp3 in Resources */,
@@ -5658,6 +5958,7 @@
 				1C53D54220EF195700CE60FB /* YKHomeViewController.xib in Resources */,
 				1C90489E2060A336007BAA9D /* CustomNoticeCell.xib in Resources */,
 				1C524E6D20EDFBF4001658E8 /* Homepage_changebigbtn_normal@2x.png in Resources */,
+				1C3FC8D420F47C2F00627433 /* Images.xcassets in Resources */,
 				1CA19FC6203FE0E2005068A7 /* loadingImg_0.png in Resources */,
 				1C524E8120EDFBF4001658E8 /* xgback@2x.png in Resources */,
 				1C8F35642043E031004DDC06 /* Contents.json in Resources */,
@@ -5781,6 +6082,7 @@
 				1C92DE8620F3452800C34C89 /* LZNetWorking.m in Sources */,
 				1C4D54EA204F887E00ABF4BB /* AAChartModel.m in Sources */,
 				1C52502220EE186F001658E8 /* ONENavigationBar.m in Sources */,
+				1C3FC8B920F47C2E00627433 /* UIButton+SDTheme.m in Sources */,
 				1C92DE7420F344E100C34C89 /* BLBView.m in Sources */,
 				1C4D5518204F891900ABF4BB /* ChartAnimationTypeVC.m in Sources */,
 				1CFF5F2A20BB9DB000D6713B /* AppDelegate+Trace.m in Sources */,
@@ -5791,23 +6093,30 @@
 				1C52502920EE186F001658E8 /* ONEHomeViewController.m in Sources */,
 				1C92DEDB20F3456100C34C89 /* QQImageTool.m in Sources */,
 				1C8F356F2043E1E5004DDC06 /* WRNavigationBar.m in Sources */,
+				1C2E144620F5DED000986AA5 /* PriorityBoxArray.m in Sources */,
 				1C52501120EE186F001658E8 /* ONEAllHotAuthorCell.m in Sources */,
+				1C3FC8C120F47C2E00627433 /* UITabBar+SDTheme.m in Sources */,
 				1C3FC87220F45B8400627433 /* OpenGLView.m in Sources */,
 				1C92DE8F20F3453A00C34C89 /* LZPlayerBottomView.m in Sources */,
 				1C52506120EE1870001658E8 /* ONEDetailRelatedCell.m in Sources */,
 				1C4D554E204FC00D00ABF4BB /* NNTableViewCell.m in Sources */,
 				1CBABC3D206CCF6D00EB3F68 /* BounceView.m in Sources */,
 				1C92DE8020F3451100C34C89 /* LZMusicDetailVIewController.m in Sources */,
+				1C3FC8BA20F47C2E00627433 /* UIBarItem+SDTheme.m in Sources */,
 				1C524EDE20EE1409001658E8 /* ZFPlayerView.m in Sources */,
+				1C3FC8CD20F47C2E00627433 /* NSDictionary+SDTheme.m in Sources */,
+				1C3FC8CE20F47C2E00627433 /* NSObject+SDTheme.m in Sources */,
 				1C4D3FD2207CA36D00D2B5F6 /* LXDMemoryDisplayer.m in Sources */,
 				1C52504D20EE186F001658E8 /* ONEHomeHeaderView.m in Sources */,
 				1C8BF10E208EF8F700A98D2F /* WenZiHandleController.m in Sources */,
 				1C52504620EE186F001658E8 /* ONEHomeCoverImagePresentationController.m in Sources */,
+				1C3FC8BC20F47C2E00627433 /* CAShapeLayer+SDTheme.m in Sources */,
 				1C52502B20EE186F001658E8 /* ONELikeView.m in Sources */,
 				1C52500520EE186F001658E8 /* ONESearchAllListViewController.m in Sources */,
 				1CBABC5C206CE0A400EB3F68 /* PieView.m in Sources */,
 				1C524EAC20EE02FD001658E8 /* RootTabrTableViewController.m in Sources */,
 				1C92DE7820F344F500C34C89 /* LZPlayerModel.m in Sources */,
+				1C3FC8C020F47C2E00627433 /* UIView+SDTheme.m in Sources */,
 				1C92DE6220F344A500C34C89 /* MusicStyle2Controller.m in Sources */,
 				1C753424205274AC0057B318 /* DouDiZhuViewController.m in Sources */,
 				1C4D54D4204F887E00ABF4BB /* AAPlotOptions.m in Sources */,
@@ -5820,6 +6129,7 @@
 				1C4D3FE3207CA36D00D2B5F6 /* LXDTransaction.m in Sources */,
 				1C53D4E420EEF94800CE60FB /* UIView+GestureCallback.m in Sources */,
 				1C52505520EE1870001658E8 /* ONEDetailViewController.m in Sources */,
+				1C3FC8CB20F47C2E00627433 /* UITableView+SDTheme.m in Sources */,
 				1C5CBBE320E9CBD300B09D67 /* NSData+CRC32.m in Sources */,
 				1CAC5286204EA42C00715A0F /* AdvancedBarrageController.m in Sources */,
 				1C9048AA2060AB8C007BAA9D /* ZWMusicalNoteView.m in Sources */,
@@ -5833,6 +6143,7 @@
 				1C524ED620EE1409001658E8 /* UINavigationController+ZFPlayerRotation.m in Sources */,
 				1C4D551F204F891900ABF4BB /* ThreeDimensionalChartVC.m in Sources */,
 				1C52502C20EE186F001658E8 /* ONEHomeCell.m in Sources */,
+				1C3FC8C420F47C2E00627433 /* UIImageView+SDTheme.m in Sources */,
 				1C53D55D20EF35D000CE60FB /* LaunchStyleTwoController.m in Sources */,
 				1C524E2520EDFBF4001658E8 /* EditVideoViewController.mm in Sources */,
 				1C4D54D3204F887E00ABF4BB /* AAXAxis.m in Sources */,
@@ -5850,9 +6161,11 @@
 				1C4D54D5204F887E00ABF4BB /* AADataLabels.m in Sources */,
 				1CAC5287204EA42C00715A0F /* MLEmojiLabel+BarrageView.m in Sources */,
 				1C4D3FD0207CA36D00D2B5F6 /* LXDCrashLogger.m in Sources */,
+				1C2E144D20F5E2EA00986AA5 /* UIView+Geometry.m in Sources */,
 				1C53D55420EF34A000CE60FB /* IntroduceViewController.m in Sources */,
 				1C4B32A92047E53400A964A7 /* AdvertiseView.m in Sources */,
 				1C524CB820EDE844001658E8 /* WSRedPacketView.m in Sources */,
+				1C3FC8BB20F47C2E00627433 /* UISwitch+SDTheme.m in Sources */,
 				1C53D5D520EF4F5200CE60FB /* LiceKeyBoardViewController.m in Sources */,
 				1C52507220EE1870001658E8 /* UIImage+CWColorAndStretch.m in Sources */,
 				1C52507520EE1870001658E8 /* CWCarouselView.m in Sources */,
@@ -5882,6 +6195,7 @@
 				1C4D3FD5207CA36D00D2B5F6 /* LXDResourceMonitor.m in Sources */,
 				1C524C9F20EDC4E2001658E8 /* ZCFlyinLabel.m in Sources */,
 				1C4D54DA204F887E00ABF4BB /* AAColumn.m in Sources */,
+				1C2E144020F5DED000986AA5 /* ZFJPermissionManager.m in Sources */,
 				1C4D9AA22051187800082259 /* UUIDViewController.m in Sources */,
 				1CBABC44206CD6E200EB3F68 /* ShouchangController.m in Sources */,
 				1C9048A92060AB8C007BAA9D /* ZWMusicDownLoadView.m in Sources */,
@@ -5889,6 +6203,8 @@
 				1C524E2620EDFBF4001658E8 /* MusicItemCollectionViewCell.mm in Sources */,
 				1C53D54720EF195700CE60FB /* YKBirthdayItem.m in Sources */,
 				1C524C9E20EDC4E2001658E8 /* ZCAnimatedLabel.m in Sources */,
+				1C3FC8C520F47C2E00627433 /* UIPageControl+SDTheme.m in Sources */,
+				1C3FC8C720F47C2E00627433 /* UITextView+SDTheme.m in Sources */,
 				1CC21B0F20F34EDF0040162A /* SignInViewController.m in Sources */,
 				1C75342D205274AC0057B318 /* FileLoadViewController.m in Sources */,
 				1C4F9E9E20AA865800933EB4 /* NSMutableDictionary+Safe.m in Sources */,
@@ -5912,6 +6228,7 @@
 				1C753427205274AC0057B318 /* QQTmpChatViewController.m in Sources */,
 				1C52506B20EE1870001658E8 /* UIButton+CWColor.m in Sources */,
 				1C4D3FE1207CA36D00D2B5F6 /* LXDDispatchOperation.m in Sources */,
+				1C3FC8C920F47C2E00627433 /* UITextField+SDTheme.m in Sources */,
 				1C52505120EE186F001658E8 /* ONEEssayItem.m in Sources */,
 				1C4F9E9F20AA865800933EB4 /* NSDictionary+Safe.m in Sources */,
 				1C52503D20EE186F001658E8 /* ONEHomeFeedDatePickerView.m in Sources */,
@@ -5932,18 +6249,22 @@
 				1C52506720EE1870001658E8 /* UIView+CWFrame.m in Sources */,
 				1C5CBBED20E9CC5A00B09D67 /* OtherDetailViewController.m in Sources */,
 				1C4A8D1820E47E3100D07D81 /* HeartView.m in Sources */,
+				1C2E145420F5E43200986AA5 /* DemoShowColorSingleView.m in Sources */,
 				1C3FC87620F45B8400627433 /* ARViewController.m in Sources */,
 				1C4F9EA120AA865800933EB4 /* NSObject+ImpChangeTool.m in Sources */,
 				1C4D9AAA205137BE00082259 /* SortView.swift in Sources */,
 				1C8F357A2043F5D4004DDC06 /* ColorUtil.m in Sources */,
 				1C524EE020EE1409001658E8 /* ASValueTrackingSlider.m in Sources */,
 				1C4D3FCB207CA36D00D2B5F6 /* LXDDNSInterceptor.m in Sources */,
+				1C2E144220F5DED000986AA5 /* Palette.m in Sources */,
 				1C524ED720EE1409001658E8 /* UIAlertController+ZFPlayerRotation.m in Sources */,
 				1C524CA520EDC59B001658E8 /* WordAnimationController.m in Sources */,
 				1C52502A20EE186F001658E8 /* ONEHomeTableViewController.m in Sources */,
 				1C52502E20EE186F001658E8 /* ONEHomeAdvertisementCell.m in Sources */,
 				1CC21AFA20F34EB50040162A /* FailedView.m in Sources */,
 				1C4D5539204FB92A00ABF4BB /* BHBScrollView.m in Sources */,
+				1C2E145120F5E37300986AA5 /* RGBViewController.m in Sources */,
+				1C3FC8C320F47C2E00627433 /* UITabBarItem+SDTheme.m in Sources */,
 				1C52501220EE186F001658E8 /* ONEAllCategoryNavigationView.m in Sources */,
 				1C92DEE020F3456100C34C89 /* QQMusicModel.m in Sources */,
 				1C52506F20EE1870001658E8 /* UIColor+CWQuickCreate.m in Sources */,
@@ -5952,6 +6273,7 @@
 				1C53D4E520EEF94800CE60FB /* UITextView+WZB.m in Sources */,
 				1C524C9A20EDC4E2001658E8 /* ZCEasingUtil.m in Sources */,
 				1C4D54ED204F887E00ABF4BB /* AAOptionsConstructor.m in Sources */,
+				1C3FC8CA20F47C2E00627433 /* UIActivityIndicatorView+SDTheme.m in Sources */,
 				1C52500320EE186F001658E8 /* ONESearchResultItem.m in Sources */,
 				1C92DEE120F3456100C34C89 /* QQLrcModel.m in Sources */,
 				1C53D53120EF195700CE60FB /* YKBirthdayViewController.m in Sources */,
@@ -6005,14 +6327,17 @@
 				1C75342E205274AC0057B318 /* CommonLabelViewController.m in Sources */,
 				1C53D5D120EF4F2100CE60FB /* LicensePlateTextField.m in Sources */,
 				1C51D38B2040FEDD00539BD3 /* APPSummaryTabbarController.m in Sources */,
+				1C3FC8B820F47C2E00627433 /* SDThemeManager.m in Sources */,
 				1C51D37C2040FA1400539BD3 /* CountDownLabel.swift in Sources */,
 				1C524EA420EDFBF5001658E8 /* HomeVideoCollectionViewCell.mm in Sources */,
 				1C52504020EE186F001658E8 /* ONEHomeFeedCell.m in Sources */,
+				1C3FC8BD20F47C2E00627433 /* UIImage+SDExtension.m in Sources */,
 				1C4D54DB204F887E00ABF4BB /* AAPlotLinesElement.m in Sources */,
 				1C51D37D2040FA1400539BD3 /* ILGLKImageView.m in Sources */,
 				1C753432205274AC0057B318 /* AIViewController.m in Sources */,
 				1C4D553A204FB92A00ABF4BB /* BHBDrawBoarderView.m in Sources */,
 				1C524DD420EDFBF4001658E8 /* EditingPublishingDynamicViewController.mm in Sources */,
+				1C3FC8BF20F47C2E00627433 /* UIColor+SDExtension.m in Sources */,
 				1C9048B22060AFD1007BAA9D /* RegularVerification.m in Sources */,
 				1C52505220EE186F001658E8 /* ONEDetailTableViewController.m in Sources */,
 				1C4D551A204F891900ABF4BB /* OnlyRefreshChartDataVC.m in Sources */,
@@ -6024,7 +6349,9 @@
 				1C4D3FCC207CA36D00D2B5F6 /* NSURLProtocol+WebKitSupport.m in Sources */,
 				1C52507E20EE1870001658E8 /* ONEAuthorizationTool.m in Sources */,
 				1CA19FF7203FE78E005068A7 /* GPUImageSoulFilter.m in Sources */,
+				1C2E144420F5DED000986AA5 /* UIImage+Palette.m in Sources */,
 				1C524EA620EDFBF5001658E8 /* UserHomeViewController.m in Sources */,
+				1C3FC8C620F47C2E00627433 /* CALayer+SDTheme.m in Sources */,
 				1C75342C205274AC0057B318 /* DrawViewController.m in Sources */,
 				1C52500920EE186F001658E8 /* ONECategoryChooserViewCell.m in Sources */,
 				1CC21AFD20F34EB50040162A /* CollectionModel.m in Sources */,
@@ -6037,6 +6364,7 @@
 				1C52506C20EE1870001658E8 /* CALayer+CWAnimation.m in Sources */,
 				1C52500720EE186F001658E8 /* ONESearchViewController.m in Sources */,
 				1C4D5523204F891900ABF4BB /* SecondViewController.m in Sources */,
+				1C2E144720F5DED000986AA5 /* PaletteTarget.m in Sources */,
 				1C53D54320EF195700CE60FB /* YKDetailViewController.m in Sources */,
 				1C52501A20EE186F001658E8 /* ONEAllEveryOneAskEveryOneView.m in Sources */,
 				1C524C9B20EDC4E2001658E8 /* ZCDuangLabel.m in Sources */,
@@ -6083,6 +6411,7 @@
 				1C53D4F020EEFAB600CE60FB /* UIButton+LMJ.m in Sources */,
 				1C53D55120EF345200CE60FB /* GYIntroductionView.m in Sources */,
 				1C4ABCBB20F327A800D6F19A /* MusicStyleController.m in Sources */,
+				1C3FC8C820F47C2E00627433 /* UIApplication+SDTheme.m in Sources */,
 				1C524CA020EDC4E2001658E8 /* ZCDashLabel.m in Sources */,
 				1C52506920EE1870001658E8 /* UILabel+CWLineSpacing.m in Sources */,
 				1C524ED920EE1409001658E8 /* UIViewController+ZFPlayerRotation.m in Sources */,
@@ -6111,26 +6440,31 @@
 				1C4D54E2204F887E00ABF4BB /* AAAnimation.m in Sources */,
 				1C52504520EE186F001658E8 /* ONEHomeDiaryViewController.m in Sources */,
 				1C4D54E0204F887E00ABF4BB /* AAOptions.m in Sources */,
+				1C2E144120F5DED000986AA5 /* PaletteColorUtils.m in Sources */,
 				1C524EA820EDFBF5001658E8 /* VideoListViewController.m in Sources */,
 				1C524ED220EE1409001658E8 /* ZFPlayerModel.m in Sources */,
 				1C4D3FDA207CA36D00D2B5F6 /* LXDFPSDisplayer.m in Sources */,
 				1C4ABC7C20F327A800D6F19A /* LZMusicBaseViewController.m in Sources */,
 				1C524E4D20EDFBF4001658E8 /* VideoCameraView.mm in Sources */,
 				1C3FC87120F45B8400627433 /* RandomView.m in Sources */,
+				1C2E144320F5DED000986AA5 /* PaletteSwatch.m in Sources */,
 				1C52506A20EE1870001658E8 /* UIColor+Hex.m in Sources */,
 				1CFF5F2D20BB9F0600D6713B /* TraceManager.m in Sources */,
 				1C52504320EE186F001658E8 /* ONEHomeMenuItem.m in Sources */,
 				1C524EDC20EE1409001658E8 /* ASValuePopUpView.m in Sources */,
 				1C52504820EE186F001658E8 /* ONEHomeCatalogueCell.m in Sources */,
+				1C3FC8D020F47C2E00627433 /* NSObject+SDDeallocBlock.m in Sources */,
 				1C524C9920EDC4E2001658E8 /* ZCFocusLabel.m in Sources */,
 				1C4D3FCF207CA36D00D2B5F6 /* LXDCrashMonitor.m in Sources */,
 				1C4D54E6204F887E00ABF4BB /* AAItemStyle.m in Sources */,
 				1CBABC5A206CE0A400EB3F68 /* WLPieView.m in Sources */,
+				1C3FC8CC20F47C2E00627433 /* UISegmentedControl+SDTheme.m in Sources */,
 				1C53D53320EF195700CE60FB /* YKBirthdayModel.m in Sources */,
 				1C4D5512204F891900ABF4BB /* SpecialChartVC.m in Sources */,
 				1C4D54E3204F887E00ABF4BB /* AALegend.m in Sources */,
 				1C4D9AAC205137F000082259 /* SortViewController.swift in Sources */,
 				1C53D53B20EF195700CE60FB /* UIColor+YKColor.m in Sources */,
+				1C2E144520F5DED000986AA5 /* PaletteColorModel.m in Sources */,
 				1C52506320EE1870001658E8 /* ONEDetailCommentCell.m in Sources */,
 				1C4D3FE0207CA36D00D2B5F6 /* LXDDispatchAsync.m in Sources */,
 				1C75342B205274AC0057B318 /* WIFICheckViewController.m in Sources */,
@@ -6164,6 +6498,7 @@
 				1C5CBBE520E9CBD300B09D67 /* NetWorkInfoManager.m in Sources */,
 				1C92DE8E20F3453A00C34C89 /* LZSignSongIdSimple.m in Sources */,
 				1C53D54A20EF195700CE60FB /* YKBirthdayView.m in Sources */,
+				1C3FC8C220F47C2E00627433 /* UILabel+SDTheme.m in Sources */,
 				1CAC5285204EA42C00715A0F /* BarrageWalkImageTextSprite.m in Sources */,
 				1C91D25120C53E0F00CDE9DA /* SendCodeBtn.swift in Sources */,
 				1C52507820EE1870001658E8 /* ONESearchTool.m in Sources */,
@@ -6179,12 +6514,14 @@
 				1C92DEDD20F3456100C34C89 /* QQMusicTool.m in Sources */,
 				1C53D54820EF195700CE60FB /* YKAudioPlayerMgr.m in Sources */,
 				1C52503020EE186F001658E8 /* ONEHomeRadioCell.m in Sources */,
+				1C2E144A20F5DFC900986AA5 /* ZFJPermission.m in Sources */,
 				1C4D3FDE207CA36D00D2B5F6 /* UIApplication+LXDTool.m in Sources */,
 				1C92DE8320F3451C00C34C89 /* HealpClass.m in Sources */,
 				1CBABC4D206CD79800EB3F68 /* PingTransition.m in Sources */,
 				1C52500820EE186F001658E8 /* ONESearchResultCell.m in Sources */,
 				1CAC5289204EA42C00715A0F /* NSSafeObject.m in Sources */,
 				1C52507D20EE1870001658E8 /* ONEShareTool.m in Sources */,
+				1C3FC8CF20F47C2E00627433 /* NSAttributedString+SDTheme.m in Sources */,
 				1C4D54D1204F887E00ABF4BB /* AALabels.m in Sources */,
 				1C4D3FD7207CA36D00D2B5F6 /* LXDApplicationCPU.m in Sources */,
 				1C4D9A952050E71C00082259 /* StepViewController.m in Sources */,
@@ -6192,6 +6529,7 @@
 				1C4A8D1520E47E2100D07D81 /* HeartViewController.m in Sources */,
 				1C52503920EE186F001658E8 /* ONEUserHeaderView.m in Sources */,
 				1C52502D20EE186F001658E8 /* ONEHomeBaseCell.m in Sources */,
+				1C3FC8BE20F47C2E00627433 /* UINavigationBar+SDTheme.m in Sources */,
 				1C52504720EE186F001658E8 /* ONEDiaryPhotoPickerView.m in Sources */,
 				1C753428205274AC0057B318 /* GPUImageViewController.m in Sources */,
 				1C4D3FD1207CA36D00D2B5F6 /* LXDAppFluencyMonitor.m in Sources */,
