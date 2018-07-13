@@ -773,6 +773,18 @@
 		1C92DF0920F3456100C34C89 /* 339744.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C92DED620F3456100C34C89 /* 339744.mp3 */; };
 		1C92DF0A20F3456100C34C89 /* Musics.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C92DED720F3456100C34C89 /* Musics.plist */; };
 		1C9408F620E35796000221EB /* ECDSAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9408F520E35796000221EB /* ECDSAViewController.m */; };
+		1C9B82DF20F845FA004C1D85 /* DCCycleScrollViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9B82DB20F845F9004C1D85 /* DCCycleScrollViewCell.m */; };
+		1C9B82E020F845FA004C1D85 /* DCCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9B82DC20F845F9004C1D85 /* DCCycleScrollView.m */; };
+		1C9B82E120F845FA004C1D85 /* DCCycleScrollViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9B82DE20F845FA004C1D85 /* DCCycleScrollViewFlowLayout.m */; };
+		1C9B82E420F8462D004C1D85 /* CycleStyle2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9B82E320F8462D004C1D85 /* CycleStyle2Controller.m */; };
+		1C9B82F320F84793004C1D85 /* CWCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9B82E720F84792004C1D85 /* CWCarousel.m */; };
+		1C9B82F420F84793004C1D85 /* CWFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9B82E920F84792004C1D85 /* CWFlowLayout.m */; };
+		1C9B82F520F84793004C1D85 /* 01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C9B82EE20F84793004C1D85 /* 01.jpg */; };
+		1C9B82F620F84793004C1D85 /* 03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C9B82EF20F84793004C1D85 /* 03.jpg */; };
+		1C9B82F720F84793004C1D85 /* 02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C9B82F020F84793004C1D85 /* 02.jpg */; };
+		1C9B82F820F84793004C1D85 /* 05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C9B82F120F84793004C1D85 /* 05.jpg */; };
+		1C9B82F920F84793004C1D85 /* 04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C9B82F220F84793004C1D85 /* 04.jpg */; };
+		1C9B82FC20F847AD004C1D85 /* CycleStyle3Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9B82FB20F847AD004C1D85 /* CycleStyle3Controller.m */; };
 		1CA19F7A203FDBFA005068A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA19F79203FDBFA005068A7 /* AppDelegate.m */; };
 		1CA19F80203FDBFA005068A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CA19F7E203FDBFA005068A7 /* Main.storyboard */; };
 		1CA19F82203FDBFA005068A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CA19F81203FDBFA005068A7 /* Assets.xcassets */; };
@@ -2054,6 +2066,27 @@
 		1C92DED720F3456100C34C89 /* Musics.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Musics.plist; sourceTree = "<group>"; };
 		1C9408F420E35796000221EB /* ECDSAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECDSAViewController.h; sourceTree = "<group>"; };
 		1C9408F520E35796000221EB /* ECDSAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECDSAViewController.m; sourceTree = "<group>"; };
+		1C9B82D920F845F9004C1D85 /* DCCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCCycleScrollView.h; sourceTree = "<group>"; };
+		1C9B82DA20F845F9004C1D85 /* DCCycleScrollViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCCycleScrollViewCell.h; sourceTree = "<group>"; };
+		1C9B82DB20F845F9004C1D85 /* DCCycleScrollViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCCycleScrollViewCell.m; sourceTree = "<group>"; };
+		1C9B82DC20F845F9004C1D85 /* DCCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCCycleScrollView.m; sourceTree = "<group>"; };
+		1C9B82DD20F845F9004C1D85 /* DCCycleScrollViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCCycleScrollViewFlowLayout.h; sourceTree = "<group>"; };
+		1C9B82DE20F845FA004C1D85 /* DCCycleScrollViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCCycleScrollViewFlowLayout.m; sourceTree = "<group>"; };
+		1C9B82E220F8462D004C1D85 /* CycleStyle2Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CycleStyle2Controller.h; sourceTree = "<group>"; };
+		1C9B82E320F8462D004C1D85 /* CycleStyle2Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CycleStyle2Controller.m; sourceTree = "<group>"; };
+		1C9B82E720F84792004C1D85 /* CWCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWCarousel.m; sourceTree = "<group>"; };
+		1C9B82E820F84792004C1D85 /* CWCarouselHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWCarouselHeader.h; sourceTree = "<group>"; };
+		1C9B82E920F84792004C1D85 /* CWFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWFlowLayout.m; sourceTree = "<group>"; };
+		1C9B82EA20F84792004C1D85 /* CWCarouselProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWCarouselProtocol.h; sourceTree = "<group>"; };
+		1C9B82EB20F84792004C1D85 /* CWCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWCarousel.h; sourceTree = "<group>"; };
+		1C9B82EC20F84792004C1D85 /* CWFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWFlowLayout.h; sourceTree = "<group>"; };
+		1C9B82EE20F84793004C1D85 /* 01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 01.jpg; sourceTree = "<group>"; };
+		1C9B82EF20F84793004C1D85 /* 03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 03.jpg; sourceTree = "<group>"; };
+		1C9B82F020F84793004C1D85 /* 02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 02.jpg; sourceTree = "<group>"; };
+		1C9B82F120F84793004C1D85 /* 05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 05.jpg; sourceTree = "<group>"; };
+		1C9B82F220F84793004C1D85 /* 04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 04.jpg; sourceTree = "<group>"; };
+		1C9B82FA20F847AD004C1D85 /* CycleStyle3Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CycleStyle3Controller.h; sourceTree = "<group>"; };
+		1C9B82FB20F847AD004C1D85 /* CycleStyle3Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CycleStyle3Controller.m; sourceTree = "<group>"; };
 		1CA19F75203FDBFA005068A7 /* APPSummary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APPSummary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CA19F78203FDBFA005068A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1CA19F79203FDBFA005068A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -4662,6 +4695,8 @@
 		1C53D58920EF444400CE60FB /* 轮播图 */ = {
 			isa = PBXGroup;
 			children = (
+				1C9B82E520F846F6004C1D85 /* style3 */,
+				1C9B82D820F845E5004C1D85 /* style2 */,
 				1C53D5AC20EF49F800CE60FB /* 仿转转 */,
 				1C92DE6820F344C900C34C89 /* CycleImageViewController.h */,
 				1C92DE6720F344C900C34C89 /* CycleImageViewController.m */,
@@ -5076,6 +5111,57 @@
 				1C9408F520E35796000221EB /* ECDSAViewController.m */,
 			);
 			path = "加解密";
+			sourceTree = "<group>";
+		};
+		1C9B82D820F845E5004C1D85 /* style2 */ = {
+			isa = PBXGroup;
+			children = (
+				1C9B82D920F845F9004C1D85 /* DCCycleScrollView.h */,
+				1C9B82DC20F845F9004C1D85 /* DCCycleScrollView.m */,
+				1C9B82DA20F845F9004C1D85 /* DCCycleScrollViewCell.h */,
+				1C9B82DB20F845F9004C1D85 /* DCCycleScrollViewCell.m */,
+				1C9B82DD20F845F9004C1D85 /* DCCycleScrollViewFlowLayout.h */,
+				1C9B82DE20F845FA004C1D85 /* DCCycleScrollViewFlowLayout.m */,
+				1C9B82E220F8462D004C1D85 /* CycleStyle2Controller.h */,
+				1C9B82E320F8462D004C1D85 /* CycleStyle2Controller.m */,
+			);
+			path = style2;
+			sourceTree = "<group>";
+		};
+		1C9B82E520F846F6004C1D85 /* style3 */ = {
+			isa = PBXGroup;
+			children = (
+				1C9B82E620F84792004C1D85 /* OC */,
+				1C9B82ED20F84793004C1D85 /* Sources */,
+				1C9B82FA20F847AD004C1D85 /* CycleStyle3Controller.h */,
+				1C9B82FB20F847AD004C1D85 /* CycleStyle3Controller.m */,
+			);
+			path = style3;
+			sourceTree = "<group>";
+		};
+		1C9B82E620F84792004C1D85 /* OC */ = {
+			isa = PBXGroup;
+			children = (
+				1C9B82E720F84792004C1D85 /* CWCarousel.m */,
+				1C9B82E820F84792004C1D85 /* CWCarouselHeader.h */,
+				1C9B82E920F84792004C1D85 /* CWFlowLayout.m */,
+				1C9B82EA20F84792004C1D85 /* CWCarouselProtocol.h */,
+				1C9B82EB20F84792004C1D85 /* CWCarousel.h */,
+				1C9B82EC20F84792004C1D85 /* CWFlowLayout.h */,
+			);
+			path = OC;
+			sourceTree = "<group>";
+		};
+		1C9B82ED20F84793004C1D85 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1C9B82EE20F84793004C1D85 /* 01.jpg */,
+				1C9B82EF20F84793004C1D85 /* 03.jpg */,
+				1C9B82F020F84793004C1D85 /* 02.jpg */,
+				1C9B82F120F84793004C1D85 /* 05.jpg */,
+				1C9B82F220F84793004C1D85 /* 04.jpg */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		1CA19F6C203FDBFA005068A7 = {
@@ -5677,6 +5763,7 @@
 				1C524E2220EDFBF4001658E8 /* stickers541.jpg in Resources */,
 				1C52504C20EE186F001658E8 /* ONEHomeHeadContentView.xib in Resources */,
 				1C92DEEA20F3456100C34C89 /* 10405520.lrc in Resources */,
+				1C9B82F820F84793004C1D85 /* 05.jpg in Resources */,
 				1C524E2E20EDFBF4001658E8 /* lookup_amatorka.png in Resources */,
 				1C92DEF020F3456100C34C89 /* dzq_icon@2x.jpg in Resources */,
 				1C524E1420EDFBF4001658E8 /* stickers537.jpg in Resources */,
@@ -5728,6 +5815,7 @@
 				1C524E9320EDFBF5001658E8 /* LogoCar@2x.png in Resources */,
 				1C524DDC20EDFBF4001658E8 /* audio529.mp3 in Resources */,
 				1C52501820EE186F001658E8 /* ONEAllSpecialTableViewCell.xib in Resources */,
+				1C9B82F920F84793004C1D85 /* 04.jpg in Resources */,
 				1C524E1D20EDFBF4001658E8 /* stickers542.jpg in Resources */,
 				1C52506420EE1870001658E8 /* ONELoginViewController.xib in Resources */,
 				1C524DDF20EDFBF4001658E8 /* icon544.png in Resources */,
@@ -5741,6 +5829,7 @@
 				1C53D56420EF36EB00CE60FB /* intro_video.mp4 in Resources */,
 				1C524DF520EDFBF4001658E8 /* icon541.png in Resources */,
 				1C92DF0220F3456100C34C89 /* 235319.mp3 in Resources */,
+				1C9B82F620F84793004C1D85 /* 03.jpg in Resources */,
 				1C524E0A20EDFBF4001658E8 /* stickers538.jpg in Resources */,
 				1C524E1720EDFBF4001658E8 /* stickers545.jpg in Resources */,
 				1C524E4120EDFBF4001658E8 /* del@2x.png in Resources */,
@@ -5864,12 +5953,14 @@
 				1C524DE920EDFBF4001658E8 /* audio532.mp3 in Resources */,
 				1C53D5D020EF4F2100CE60FB /* clear_button@3x.png in Resources */,
 				1C4D5529204F891900ABF4BB /* IMG_1878.JPG in Resources */,
+				1C9B82F720F84793004C1D85 /* 02.jpg in Resources */,
 				1C524DFA20EDFBF4001658E8 /* icon534.png in Resources */,
 				1C4D551B204F891900ABF4BB /* IMG_1866.JPG in Resources */,
 				1C92DF0520F3456100C34C89 /* 1201111234.mp3 in Resources */,
 				1C524E1F20EDFBF4001658E8 /* stickers557.jpg in Resources */,
 				1C524EA120EDFBF5001658E8 /* usericon01.png in Resources */,
 				1CA19FED203FE2D6005068A7 /* lookup_glitch.png in Resources */,
+				1C9B82F520F84793004C1D85 /* 01.jpg in Resources */,
 				1C524E3A20EDFBF4001658E8 /* BackToHome@3x.png in Resources */,
 				1C524E6320EDFBF4001658E8 /* bgsearchSF@2x.png in Resources */,
 				1C524E3520EDFBF4001658E8 /* lookup_miss_etikate.png in Resources */,
@@ -6081,6 +6172,7 @@
 				1C53D4E720EEF94800CE60FB /* NSDecimalNumber+Addtion.m in Sources */,
 				1C92DE8620F3452800C34C89 /* LZNetWorking.m in Sources */,
 				1C4D54EA204F887E00ABF4BB /* AAChartModel.m in Sources */,
+				1C9B82F320F84793004C1D85 /* CWCarousel.m in Sources */,
 				1C52502220EE186F001658E8 /* ONENavigationBar.m in Sources */,
 				1C3FC8B920F47C2E00627433 /* UIButton+SDTheme.m in Sources */,
 				1C92DE7420F344E100C34C89 /* BLBView.m in Sources */,
@@ -6219,8 +6311,10 @@
 				1C524DD220EDFBF4001658E8 /* GPUImageBeautifyFilter.mm in Sources */,
 				1C53D4EF20EEFAB600CE60FB /* UIView+LMJNjHuFrame.m in Sources */,
 				1C524CA120EDC4E2001658E8 /* ZCCoreTextLayout.m in Sources */,
+				1C9B82E120F845FA004C1D85 /* DCCycleScrollViewFlowLayout.m in Sources */,
 				1C53D53420EF195700CE60FB /* YKBirthdayEnvelopeMgr.m in Sources */,
 				1C524E2720EDFBF4001658E8 /* SDAVAssetExportSession.mm in Sources */,
+				1C9B82DF20F845FA004C1D85 /* DCCycleScrollViewCell.m in Sources */,
 				1CBABC39206CCF4600EB3F68 /* TanHuangListController.m in Sources */,
 				1C753426205274AC0057B318 /* PopViewController.m in Sources */,
 				1C52507B20EE1870001658E8 /* ONERadioTool.m in Sources */,
@@ -6303,6 +6397,7 @@
 				1C8BF111208F001000A98D2F /* UIView+YYAdd.m in Sources */,
 				1C52504920EE186F001658E8 /* ONEPhotoPickerViewButton.m in Sources */,
 				1C52501B20EE186F001658E8 /* ONEMeController.m in Sources */,
+				1C9B82E020F845FA004C1D85 /* DCCycleScrollView.m in Sources */,
 				1C3FC87020F45B8400627433 /* ARScanSixView.m in Sources */,
 				1C4D3FD4207CA36D00D2B5F6 /* LXDApplicationMemory.m in Sources */,
 				1C52507A20EE1870001658E8 /* ONELocationTool.m in Sources */,
@@ -6364,6 +6459,7 @@
 				1C52506C20EE1870001658E8 /* CALayer+CWAnimation.m in Sources */,
 				1C52500720EE186F001658E8 /* ONESearchViewController.m in Sources */,
 				1C4D5523204F891900ABF4BB /* SecondViewController.m in Sources */,
+				1C9B82FC20F847AD004C1D85 /* CycleStyle3Controller.m in Sources */,
 				1C2E144720F5DED000986AA5 /* PaletteTarget.m in Sources */,
 				1C53D54320EF195700CE60FB /* YKDetailViewController.m in Sources */,
 				1C52501A20EE186F001658E8 /* ONEAllEveryOneAskEveryOneView.m in Sources */,
@@ -6420,6 +6516,7 @@
 				1C51D37A2040FA1400539BD3 /* DrawView.m in Sources */,
 				1C52507020EE1870001658E8 /* UIImage+Render.m in Sources */,
 				1C52507120EE1870001658E8 /* UITextView+CWLineSpacing.m in Sources */,
+				1C9B82F420F84793004C1D85 /* CWFlowLayout.m in Sources */,
 				1C51D398204102EF00539BD3 /* APPSummaryNavigationController.m in Sources */,
 				1C4D54E7204F887E00ABF4BB /* AAPie.m in Sources */,
 				1C9048932060A289007BAA9D /* JGNoticeViewCell.m in Sources */,
@@ -6459,6 +6556,7 @@
 				1C4D54E6204F887E00ABF4BB /* AAItemStyle.m in Sources */,
 				1CBABC5A206CE0A400EB3F68 /* WLPieView.m in Sources */,
 				1C3FC8CC20F47C2E00627433 /* UISegmentedControl+SDTheme.m in Sources */,
+				1C9B82E420F8462D004C1D85 /* CycleStyle2Controller.m in Sources */,
 				1C53D53320EF195700CE60FB /* YKBirthdayModel.m in Sources */,
 				1C4D5512204F891900ABF4BB /* SpecialChartVC.m in Sources */,
 				1C4D54E3204F887E00ABF4BB /* AALegend.m in Sources */,

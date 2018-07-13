@@ -8,6 +8,8 @@
 
 #import "CycleImageViewController.h"
 #import "CycleStyleOneController.h"
+#import "CycleStyle2Controller.h"
+#import "CycleStyle3Controller.h"
 @interface CycleImageViewController ()<UITableViewDelegate, UITableViewDataSource>
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) NSArray *dataArray;
@@ -21,7 +23,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
-    self.dataArray = @[@"样式一",@"样式二"];
+    self.dataArray = @[@"样式一",@"样式二",@"样式三"];
     [self initTableView];
 }
 
@@ -87,7 +89,13 @@
             break;
         case 1:
         {
-            CycleStyleOneController *lanuvc = [[CycleStyleOneController alloc] init];
+            CycleStyle2Controller *lanuvc = [[CycleStyle2Controller alloc] init];
+            [self.navigationController pushViewController:lanuvc animated:YES];
+        }
+            break;
+        case 2:
+        {
+            CycleStyle3Controller *lanuvc = [[CycleStyle3Controller alloc] init];
             [self.navigationController pushViewController:lanuvc animated:YES];
         }
             break;
