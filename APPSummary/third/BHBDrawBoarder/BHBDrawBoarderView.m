@@ -122,7 +122,7 @@
         
         _boardView = boardV;
         
-        [[UIApplication sharedApplication].keyWindow addSubview:self];
+        [[UIApplication sharedApplication].delegate.window addSubview:self];
         
     }
     return self;
@@ -164,7 +164,7 @@
                          
                          if (finished) {
                              if (self.draftInfoBlock) {
-                                 self.draftInfoBlock(self.num, _myDrawer.lines, _myDrawer.canceledLines);
+                                 self.draftInfoBlock(self.num, self.myDrawer.lines, self.myDrawer.canceledLines);
                              }
                          }
                          

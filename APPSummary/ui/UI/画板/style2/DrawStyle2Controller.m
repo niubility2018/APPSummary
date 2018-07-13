@@ -1,26 +1,26 @@
 //
-//  DrawViewController.m
+//  DrawStyle2Controller.m
 //  APPSummary
 //
-//  Created by xubojoy on 2018/2/23.
+//  Created by xubojoy on 2018/7/13.
 //  Copyright © 2018年 xubojoy. All rights reserved.
 //
 
-#import "DrawViewController.h"
+#import "DrawStyle2Controller.h"
 //#import "DrawView.h" 此方法会引起内存暴增
 #import "BHBDrawBoarderView.h"
-@interface DrawViewController ()
+@interface DrawStyle2Controller ()
 //@property (nonatomic, strong) DrawView *drawView;
 @property (nonatomic,strong) BHBDrawBoarderView * bv;
 @end
 
-@implementation DrawViewController
+@implementation DrawStyle2Controller
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
-//    [self initDrawView];
+    //    [self initDrawView];
     UIButton *startBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     startBtn.backgroundColor = [UIColor brownColor];
     [startBtn setTitle:@"弹出画板" forState:UIControlStateNormal];
@@ -32,7 +32,6 @@
         make.size.mas_equalTo(CGSizeMake(100, 40));
     }];
 }
-
 //- (void)initDrawView{
 //    _drawView = [[DrawView alloc] initWithFrame:CGRectMake(0, 0, screen_width, screen_height)];
 //    _drawView.backgroundColor = [UIColor whiteColor];
@@ -48,7 +47,6 @@
     self.bv.backgroundColor = [UIColor whiteColor];
     [self.bv show];
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

@@ -657,7 +657,6 @@
 		1C753429205274AC0057B318 /* PDFBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C75340B205274AC0057B318 /* PDFBrowserController.m */; };
 		1C75342A205274AC0057B318 /* TouchIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C75340C205274AC0057B318 /* TouchIDViewController.m */; };
 		1C75342B205274AC0057B318 /* WIFICheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C75340D205274AC0057B318 /* WIFICheckViewController.m */; };
-		1C75342C205274AC0057B318 /* DrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C75340E205274AC0057B318 /* DrawViewController.m */; };
 		1C75342D205274AC0057B318 /* FileLoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C75340F205274AC0057B318 /* FileLoadViewController.m */; };
 		1C75342E205274AC0057B318 /* CommonLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C753411205274AC0057B318 /* CommonLabelViewController.m */; };
 		1C75342F205274AC0057B318 /* CountDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C753414205274AC0057B318 /* CountDownViewController.m */; };
@@ -785,6 +784,12 @@
 		1C9B82F820F84793004C1D85 /* 05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C9B82F120F84793004C1D85 /* 05.jpg */; };
 		1C9B82F920F84793004C1D85 /* 04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C9B82F220F84793004C1D85 /* 04.jpg */; };
 		1C9B82FC20F847AD004C1D85 /* CycleStyle3Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9B82FB20F847AD004C1D85 /* CycleStyle3Controller.m */; };
+		1C9B830620F84F0C004C1D85 /* SDBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9B830320F84F0B004C1D85 /* SDBezierPath.m */; };
+		1C9B830720F84F0C004C1D85 /* SDDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9B830420F84F0B004C1D85 /* SDDrawView.m */; };
+		1C9B830820F84F0C004C1D85 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9B830520F84F0B004C1D85 /* UIImage+Color.m */; };
+		1C9B830B20F84F6D004C1D85 /* DrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9B830A20F84F6C004C1D85 /* DrawViewController.m */; };
+		1C9B830F20F84FC9004C1D85 /* DrawStyle2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9B830E20F84FC9004C1D85 /* DrawStyle2Controller.m */; };
+		1C9B831220F8504A004C1D85 /* DrawStyle1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9B831120F8504A004C1D85 /* DrawStyle1Controller.m */; };
 		1CA19F7A203FDBFA005068A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA19F79203FDBFA005068A7 /* AppDelegate.m */; };
 		1CA19F80203FDBFA005068A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CA19F7E203FDBFA005068A7 /* Main.storyboard */; };
 		1CA19F82203FDBFA005068A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CA19F81203FDBFA005068A7 /* Assets.xcassets */; };
@@ -1884,7 +1889,6 @@
 		1C75340B205274AC0057B318 /* PDFBrowserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFBrowserController.m; sourceTree = "<group>"; };
 		1C75340C205274AC0057B318 /* TouchIDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchIDViewController.m; sourceTree = "<group>"; };
 		1C75340D205274AC0057B318 /* WIFICheckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIFICheckViewController.m; sourceTree = "<group>"; };
-		1C75340E205274AC0057B318 /* DrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawViewController.m; sourceTree = "<group>"; };
 		1C75340F205274AC0057B318 /* FileLoadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileLoadViewController.m; sourceTree = "<group>"; };
 		1C753410205274AC0057B318 /* AIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIViewController.h; sourceTree = "<group>"; };
 		1C753411205274AC0057B318 /* CommonLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonLabelViewController.m; sourceTree = "<group>"; };
@@ -1896,7 +1900,6 @@
 		1C753418205274AC0057B318 /* DateCalendarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateCalendarController.h; sourceTree = "<group>"; };
 		1C753419205274AC0057B318 /* CommonLabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonLabelViewController.h; sourceTree = "<group>"; };
 		1C75341A205274AC0057B318 /* AIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIViewController.m; sourceTree = "<group>"; };
-		1C75341B205274AC0057B318 /* DrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawViewController.h; sourceTree = "<group>"; };
 		1C75341C205274AC0057B318 /* FileLoadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileLoadViewController.h; sourceTree = "<group>"; };
 		1C75341D205274AC0057B318 /* TouchIDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchIDViewController.h; sourceTree = "<group>"; };
 		1C75341E205274AC0057B318 /* WIFICheckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIFICheckViewController.h; sourceTree = "<group>"; };
@@ -2087,6 +2090,18 @@
 		1C9B82F220F84793004C1D85 /* 04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 04.jpg; sourceTree = "<group>"; };
 		1C9B82FA20F847AD004C1D85 /* CycleStyle3Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CycleStyle3Controller.h; sourceTree = "<group>"; };
 		1C9B82FB20F847AD004C1D85 /* CycleStyle3Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CycleStyle3Controller.m; sourceTree = "<group>"; };
+		1C9B82FF20F84F0B004C1D85 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		1C9B830120F84F0B004C1D85 /* SDDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDDrawView.h; sourceTree = "<group>"; };
+		1C9B830220F84F0B004C1D85 /* SDBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDBezierPath.h; sourceTree = "<group>"; };
+		1C9B830320F84F0B004C1D85 /* SDBezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDBezierPath.m; sourceTree = "<group>"; };
+		1C9B830420F84F0B004C1D85 /* SDDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDDrawView.m; sourceTree = "<group>"; };
+		1C9B830520F84F0B004C1D85 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		1C9B830920F84F6C004C1D85 /* DrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawViewController.h; sourceTree = "<group>"; };
+		1C9B830A20F84F6C004C1D85 /* DrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawViewController.m; sourceTree = "<group>"; };
+		1C9B830D20F84FC9004C1D85 /* DrawStyle2Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawStyle2Controller.h; sourceTree = "<group>"; };
+		1C9B830E20F84FC9004C1D85 /* DrawStyle2Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawStyle2Controller.m; sourceTree = "<group>"; };
+		1C9B831020F8504A004C1D85 /* DrawStyle1Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawStyle1Controller.h; sourceTree = "<group>"; };
+		1C9B831120F8504A004C1D85 /* DrawStyle1Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawStyle1Controller.m; sourceTree = "<group>"; };
 		1CA19F75203FDBFA005068A7 /* APPSummary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APPSummary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CA19F78203FDBFA005068A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1CA19F79203FDBFA005068A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -3063,6 +3078,7 @@
 		1C51D3532040FA1300539BD3 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				1C9B82FD20F84F0B004C1D85 /* 画板 */,
 				1C2E144E20F5E35800986AA5 /* 获取图片色值 */,
 				1C3FC87920F47C2E00627433 /* 更换主题 */,
 				1C3FC85420F45B8400627433 /* AR识别 */,
@@ -4768,7 +4784,6 @@
 				1C75340B205274AC0057B318 /* PDFBrowserController.m */,
 				1C75340C205274AC0057B318 /* TouchIDViewController.m */,
 				1C75340D205274AC0057B318 /* WIFICheckViewController.m */,
-				1C75340E205274AC0057B318 /* DrawViewController.m */,
 				1C75340F205274AC0057B318 /* FileLoadViewController.m */,
 				1C753410205274AC0057B318 /* AIViewController.h */,
 				1C753411205274AC0057B318 /* CommonLabelViewController.m */,
@@ -4780,7 +4795,6 @@
 				1C753418205274AC0057B318 /* DateCalendarController.h */,
 				1C753419205274AC0057B318 /* CommonLabelViewController.h */,
 				1C75341A205274AC0057B318 /* AIViewController.m */,
-				1C75341B205274AC0057B318 /* DrawViewController.h */,
 				1C75341C205274AC0057B318 /* FileLoadViewController.h */,
 				1C75341D205274AC0057B318 /* TouchIDViewController.h */,
 				1C75341E205274AC0057B318 /* WIFICheckViewController.h */,
@@ -5162,6 +5176,49 @@
 				1C9B82F220F84793004C1D85 /* 04.jpg */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		1C9B82FD20F84F0B004C1D85 /* 画板 */ = {
+			isa = PBXGroup;
+			children = (
+				1C9B830920F84F6C004C1D85 /* DrawViewController.h */,
+				1C9B830A20F84F6C004C1D85 /* DrawViewController.m */,
+				1C9B830C20F84FB2004C1D85 /* style2 */,
+				1C9B82FE20F84F0B004C1D85 /* style1 */,
+			);
+			path = "画板";
+			sourceTree = "<group>";
+		};
+		1C9B82FE20F84F0B004C1D85 /* style1 */ = {
+			isa = PBXGroup;
+			children = (
+				1C9B82FF20F84F0B004C1D85 /* UIImage+Color.h */,
+				1C9B830020F84F0B004C1D85 /* SDDrawView */,
+				1C9B830520F84F0B004C1D85 /* UIImage+Color.m */,
+				1C9B831020F8504A004C1D85 /* DrawStyle1Controller.h */,
+				1C9B831120F8504A004C1D85 /* DrawStyle1Controller.m */,
+			);
+			path = style1;
+			sourceTree = "<group>";
+		};
+		1C9B830020F84F0B004C1D85 /* SDDrawView */ = {
+			isa = PBXGroup;
+			children = (
+				1C9B830120F84F0B004C1D85 /* SDDrawView.h */,
+				1C9B830220F84F0B004C1D85 /* SDBezierPath.h */,
+				1C9B830320F84F0B004C1D85 /* SDBezierPath.m */,
+				1C9B830420F84F0B004C1D85 /* SDDrawView.m */,
+			);
+			path = SDDrawView;
+			sourceTree = "<group>";
+		};
+		1C9B830C20F84FB2004C1D85 /* style2 */ = {
+			isa = PBXGroup;
+			children = (
+				1C9B830D20F84FC9004C1D85 /* DrawStyle2Controller.h */,
+				1C9B830E20F84FC9004C1D85 /* DrawStyle2Controller.m */,
+			);
+			path = style2;
 			sourceTree = "<group>";
 		};
 		1CA19F6C203FDBFA005068A7 = {
@@ -6212,6 +6269,7 @@
 				1C92DE6220F344A500C34C89 /* MusicStyle2Controller.m in Sources */,
 				1C753424205274AC0057B318 /* DouDiZhuViewController.m in Sources */,
 				1C4D54D4204F887E00ABF4BB /* AAPlotOptions.m in Sources */,
+				1C9B830720F84F0C004C1D85 /* SDDrawView.m in Sources */,
 				1C51D3A02041430700539BD3 /* APPQuestionDetailController.m in Sources */,
 				1C75342F205274AC0057B318 /* CountDownViewController.m in Sources */,
 				1C524EA520EDFBF5001658E8 /* VideoLisetCell.m in Sources */,
@@ -6304,6 +6362,7 @@
 				1C53D54020EF195700CE60FB /* YKHomeViewController.m in Sources */,
 				1C92DE7320F344E100C34C89 /* LBView.m in Sources */,
 				1C90489F2060A336007BAA9D /* CustomNoticeCell.m in Sources */,
+				1C9B830F20F84FC9004C1D85 /* DrawStyle2Controller.m in Sources */,
 				1C4D3FCE207CA36D00D2B5F6 /* LXDHostFilterRule.m in Sources */,
 				1C4D3FDB207CA36D00D2B5F6 /* LXDWeakProxy.m in Sources */,
 				1C524ED320EE1409001658E8 /* UITabBarController+ZFPlayerRotation.m in Sources */,
@@ -6320,6 +6379,7 @@
 				1C52507B20EE1870001658E8 /* ONERadioTool.m in Sources */,
 				1C92DE7C20F3450300C34C89 /* LZPlyerTableViewCell.m in Sources */,
 				1C753427205274AC0057B318 /* QQTmpChatViewController.m in Sources */,
+				1C9B830620F84F0C004C1D85 /* SDBezierPath.m in Sources */,
 				1C52506B20EE1870001658E8 /* UIButton+CWColor.m in Sources */,
 				1C4D3FE1207CA36D00D2B5F6 /* LXDDispatchOperation.m in Sources */,
 				1C3FC8C920F47C2E00627433 /* UITextField+SDTheme.m in Sources */,
@@ -6439,6 +6499,7 @@
 				1C52503520EE186F001658E8 /* ONEAuthorHeaderInfoView.m in Sources */,
 				1C3FC87820F45B8400627433 /* TonePlayerSimple.m in Sources */,
 				1C4D3FDD207CA36D00D2B5F6 /* LXDTopWindow.m in Sources */,
+				1C9B830B20F84F6D004C1D85 /* DrawViewController.m in Sources */,
 				1C9048A02060A336007BAA9D /* JGCustomNoticeCell.m in Sources */,
 				1C4D5522204F891900ABF4BB /* DrilldownChartVC.m in Sources */,
 				1C4D3FCC207CA36D00D2B5F6 /* NSURLProtocol+WebKitSupport.m in Sources */,
@@ -6446,8 +6507,8 @@
 				1CA19FF7203FE78E005068A7 /* GPUImageSoulFilter.m in Sources */,
 				1C2E144420F5DED000986AA5 /* UIImage+Palette.m in Sources */,
 				1C524EA620EDFBF5001658E8 /* UserHomeViewController.m in Sources */,
+				1C9B830820F84F0C004C1D85 /* UIImage+Color.m in Sources */,
 				1C3FC8C620F47C2E00627433 /* CALayer+SDTheme.m in Sources */,
-				1C75342C205274AC0057B318 /* DrawViewController.m in Sources */,
 				1C52500920EE186F001658E8 /* ONECategoryChooserViewCell.m in Sources */,
 				1CC21AFD20F34EB50040162A /* CollectionModel.m in Sources */,
 				1C4D54D7204F887E00ABF4BB /* AATooltip.m in Sources */,
@@ -6510,6 +6571,7 @@
 				1C3FC8C820F47C2E00627433 /* UIApplication+SDTheme.m in Sources */,
 				1C524CA020EDC4E2001658E8 /* ZCDashLabel.m in Sources */,
 				1C52506920EE1870001658E8 /* UILabel+CWLineSpacing.m in Sources */,
+				1C9B831220F8504A004C1D85 /* DrawStyle1Controller.m in Sources */,
 				1C524ED920EE1409001658E8 /* UIViewController+ZFPlayerRotation.m in Sources */,
 				1C524EDF20EE1409001658E8 /* MMMaterialDesignSpinner.m in Sources */,
 				1C4D54E8204F887E00ABF4BB /* AAChart.m in Sources */,
