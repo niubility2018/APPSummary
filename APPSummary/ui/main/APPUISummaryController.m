@@ -37,7 +37,8 @@
 #import "WenZiHandleController.h"
 #import "HeartViewController.h"
 #import "CellTypeViewController.h"
-#import "WordAnimationController.h"
+#import "LabelViewController.h"
+
 #import "OpenRedPacketController.h"
 #import "YKHomeViewController.h"
 #import "IntroduceViewController.h"
@@ -305,7 +306,7 @@
                 break;
             case 22:
             {
-                WordAnimationController *svc = [[WordAnimationController alloc] init];
+                LabelViewController *svc = [[LabelViewController alloc] init];
                 [self.navigationController pushViewController:svc animated:YES];
             }
                 break;

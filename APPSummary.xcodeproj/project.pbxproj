@@ -672,6 +672,10 @@
 		1C8A70862046BAB8003443F0 /* consumer_finance_introduce.docx in Resources */ = {isa = PBXBuildFile; fileRef = 1C8A70852046BAB7003443F0 /* consumer_finance_introduce.docx */; };
 		1C8BF10E208EF8F700A98D2F /* WenZiHandleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8BF10D208EF8F700A98D2F /* WenZiHandleController.m */; };
 		1C8BF111208F001000A98D2F /* UIView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8BF10F208F000F00A98D2F /* UIView+YYAdd.m */; };
+		1C8EC5F52105AA2B00D3CEEE /* LabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8EC5F42105AA2B00D3CEEE /* LabelViewController.m */; };
+		1C8EC5F92105AB0500D3CEEE /* SPScrollNumLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8EC5F82105AB0400D3CEEE /* SPScrollNumLabel.m */; };
+		1C8EC6022105ABEB00D3CEEE /* WordAnimationStyle2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8EC6002105ABEB00D3CEEE /* WordAnimationStyle2Controller.m */; };
+		1C8EC6032105ABEC00D3CEEE /* WordAnimationStyle2Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C8EC6012105ABEB00D3CEEE /* WordAnimationStyle2Controller.xib */; };
 		1C8F355C2043E031004DDC06 /* GBAnimationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8F35492043E031004DDC06 /* GBAnimationTool.m */; };
 		1C8F355D2043E031004DDC06 /* draw@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C8F354C2043E031004DDC06 /* draw@2x.png */; };
 		1C8F355E2043E031004DDC06 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C8F354D2043E031004DDC06 /* Contents.json */; };
@@ -1924,6 +1928,13 @@
 		1C8BF10D208EF8F700A98D2F /* WenZiHandleController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WenZiHandleController.m; sourceTree = "<group>"; };
 		1C8BF10F208F000F00A98D2F /* UIView+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YYAdd.m"; sourceTree = "<group>"; };
 		1C8BF110208F001000A98D2F /* UIView+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YYAdd.h"; sourceTree = "<group>"; };
+		1C8EC5F32105AA2B00D3CEEE /* LabelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LabelViewController.h; sourceTree = "<group>"; };
+		1C8EC5F42105AA2B00D3CEEE /* LabelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabelViewController.m; sourceTree = "<group>"; };
+		1C8EC5F72105AB0400D3CEEE /* SPScrollNumLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPScrollNumLabel.h; sourceTree = "<group>"; };
+		1C8EC5F82105AB0400D3CEEE /* SPScrollNumLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPScrollNumLabel.m; sourceTree = "<group>"; };
+		1C8EC5FF2105ABEB00D3CEEE /* WordAnimationStyle2Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WordAnimationStyle2Controller.h; sourceTree = "<group>"; };
+		1C8EC6002105ABEB00D3CEEE /* WordAnimationStyle2Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordAnimationStyle2Controller.m; sourceTree = "<group>"; };
+		1C8EC6012105ABEB00D3CEEE /* WordAnimationStyle2Controller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WordAnimationStyle2Controller.xib; sourceTree = "<group>"; };
 		1C8F35492043E031004DDC06 /* GBAnimationTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBAnimationTool.m; sourceTree = "<group>"; };
 		1C8F354C2043E031004DDC06 /* draw@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "draw@2x.png"; sourceTree = "<group>"; };
 		1C8F354D2043E031004DDC06 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
@@ -3167,10 +3178,16 @@
 		1C524C7920EDC4D0001658E8 /* 文字动画 */ = {
 			isa = PBXGroup;
 			children = (
+				1C8EC5F62105AB0400D3CEEE /* SPScrollNumLabel */,
 				1C524C7A20EDC4E2001658E8 /* ZCAnimatedLabel */,
 				1C524CA220EDC59B001658E8 /* WordAnimationController.h */,
 				1C524CA320EDC59B001658E8 /* WordAnimationController.m */,
 				1C524CA420EDC59B001658E8 /* WordAnimationController.xib */,
+				1C8EC5F32105AA2B00D3CEEE /* LabelViewController.h */,
+				1C8EC5F42105AA2B00D3CEEE /* LabelViewController.m */,
+				1C8EC5FF2105ABEB00D3CEEE /* WordAnimationStyle2Controller.h */,
+				1C8EC6002105ABEB00D3CEEE /* WordAnimationStyle2Controller.m */,
+				1C8EC6012105ABEB00D3CEEE /* WordAnimationStyle2Controller.xib */,
 			);
 			path = "文字动画";
 			sourceTree = "<group>";
@@ -4840,6 +4857,15 @@
 			path = "文字处理";
 			sourceTree = "<group>";
 		};
+		1C8EC5F62105AB0400D3CEEE /* SPScrollNumLabel */ = {
+			isa = PBXGroup;
+			children = (
+				1C8EC5F72105AB0400D3CEEE /* SPScrollNumLabel.h */,
+				1C8EC5F82105AB0400D3CEEE /* SPScrollNumLabel.m */,
+			);
+			path = SPScrollNumLabel;
+			sourceTree = "<group>";
+		};
 		1C8F35482043E031004DDC06 /* GBPopMenuButtonView */ = {
 			isa = PBXGroup;
 			children = (
@@ -6020,6 +6046,7 @@
 				1C9B82F520F84793004C1D85 /* 01.jpg in Resources */,
 				1C524E3A20EDFBF4001658E8 /* BackToHome@3x.png in Resources */,
 				1C524E6320EDFBF4001658E8 /* bgsearchSF@2x.png in Resources */,
+				1C8EC6032105ABEC00D3CEEE /* WordAnimationStyle2Controller.xib in Resources */,
 				1C524E3520EDFBF4001658E8 /* lookup_miss_etikate.png in Resources */,
 				1C524E8D20EDFBF5001658E8 /* recomment_search@3x.png in Resources */,
 				1C524E0E20EDFBF4001658E8 /* stickers532.jpg in Resources */,
@@ -6247,6 +6274,7 @@
 				1C3FC8C120F47C2E00627433 /* UITabBar+SDTheme.m in Sources */,
 				1C3FC87220F45B8400627433 /* OpenGLView.m in Sources */,
 				1C92DE8F20F3453A00C34C89 /* LZPlayerBottomView.m in Sources */,
+				1C8EC6022105ABEB00D3CEEE /* WordAnimationStyle2Controller.m in Sources */,
 				1C52506120EE1870001658E8 /* ONEDetailRelatedCell.m in Sources */,
 				1C4D554E204FC00D00ABF4BB /* NNTableViewCell.m in Sources */,
 				1CBABC3D206CCF6D00EB3F68 /* BounceView.m in Sources */,
@@ -6261,6 +6289,7 @@
 				1C52504620EE186F001658E8 /* ONEHomeCoverImagePresentationController.m in Sources */,
 				1C3FC8BC20F47C2E00627433 /* CAShapeLayer+SDTheme.m in Sources */,
 				1C52502B20EE186F001658E8 /* ONELikeView.m in Sources */,
+				1C8EC5F92105AB0500D3CEEE /* SPScrollNumLabel.m in Sources */,
 				1C52500520EE186F001658E8 /* ONESearchAllListViewController.m in Sources */,
 				1CBABC5C206CE0A400EB3F68 /* PieView.m in Sources */,
 				1C524EAC20EE02FD001658E8 /* RootTabrTableViewController.m in Sources */,
@@ -6521,6 +6550,7 @@
 				1C52500720EE186F001658E8 /* ONESearchViewController.m in Sources */,
 				1C4D5523204F891900ABF4BB /* SecondViewController.m in Sources */,
 				1C9B82FC20F847AD004C1D85 /* CycleStyle3Controller.m in Sources */,
+				1C8EC5F52105AA2B00D3CEEE /* LabelViewController.m in Sources */,
 				1C2E144720F5DED000986AA5 /* PaletteTarget.m in Sources */,
 				1C53D54320EF195700CE60FB /* YKDetailViewController.m in Sources */,
 				1C52501A20EE186F001658E8 /* ONEAllEveryOneAskEveryOneView.m in Sources */,
