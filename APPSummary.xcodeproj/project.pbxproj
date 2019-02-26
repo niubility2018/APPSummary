@@ -11,6 +11,7 @@
 		0C8355A72046C68100A9373C /* DrawPDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8355A52046C68100A9373C /* DrawPDFViewController.m */; };
 		0C8355AA2046C6CF00A9373C /* PDF2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0C8355A82046C6CF00A9373C /* PDF2.pdf */; };
 		0C8355AB2046C6CF00A9373C /* PDF1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0C8355A92046C6CF00A9373C /* PDF1.pdf */; };
+		1C28163E222507CE00BBA6DD /* NSDate+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C28163D222507CE00BBA6DD /* NSDate+Utils.m */; };
 		1C2E144020F5DED000986AA5 /* ZFJPermissionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E142C20F5DECF00986AA5 /* ZFJPermissionManager.m */; };
 		1C2E144120F5DED000986AA5 /* PaletteColorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E143120F5DED000986AA5 /* PaletteColorUtils.m */; };
 		1C2E144220F5DED000986AA5 /* Palette.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2E143220F5DED000986AA5 /* Palette.m */; };
@@ -887,6 +888,8 @@
 		0C8355A52046C68100A9373C /* DrawPDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawPDFViewController.m; sourceTree = "<group>"; };
 		0C8355A82046C6CF00A9373C /* PDF2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = PDF2.pdf; sourceTree = "<group>"; };
 		0C8355A92046C6CF00A9373C /* PDF1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = PDF1.pdf; sourceTree = "<group>"; };
+		1C28163C222507CE00BBA6DD /* NSDate+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utils.h"; sourceTree = "<group>"; };
+		1C28163D222507CE00BBA6DD /* NSDate+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utils.m"; sourceTree = "<group>"; };
 		1C2E142C20F5DECF00986AA5 /* ZFJPermissionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFJPermissionManager.m; sourceTree = "<group>"; };
 		1C2E142D20F5DECF00986AA5 /* ZFJPermissionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFJPermissionManager.h; sourceTree = "<group>"; };
 		1C2E142F20F5DED000986AA5 /* iOSPalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSPalette.h; sourceTree = "<group>"; };
@@ -5299,6 +5302,8 @@
 		1CA19F92203FE001005068A7 /* category */ = {
 			isa = PBXGroup;
 			children = (
+				1C28163C222507CE00BBA6DD /* NSDate+Utils.h */,
+				1C28163D222507CE00BBA6DD /* NSDate+Utils.m */,
 				1C2E144C20F5E2E900986AA5 /* UIView+Geometry.h */,
 				1C2E144B20F5E2E900986AA5 /* UIView+Geometry.m */,
 				1C53D4EC20EEFAB600CE60FB /* MBProgressHUD+LMJ.h */,
@@ -6250,6 +6255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C52501520EE186F001658E8 /* ONEAllHotAuthorView.m in Sources */,
+				1C28163E222507CE00BBA6DD /* NSDate+Utils.m in Sources */,
 				1CAC526C204E928600715A0F /* DLabelViewController.m in Sources */,
 				1C92DEDC20F3456100C34C89 /* QQMusicOperationTool.m in Sources */,
 				1C4D54E9204F887E00ABF4BB /* AAChartView.m in Sources */,
